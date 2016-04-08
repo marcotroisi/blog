@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/contact/</link>
+    <description>Recent content in Contacts on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 06 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.marcotroisi.com/contact/</link>
+      <pubDate>Sun, 06 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/contact/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;How to Contact Me&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you need help with your software, I may be able to help. I provide personal consulting services, as well as put people in contact with the best web professionals in various places of the world.&lt;/p&gt;
+
+&lt;h2 id=&#34;info-marcotroisi-com:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;strong&gt;info@marcotroisi.com&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;My consulting services include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PHP Development (PHP5, Yii framework, Phalcon, WordPress, etc.)&lt;/li&gt;
+&lt;li&gt;GO development (Revel, Gin, Gorilla, etc.)&lt;/li&gt;
+&lt;li&gt;node.js Development (express.js, sails.js, etc.)&lt;/li&gt;
+&lt;li&gt;HTML5, CSS3, Javascript (jQuery, AngularJS, Backbone.js, etc.) Development&lt;/li&gt;
+&lt;li&gt;Database Development, Design and Migration (MongoDB, MySQL, PostgreSQL, Sqlite, etc.)&lt;/li&gt;
+&lt;li&gt;Content Consulting&lt;/li&gt;
+&lt;li&gt;Design Services&lt;/li&gt;
+&lt;li&gt;Search Engine Marketing, Pay per click consulting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And more. Anything from small fixes to enterprise level development, I can quickly assemble a team to get your project off the ground.&lt;/p&gt;
+
+&lt;p&gt;Also, I am available to consider working for free for non profit projects.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
