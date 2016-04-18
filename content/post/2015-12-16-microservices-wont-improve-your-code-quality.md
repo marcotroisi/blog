@@ -1,5 +1,6 @@
 ---
 title: Microservices won’t improve your code quality
+description: "I am very excited about microservices, but they are not going to make my code quality better. That will always be up to the programmer."
 author: Marco Troisi
 layout: post
 date: 2015-12-16
@@ -12,6 +13,7 @@ tags:
   - architecture
   - code quality
   - microservices
+featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/12/microservices-wont-improve-code-quality-small.jpg"
 
 ---
 If you&#8217;ve read some of my [previous posts][1], you&#8217;ll know that I&#8217;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be _one of_ the answers to _some of_ the problems we face.

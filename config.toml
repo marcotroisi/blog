@@ -3,6 +3,10 @@ languageCode = "en-gb"
 title = "Marco Troisi | technology, software development and productivity"
 theme = "mt2015"
 paginate = 10
+aliases = [
+    "/index.xml",
+    "/feed/"
+]
 
 [params]
     site_author = "Marco Troisi"

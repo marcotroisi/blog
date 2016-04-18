@@ -9,6 +9,12 @@
 
       	<header class="entry-header">
 
+          {{ if (isset .Params "featured_image") }}
+          <a href="{{ .Permalink }}" title="{{ .Title }}" >
+            <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+          </a>
+          {{ end }}
+
       		<h1 class="entry-title">{{ .Title }}</h1>
 
       	</header><!-- .entry-header -->

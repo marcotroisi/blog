@@ -62,15 +62,13 @@
 
 &lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As [suggested][2] by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;#8217;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;#8217;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
 
 &lt;p&gt;When you look at microservices this way, they become a lot less scary, and in a sense a lot of the hype around them goes away. Obviously, a microservice architecture remains a fantastic approach that I would highly suggest for a lot of use cases. But it&amp;#8217;s not, in any way, a different approach to programming. It&amp;#8217;s the same, clean, high quality code that you have (hopefully) been writing until now, now deployed and perhaps organised differently.&lt;/p&gt;
 
 &lt;p&gt;Now, I am not saying that having a microservice architecture will not affect any of your design decisions. It will. But I am suggesting we don&amp;#8217;t give it more credit than we should. I am saying that we should design the architecture of our application regardless of whether it will eventually be deployed into small microservices or not. And, by all means, let&amp;#8217;s not allow the &lt;em&gt;small-ness&lt;/em&gt; of each microservice to suspend the rules of programming. No architectural choice is worth you giving up on being a professional.&lt;/p&gt;
 
 &lt;p&gt;Microservices won&amp;#8217;t improve your code quality. They won&amp;#8217;t make it worse either. Really, it&amp;#8217;s up to you, as it always was, and always will be.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
