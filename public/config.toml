@@ -1,0 +1,36 @@
+baseurl = "http://www.marcotroisi.com"
+languageCode = "en-gb"
+title = "Marco Troisi | technology, software development and productivity"
+theme = "mt2015"
+paginate = 10
+aliases = [
+    "/index.xml",
+    "/feed/"
+]
+
+[params]
+    site_author = "Marco Troisi"
+    site_description = "Marco Troisi's Blog on Technology, Software Development and Productivity."
+    location = "Ireland"
+    # All paths are relative to the baseurl. Put your files
+    # somewhere in the static folder.
+    avatar = "wp-content/uploads/2012/09/myself.jpg"
+    header_background = "img/desk.jpg"
+    header_title = "Marco Troisi"
+    copyright = "Marco Troisi"
+
+    # Enable gogle analytics by entering your tracking code
+    google_analytics = ""
+
+[social]
+    # Add your social network accounts to the profile section on the left
+    # by entering your username. The links to your account will be
+    # create automatically.
+    twitter   = "marcotroisi"
+    facebook  = ""
+    linkedin  = ""
+    behance   = ""
+    dribbble  = ""
+    instagram = ""
+    github    = "marcotroisi"
+    gplus     = ""

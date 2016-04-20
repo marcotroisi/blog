@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/about/</link>
+    <description>Recent content in Abouts on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 08 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://www.marcotroisi.com/about/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/about/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.marcotroisi.com/wp-content/uploads/2012/09/myself.jpg&#34;&gt;&lt;img class=&#34;alignright  wp-image-472&#34; src=&#34;http://www.marcotroisi.com/wp-content/uploads/2012/09/myself.jpg&#34; alt=&#34;Marco Troisi&#34; width=&#34;209&#34; height=&#34;253&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I am a software engineer mainly involved with web development, with team leading experience. I absolutely love learning and experiencing new things, and I see software development &amp;#8211; and technology as a whole &amp;#8211; as a way for people to get things done more easily and faster.&lt;/p&gt;
+
+&lt;p&gt;I am currently working as a software developer at a startup in Berlin, Germany. Before that I have worked in Pisa (Italy), Johannesburg (South Africa) and then Milan (Italy) for several different companies/organisations. I also occasionally freelance for small projects and contribute to &lt;a href=&#34;https://github.com/marcotroisi&#34;&gt;open source&lt;/a&gt; projects.&lt;/p&gt;
+
+&lt;p&gt;If you want to meet up in Berlin and have a chat, discuss a project or ask me for help, please do not hesitate to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34; title=&#34;Contact&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

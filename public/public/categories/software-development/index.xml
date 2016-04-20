@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Development on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/categories/software-development/</link>
+    <description>Recent content in Software Development on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/categories/software-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Microservices won’t improve your code quality</title>
+      <link>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <description>
+
+&lt;p&gt;If you&amp;#8217;ve read some of my &lt;a href=&#34;http://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;#8217;ll know that I&amp;#8217;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+
+&lt;p&gt;I say that and I mean it. Who doesn&amp;#8217;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;#8217;t think it&amp;#8217;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
+
+&lt;p&gt;Yes, microservices are a great thing.&lt;/p&gt;
+
+&lt;p&gt;But we are professionals, and as such we can&amp;#8217;t afford going after what&amp;#8217;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
+
+&lt;h2 id=&#34;write-great-code-first:bd261709805cb407baec357c21e1511f&#34;&gt;Write great code first&lt;/h2&gt;
+
+&lt;p&gt;Just as knowing how to count doesn&amp;#8217;t make you a Mathematician, knowing how to write some code doesn&amp;#8217;t make you a Programmer. I hope I don&amp;#8217;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;#8217;t take ourselves seriously, no one else will.&lt;/p&gt;
+
+&lt;p&gt;Being a programmer means knowing the discipline of programming. It means being aware that every line of code you write today, will have a consequence in the lives of both the end user of your application, and other programmers that will successively work on that same piece of code.&lt;/p&gt;
+
+&lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+
+&lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The monolith is not bad per se&lt;/li&gt;
+&lt;li&gt;Microservices don&amp;#8217;t magically suspend the rules&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let&amp;#8217;s have a closer look at them:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se:bd261709805cb407baec357c21e1511f&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+
+&lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;#8217;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
+
+&lt;h3 id=&#34;microservices-don-8217-t-magically-suspend-the-rules:bd261709805cb407baec357c21e1511f&#34;&gt;Microservices don&amp;#8217;t magically suspend the rules.&lt;/h3&gt;
+
+&lt;p&gt;Say you know how to do your job well, and you&amp;#8217;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;#8217;t need to put the same amount of care into it. Is that true? No, it isn&amp;#8217;t.&lt;/p&gt;
+
+&lt;p&gt;That would be like &lt;em&gt;Pirelli&lt;/em&gt; thinking they don&amp;#8217;t have to work as hard on their tyres as would a theoretical guy who is in charge of building the entire car by himself. After all a tyre is just a small part of a car, isn&amp;#8217;t it? I mean, if anything breaks or if you need a different type of tyre, you quickly replace it.&lt;/p&gt;
+
+&lt;p&gt;In the same way, one should feel justified to build the &lt;em&gt;Withdrawing&lt;/em&gt; component of a microservices-based Banking software in the most careless way! After all, if it stops working, if it becomes too slow, or if we simply don&amp;#8217;t like it anymore, we can quickly rewrite it and replace it.&lt;/p&gt;
+
+&lt;p&gt;I hope you can see that this is just nuts. No one thinks like that, in any industry, and neither should we. Pirelli would have their best engineers designing the safest, most performant tyres possible. They wouldn&amp;#8217;t want a mistake on their part to compromise a car&amp;#8217;s reliability. In the same way, each component of our microservices-based application needs to be something we can be proud of, that can potentially run for as long as possible unless a rewrite becomes necessary for reasons beyond our control.&lt;/p&gt;
+
+&lt;p&gt;These days I&amp;#8217;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;#8217;t even need to write tests!&amp;#8221; I&amp;#8217;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;#8217;t even need to test it!&amp;#8221; This makes no sense, and it&amp;#8217;s simply unjustifiable.&lt;/p&gt;
+
+&lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;#8217;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
+
+&lt;p&gt;When you look at microservices this way, they become a lot less scary, and in a sense a lot of the hype around them goes away. Obviously, a microservice architecture remains a fantastic approach that I would highly suggest for a lot of use cases. But it&amp;#8217;s not, in any way, a different approach to programming. It&amp;#8217;s the same, clean, high quality code that you have (hopefully) been writing until now, now deployed and perhaps organised differently.&lt;/p&gt;
+
+&lt;p&gt;Now, I am not saying that having a microservice architecture will not affect any of your design decisions. It will. But I am suggesting we don&amp;#8217;t give it more credit than we should. I am saying that we should design the architecture of our application regardless of whether it will eventually be deployed into small microservices or not. And, by all means, let&amp;#8217;s not allow the &lt;em&gt;small-ness&lt;/em&gt; of each microservice to suspend the rules of programming. No architectural choice is worth you giving up on being a professional.&lt;/p&gt;
+
+&lt;p&gt;Microservices won&amp;#8217;t improve your code quality. They won&amp;#8217;t make it worse either. Really, it&amp;#8217;s up to you, as it always was, and always will be.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Technical debt is not a unicorn</title>
+      <link>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</guid>
+      <description>
+
+&lt;p&gt;Amongst software engineers, there is this thing called &lt;em&gt;technical debt&lt;/em&gt; that is very often talked about and that tends to have somewhat of an ethereal nature.&lt;/p&gt;
+
+&lt;p&gt;Almost every company will have the technical debt prophet who will try to convince her people that doing what &amp;#8220;feels good&amp;#8221; now is not going to pay off down the line, and that &amp;#8220;future generations&amp;#8221; will have to pay for it. But, almost inevitably, choices will be made that will inescapably lead to some degree of technical debt.&lt;/p&gt;
+
+&lt;p&gt;The list of things that feel good now includes but is not limited to: shipping as fast as possible, making the manager happy, getting back to those hilarious videos on youtube, etc.&lt;/p&gt;
+
+&lt;p&gt;The problem is that sometimes we fail to understand how much of a damage are we actually making with those poor choices being implemented.&lt;/p&gt;
+
+&lt;h2 id=&#34;business-and-codebase-should-grow-together:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Business and codebase should grow together&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-first-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The first stage of growth&lt;/h3&gt;
+
+&lt;p&gt;Think of the Business side of your company and its software codebase as two parts of the whole picture that should be growing and maturing together. So, for example, when the company is at its early stages, and the way everything is being run is very simple and lean because there isn&amp;#8217;t much to be run anyway, the software should also be really down to the basics. No unnecessary complexity, no premature optimisation. Keep it simple, keep it &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;clean&lt;/a&gt;. Write the cleanest code you possibly can, rely on a rock-solid, time tested set of tools. Don&amp;#8217;t adventure in something that you &lt;em&gt;think&lt;/em&gt; will be useful as you grow, rather make sure that you make it as easy as possible to transition the software to a different framework, database, architecture (e.g. a &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt; architecture).&lt;/p&gt;
+
+&lt;h3 id=&#34;the-second-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The second stage of growth&lt;/h3&gt;
+
+&lt;p&gt;As the company begins to gain traction, there will be a time of relatively rapid growth. The company is going from literally zero to hundreds or thousands of people using the particular services they offer. At this time, it will begin to become evident whether good choices were made in the prior stage; it should be very easy to change anything based on a new decision from the managers or, perhaps, from the customer&amp;#8217;s feedback. Changing anything should be a matter of hours, not days. Implementing a new feature should be an absolute pleasure. No important architectural change should be necessary in order for the whole platfom to keep functioning even in the face of thousands of new users being added daily. Of course, things like implementing a new cache layer to ease the pressure on the servers, or adding a new cluster for the database, are okay. But no discussion about changing framework, or adopting a new database should take place. If the framework or database adopted can&amp;#8217;t handle this type of pressure nicely, then someone made a very incompetent choice at the previous level, the one where this type of decisions were made. But ideally, all modern frameworks and databases should be able to manage the amount of traffic that is happening at this particular stage.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-third-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The third stage of growth&lt;/h3&gt;
+
+&lt;p&gt;The third stage would be the one of multiplication. At this point, the company is so successful that it may want to launch its services abroad. As the product is already popular enough in its home country, say the US, you&amp;#8217;d expect that on day one of the launch to the next territory, say Europe, you&amp;#8217;d have to handle hundreds of thousands of new users, with support for multiple languages and a whole lot of things that will have to be customised on a single Country basis. This is the time where considerations like, &amp;#8220;should we switch framework&amp;#8221; or &amp;#8220;can our database handle this much&amp;#8221; are more than appropriate. Here more than anywhere else, it will become evident whether everyone did his/her job properly. If good choices were made and everyone acted like a professional at the prior stages, moving from one database to another, adopting a different framework, or switching to a more scalable architecture, should only be a matter of days. But, most importantly, the key people in the team should have a clear path in their mind of what needs to be done in order for that transition to take place. There should be no guessing.&lt;/p&gt;
+
+&lt;h2 id=&#34;technical-debt-is-suicide:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Technical debt is suicide&lt;/h2&gt;
+
+&lt;p&gt;Just like any other debt, technical debt will only lead to bad things. And as it increases, the chances of a company succeeding are going to be greatly diminished. There is an inversely proportional relationship between the two.&lt;/p&gt;
+
+&lt;p&gt;Now imagine the opposite situation, of a company that does it all wrong. It would look something like this: at the first stage of growth, there would be two plausible scenarios. The first, would be that of premature optimisation with unnecessary choices and decisions being made, because of incompetent leaders and programmers who think their little company should have the same scalability that Google has. Days, weeks, are wasted implementing layers of caching and database clusters, and setting up complex development and deployment tools, without even enough people to maintain all this stuff. If anything breaks, the CTO, a team lead or a senior engineer needs to spend a day or two fixing the problem because there aren&amp;#8217;t even enough people to take care of it (you don&amp;#8217;t usually have devops or system people in a small startup). The growth of the company is slowed down, and you&amp;#8217;re lucky if it succeeds at all.&lt;/p&gt;
+
+&lt;p&gt;The second scenario would be that of someone who wants to avoid at any cost the first scenario, and decides that, after all, the only thing that matters is for the company to keep growing as fast as possible. They won&amp;#8217;t waste an hour more on a ticket in order to write tests and to make sure the code is clean. They won&amp;#8217;t make sure it&amp;#8217;s easy at any point in future to switch database or even adopt a different ORM library. The &lt;em&gt;illusion&lt;/em&gt; of this scenario is that it is likely to get the company to the second stage of growth, even if at the cost of a few late nights and weekends spent fixing bugs and an overall unstable platform.&lt;/p&gt;
+
+&lt;p&gt;At the second stage of growth, coming from the second scenario, choices that should have been made at the third stage, like switching to a different database or a change of architecture, will become necessary because the platform can&amp;#8217;t even handle the few thousands of new users that are being added on a periodic basis. What&amp;#8217;s even worse, a rewriting of many parts or the codebase will become inevitable and a lot of time will have to be spent desperately trying to raise the percentage of code covered by some sort of test.&lt;/p&gt;
+
+&lt;p&gt;For the company coming from the first scenario, it won&amp;#8217;t look too different. A lof of technical choices that had been made in the first stage will be shown as wrong for the actual needs of this specific platform, and so again time will have to be spent switching and rewriting.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s hard to imagine a company getting to the third stage of growth under these circumstances, but if it does, it should look similar to what it would have looked like in normal conditions. But, again, it&amp;#8217;s unlikely to get there, and if it does, so much time and money will have been wasted to get here, that it will be hard to justify again any change or rewriting, though this is the only stage where those things would have actually made sense. It&amp;#8217;s also likely that a few key people in the engineering team has been replaced because of their incompetence, adding to everything else the costs of having to introduce new people and mosts importantly new leaders.&lt;/p&gt;
+
+&lt;h2 id=&#34;avoiding-technical-debt:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Avoiding technical debt&lt;/h2&gt;
+
+&lt;p&gt;Technical debt exists, it&amp;#8217;s real and it can be proven, almost touched. It&amp;#8217;s not a myth, and the first step to avoiding it is realising how damaging it can be. Doing things right will not only lead to building a successful platfom serving happy customers. It will also be a lot more fun. It&amp;#8217;s way more enjoyable to work on clean code, to be able to introduce a new feature in a matter of hours and not weeks. It&amp;#8217;s a lot better to spend time solving real problems rather than fixing bugs. And of course, no one wants to work late nights and weekends if it&amp;#8217;s not absolutely necessary.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-resources:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;More resources&lt;/h2&gt;
+
+&lt;h3 id=&#34;to-read:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Read&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;The clean architecture&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&amp;#038;camp=1789&amp;#038;creative=390957&amp;#038;creativeASIN=0132350882&amp;#038;linkCode=as2&amp;#038;tag=marctroi-20&amp;#038;linkId=7KDRFWMKHKFMNWAR&#34;&gt;Clean Code: A Handbook of Agile Software Craftsmanship&lt;/a&gt; &lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=0132350882&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;(Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&amp;#038;camp=1789&amp;#038;creative=390957&amp;#038;creativeASIN=1617292397&amp;#038;linkCode=as2&amp;#038;tag=marctroi-20&amp;#038;linkId=CVFNNRQ23ADXVH4O&#34;&gt;Soft Skills: The software developer&amp;#8217;s life manual&lt;/a&gt; &lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=1617292397&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;(John Sonmez)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;to-watch:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Watch&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HhNIttd87xs&#34;&gt;Architecture: the lost years&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD&#34;&gt;Workflows of refactoring&lt;/a&gt; (Martin Fowler)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Question about Microservices</title>
+      <link>http://www.marcotroisi.com/questions-about-microservices/</link>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/questions-about-microservices/</guid>
+      <description>&lt;p&gt;I received this question about microservices, and I am happy to publish my reply. Perhaps someone else will also find it helpful.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hello Marco,&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve just stumbled upon your articles about microservices. I&amp;#8217;m really trying to get into it, I find it a really interesting approach when it comes to build web apps. I got bored with all those frameworks claiming MVC etc. What I want to focus on is SOC, so microservices really fits in there. However I didn&amp;#8217;t have time yet to practice what I could have read on that, and there are still things that are pretty obscure to me, maybe you could give me your point of view.&lt;/p&gt;
+
+&lt;p&gt;My main concern is about information sharing between services. What happens when a microservice is &amp;#8220;linked&amp;#8221; to another one ? If I take your example of WordPress refactoring, you&amp;#8217;re for example stating that there could be a Post and Media Content microservices. But here, the media content microservices isn&amp;#8217;t really standalone as it wouldn&amp;#8217;t make sense to use it without the Post microservice, because Media Content is directly attached to a Post, see what I mean ? It sounds kind of weird to me, but maybe I&amp;#8217;m wrong.&lt;/p&gt;
+
+&lt;p&gt;Also my second point would be about user authentication. How do you persist the state between microservices ? Do you have an example of that ?&lt;/p&gt;
+
+&lt;p&gt;Thanks for the articles, Waiting to hear from you.&lt;/p&gt;
+
+&lt;p&gt;Regards,&lt;/p&gt;
+
+&lt;p&gt;Romain&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Dear Romain,&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading my article on microservices, I appreciate it. Like you, I am also sick and tired of big, overbloated frameworks that claim to do everything for you, including making your coffee in the morning. While they may be a good choice in certain situations, I think many times they just add a lot of unnecessary complexity, unnecessary &lt;em&gt;ad hoc&lt;/em&gt; concepts to be learned, and most importantly, unnecessary (potentially buggy) code that you haven&amp;#8217;t written yourself. These days I find myself more inclined towards micro-frameworks, or even simple libraries that do just one thing; an example I love would be &lt;a href=&#34;http://www.gorillatoolkit.org/&#34;&gt;Gorilla&lt;/a&gt;, a Golang set of standalone libraries that take care of most of the functionalities for which we would have traditionally used a framework.&lt;/p&gt;
+
+&lt;p&gt;As to your question, let me see if I can somehow help you here. When you say &amp;#8220;linked&amp;#8221;, I take it that you mean a microservice that&amp;#8217;s &lt;em&gt;usually&lt;/em&gt; (or, meant to be) used in conjunction with one or more other microservices. But that, when you think about it, is nothing strange! In fact, any microservice that would be meant to be only used on its own, would simply be a small monolith. For a microservice to be considered as such, it needs to be part of a &lt;strong&gt;microservices architecture&lt;/strong&gt;, that is to say, a bigger application that does a lot of things, and that uses microservices to do each one of those things.&lt;/p&gt;
+
+&lt;p&gt;But I get where your doubt is coming from. You are thinking about the Media Content example, and it doesn&amp;#8217;t feel to you like a standalone service as it would never be used separately from the Post microservice. I see two main problems in this reasoning.&lt;/p&gt;
+
+&lt;p&gt;Firstly, the idea of standalone-&lt;em&gt;ness&lt;/em&gt; in a microservices architecture is meant to be mostly for the sake of the application&amp;#8217;s solidity; in other words, you ought to think of the Post microservice as a standalone service not because you want to use it as such (in fact, you don&amp;#8217;t! You want to use it together with Media, and maybe other services), but because in the event where the Media microservice should be unavailable (e.g. due to a network problem), you don&amp;#8217;t want the entire application to be altogether down. What you want there, is for the Posts to be still available, even though you might have to gracefully handle the absence of pictures and videos.&lt;/p&gt;
+
+&lt;p&gt;I hope this gives you the right perspective. The idea is that you build a microservice independently, and you test it on its own, so to make sure that it will keep working even when other services are unavailable. Then, you mix it with the other microservices.&lt;/p&gt;
+
+&lt;p&gt;The second problem I see there is that, while I agree that Media will mostly be used in conjunction with the Post microservice, nevertheless you shouldn&amp;#8217;t think of them as &lt;em&gt;only&lt;/em&gt; usable together. If you keep things clean and separated, you will be better off in the future, as you never know what functionalities you are going to need as you move on. Think for example of a service that takes pictures from your Media microservice and send them to your Pinterest account using Pinterest&amp;#8217;s APIs. In this case, you don&amp;#8217;t really need the Post microservice, and it would be just one example of a situation where you need Media but you don&amp;#8217;t need Post. So the real point here is the &lt;em&gt;separation of concerns&lt;/em&gt;. Let each microservice do only one thing, and do it well. Let the Media microservice handle upload, resize, manipulation and what-have-you. Let the Post microservice handle the actual content and things like Markdown to HTML conversion (which could probably be another microservice anyway), and so on.&lt;/p&gt;
+
+&lt;p&gt;Regarding your second question about authentication, I would advice you make use of a layer that will take care of receiving requests from the outside, handle the user authentication, and then route the request to the appropriate microservice (together with &lt;em&gt;at least&lt;/em&gt; a secret token, or something more sophisticated if you will), get the result from the microservice and send it back to user. Have a look at &lt;a href=&#34;https://getkong.org/&#34;&gt;Kong&lt;/a&gt; for a reference and a better idea of what I am talking about (warning: it might be overhead for certain projects, but just so you have an idea).&lt;/p&gt;
+
+&lt;p&gt;Here are more resources for you, so you can go more in depth with these arguments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2015/08/06/let-the-magic-die.html&#34;&gt;Make the magic go away (Uncle Bob)&lt;/a&gt;, on the notion of not using overbloated frameworks!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/1491950358/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=1491950358&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=J656A6LG3XRMA3J4&#34;&gt;Building Microservices (Sam Newman)&lt;/a&gt;&lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=1491950358&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://microservices.io/&#34;&gt;Microservices.io&lt;/a&gt;, lots of fine articles to give you a better overview of a microservices archicture, the good and the bad&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Microservices guide (Martin Fowler)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://techblog.netflix.com/2015/02/a-microscope-on-microservices.html&#34;&gt;Netflix and Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I wish you a lot of fun with microservices and your next project,&lt;/p&gt;
+
+&lt;p&gt;Marco&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What can we learn from Periscope</title>
+      <link>http://www.marcotroisi.com/what-can-we-learn-from-periscope/</link>
+      <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/what-can-we-learn-from-periscope/</guid>
+      <description>
+
+&lt;p&gt;I have been using &lt;a href=&#34;http://www.periscope.tv&#34;&gt;Periscope&lt;/a&gt; for a while now, and I am really enjoying it. If you don&amp;#8217;t know it, Periscope is Twitter&amp;#8217;s new live streaming app, that allows anyone to stream directly from one&amp;#8217;s smartphone, and it will notify you as soon as someone you follow is live-streaming.&lt;/p&gt;
+
+&lt;p&gt;The concept of live streaming is not a new one, but Periscope (alongside with their competitor, &lt;a href=&#34;https://meerkatapp.co/&#34;&gt;Meerkat&lt;/a&gt;) has made it really easy to do so from a mobile device and, most importantly, to create a community of followers around it.&lt;/p&gt;
+
+&lt;p&gt;If you are on Twitter, it makes sense that you&amp;#8217;d want to give Periscope a shot. What makes it different from YouTube is of course the live element, what makes it different from, say, &lt;a href=&#34;https://plus.google.com/hangouts/onair&#34;&gt;Google Hangouts On Air&lt;/a&gt;, is the sense of &lt;em&gt;impromptu-ness&lt;/em&gt; and familiarity that it creates, as you&amp;#8217;re literally speaking from your phone, but also the fact that you already have a community of followers that will be notified when you start streaming, so there is no need to plan it in advance.&lt;/p&gt;
+
+&lt;p&gt;Personally, I have been using Periscope as a watcher, rather than a streamer, in order to follow some of my favourite people that I already follow on other social media channels.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-8217-s-great-about-periscope:506996eb1ee3dc44d275f124525b4fee&#34;&gt;What&amp;#8217;s great about Periscope&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignright wp-image-446 size-full&#34; src=&#34;http://www.marcotroisi.com/wp-content/uploads/2015/09/periscope.png&#34; alt=&#34;periscope&#34; width=&#34;228&#34; height=&#34;228&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you use Periscope, two things will become obvious to you after a little while:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The app is beautifully designed. It&amp;#8217;s elegant yet simple to use.&lt;/li&gt;
+&lt;li&gt;There is still a lot that can be improved.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I find this great, and I think there is something engineers, product managers and other people involved in building apps and online services can learn. It&amp;#8217;s something that has to do with focus, with avoiding being a perfectionist and with not wasting time. Here&amp;#8217;s what I think are the lesson Periscope&amp;#8217;s creators can teach us:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core business&lt;/strong&gt;. Spend some time understanding what exactly your core business is about, and focus mainly on that until you know it&amp;#8217;s absolutely awesome. In Periscope&amp;#8217;s case the core business is &lt;em&gt;live streaming&lt;/em&gt;. There is much more they can do to make the app better and better, like a better player for re-watching videos, a landscape mode, perhaps even a web/desktop version of the app. But, the things that are there, are absolutely great. The app does only a few things, but it works so well! It&amp;#8217;s smooth, it&amp;#8217;s elegant, it&amp;#8217;s simple. In other words, it&amp;#8217;s addictive. Just like Twitter.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perfectionism is bad&lt;/strong&gt;. Saying that you want your app to be great is one thing. Trying to make it perfect is unrealistic. Once you&amp;#8217;ve found your core business, make sure you deliver enough functionalities so that users can actually understand, and enjoy, the core business. When you use Periscope, it won&amp;#8217;t take you long before realising that the app is all about live streaming and creating a community around live videos. That&amp;#8217;s it. Like I said, there are so many functionalities they could add, but trying to have them all from the start, would have delayed indefinitely their launch, and would have probably confused people on what the app is about. Think of Google and their years-long beta version of Gmail: they kept it in beta knowing that they wanted to keep improving it. Yet, the core functionalities where there, and, frankly, they were great from the beginning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;#8217;t waste time&lt;/strong&gt;. In the programming world, we talk about &lt;em&gt;premature optimisation&lt;/em&gt; as the unfortunate situation where programmers spend too much time thinking about how to make sure the app is ready for a lot of functionalities that, from a business point of view, may not even have been decided yet. The solution to that, is to develop software that has a solid foundation, and that is flexible enough that you can keep improving it and adding to it without fear of breaking something in the process. Periscope seems to have done this. Since I have been using it, I have experienced no crashes. The app works really well and it seems to me to be pretty stable. Yet, as I have already said, there are things they could add to make it better. But what is there is enough to make people want to use it, and the foundation has been laid for adding new features that will make it even better.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In conclusion, Periscope is a great app, but what is making it a huge success is how they have handled the development phase. If you like Meerkat or other competitor apps, that&amp;#8217;s great, but the reason why I didn&amp;#8217;t like it, was that I found it overly complex and it just didn&amp;#8217;t feel as smooth and simple to use. It lacks focus. On the flip side, Periscope developers seem to have gotten it right.&lt;/p&gt;
+
+&lt;p&gt;This is of course just my point of view, and I would love to hear yours! &lt;a href=&#34;https://twitter.com/MarcoTroisi/status/639770687045894145&#34;&gt;Let me know&lt;/a&gt; what you think.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-resources:506996eb1ee3dc44d275f124525b4fee&#34;&gt;More resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://michaelhyatt.com/what-i-love-about-periscope.html&#34;&gt;What I love about Periscope&lt;/a&gt; (Michael Hyatt)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B014IP8RU2/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B014IP8RU2&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=CWTOFMMUFKNYIKLR&#34;&gt;Periscope Your Biz: Live Video Broadcasting for Profits&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important;&#34; src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;l=as2&amp;o=1&amp;a=B014IP8RU2&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;(Book &amp;#8211; Amazon)&lt;/li&gt;
+&lt;li&gt;[Leveraging Twitter&amp;#8217;s Periscope: Join The Community, Build Your Business, and Have Fun!][7] &lt;img style=&#34;border: none !important; margin: 0px !important;&#34; src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;l=as2&amp;o=1&amp;a=B012H76NMC&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;(Book &amp;#8211; Amazon)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[7]: &lt;a href=&#34;http://www.amazon.com/gp/product/B012H76NMC/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B012H76NMC&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=Z4TNTOACIIF5P66N&#34;&gt;http://www.amazon.com/gp/product/B012H76NMC/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B012H76NMC&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=Z4TNTOACIIF5P66N&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Ethics of Code Reviews</title>
+      <link>http://www.marcotroisi.com/the-ethics-of-code-reviews/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/the-ethics-of-code-reviews/</guid>
+      <description>&lt;p&gt;Code Reviewing is one of the greatest tools we have as software developers, to help us improve the quality of our code. It can be incredibly beneficial, but it can also be a source of pain and overall, a waste of time instead of a time-saver.&lt;/p&gt;
+
+&lt;p&gt;Like with many things in life, knowing &lt;em&gt;why&lt;/em&gt; we do something, can be a good way to do that thing at its best and not to abuse it. Let&amp;#8217;s begin then to unpack what a code review &lt;strong&gt;is not&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is not your nice, daily half an hour of shooting at your team mates and pointing fingers at their mistakes. If you do code reviews because you find pleasure in finding other people&amp;#8217;s code mistakes or lack of use of best practices, then you shouldn&amp;#8217;t be doing code reviews in the first place.&lt;/li&gt;
+&lt;li&gt;It is not a place for &lt;em&gt;teaching&lt;/em&gt;. If you have best practices that you think your team mates should know and use, then there should be a time, prior to starting your project if at all possible, where such best practices and guidelines are established, accepted and understood.&lt;/li&gt;
+&lt;li&gt;It is not where discussions should occur. Never mind long and opinionated ones! This is where comments should be kept short and to the point. No repartee, no attempts to justify/defend yourself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What, then, is code reviewing for? I have outlined &lt;strong&gt;4 points&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It&amp;#8217;s a way of &lt;strong&gt;sharing responsibilities&lt;/strong&gt;. When we are code reviewing, we are &lt;em&gt;&amp;#8220;carrying the weight together&amp;#8221;&lt;/em&gt;, so to speak. We are quitting the old &amp;#8220;I don&amp;#8217;t care, it&amp;#8217;s not my code&amp;#8221; mentality that many of us tend to have, in favour of a &amp;#8220;we&amp;#8217;re in this together&amp;#8221; attitude.&lt;/li&gt;
+&lt;li&gt;It is a great way to &lt;strong&gt;learn from each other&lt;/strong&gt;. This might, at first sight, seem to be in contrast with the second point of the previous list, but stay with me here: I have learnt &lt;em&gt;so much more&lt;/em&gt; in my career through friendly, non-aggressive opinions and suggestions from my colleagues, than I have from those forceful, unfriendly and aggressive comments from those who thought they knew better than anyone else (or than me, at least). As a matter of fact, not only have I not learnt anything substantial from them, but I have actually &lt;em&gt;hated them&lt;/em&gt; (the comments, not the people!). No matter how good you are, people deserve your respect, and even if they have less experience than you, you were once like them.&lt;/li&gt;
+&lt;li&gt;It&amp;#8217;s where some &lt;strong&gt;bugs and blatant errors are found&lt;/strong&gt;. At the end of the day, this is the real point of doing code reviews. When you do one, focus on finding errors and bugs that whoever wrote the code may have missed, and suggest quick way to fix them. Sometimes you&amp;#8217;ll even find the same error occurring more than once. Resist the temptation to write witty comments like &lt;em&gt;&amp;#8220;I can&amp;#8217;t believe you&amp;#8217;re doing this again&amp;#8221;&lt;/em&gt;, or &lt;em&gt;&amp;#8220;stop doing this for heaven&amp;#8217;s sake!!!!!!&amp;#8221;&lt;/em&gt;. Be professional, and if you think there is something that needs to be discussed, do it personally, in a friendly and not humiliating fashion.&lt;/li&gt;
+&lt;li&gt;It &lt;em&gt;may&lt;/em&gt; be a way of &lt;strong&gt;improving the code quality&lt;/strong&gt;. As outlined before, best practices should have been priorly discussed, but if you find some piece of code that you reasonably think could be made more efficient, suggest it nicely. A more facultative &lt;em&gt;&amp;#8220;Maybe use &lt;code&gt;function2()&lt;/code&gt;, it would run faster&amp;#8221;&lt;/em&gt; is better than a mandatory &lt;em&gt;&amp;#8220;replace &lt;code&gt;function1()&lt;/code&gt; with &lt;code&gt;function2()&lt;/code&gt;&amp;#8220;&lt;/em&gt; kind of thing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At the end of the day, what needs to be remembered is that your collaborators/colleagues/team-mates are professionals like you, regardless of the individual amount of experience. But, ultimately and more importantly, they are human beings! And human beings work better, produce more and tend to be happier in an environment where they are understood, appreciated and respected. And code reviewing can be an incredibly powerful helper in this, if used wisely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hailo and their “Journey into Microservices”</title>
+      <link>http://www.marcotroisi.com/hailo-journey-into-microservices/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/hailo-journey-into-microservices/</guid>
+      <description>&lt;p&gt;A while ago, while looking for experiences of companies actually transitioning into a Microservice architecture, I stumbled upon this nicely written, real-world series of articles from &lt;a href=&#34;https://twitter.com/mattheath&#34;&gt;Matt Heath&lt;/a&gt;, published on the &lt;a href=&#34;http://www.hailoapp.com&#34;&gt;Hailo&lt;/a&gt; tech blog. The articles talk about their moving from a mostly-PHP, monolithic architecture, towards one based on Microservices.&lt;/p&gt;
+
+&lt;p&gt;It is very interesting to read about the challenges of a company that started that everyone else, and then had to face the inevitable problems of scalability and code maintainability. It is also stimulating to see how they answered the questions almost everyone asks when trying to move into a Microservices architecture.&lt;/p&gt;
+
+&lt;p&gt;If you are interested, read the articles, starting from the first one: &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/&#34;&gt;A Journey into Microservices&lt;/a&gt;, and then go ahead with &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/&#34;&gt;part two&lt;/a&gt; and &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/&#34;&gt;part three&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or [Twitter][7].&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Featured photo from the Hailo website&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;[7]: &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Composition over Inheritance (what it is, why use it)</title>
+      <link>http://www.marcotroisi.com/composition-over-inheritance/</link>
+      <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/composition-over-inheritance/</guid>
+      <description>
+
+&lt;p&gt;In today&amp;#8217;s article, I would like to talk about something which I see that, sometimes, developers aren&amp;#8217;t too familiar with. Most of us know what the traditional concept of &lt;strong&gt;inheritance&lt;/strong&gt; is: a child class extends a parent class. And, obviously, multiple children classes can extend the same parent class.&lt;/p&gt;
+
+&lt;p&gt;What some developers don&amp;#8217;t seem to be always aware of (or, perhaps, they just aren&amp;#8217;t entirely sure how to use it), is the idea of &lt;strong&gt;composition&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-composition:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;What is Composition&lt;/h2&gt;
+
+&lt;p&gt;Composition can be explained by a child class &amp;#8220;incorporating&amp;#8221; one or more classes that it intends to extend. In other words, you are declaring inside your class, what other class&amp;#8217; methods do you want to be able to use, without having to strongly tie up your children class to its parent(s).&lt;/p&gt;
+
+&lt;h3 id=&#34;has-a-vs-is-a:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;&lt;em&gt;Has-a&lt;/em&gt; VS &lt;em&gt;Is-a&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;A good way to look at Composition is to think of a class that &lt;em&gt;HAS-A&lt;/em&gt; relationship with another class, rather &lt;em&gt;IS-A&lt;/em&gt; &amp;#8220;son&amp;#8221; of that class. In this sense, when you use Composition, the class has an &amp;#8220;identity&amp;#8221; of its own, and it&amp;#8217;s not to be seen as being &amp;#8220;only&amp;#8221; a son of that other class which it extends.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-benefits-of-composition:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;The Benefits of Composition&lt;/h2&gt;
+
+&lt;p&gt;While I am not advocating for the complete elimination of traditional inheritance, there are benefits of using Composition that I would like to highlight. And, the way I see it, it is possible that once we realise the power of Composition over Inheritance, we may actually end up using Inheritance less and less. Here are the reasons why Composition is a good pattern:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: it is not by chance that I am giving this one the first position in my list. With Inheritance, as mentioned, you tie your Class up to another one, and you define even before starting to design your class, who is going to extend (be a child of) what. But, what happens if you wanted to only use &lt;em&gt;some&lt;/em&gt; of the methods that your parent has? Or, on the opposite side, what if you had 5 children of which only 2 needed a couple of additional methods? These things would not have been a problem with Composition. But the truth is that &lt;strong&gt;Inheritance is often not flexible enough&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extension of Multiple Classes&lt;/strong&gt;: who says you should only extend one Class? Why couldn&amp;#8217;t &lt;code&gt;Corolla&lt;/code&gt; be a son of &lt;code&gt;Car&lt;/code&gt; but also of &lt;code&gt;Toyota&lt;/code&gt; at the same time? That obviously makes sense, but it&amp;#8217;s normally not possible in traditional programming languages. &lt;a href=&#34;http://en.wikipedia.org/wiki/Interface_(computing)#Software_interfaces_in_object-oriented_languages&#34;&gt;Interfaces&lt;/a&gt; can give us some help here, but they &lt;em&gt;don&amp;#8217;t&lt;/em&gt; actually implement the methods we need.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Avoid duplicates&lt;/strong&gt;: Like in the previous example, if we were to use Interfaces for our &lt;code&gt;Corolla&lt;/code&gt; Class, we would end up having to write some of our methods for our &lt;code&gt;Yaris&lt;/code&gt; or &lt;code&gt;Sedan&lt;/code&gt; Classes. That&amp;#8217;s not cool. Duplicating code is not a good idea.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are other benefits to using Composition, but those are the ones I feel are the most worthy of being highlighted here.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-i-use-composition-in-insert-programming-language-here:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;How do I use Composition in &lt;em&gt;[insert programming language here]&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Composition is available out of the box in &lt;a href=&#34;http://en.wikipedia.org/wiki/Trait_(computer_programming)#Supported_languages&#34;&gt;many of the mainstream languages&lt;/a&gt;. It can be implemented in the form of a &lt;em&gt;Trait&lt;/em&gt; in PHP, Python, Scala and others; It&amp;#8217;s called a &lt;em&gt;Module&lt;/em&gt; in Ruby, and a &lt;em&gt;Role&lt;/em&gt; in Perl. Javascript, as per usual, has &lt;a href=&#34;http://rjzaworski.com/2013/03/composition-in-javascript&#34;&gt;unique ways to implement Composition&lt;/a&gt;, but it&amp;#8217;s there. Finally, it&amp;#8217;s interesting to note that Go doesn&amp;#8217;t even consider Inheritance as an option; Composition is the only game in town, and it&amp;#8217;s called &lt;a href=&#34;http://golang.org/doc/effective_go.html#embedding&#34;&gt;Embedding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your thoughts on Composition over Inheritance? Where is it best to use one over the other? Share your ideas on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/composition-over-inheritance/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/composition-over-inheritance/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=goo.gl/AU3t8k&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;more-to-read-on-composition-over-inheritance:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;More to read on Composition over Inheritance&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.clean-code-developer.com/Favor-Composition-over-Inheritance.ashx&#34;&gt;Clean Code Developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Composition_over_inheritance&#34;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://codingdelight.com/2014/01/16/favor-composition-over-inheritance-part-1/&#34;&gt;Coding Delight&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example of a Microservice</title>
+      <link>http://www.marcotroisi.com/an-example-of-a-microservice/</link>
+      <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/an-example-of-a-microservice/</guid>
+      <description>
+
+&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example.&lt;/p&gt;
+
+&lt;h2 id=&#34;introducing-microtranslator:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/marcotroisi/microtranslator&#34;&gt;MicroTranslator&lt;/a&gt;&lt;/strong&gt; is a microservice that I have built, which is supposed to handle locale and translations in an application. Its tech stack is the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PHP &amp;gt;= 5.4&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fatfreeframework.com&#34;&gt;Fat Free framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mossphp/moss-locale&#34;&gt;Moss Locale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mongodb.com&#34;&gt;MongoDB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;del datetime=&#34;2015-07-20T07:04:33+00:00&#34;&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; at the time of this writing (14 Apr &amp;#8217;15) I am still working on MicroTranslator. It will be production-ready (documentation included) in a few days. Sorry about that!&lt;/em&gt;&lt;/del&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;it-comes-with-rest-api:e46d2f865b53e2e53becb431606efa7c&#34;&gt;It comes with REST API&lt;/h2&gt;
+
+&lt;p&gt;MicroTranslator provides simple-to-use REST API. For this reason, you need to know little to no PHP to use it. Simply fire up an instance of PHP on whatever machine you like, and then use the APIs to get the translations on the other Microservices that compose your application.&lt;/p&gt;
+
+&lt;p&gt;Now this is important, in my opinion. It means that you can quickly begin working on your application without having to focus on a tedious task such as handling translations, but also that, at any point in time, you can completely get rid of it and rewrite it with, perhaps, a faster language. Or you can simply upgrade your hardware and keep relying on it.&lt;/p&gt;
+
+&lt;h2 id=&#34;8220-i-could-have-done-this-myself-8221:e46d2f865b53e2e53becb431606efa7c&#34;&gt;&amp;#8220;I could have done this myself&amp;#8221;&lt;/h2&gt;
+
+&lt;p&gt;You may think now, &amp;#8220;why should I use your stuff when I can write my own translation manager, using the tools that I like the most?&amp;#8221; The simple answer here is &amp;#8220;You shouldn&amp;#8217;t (use my translation manager)!&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;But I would also like to point out that, unless translations represent the core of your application, there is no reason why you would want to waste your time rewriting a library that does the same thing. But even if you do, what you should be avoiding is to tie it all up with the rest of your application. Using a Microservices architecture will allow you to &lt;em&gt;replace&lt;/em&gt; parts of your application quickly and seamlessly. And, it will give you the power of choosing the right tools, framework, database, etc for the task.&lt;/p&gt;
+
+&lt;h2 id=&#34;point-by-point:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Point by point&lt;/h2&gt;
+
+&lt;p&gt;Like I said, one of the reasons why I worked on MicroTranslator is because I wanted to create a real-life example out of my previous article on &lt;em&gt;what is a Microservice&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s have a look at the points I outlined back then:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;It is a Stand-alone service/application.&lt;/strong&gt;: Yes, MicroTranslator is stand-alone. It doesn&amp;#8217;t need, and actually, it doesn&amp;#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic API calls.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is quick to (re)write.&lt;/strong&gt;: Absolutely! I wrote MicroTranslator in a weekend plus a few other free hours during the week. You can totally rewrite it in a week or less as soon as you feel like it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It focuses on one task&lt;/strong&gt;: It only cares about your translations. It doesn&amp;#8217;t even want to know how you use them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is Language-agnostic.&lt;/strong&gt;: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from application, regardless of the language/framework/tools you are using.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is aware of failures&lt;/strong&gt;. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&amp;#8217;t &lt;em&gt;directly&lt;/em&gt; affect your main application.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult:e46d2f865b53e2e53becb431606efa7c&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microservices: A Quick Introduction</title>
+      <link>http://www.marcotroisi.com/micro-services-a-quick-introduction/</link>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/micro-services-a-quick-introduction/</guid>
+      <description>
+
+&lt;p&gt;As I am in the middle of reading the excellent &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;Building Microservices&lt;/a&gt; from Sam Newman, I thought I would spend some time de-mistyfying what &lt;strong&gt;Microservices&lt;/strong&gt; are, when/if are they needed and why.&lt;/p&gt;
+
+&lt;p&gt;I am really grateful to this book, which I warmly recommend, for finally making the concept of Microservices so easy for me to understand, while never standing back from actually going into the difficulties of the practical world, with several real-life advices on how to make Microservices work in a modern architecture.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-a-microservice:d2a877b8532553626d56ad0c60240a12&#34;&gt;What is a Microservice&lt;/h2&gt;
+
+&lt;p&gt;While you can find all sorts of amazingly technical explanations out there, Newman defines a Microservice in a strikingly simple way, which I am paraphrasing here:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A &lt;strong&gt;Microservice&lt;/strong&gt; is a stand-alone service that can be (re)built in no more than two weeks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For as silly and simplistic as this may sound, I think that it really gets to the heart of it. From here, you can totally go ahead talking about the best ways to implement this, but this is an exceptionally easy to remember &lt;em&gt;rule of thumb&lt;/em&gt; for all of us.&lt;/p&gt;
+
+&lt;p&gt;So, what are the characteristics of a Microservice? I have outlined &lt;strong&gt;5 points&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;It is a Stand-alone service/application&lt;/strong&gt;. In other words, it is &lt;em&gt;not&lt;/em&gt; a good Microservice if it breaks when you change other parts of the application to which the Microservice itself depends on.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is quick to (re)write&lt;/strong&gt;. As in the above definition, a two-weeks timeframe is a good general rule. If you can&amp;#8217;t possibly rewrite it from scratch in two weeks or less (yes, two weeks and a half are still fine!), then you may have designed this whole thing the wrong way.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It focuses on one task&lt;/strong&gt;. Here the contrast with big, monolithic applications becomes more evident. If &lt;em&gt;WordPress&lt;/em&gt; were to be built on a Microservice architecture, you would have one independent, small application taking care of creating, editing and deleting &lt;em&gt;Posts&lt;/em&gt;, another one taking care of &lt;em&gt;Media Content&lt;/em&gt;, perhaps another one for generating &lt;em&gt;Static Pages&lt;/em&gt; and so on. You get the point. Compare this to the actual nature of &lt;em&gt;WordPress&lt;/em&gt;: a single, big platform which (potentially) does everything your mind can think of, and where, of course, any plugin could easily break the entire system (see Point #1).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is Language-agnostic&lt;/strong&gt;. Every Microservice will expose an API that is not dependent on the language, tools and technology used. And this is a big point in my opinion. What this means is that, for example, when building, say, a Blogging Platform, you would be entirely free to build each component with &lt;strong&gt;PHP&lt;/strong&gt; or &lt;strong&gt;Python&lt;/strong&gt;, privilege ease of development, except for your &lt;em&gt;Posts&lt;/em&gt; component, the most critical one, which you might just want to build with &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Go&lt;/strong&gt; or even &lt;strong&gt;C&lt;/strong&gt;, to make sure that performance is never an issue. And of course the same would apply for a &lt;em&gt;Database&lt;/em&gt; engine. &lt;strong&gt;Mongo&lt;/strong&gt; could be the perfect choice for &lt;em&gt;Posts&lt;/em&gt;, but &lt;strong&gt;Oracle&lt;/strong&gt; might be a better fit for your little &lt;em&gt;Store&lt;/em&gt; section where you sell your services.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It knows that failures exist&lt;/strong&gt;. In a monolithic application, if anything fails, the whole thing is likely going to fail as well. With Microservices, you know that each one of them can possibly fail or just be unreachable at any time, and so you handle it in a gracious way, with no need to panic. In our theoretical Blogging Platform, if your &lt;em&gt;Media&lt;/em&gt; Microservice becomes unreachable because, say, the Database engine of choice has stopped working, there is zero-need for the whole application to crash. You can still minimise the impact and work on bringing &lt;em&gt;Media&lt;/em&gt; back to life without impacting everything else.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;why-using-microservices:d2a877b8532553626d56ad0c60240a12&#34;&gt;Why Using Microservices&lt;/h2&gt;
+
+&lt;p&gt;Do you still need me to convince you? No, seriously, if you have been around in the Software Development world for a while, you have probably already realised, by reading the above listed points, what is the potential of using Microservices for your next application. Nevertheless, it is good to talk about it.&lt;/p&gt;
+
+&lt;p&gt;This is why I think a Microservices Architecture brings more benefits than a monolithic one.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Best Performance/Ease of Development ratio&lt;/strong&gt;. This is an indirect one, but if you have read my points before, you already know why is this so. You can fine-tune each little part of your big application without penalising your whole Development process. You can be strategic. There is no need to build the whole application with Java and Postgres, when some less critical parts of it could easily be built with a quick and nice Python + Mongo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Small and focussed teams&lt;/strong&gt;. Instead of having a big group of developers all working on the same big project, you can have many small teams each one taking care of one or two Microservices. You can use different skills and capabilities in a more effective way.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;. Oh my goodness, scalability. If you can rewrite each component in two weeks or less, scalability is no longer that big of an issue! No need for &lt;em&gt;premature optimisation&lt;/em&gt;. Is your blog finally getting the traffic you think it deserves? No problem, just &lt;strong&gt;rewrite&lt;/strong&gt; your &lt;em&gt;Posts&lt;/em&gt; Microservice in a faster language and/or increase the hardware capabilities &lt;strong&gt;only for that specific part&lt;/strong&gt;, and you are done.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Better Failure Management&lt;/strong&gt;. As outlined before, should a single Microservice fail for whatever reason, you can handle this graciously, and at the very least, you know that the rest of your application is not going to be affected.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;conclusion:d2a877b8532553626d56ad0c60240a12&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;It is not my goal here to give you the most complete explanation of what Microservices are (for that, I would suggest you read the &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;above said book&lt;/a&gt;). Rather, I am only outlining what I think are some of the most important characteristics of a Microservice architecture, and why it might be a good idea for you to build your next application in that way.&lt;/p&gt;
+
+&lt;p&gt;Are Microservices right for every situation? Of course not. But they appear to solve some problems that have been around for so long, that most of us consider to be pretty much unavoidable these days.&lt;/p&gt;
+
+&lt;p&gt;Are you using Microservices or planning to use them? I would love to hear your opinion on the subject.&lt;/p&gt;
+
+&lt;h2 id=&#34;other-resources:d2a877b8532553626d56ad0c60240a12&#34;&gt;Other resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B00VJ3NP4A/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00VJ3NP4A&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=5EGJ6QO6G66E6UHZ&#34;&gt;Microservices: Patterns and Applications: Designing fine-grained services by applying patterns&lt;/a&gt;&lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=B00VJ3NP4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Martin Fowler on Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Two Cents on Go</title>
+      <link>http://www.marcotroisi.com/my-two-cents-on-golang/</link>
+      <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/my-two-cents-on-golang/</guid>
+      <description>&lt;p&gt;I have been recently studying and trying &lt;a href=&#34;http://www.golang.org&#34;&gt;Go&lt;/a&gt; (Golang), a statically typed language developed by Google, which promises really fast execution times and a pleasant development experience.&lt;/p&gt;
+
+&lt;p&gt;I must say, it is pleasant to use indeed. And quite simple to learn. But it does also demolish some of the things that, coming from other languages, you might be giving for granted. While trying to get my head around it, it felt a lot like when I was trying to learn proper Javascript (i.e. &lt;em&gt;beyond&lt;/em&gt; jQuery), that is, it can sometimes take a while to understand, but then at one point something &amp;#8216;clicks&amp;#8217;, and immediately everything becomes so clear and easy. You do not end up necessarily thinking that it is &lt;em&gt;the best language ever&lt;/em&gt;, but you do come to appreciate its design choices.&lt;/p&gt;
+
+&lt;p&gt;And it is easy to use, no doubt about that.&lt;/p&gt;
+
+&lt;p&gt;Just for the sake of fun, I was inspired by &lt;a href=&#34;http://avelino.xxx/2014/03/golang-c-and-python-the-benchmark-time&#34;&gt;this article&lt;/a&gt; by Thiago Avelino to try doing the same benchmark comparison between PHP and Go.&lt;/p&gt;
+
+&lt;p&gt;Not only does it feel so easy and natural to &amp;#8216;&lt;em&gt;port&lt;/em&gt;&amp;#8216; code from PHP to Go, but the difference in terms of execution times is quite remarkable (granted, this is a very simple test, and I do not need to tell you that you should not base your choice of a programming language on it).&lt;/p&gt;
+
+&lt;p&gt;So, the following is the script in PHP:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+function fact($n){
+    if($n===0)return 1;
+    return $n*fact($n-1);
+}
+
+function calc(){
+    $t = 0;
+    for($i=0; $i&amp;lt;100000; $i++){
+        for($j=0; $j&amp;lt;8; $j++){
+            $t += fact($j);
+        }
+    }
+    return $t;
+}
+
+$result = calc();
+echo $result.&amp;quot;\n&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and this is the result of the benchmark:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;time php factorial.php
+591400000
+
+real    0m0.658s
+user    0m0.488s
+sys 0m0.004s
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following, instead, is the Go code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+
+    result := calc()
+    fmt.Println(result)
+}
+
+func fact(n int) int {
+    if n == 0 {
+        return 1
+    }
+
+    return n * fact(n-1)
+}
+
+func calc() int {
+    t := 0
+    for i := 0; i &amp;lt; 100000; i++ {
+        for j := 0; j &amp;lt; 8; j++ {
+            t += fact(j)
+        }
+    }
+
+    return t
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and here is the benchmark result:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;time go run factorial.go
+591400000
+
+real    0m0.156s
+user    0m0.138s
+sys 0m0.021s
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go is remarkably faster, while being frankly pretty easy to write. I have come to appreciate this language more and more, and I would wholeheartedly suggest to any PHP/Ruby/Python developer to add this nice, simple and fast language to his own skills. Learning more programming languages always ultimately make you a better developer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What would your ideal Publishing Platform look like?</title>
+      <link>http://www.marcotroisi.com/what-would-your-ideal-publishing-platform-look-like/</link>
+      <pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/what-would-your-ideal-publishing-platform-look-like/</guid>
+      <description>&lt;p&gt;I have been struggling for a while with finding the right CMS and/or publishing platform. All of them seem to have good parts and less good parts, and that is okay. In a (possible, potential) future attempt of myself to try building the &lt;em&gt;right&lt;/em&gt; publishing platform, I have decided to list some of the things that it seems to me people would usually look for in a CMS or a blogging platform. I would like as many people as possible to select in the poll below what are the things that would make them choose a publishing platform over another.&lt;/p&gt;
+
+&lt;p&gt;Hopefully this will result, one day, in the publishing platform that we all have always dreamed of!&lt;/p&gt;
+
+&lt;p&gt;Thank you for your time!&lt;/p&gt;
+
+&lt;div id=&#34;polls-2&#34; class=&#34;wp-polls&#34;&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;polls-2-loading&#34; class=&#34;wp-polls-loading&#34;&gt;
+  &lt;img src=&#34;http://www.marcotroisi.com/wp-content/plugins/wp-polls/images/loading.gif&#34; width=&#34;16&#34; height=&#34;16&#34; alt=&#34;Loading ...&#34; title=&#34;Loading ...&#34; class=&#34;wp-polls-image&#34; /&gt;&amp;nbsp;Loading ...
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Ghost: a CMS vs a blogging platform</title>
+      <link>http://www.marcotroisi.com/wordpress-and-ghost/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/wordpress-and-ghost/</guid>
+      <description>
+
+&lt;p&gt;I am definitely amongst the growing group of developers that are fascinated and thrilled by &lt;a href=&#34;http://www.nodejs.org&#34;&gt;node.js&lt;/a&gt;, its thriving community, its being simple yet powerful, super-fast and scalable.&lt;/p&gt;
+
+&lt;p&gt;Although my main language remains &lt;a href=&#34;http://www.php.net&#34;&gt;PHP&lt;/a&gt; (mostly because my employer wants me to work with it, but also because of its enormous libraries collection and its maturity as a language for the web), I can undoubtedly see a future with most of the cool apps out there being developed with node.js. I am convinced that, should I start a new project of my own today, a project that I believed would conquer the market, I would totally go for a lightweight HTML5 + CSS3 + JS (with the help of &lt;a href=&#34;http://www.angularjs.org&#34;&gt;Angular.js&lt;/a&gt;) interface backed by a powerful node.js (with &lt;a href=&#34;http://www.expressjs.com&#34;&gt;express.js&lt;/a&gt;)-based API.&lt;/p&gt;
+
+&lt;p&gt;So when I came to know about this new, elegant and lightweight blogging platform named &lt;a href=&#34;http://www.ghost.org&#34;&gt;Ghost&lt;/a&gt; and based on node.js I was more than happy and I thought it was just what we needed to be &lt;em&gt;finally&lt;/em&gt; set free from WordPress! But I then worked out that I was almost surely wrong.&lt;/p&gt;
+
+&lt;h2 id=&#34;wordpress-is-a-cms-not-a-blogging-platform:e98746c1693166ee1e473de41c4d5de5&#34;&gt;WordPress is a CMS, not a blogging platform&lt;/h2&gt;
+
+&lt;p&gt;While it still remains the best blogging platform out there, as of today &lt;a href=&#34;http://www.wordpress.org&#34;&gt;WordPress&lt;/a&gt; is a fully fledged CMS and, in my opinion, it&amp;#8217;s the best CMS you might desire. It&amp;#8217;s simple enough to use and it&amp;#8217;s got so many &lt;a href=&#34;http://wordpress.org/plugins/&#34;&gt;plugins and extensions&lt;/a&gt; that to call it an ecosystem wouldn&amp;#8217;t mean overrating it. And, to be fair, the fact that it&amp;#8217;s based on PHP means that it can run virtually everywhere with the minimum effort required.&lt;/p&gt;
+
+&lt;h2 id=&#34;ghost-is-what-it-claims-to-be-just-a-blogging-platform:e98746c1693166ee1e473de41c4d5de5&#34;&gt;Ghost is what it claims to be: &lt;em&gt;just a blogging platform&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Ghost is beautiful, easy to use and it&amp;#8217;s got everything in the right place. The dashboard is right the one that you would love to have in your WordPress blog. And it&amp;#8217;s seriously fast, and you would expect that since it&amp;#8217;s built on node.js. But it&amp;#8217;s limited to blogging and they ([the developers][8]) want it to be so. That&amp;#8217;s great indeed, but it means that you have to be sure that your blog will always be just a blog, nothing more. And you&amp;#8217;ve got to know that, apart from the pleasure of a great platform for writing, you&amp;#8217;re not going to have a lot more in terms of functionalities and extensions. Of course they&amp;#8217;ll come in the future, but we can easily say that in the foreseeable future they won&amp;#8217;t be as many as WordPress.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion-verdict:e98746c1693166ee1e473de41c4d5de5&#34;&gt;Conclusion/Verdict&lt;/h2&gt;
+
+&lt;p&gt;They&amp;#8217;re both great platforms, WordPress being a lot more mature, Ghost being still in its infancy. Just don&amp;#8217;t think of them as one replacing the other. They do different things, and they both work. Decide &lt;em&gt;what your website is gonna be about&lt;/em&gt; and then pick the right platform for you!&lt;/p&gt;
+
+&lt;p&gt;[8]: &lt;a href=&#34;https://ghost.org/about/&#34;&gt;https://ghost.org/about/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
