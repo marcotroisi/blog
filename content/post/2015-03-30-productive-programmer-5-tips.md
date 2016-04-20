@@ -1,5 +1,6 @@
 ---
 title: 5 Tips for becoming a Productive Programmer
+description: "Being a Productive Programmer is key to delivering better results. Here are 5 tips that will help you become one, and achieve more."
 author: Marco Troisi
 layout: post
 date: 2015-03-30
@@ -14,6 +15,7 @@ tags:
   - programming
   - quality
   - relax
+featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/03/mac-glasses.jpg"
 
 ---
 Have we not all been there? You&#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.
@@ -29,24 +31,24 @@ How do we overcome this? How do we make sure our productivity level keeps being 
 <div class="getty embed image" style="background-color:#fff;display:inline-block;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:415px;float:right;">
   <div style="overflow:hidden;position:relative;height:0;padding:55.776173% 0 0 0;width:100%;">
   </div>
-  
+
   <p style="margin:0;">
     <div style="padding:0;margin:0 0 0 10px;text-align:left;">
       <a href="http://www.gettyimages.com/detail/157752806" target="_blank" style="color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;">View image</a> | <a href="http://www.gettyimages.com" target="_blank" style="color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;">gettyimages.com</a>
-    </div></div> 
-    
+    </div></div>
+
     <p>
       I think it&#8217;s wise to recognise that, as humans, we are susceptible to such ups and downs. If all we were doing in life were working, it might have been easier. But that is not the case. We have lives, issues, passions, hobbies, families outside of the workplace. Which is all fine, by the way, it is what makes us so unique and valuable.
     </p>
-    
+
     <p>
       And so, instead of being too hard on ourselves when our brains just can&#8217;t seem to connect to our work, it can be useful to relax and develop a discipline that will help us deliver quality work even on our worst days.
     </p>
-    
+
     <p>
       Here are some simple steps I follow in order to make sure my brain understands that I am intentional about being a productive programmer today:
     </p>
-    
+
     <ol>
       <li>
         <strong>Wake up early</strong>: Ok, this is harsh, I know. I <em>love</em> sleeping. My whole life, since I was a kid, I&#8217;ve always gotten out of bed at the very last minute. This is so counter-productive! The average successful person <a href="http://uk.businessinsider.com/things-successful-people-do-before-breakfast-2014-11?op=1?r=US">wakes up very early</a>, like 4-5 am. I&#8217;ve started waking up about two hours before I need to be at work. That means that, by the time I get to work, <strong>my brain is already active</strong> and ready to go. Besides, this has finally solved my life-long problem of never having time for anything else aside from work! I now have enough time to consistently read, write on my blog, work on side-projects, study German (!), etc.
@@ -64,11 +66,11 @@ How do we overcome this? How do we make sure our productivity level keeps being 
         <strong>Separate things</strong>. &#8220;There is a time for everything,&#8221; said King Solomon. In other words, multitasking doesn&#8217;t really work, if you are trying to be productive. <a href="http://www.health.com/health/gallery/0,,20707868,00.html">Science proved it</a> as well. There is nothing like dedicating your focus and attention on one thing at a time. Quality makes the difference, in this type of thing. Do what you have to do with absolute focus, finish earlier than expected, and then move on. This practically means things like: not having too many tabs open on my browser, not being involved in 10 different chats with my friends, not checking my phone every 5 minutes, etc.
       </li>
     </ol>
-    
+
     <p>
       While doing all of the above things is undoubtedly a challenge, and it is not rare for me to break one or more of these rules, I use them as a blueprint and point of reference, and I get back to them every time I feel I&#8217;m getting less productive than I should.
     </p>
-    
+
     <p>
       And you? What are your tips and tricks for working with greater focus and delivering higher quality work?
     </p>

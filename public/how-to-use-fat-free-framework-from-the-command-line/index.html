@@ -7,16 +7,16 @@
 <title>How to use Fat Free framework from the command line</title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="icon" href="http://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png"><link rel="apple-touch-icon-precomposed" href="http://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
-<meta name="description" content=""/>
+<meta name="description" content="A simple tutorial that will enable you to use Fat Free framework from command line in just a few minutes."/>
 <meta name="robots" content="noodp"/>
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="How to use Fat Free framework from the command line" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="A simple tutorial that will enable you to use Fat Free framework from command line in just a few minutes." />
 <meta property="og:url" content="http://www.marcotroisi.com" />
 <meta property="og:site_name" content="Marco Troisi" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="" />
+<meta name="twitter:description" content="A simple tutorial that will enable you to use Fat Free framework from command line in just a few minutes." />
 <meta name="twitter:title" content="How to use Fat Free framework from the command line" />
 <meta name="twitter:site" content="@marcotroisi" />
 
@@ -105,7 +105,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 });
 </code></pre>
 
-<p>If you want to be sure that your command will only be executed through the command line, then the <strong>[PHP_SAPI][4]</strong> function will be a life-saver for you (this is function that returns the type of interface in use between PHP and the web server). For example:</p>
+<p>If you want to be sure that your command will only be executed through the command line, then the <strong><a href="http://www.php.net/manual/en/reserved.constants.php">PHP_SAPI</a></strong> function will be a life-saver for you (this is function that returns the type of interface in use between PHP and the web server). For example:</p>
 
 <pre><code>$f3-&gt;route('GET /command', function($f3) {
     if(php_sapi_name() == &quot;cli&quot;) {
@@ -141,7 +141,7 @@ php index.php &quot;/command&quot; // execute your command
 
 <h3 id="server-variables:23e234fcc1d49b9af94cfc871f2e6b19">Server variables</h3>
 
-<p>You might encounter issues with Web server-related functions and variables in your code (e.g. <code>$_SERVER['HTTP_HOST']</code>), which will inevitably return an error, since the command line won&#8217;t recognize them. Here is where the <strong>[PHP_SAPI][4]</strong> function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:</p>
+<p>You might encounter issues with Web server-related functions and variables in your code (e.g. <code>$_SERVER['HTTP_HOST']</code>), which will inevitably return an error, since the command line won&#8217;t recognize them. Here is where the <strong><a href="http://www.php.net/manual/en/reserved.constants.php">PHP_SAPI</a></strong> function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:</p>
 
 <pre><code>$http_host = (php_sapi_name() == &quot;cli&quot;) ? &quot;cli&quot; : $_SERVER['HTTP_HOST'];
 echo $http_host;
@@ -159,8 +159,6 @@ echo $http_host;
 <h2 id="conclusion:23e234fcc1d49b9af94cfc871f2e6b19">Conclusion</h2>
 
 <p>As you have seen, using the command line with a framework like Fat Free is easy and does not imply changing a lot of things in your code. That means that you can easily call the same functions from both browser and command line, which makes your life easier (whereas with some other frameworks you have to put your commands in a different place, which means additional work).</p>
-
-<p>[4]: <a href="http://www.php.net/manual/en/reserved.constants.php">http://www.php.net/manual/en/reserved.constants.php</a></p>
 
         </div>
 

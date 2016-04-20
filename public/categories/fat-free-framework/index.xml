@@ -62,9 +62,7 @@
 
 &lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or [Twitter][8].&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[8]: &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -97,7 +95,7 @@
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you want to be sure that your command will only be executed through the command line, then the &lt;strong&gt;[PHP_SAPI][4]&lt;/strong&gt; function will be a life-saver for you (this is function that returns the type of interface in use between PHP and the web server). For example:&lt;/p&gt;
+&lt;p&gt;If you want to be sure that your command will only be executed through the command line, then the &lt;strong&gt;&lt;a href=&#34;http://www.php.net/manual/en/reserved.constants.php&#34;&gt;PHP_SAPI&lt;/a&gt;&lt;/strong&gt; function will be a life-saver for you (this is function that returns the type of interface in use between PHP and the web server). For example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$f3-&amp;gt;route(&#39;GET /command&#39;, function($f3) {
     if(php_sapi_name() == &amp;quot;cli&amp;quot;) {
@@ -133,7 +131,7 @@ php index.php &amp;quot;/command&amp;quot; // execute your command
 
 &lt;h3 id=&#34;server-variables:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Server variables&lt;/h3&gt;
 
-&lt;p&gt;You might encounter issues with Web server-related functions and variables in your code (e.g. &lt;code&gt;$_SERVER[&#39;HTTP_HOST&#39;]&lt;/code&gt;), which will inevitably return an error, since the command line won&amp;#8217;t recognize them. Here is where the &lt;strong&gt;[PHP_SAPI][4]&lt;/strong&gt; function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:&lt;/p&gt;
+&lt;p&gt;You might encounter issues with Web server-related functions and variables in your code (e.g. &lt;code&gt;$_SERVER[&#39;HTTP_HOST&#39;]&lt;/code&gt;), which will inevitably return an error, since the command line won&amp;#8217;t recognize them. Here is where the &lt;strong&gt;&lt;a href=&#34;http://www.php.net/manual/en/reserved.constants.php&#34;&gt;PHP_SAPI&lt;/a&gt;&lt;/strong&gt; function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$http_host = (php_sapi_name() == &amp;quot;cli&amp;quot;) ? &amp;quot;cli&amp;quot; : $_SERVER[&#39;HTTP_HOST&#39;];
 echo $http_host;
@@ -151,8 +149,6 @@ echo $http_host;
 &lt;h2 id=&#34;conclusion:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;As you have seen, using the command line with a framework like Fat Free is easy and does not imply changing a lot of things in your code. That means that you can easily call the same functions from both browser and command line, which makes your life easier (whereas with some other frameworks you have to put your commands in a different place, which means additional work).&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;http://www.php.net/manual/en/reserved.constants.php&#34;&gt;http://www.php.net/manual/en/reserved.constants.php&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

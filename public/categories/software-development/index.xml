@@ -134,10 +134,8 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HhNIttd87xs&#34;&gt;Architecture: the lost years&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
-&lt;li&gt;[Workflows of refactoring]&lt;a href=&#34;Martin Fowler&#34;&gt;4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD&#34;&gt;Workflows of refactoring&lt;/a&gt; (Martin Fowler)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD&#34;&gt;https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -197,9 +195,7 @@
 
 &lt;p&gt;Marco&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to [contact me][8]&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;p&gt;[8]: &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;http://www.marcotroisi.com/contact/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;
 </description>
     </item>
     
@@ -281,9 +277,7 @@
 
 &lt;p&gt;At the end of the day, what needs to be remembered is that your collaborators/colleagues/team-mates are professionals like you, regardless of the individual amount of experience. But, ultimately and more importantly, they are human beings! And human beings work better, produce more and tend to be happier in an environment where they are understood, appreciated and respected. And code reviewing can be an incredibly powerful helper in this, if used wisely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or [Twitter][2].&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -352,10 +346,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.clean-code-developer.com/Favor-Composition-over-Inheritance.ashx&#34;&gt;Clean Code Developer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Composition_over_inheritance&#34;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Coding Delight][9]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://codingdelight.com/2014/01/16/favor-composition-over-inheritance-part-1/&#34;&gt;Coding Delight&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;[9]: &lt;a href=&#34;http://codingdelight.com/2014/01/16/favor-composition-over-inheritance-part-1/&#34;&gt;http://codingdelight.com/2014/01/16/favor-composition-over-inheritance-part-1/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -412,9 +404,7 @@
 
 &lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or [Twitter][8].&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[8]: &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -475,10 +465,8 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B00VJ3NP4A/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00VJ3NP4A&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=5EGJ6QO6G66E6UHZ&#34;&gt;Microservices: Patterns and Applications: Designing fine-grained services by applying patterns&lt;/a&gt;&lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=B00VJ3NP4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;[Martin Fowler on Microservices][3]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Martin Fowler on Microservices&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;http://martinfowler.com/articles/microservices.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -494,14 +482,14 @@
 
 &lt;p&gt;And it is easy to use, no doubt about that.&lt;/p&gt;
 
-&lt;p&gt;Just for the sake of fun, I was inspired by [this article][2] by Thiago Avelino to try doing the same benchmark comparison between PHP and Go.&lt;/p&gt;
+&lt;p&gt;Just for the sake of fun, I was inspired by &lt;a href=&#34;http://avelino.xxx/2014/03/golang-c-and-python-the-benchmark-time&#34;&gt;this article&lt;/a&gt; by Thiago Avelino to try doing the same benchmark comparison between PHP and Go.&lt;/p&gt;
 
 &lt;p&gt;Not only does it feel so easy and natural to &amp;#8216;&lt;em&gt;port&lt;/em&gt;&amp;#8216; code from PHP to Go, but the difference in terms of execution times is quite remarkable (granted, this is a very simple test, and I do not need to tell you that you should not base your choice of a programming language on it).&lt;/p&gt;
 
 &lt;p&gt;So, the following is the script in PHP:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;?php
-function fact($n){ 
+function fact($n){
     if($n===0)return 1;
     return $n*fact($n-1);
 }
@@ -513,7 +501,7 @@ function calc(){
             $t += fact($j);
         }
     }
-    return $t; 
+    return $t;
 }
 
 $result = calc();
@@ -522,7 +510,7 @@ echo $result.&amp;quot;\n&amp;quot;;
 
 &lt;p&gt;and this is the result of the benchmark:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;time php factorial.php 
+&lt;pre&gt;&lt;code&gt;time php factorial.php
 591400000
 
 real    0m0.658s
@@ -573,8 +561,6 @@ sys 0m0.021s
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Go is remarkably faster, while being frankly pretty easy to write. I have come to appreciate this language more and more, and I would wholeheartedly suggest to any PHP/Ruby/Python developer to add this nice, simple and fast language to his own skills. Learning more programming languages always ultimately make you a better developer.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://avelino.xxx/2014/03/golang-c-and-python-the-benchmark-time&#34;&gt;http://avelino.xxx/2014/03/golang-c-and-python-the-benchmark-time&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,5 +1,6 @@
 ---
 title: My Two Cents on Go
+description: 'Coming from PHP, my impressions on Golang and a quick script in both languages to test productivity and performance.'
 author: Marco Troisi
 layout: post
 date: 2014-11-20
@@ -30,11 +31,11 @@ Not only does it feel so easy and natural to &#8216;_port_&#8216; code from PHP 
 So, the following is the script in PHP:
 
     <?php
-    function fact($n){ 
+    function fact($n){
         if($n===0)return 1;
         return $n*fact($n-1);
     }
-    
+
     function calc(){
         $t = 0;
         for($i=0; $i<100000; $i++){
@@ -42,43 +43,43 @@ So, the following is the script in PHP:
                 $t += fact($j);
             }
         }
-        return $t; 
+        return $t;
     }
-    
+
     $result = calc();
     echo $result."\n";
-    
+
 
 and this is the result of the benchmark:
 
-    time php factorial.php 
+    time php factorial.php
     591400000
-    
+
     real    0m0.658s
     user    0m0.488s
     sys 0m0.004s
-    
+
 
 The following, instead, is the Go code:
 
     package main
-    
+
     import "fmt"
-    
+
     func main() {
-    
+
         result := calc()
         fmt.Println(result)
     }
-    
+
     func fact(n int) int {
         if n == 0 {
             return 1
         }
-    
+
         return n * fact(n-1)
     }
-    
+
     func calc() int {
         t := 0
         for i := 0; i < 100000; i++ {
@@ -86,20 +87,20 @@ The following, instead, is the Go code:
                 t += fact(j)
             }
         }
-    
+
         return t
     }
-    
+
 
 and here is the benchmark result:
 
     time go run factorial.go
     591400000
-    
+
     real    0m0.156s
     user    0m0.138s
     sys 0m0.021s
-    
+
 
 Go is remarkably faster, while being frankly pretty easy to write. I have come to appreciate this language more and more, and I would wholeheartedly suggest to any PHP/Ruby/Python developer to add this nice, simple and fast language to his own skills. Learning more programming languages always ultimately make you a better developer.
 

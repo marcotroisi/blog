@@ -1,5 +1,6 @@
 ---
 title: Technical debt is not a unicorn
+description: "Technical debt is not an abstract concept. It has real and serious effects, and can be avoided."
 author: Marco Troisi
 layout: post
 date: 2015-11-04
@@ -13,6 +14,7 @@ tags:
   - architecture
   - refactoring
   - technical debt
+featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/11/sanfrancisco_800.jpg"
 
 ---
 Amongst software engineers, there is this thing called _technical debt_ that is very often talked about and that tends to have somewhat of an ethereal nature.
@@ -46,7 +48,7 @@ Now imagine the opposite situation, of a company that does it all wrong. It woul
 The second scenario would be that of someone who wants to avoid at any cost the first scenario, and decides that, after all, the only thing that matters is for the company to keep growing as fast as possible. They won&#8217;t waste an hour more on a ticket in order to write tests and to make sure the code is clean. They won&#8217;t make sure it&#8217;s easy at any point in future to switch database or even adopt a different ORM library. The _illusion_ of this scenario is that it is likely to get the company to the second stage of growth, even if at the cost of a few late nights and weekends spent fixing bugs and an overall unstable platform.
 
 At the second stage of growth, coming from the second scenario, choices that should have been made at the third stage, like switching to a different database or a change of architecture, will become necessary because the platform can&#8217;t even handle the few thousands of new users that are being added on a periodic basis. What&#8217;s even worse, a rewriting of many parts or the codebase will become inevitable and a lot of time will have to be spent desperately trying to raise the percentage of code covered by some sort of test.
-  
+
 For the company coming from the first scenario, it won&#8217;t look too different. A lof of technical choices that had been made in the first stage will be shown as wrong for the actual needs of this specific platform, and so again time will have to be spent switching and rewriting.
 
 It&#8217;s hard to imagine a company getting to the third stage of growth under these circumstances, but if it does, it should look similar to what it would have looked like in normal conditions. But, again, it&#8217;s unlikely to get there, and if it does, so much time and money will have been wasted to get here, that it will be hard to justify again any change or rewriting, though this is the only stage where those things would have actually made sense. It&#8217;s also likely that a few key people in the engineering team has been replaced because of their incompetence, adding to everything else the costs of having to introduce new people and mosts importantly new leaders.

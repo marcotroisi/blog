@@ -7,16 +7,16 @@
 <title>My Two Cents on Go</title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="icon" href="http://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png"><link rel="apple-touch-icon-precomposed" href="http://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
-<meta name="description" content=""/>
+<meta name="description" content="Coming from PHP, my impressions on Golang and a quick script in both languages to test productivity and performance."/>
 <meta name="robots" content="noodp"/>
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="My Two Cents on Go" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Coming from PHP, my impressions on Golang and a quick script in both languages to test productivity and performance." />
 <meta property="og:url" content="http://www.marcotroisi.com" />
 <meta property="og:site_name" content="Marco Troisi" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="" />
+<meta name="twitter:description" content="Coming from PHP, my impressions on Golang and a quick script in both languages to test productivity and performance." />
 <meta name="twitter:title" content="My Two Cents on Go" />
 <meta name="twitter:site" content="@marcotroisi" />
 
@@ -88,14 +88,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <p>And it is easy to use, no doubt about that.</p>
 
-<p>Just for the sake of fun, I was inspired by [this article][2] by Thiago Avelino to try doing the same benchmark comparison between PHP and Go.</p>
+<p>Just for the sake of fun, I was inspired by <a href="http://avelino.xxx/2014/03/golang-c-and-python-the-benchmark-time">this article</a> by Thiago Avelino to try doing the same benchmark comparison between PHP and Go.</p>
 
 <p>Not only does it feel so easy and natural to &#8216;<em>port</em>&#8216; code from PHP to Go, but the difference in terms of execution times is quite remarkable (granted, this is a very simple test, and I do not need to tell you that you should not base your choice of a programming language on it).</p>
 
 <p>So, the following is the script in PHP:</p>
 
 <pre><code>&lt;?php
-function fact($n){ 
+function fact($n){
     if($n===0)return 1;
     return $n*fact($n-1);
 }
@@ -107,7 +107,7 @@ function calc(){
             $t += fact($j);
         }
     }
-    return $t; 
+    return $t;
 }
 
 $result = calc();
@@ -116,7 +116,7 @@ echo $result.&quot;\n&quot;;
 
 <p>and this is the result of the benchmark:</p>
 
-<pre><code>time php factorial.php 
+<pre><code>time php factorial.php
 591400000
 
 real    0m0.658s
@@ -167,8 +167,6 @@ sys 0m0.021s
 </code></pre>
 
 <p>Go is remarkably faster, while being frankly pretty easy to write. I have come to appreciate this language more and more, and I would wholeheartedly suggest to any PHP/Ruby/Python developer to add this nice, simple and fast language to his own skills. Learning more programming languages always ultimately make you a better developer.</p>
-
-<p>[2]: <a href="http://avelino.xxx/2014/03/golang-c-and-python-the-benchmark-time">http://avelino.xxx/2014/03/golang-c-and-python-the-benchmark-time</a></p>
 
         </div>
 

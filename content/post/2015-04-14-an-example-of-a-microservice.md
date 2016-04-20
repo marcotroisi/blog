@@ -1,5 +1,6 @@
 ---
 title: An example of a Microservice
+description: "I built a Microservice to use as an example to walk through. See how easy it is to build one for yourself!"
 author: Marco Troisi
 layout: post
 date: 2015-04-14
@@ -13,6 +14,7 @@ tags:
   - microservices
   - microtranslator
   - php
+featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/04/microtranslator.png"
 
 ---
 After writing on [Microservices][1], I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. <!--more-->

@@ -1,5 +1,6 @@
 ---
 title: How to use Fat Free framework from the command line
+description: "A simple tutorial that will enable you to use Fat Free framework from command line in just a few minutes."
 author: Marco Troisi
 layout: post
 date: 2014-05-04
@@ -31,7 +32,7 @@ To set up your command, create a new route in your application&#8217;s bootstrap
         // lots of operations here
         echo "Done! Be proud!";
     });
-    
+
 
 If you want to be sure that your command will only be executed through the command line, then the **[PHP_SAPI][4]** function will be a life-saver for you (this is function that returns the type of interface in use between PHP and the web server). For example:
 
@@ -46,7 +47,7 @@ If you want to be sure that your command will only be executed through the comma
             echo "You're not allowed to execute this operation";
         }
     });
-    
+
 
 ## Execute your command
 
@@ -54,7 +55,7 @@ And now comes the fun part. In order to execute the command that you have just s
 
     cd /your/application/path // go to the directory where Fat Free is installed
     php index.php "/command" // execute your command
-    
+
 
 At this point, if there are no errors in your code, you should see the output of your command on screen.
 
@@ -63,7 +64,7 @@ You might of course sometimes need to save the output somewhere, so that you may
 If that is the case, then write this:
 
     php index.php "/command" > /path/to/file.txt
-    
+
 
 ## Troubleshooting
 
@@ -73,12 +74,12 @@ You might encounter issues with Web server-related functions and variables in yo
 
     $http_host = (php_sapi_name() == "cli") ? "cli" : $_SERVER['HTTP_HOST'];
     echo $http_host;
-    
+
 
 instead of just:
 
     echo $_SERVER['HTTP_HOST']; // this will not work on the command line
-    
+
 
 ### Paths
 

@@ -38,7 +38,7 @@
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you want to be sure that your command will only be executed through the command line, then the &lt;strong&gt;[PHP_SAPI][4]&lt;/strong&gt; function will be a life-saver for you (this is function that returns the type of interface in use between PHP and the web server). For example:&lt;/p&gt;
+&lt;p&gt;If you want to be sure that your command will only be executed through the command line, then the &lt;strong&gt;&lt;a href=&#34;http://www.php.net/manual/en/reserved.constants.php&#34;&gt;PHP_SAPI&lt;/a&gt;&lt;/strong&gt; function will be a life-saver for you (this is function that returns the type of interface in use between PHP and the web server). For example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$f3-&amp;gt;route(&#39;GET /command&#39;, function($f3) {
     if(php_sapi_name() == &amp;quot;cli&amp;quot;) {
@@ -74,7 +74,7 @@ php index.php &amp;quot;/command&amp;quot; // execute your command
 
 &lt;h3 id=&#34;server-variables:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Server variables&lt;/h3&gt;
 
-&lt;p&gt;You might encounter issues with Web server-related functions and variables in your code (e.g. &lt;code&gt;$_SERVER[&#39;HTTP_HOST&#39;]&lt;/code&gt;), which will inevitably return an error, since the command line won&amp;#8217;t recognize them. Here is where the &lt;strong&gt;[PHP_SAPI][4]&lt;/strong&gt; function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:&lt;/p&gt;
+&lt;p&gt;You might encounter issues with Web server-related functions and variables in your code (e.g. &lt;code&gt;$_SERVER[&#39;HTTP_HOST&#39;]&lt;/code&gt;), which will inevitably return an error, since the command line won&amp;#8217;t recognize them. Here is where the &lt;strong&gt;&lt;a href=&#34;http://www.php.net/manual/en/reserved.constants.php&#34;&gt;PHP_SAPI&lt;/a&gt;&lt;/strong&gt; function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$http_host = (php_sapi_name() == &amp;quot;cli&amp;quot;) ? &amp;quot;cli&amp;quot; : $_SERVER[&#39;HTTP_HOST&#39;];
 echo $http_host;
@@ -92,8 +92,6 @@ echo $http_host;
 &lt;h2 id=&#34;conclusion:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;As you have seen, using the command line with a framework like Fat Free is easy and does not imply changing a lot of things in your code. That means that you can easily call the same functions from both browser and command line, which makes your life easier (whereas with some other frameworks you have to put your commands in a different place, which means additional work).&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;http://www.php.net/manual/en/reserved.constants.php&#34;&gt;http://www.php.net/manual/en/reserved.constants.php&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,5 +1,6 @@
 ---
 title: The Ethics of Code Reviews
+description: "Code Reviews are a powerful tool not only to improve the quality of our code, but also to make our teammates' life easier. Be a constructive Code Reviewer."
 author: Marco Troisi
 layout: post
 date: 2015-05-06

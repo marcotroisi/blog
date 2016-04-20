@@ -1,5 +1,6 @@
 ---
 title: Composition over Inheritance (what it is, why use it)
+description: "Composition can be a more flexible way to reuse code in multiple classes, as opposed to Inheritance. An introduction to Composition over Inheritance."
 author: Marco Troisi
 layout: post
 date: 2015-04-21
