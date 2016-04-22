@@ -7,6 +7,9 @@ echo "RSS in /feed"
 mkdir public/feed/
 cp public/index.xml public/feed/
 
+echo "/tag folder"
+ln -s public/tags public/tag
+
 echo "*** Git add & commit ***"
 git add -A
 git commit -m "Updating Site" && git push origin master
