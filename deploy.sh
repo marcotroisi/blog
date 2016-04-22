@@ -8,6 +8,7 @@ mkdir public/feed/
 cp public/index.xml public/feed/
 
 echo "/tag folder"
+mkdir public/tag
 cp -r public/tags public/tag
 
 echo "*** Git add & commit ***"
