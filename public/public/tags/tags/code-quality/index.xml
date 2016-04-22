@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Quality on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/code-quality/</link>
+    <description>Recent content in Code Quality on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Microservices won’t improve your code quality</title>
+      <link>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <description>
+
+&lt;p&gt;If you&amp;#8217;ve read some of my &lt;a href=&#34;http://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;#8217;ll know that I&amp;#8217;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+
+&lt;p&gt;I say that and I mean it. Who doesn&amp;#8217;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;#8217;t think it&amp;#8217;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
+
+&lt;p&gt;Yes, microservices are a great thing.&lt;/p&gt;
+
+&lt;p&gt;But we are professionals, and as such we can&amp;#8217;t afford going after what&amp;#8217;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
+
+&lt;h2 id=&#34;write-great-code-first:bd261709805cb407baec357c21e1511f&#34;&gt;Write great code first&lt;/h2&gt;
+
+&lt;p&gt;Just as knowing how to count doesn&amp;#8217;t make you a Mathematician, knowing how to write some code doesn&amp;#8217;t make you a Programmer. I hope I don&amp;#8217;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;#8217;t take ourselves seriously, no one else will.&lt;/p&gt;
+
+&lt;p&gt;Being a programmer means knowing the discipline of programming. It means being aware that every line of code you write today, will have a consequence in the lives of both the end user of your application, and other programmers that will successively work on that same piece of code.&lt;/p&gt;
+
+&lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+
+&lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The monolith is not bad per se&lt;/li&gt;
+&lt;li&gt;Microservices don&amp;#8217;t magically suspend the rules&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let&amp;#8217;s have a closer look at them:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se:bd261709805cb407baec357c21e1511f&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+
+&lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;#8217;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
+
+&lt;h3 id=&#34;microservices-don-8217-t-magically-suspend-the-rules:bd261709805cb407baec357c21e1511f&#34;&gt;Microservices don&amp;#8217;t magically suspend the rules.&lt;/h3&gt;
+
+&lt;p&gt;Say you know how to do your job well, and you&amp;#8217;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;#8217;t need to put the same amount of care into it. Is that true? No, it isn&amp;#8217;t.&lt;/p&gt;
+
+&lt;p&gt;That would be like &lt;em&gt;Pirelli&lt;/em&gt; thinking they don&amp;#8217;t have to work as hard on their tyres as would a theoretical guy who is in charge of building the entire car by himself. After all a tyre is just a small part of a car, isn&amp;#8217;t it? I mean, if anything breaks or if you need a different type of tyre, you quickly replace it.&lt;/p&gt;
+
+&lt;p&gt;In the same way, one should feel justified to build the &lt;em&gt;Withdrawing&lt;/em&gt; component of a microservices-based Banking software in the most careless way! After all, if it stops working, if it becomes too slow, or if we simply don&amp;#8217;t like it anymore, we can quickly rewrite it and replace it.&lt;/p&gt;
+
+&lt;p&gt;I hope you can see that this is just nuts. No one thinks like that, in any industry, and neither should we. Pirelli would have their best engineers designing the safest, most performant tyres possible. They wouldn&amp;#8217;t want a mistake on their part to compromise a car&amp;#8217;s reliability. In the same way, each component of our microservices-based application needs to be something we can be proud of, that can potentially run for as long as possible unless a rewrite becomes necessary for reasons beyond our control.&lt;/p&gt;
+
+&lt;p&gt;These days I&amp;#8217;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;#8217;t even need to write tests!&amp;#8221; I&amp;#8217;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;#8217;t even need to test it!&amp;#8221; This makes no sense, and it&amp;#8217;s simply unjustifiable.&lt;/p&gt;
+
+&lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;#8217;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
+
+&lt;p&gt;When you look at microservices this way, they become a lot less scary, and in a sense a lot of the hype around them goes away. Obviously, a microservice architecture remains a fantastic approach that I would highly suggest for a lot of use cases. But it&amp;#8217;s not, in any way, a different approach to programming. It&amp;#8217;s the same, clean, high quality code that you have (hopefully) been writing until now, now deployed and perhaps organised differently.&lt;/p&gt;
+
+&lt;p&gt;Now, I am not saying that having a microservice architecture will not affect any of your design decisions. It will. But I am suggesting we don&amp;#8217;t give it more credit than we should. I am saying that we should design the architecture of our application regardless of whether it will eventually be deployed into small microservices or not. And, by all means, let&amp;#8217;s not allow the &lt;em&gt;small-ness&lt;/em&gt; of each microservice to suspend the rules of programming. No architectural choice is worth you giving up on being a professional.&lt;/p&gt;
+
+&lt;p&gt;Microservices won&amp;#8217;t improve your code quality. They won&amp;#8217;t make it worse either. Really, it&amp;#8217;s up to you, as it always was, and always will be.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
