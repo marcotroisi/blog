@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/architecture/</link>
+    <description>Recent content in Architecture on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Microservices won’t improve your code quality</title>
+      <link>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <description>
+
+&lt;p&gt;If you&amp;#8217;ve read some of my &lt;a href=&#34;http://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;#8217;ll know that I&amp;#8217;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+
+&lt;p&gt;I say that and I mean it. Who doesn&amp;#8217;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;#8217;t think it&amp;#8217;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
+
+&lt;p&gt;Yes, microservices are a great thing.&lt;/p&gt;
+
+&lt;p&gt;But we are professionals, and as such we can&amp;#8217;t afford going after what&amp;#8217;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
+
+&lt;h2 id=&#34;write-great-code-first:bd261709805cb407baec357c21e1511f&#34;&gt;Write great code first&lt;/h2&gt;
+
+&lt;p&gt;Just as knowing how to count doesn&amp;#8217;t make you a Mathematician, knowing how to write some code doesn&amp;#8217;t make you a Programmer. I hope I don&amp;#8217;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;#8217;t take ourselves seriously, no one else will.&lt;/p&gt;
+
+&lt;p&gt;Being a programmer means knowing the discipline of programming. It means being aware that every line of code you write today, will have a consequence in the lives of both the end user of your application, and other programmers that will successively work on that same piece of code.&lt;/p&gt;
+
+&lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+
+&lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The monolith is not bad per se&lt;/li&gt;
+&lt;li&gt;Microservices don&amp;#8217;t magically suspend the rules&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let&amp;#8217;s have a closer look at them:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se:bd261709805cb407baec357c21e1511f&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+
+&lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;#8217;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
+
+&lt;h3 id=&#34;microservices-don-8217-t-magically-suspend-the-rules:bd261709805cb407baec357c21e1511f&#34;&gt;Microservices don&amp;#8217;t magically suspend the rules.&lt;/h3&gt;
+
+&lt;p&gt;Say you know how to do your job well, and you&amp;#8217;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;#8217;t need to put the same amount of care into it. Is that true? No, it isn&amp;#8217;t.&lt;/p&gt;
+
+&lt;p&gt;That would be like &lt;em&gt;Pirelli&lt;/em&gt; thinking they don&amp;#8217;t have to work as hard on their tyres as would a theoretical guy who is in charge of building the entire car by himself. After all a tyre is just a small part of a car, isn&amp;#8217;t it? I mean, if anything breaks or if you need a different type of tyre, you quickly replace it.&lt;/p&gt;
+
+&lt;p&gt;In the same way, one should feel justified to build the &lt;em&gt;Withdrawing&lt;/em&gt; component of a microservices-based Banking software in the most careless way! After all, if it stops working, if it becomes too slow, or if we simply don&amp;#8217;t like it anymore, we can quickly rewrite it and replace it.&lt;/p&gt;
+
+&lt;p&gt;I hope you can see that this is just nuts. No one thinks like that, in any industry, and neither should we. Pirelli would have their best engineers designing the safest, most performant tyres possible. They wouldn&amp;#8217;t want a mistake on their part to compromise a car&amp;#8217;s reliability. In the same way, each component of our microservices-based application needs to be something we can be proud of, that can potentially run for as long as possible unless a rewrite becomes necessary for reasons beyond our control.&lt;/p&gt;
+
+&lt;p&gt;These days I&amp;#8217;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;#8217;t even need to write tests!&amp;#8221; I&amp;#8217;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;#8217;t even need to test it!&amp;#8221; This makes no sense, and it&amp;#8217;s simply unjustifiable.&lt;/p&gt;
+
+&lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;#8217;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
+
+&lt;p&gt;When you look at microservices this way, they become a lot less scary, and in a sense a lot of the hype around them goes away. Obviously, a microservice architecture remains a fantastic approach that I would highly suggest for a lot of use cases. But it&amp;#8217;s not, in any way, a different approach to programming. It&amp;#8217;s the same, clean, high quality code that you have (hopefully) been writing until now, now deployed and perhaps organised differently.&lt;/p&gt;
+
+&lt;p&gt;Now, I am not saying that having a microservice architecture will not affect any of your design decisions. It will. But I am suggesting we don&amp;#8217;t give it more credit than we should. I am saying that we should design the architecture of our application regardless of whether it will eventually be deployed into small microservices or not. And, by all means, let&amp;#8217;s not allow the &lt;em&gt;small-ness&lt;/em&gt; of each microservice to suspend the rules of programming. No architectural choice is worth you giving up on being a professional.&lt;/p&gt;
+
+&lt;p&gt;Microservices won&amp;#8217;t improve your code quality. They won&amp;#8217;t make it worse either. Really, it&amp;#8217;s up to you, as it always was, and always will be.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Technical debt is not a unicorn</title>
+      <link>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</guid>
+      <description>
+
+&lt;p&gt;Amongst software engineers, there is this thing called &lt;em&gt;technical debt&lt;/em&gt; that is very often talked about and that tends to have somewhat of an ethereal nature.&lt;/p&gt;
+
+&lt;p&gt;Almost every company will have the technical debt prophet who will try to convince her people that doing what &amp;#8220;feels good&amp;#8221; now is not going to pay off down the line, and that &amp;#8220;future generations&amp;#8221; will have to pay for it. But, almost inevitably, choices will be made that will inescapably lead to some degree of technical debt.&lt;/p&gt;
+
+&lt;p&gt;The list of things that feel good now includes but is not limited to: shipping as fast as possible, making the manager happy, getting back to those hilarious videos on youtube, etc.&lt;/p&gt;
+
+&lt;p&gt;The problem is that sometimes we fail to understand how much of a damage are we actually making with those poor choices being implemented.&lt;/p&gt;
+
+&lt;h2 id=&#34;business-and-codebase-should-grow-together:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Business and codebase should grow together&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-first-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The first stage of growth&lt;/h3&gt;
+
+&lt;p&gt;Think of the Business side of your company and its software codebase as two parts of the whole picture that should be growing and maturing together. So, for example, when the company is at its early stages, and the way everything is being run is very simple and lean because there isn&amp;#8217;t much to be run anyway, the software should also be really down to the basics. No unnecessary complexity, no premature optimisation. Keep it simple, keep it &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;clean&lt;/a&gt;. Write the cleanest code you possibly can, rely on a rock-solid, time tested set of tools. Don&amp;#8217;t adventure in something that you &lt;em&gt;think&lt;/em&gt; will be useful as you grow, rather make sure that you make it as easy as possible to transition the software to a different framework, database, architecture (e.g. a &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt; architecture).&lt;/p&gt;
+
+&lt;h3 id=&#34;the-second-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The second stage of growth&lt;/h3&gt;
+
+&lt;p&gt;As the company begins to gain traction, there will be a time of relatively rapid growth. The company is going from literally zero to hundreds or thousands of people using the particular services they offer. At this time, it will begin to become evident whether good choices were made in the prior stage; it should be very easy to change anything based on a new decision from the managers or, perhaps, from the customer&amp;#8217;s feedback. Changing anything should be a matter of hours, not days. Implementing a new feature should be an absolute pleasure. No important architectural change should be necessary in order for the whole platfom to keep functioning even in the face of thousands of new users being added daily. Of course, things like implementing a new cache layer to ease the pressure on the servers, or adding a new cluster for the database, are okay. But no discussion about changing framework, or adopting a new database should take place. If the framework or database adopted can&amp;#8217;t handle this type of pressure nicely, then someone made a very incompetent choice at the previous level, the one where this type of decisions were made. But ideally, all modern frameworks and databases should be able to manage the amount of traffic that is happening at this particular stage.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-third-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The third stage of growth&lt;/h3&gt;
+
+&lt;p&gt;The third stage would be the one of multiplication. At this point, the company is so successful that it may want to launch its services abroad. As the product is already popular enough in its home country, say the US, you&amp;#8217;d expect that on day one of the launch to the next territory, say Europe, you&amp;#8217;d have to handle hundreds of thousands of new users, with support for multiple languages and a whole lot of things that will have to be customised on a single Country basis. This is the time where considerations like, &amp;#8220;should we switch framework&amp;#8221; or &amp;#8220;can our database handle this much&amp;#8221; are more than appropriate. Here more than anywhere else, it will become evident whether everyone did his/her job properly. If good choices were made and everyone acted like a professional at the prior stages, moving from one database to another, adopting a different framework, or switching to a more scalable architecture, should only be a matter of days. But, most importantly, the key people in the team should have a clear path in their mind of what needs to be done in order for that transition to take place. There should be no guessing.&lt;/p&gt;
+
+&lt;h2 id=&#34;technical-debt-is-suicide:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Technical debt is suicide&lt;/h2&gt;
+
+&lt;p&gt;Just like any other debt, technical debt will only lead to bad things. And as it increases, the chances of a company succeeding are going to be greatly diminished. There is an inversely proportional relationship between the two.&lt;/p&gt;
+
+&lt;p&gt;Now imagine the opposite situation, of a company that does it all wrong. It would look something like this: at the first stage of growth, there would be two plausible scenarios. The first, would be that of premature optimisation with unnecessary choices and decisions being made, because of incompetent leaders and programmers who think their little company should have the same scalability that Google has. Days, weeks, are wasted implementing layers of caching and database clusters, and setting up complex development and deployment tools, without even enough people to maintain all this stuff. If anything breaks, the CTO, a team lead or a senior engineer needs to spend a day or two fixing the problem because there aren&amp;#8217;t even enough people to take care of it (you don&amp;#8217;t usually have devops or system people in a small startup). The growth of the company is slowed down, and you&amp;#8217;re lucky if it succeeds at all.&lt;/p&gt;
+
+&lt;p&gt;The second scenario would be that of someone who wants to avoid at any cost the first scenario, and decides that, after all, the only thing that matters is for the company to keep growing as fast as possible. They won&amp;#8217;t waste an hour more on a ticket in order to write tests and to make sure the code is clean. They won&amp;#8217;t make sure it&amp;#8217;s easy at any point in future to switch database or even adopt a different ORM library. The &lt;em&gt;illusion&lt;/em&gt; of this scenario is that it is likely to get the company to the second stage of growth, even if at the cost of a few late nights and weekends spent fixing bugs and an overall unstable platform.&lt;/p&gt;
+
+&lt;p&gt;At the second stage of growth, coming from the second scenario, choices that should have been made at the third stage, like switching to a different database or a change of architecture, will become necessary because the platform can&amp;#8217;t even handle the few thousands of new users that are being added on a periodic basis. What&amp;#8217;s even worse, a rewriting of many parts or the codebase will become inevitable and a lot of time will have to be spent desperately trying to raise the percentage of code covered by some sort of test.&lt;/p&gt;
+
+&lt;p&gt;For the company coming from the first scenario, it won&amp;#8217;t look too different. A lof of technical choices that had been made in the first stage will be shown as wrong for the actual needs of this specific platform, and so again time will have to be spent switching and rewriting.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s hard to imagine a company getting to the third stage of growth under these circumstances, but if it does, it should look similar to what it would have looked like in normal conditions. But, again, it&amp;#8217;s unlikely to get there, and if it does, so much time and money will have been wasted to get here, that it will be hard to justify again any change or rewriting, though this is the only stage where those things would have actually made sense. It&amp;#8217;s also likely that a few key people in the engineering team has been replaced because of their incompetence, adding to everything else the costs of having to introduce new people and mosts importantly new leaders.&lt;/p&gt;
+
+&lt;h2 id=&#34;avoiding-technical-debt:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Avoiding technical debt&lt;/h2&gt;
+
+&lt;p&gt;Technical debt exists, it&amp;#8217;s real and it can be proven, almost touched. It&amp;#8217;s not a myth, and the first step to avoiding it is realising how damaging it can be. Doing things right will not only lead to building a successful platfom serving happy customers. It will also be a lot more fun. It&amp;#8217;s way more enjoyable to work on clean code, to be able to introduce a new feature in a matter of hours and not weeks. It&amp;#8217;s a lot better to spend time solving real problems rather than fixing bugs. And of course, no one wants to work late nights and weekends if it&amp;#8217;s not absolutely necessary.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-resources:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;More resources&lt;/h2&gt;
+
+&lt;h3 id=&#34;to-read:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Read&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;The clean architecture&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&amp;#038;camp=1789&amp;#038;creative=390957&amp;#038;creativeASIN=0132350882&amp;#038;linkCode=as2&amp;#038;tag=marctroi-20&amp;#038;linkId=7KDRFWMKHKFMNWAR&#34;&gt;Clean Code: A Handbook of Agile Software Craftsmanship&lt;/a&gt; &lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=0132350882&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;(Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&amp;#038;camp=1789&amp;#038;creative=390957&amp;#038;creativeASIN=1617292397&amp;#038;linkCode=as2&amp;#038;tag=marctroi-20&amp;#038;linkId=CVFNNRQ23ADXVH4O&#34;&gt;Soft Skills: The software developer&amp;#8217;s life manual&lt;/a&gt; &lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=1617292397&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;(John Sonmez)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;to-watch:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Watch&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HhNIttd87xs&#34;&gt;Architecture: the lost years&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD&#34;&gt;Workflows of refactoring&lt;/a&gt; (Martin Fowler)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

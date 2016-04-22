@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authentication on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/authentication/</link>
+    <description>Recent content in Authentication on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 24 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Question about Microservices</title>
+      <link>http://www.marcotroisi.com/questions-about-microservices/</link>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/questions-about-microservices/</guid>
+      <description>&lt;p&gt;I received this question about microservices, and I am happy to publish my reply. Perhaps someone else will also find it helpful.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hello Marco,&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve just stumbled upon your articles about microservices. I&amp;#8217;m really trying to get into it, I find it a really interesting approach when it comes to build web apps. I got bored with all those frameworks claiming MVC etc. What I want to focus on is SOC, so microservices really fits in there. However I didn&amp;#8217;t have time yet to practice what I could have read on that, and there are still things that are pretty obscure to me, maybe you could give me your point of view.&lt;/p&gt;
+
+&lt;p&gt;My main concern is about information sharing between services. What happens when a microservice is &amp;#8220;linked&amp;#8221; to another one ? If I take your example of WordPress refactoring, you&amp;#8217;re for example stating that there could be a Post and Media Content microservices. But here, the media content microservices isn&amp;#8217;t really standalone as it wouldn&amp;#8217;t make sense to use it without the Post microservice, because Media Content is directly attached to a Post, see what I mean ? It sounds kind of weird to me, but maybe I&amp;#8217;m wrong.&lt;/p&gt;
+
+&lt;p&gt;Also my second point would be about user authentication. How do you persist the state between microservices ? Do you have an example of that ?&lt;/p&gt;
+
+&lt;p&gt;Thanks for the articles, Waiting to hear from you.&lt;/p&gt;
+
+&lt;p&gt;Regards,&lt;/p&gt;
+
+&lt;p&gt;Romain&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Dear Romain,&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading my article on microservices, I appreciate it. Like you, I am also sick and tired of big, overbloated frameworks that claim to do everything for you, including making your coffee in the morning. While they may be a good choice in certain situations, I think many times they just add a lot of unnecessary complexity, unnecessary &lt;em&gt;ad hoc&lt;/em&gt; concepts to be learned, and most importantly, unnecessary (potentially buggy) code that you haven&amp;#8217;t written yourself. These days I find myself more inclined towards micro-frameworks, or even simple libraries that do just one thing; an example I love would be &lt;a href=&#34;http://www.gorillatoolkit.org/&#34;&gt;Gorilla&lt;/a&gt;, a Golang set of standalone libraries that take care of most of the functionalities for which we would have traditionally used a framework.&lt;/p&gt;
+
+&lt;p&gt;As to your question, let me see if I can somehow help you here. When you say &amp;#8220;linked&amp;#8221;, I take it that you mean a microservice that&amp;#8217;s &lt;em&gt;usually&lt;/em&gt; (or, meant to be) used in conjunction with one or more other microservices. But that, when you think about it, is nothing strange! In fact, any microservice that would be meant to be only used on its own, would simply be a small monolith. For a microservice to be considered as such, it needs to be part of a &lt;strong&gt;microservices architecture&lt;/strong&gt;, that is to say, a bigger application that does a lot of things, and that uses microservices to do each one of those things.&lt;/p&gt;
+
+&lt;p&gt;But I get where your doubt is coming from. You are thinking about the Media Content example, and it doesn&amp;#8217;t feel to you like a standalone service as it would never be used separately from the Post microservice. I see two main problems in this reasoning.&lt;/p&gt;
+
+&lt;p&gt;Firstly, the idea of standalone-&lt;em&gt;ness&lt;/em&gt; in a microservices architecture is meant to be mostly for the sake of the application&amp;#8217;s solidity; in other words, you ought to think of the Post microservice as a standalone service not because you want to use it as such (in fact, you don&amp;#8217;t! You want to use it together with Media, and maybe other services), but because in the event where the Media microservice should be unavailable (e.g. due to a network problem), you don&amp;#8217;t want the entire application to be altogether down. What you want there, is for the Posts to be still available, even though you might have to gracefully handle the absence of pictures and videos.&lt;/p&gt;
+
+&lt;p&gt;I hope this gives you the right perspective. The idea is that you build a microservice independently, and you test it on its own, so to make sure that it will keep working even when other services are unavailable. Then, you mix it with the other microservices.&lt;/p&gt;
+
+&lt;p&gt;The second problem I see there is that, while I agree that Media will mostly be used in conjunction with the Post microservice, nevertheless you shouldn&amp;#8217;t think of them as &lt;em&gt;only&lt;/em&gt; usable together. If you keep things clean and separated, you will be better off in the future, as you never know what functionalities you are going to need as you move on. Think for example of a service that takes pictures from your Media microservice and send them to your Pinterest account using Pinterest&amp;#8217;s APIs. In this case, you don&amp;#8217;t really need the Post microservice, and it would be just one example of a situation where you need Media but you don&amp;#8217;t need Post. So the real point here is the &lt;em&gt;separation of concerns&lt;/em&gt;. Let each microservice do only one thing, and do it well. Let the Media microservice handle upload, resize, manipulation and what-have-you. Let the Post microservice handle the actual content and things like Markdown to HTML conversion (which could probably be another microservice anyway), and so on.&lt;/p&gt;
+
+&lt;p&gt;Regarding your second question about authentication, I would advice you make use of a layer that will take care of receiving requests from the outside, handle the user authentication, and then route the request to the appropriate microservice (together with &lt;em&gt;at least&lt;/em&gt; a secret token, or something more sophisticated if you will), get the result from the microservice and send it back to user. Have a look at &lt;a href=&#34;https://getkong.org/&#34;&gt;Kong&lt;/a&gt; for a reference and a better idea of what I am talking about (warning: it might be overhead for certain projects, but just so you have an idea).&lt;/p&gt;
+
+&lt;p&gt;Here are more resources for you, so you can go more in depth with these arguments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2015/08/06/let-the-magic-die.html&#34;&gt;Make the magic go away (Uncle Bob)&lt;/a&gt;, on the notion of not using overbloated frameworks!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/1491950358/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=1491950358&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=J656A6LG3XRMA3J4&#34;&gt;Building Microservices (Sam Newman)&lt;/a&gt;&lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=1491950358&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://microservices.io/&#34;&gt;Microservices.io&lt;/a&gt;, lots of fine articles to give you a better overview of a microservices archicture, the good and the bad&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Microservices guide (Martin Fowler)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://techblog.netflix.com/2015/02/a-microscope-on-microservices.html&#34;&gt;Netflix and Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I wish you a lot of fun with microservices and your next project,&lt;/p&gt;
+
+&lt;p&gt;Marco&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
