@@ -28,17 +28,6 @@ This is a theme that&#8217;s important to me, as I myself am the type of person 
 
 How do we overcome this? How do we make sure our productivity level keeps being consistent?
 
-<div class="getty embed image" style="background-color:#fff;display:inline-block;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:415px;float:right;">
-  <div style="overflow:hidden;position:relative;height:0;padding:55.776173% 0 0 0;width:100%;">
-  </div>
-
-  <p style="margin:0;">
-    <div style="padding:0;margin:0 0 0 10px;text-align:left;">
-      <a href="http://www.gettyimages.com/detail/157752806" target="_blank" style="color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;">View image</a> | <a href="http://www.gettyimages.com" target="_blank" style="color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;">gettyimages.com</a>
-    </div>
-  </p>
-</div>
-
 I think it&#8217;s wise to recognise that, as humans, we are susceptible to such ups and downs. If all we were doing in life were working, it might have been easier. But that is not the case. We have lives, issues, passions, hobbies, families outside of the workplace. Which is all fine, by the way, it is what makes us so unique and valuable.
 
 And so, instead of being too hard on ourselves when our brains just can&#8217;t seem to connect to our work, it can be useful to relax and develop a discipline that will help us deliver quality work even on our worst days.
