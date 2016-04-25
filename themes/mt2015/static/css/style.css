@@ -17,12 +17,12 @@ License URI: http://www.gnu.org/licenses/gpl-3.0-standalone.html
 
 body { background-color: #fff; }
 
-#tags h1#title {
+.section-list h1#title {
 	text-align: center;
   font-size: 30px;
   margin-top: 30px;
 }
-#tags h2 {
+.section-list h2 {
 	text-align: center;
 }
 
