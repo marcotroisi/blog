@@ -18,7 +18,7 @@ tags:
   - php
 
 ---
-I have been recently studying and trying [Go][1] (Golang), a statically typed language developed by Google, which promises really fast execution times and a pleasant development experience.
+I have recently been studying and trying [Go][1] (Golang), a statically typed language developed by Google, which promises really fast execution times and a pleasant development experience.
 
 I must say, it is pleasant to use indeed. And quite simple to learn. But it does also demolish some of the things that, coming from other languages, you might be giving for granted. While trying to get my head around it, it felt a lot like when I was trying to learn proper Javascript (i.e. _beyond_ jQuery), that is, it can sometimes take a while to understand, but then at one point something &#8216;clicks&#8217;, and immediately everything becomes so clear and easy. You do not end up necessarily thinking that it is _the best language ever_, but you do come to appreciate its design choices. <!--more-->
 
