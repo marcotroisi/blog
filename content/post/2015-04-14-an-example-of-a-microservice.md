@@ -15,7 +15,6 @@ tags:
   - microtranslator
   - php
 featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/04/microtranslator.png"
-
 ---
 After writing on [Microservices][1], I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. <!--more-->
 

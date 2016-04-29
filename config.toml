@@ -7,6 +7,7 @@ aliases = [
     "/index.xml",
     "/feed/"
 ]
+MetaDataFormat = "yaml"
 
 [params]
     site_author = "Marco Troisi"

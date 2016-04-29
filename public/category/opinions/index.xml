@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opinions on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/categories/opinions/</link>
+    <description>Recent content in Opinions on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/categories/opinions/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Microservices won’t improve your code quality</title>
+      <link>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <description>
+
+&lt;p&gt;If you&amp;#8217;ve read some of my &lt;a href=&#34;http://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;#8217;ll know that I&amp;#8217;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+
+&lt;p&gt;I say that and I mean it. Who doesn&amp;#8217;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;#8217;t think it&amp;#8217;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
+
+&lt;p&gt;Yes, microservices are a great thing.&lt;/p&gt;
+
+&lt;p&gt;But we are professionals, and as such we can&amp;#8217;t afford going after what&amp;#8217;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
+
+&lt;h2 id=&#34;write-great-code-first:bd261709805cb407baec357c21e1511f&#34;&gt;Write great code first&lt;/h2&gt;
+
+&lt;p&gt;Just as knowing how to count doesn&amp;#8217;t make you a Mathematician, knowing how to write some code doesn&amp;#8217;t make you a Programmer. I hope I don&amp;#8217;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;#8217;t take ourselves seriously, no one else will.&lt;/p&gt;
+
+&lt;p&gt;Being a programmer means knowing the discipline of programming. It means being aware that every line of code you write today, will have a consequence in the lives of both the end user of your application, and other programmers that will successively work on that same piece of code.&lt;/p&gt;
+
+&lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+
+&lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The monolith is not bad per se&lt;/li&gt;
+&lt;li&gt;Microservices don&amp;#8217;t magically suspend the rules&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let&amp;#8217;s have a closer look at them:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se:bd261709805cb407baec357c21e1511f&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+
+&lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;#8217;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
+
+&lt;h3 id=&#34;microservices-don-8217-t-magically-suspend-the-rules:bd261709805cb407baec357c21e1511f&#34;&gt;Microservices don&amp;#8217;t magically suspend the rules.&lt;/h3&gt;
+
+&lt;p&gt;Say you know how to do your job well, and you&amp;#8217;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;#8217;t need to put the same amount of care into it. Is that true? No, it isn&amp;#8217;t.&lt;/p&gt;
+
+&lt;p&gt;That would be like &lt;em&gt;Pirelli&lt;/em&gt; thinking they don&amp;#8217;t have to work as hard on their tyres as would a theoretical guy who is in charge of building the entire car by himself. After all a tyre is just a small part of a car, isn&amp;#8217;t it? I mean, if anything breaks or if you need a different type of tyre, you quickly replace it.&lt;/p&gt;
+
+&lt;p&gt;In the same way, one should feel justified to build the &lt;em&gt;Withdrawing&lt;/em&gt; component of a microservices-based Banking software in the most careless way! After all, if it stops working, if it becomes too slow, or if we simply don&amp;#8217;t like it anymore, we can quickly rewrite it and replace it.&lt;/p&gt;
+
+&lt;p&gt;I hope you can see that this is just nuts. No one thinks like that, in any industry, and neither should we. Pirelli would have their best engineers designing the safest, most performant tyres possible. They wouldn&amp;#8217;t want a mistake on their part to compromise a car&amp;#8217;s reliability. In the same way, each component of our microservices-based application needs to be something we can be proud of, that can potentially run for as long as possible unless a rewrite becomes necessary for reasons beyond our control.&lt;/p&gt;
+
+&lt;p&gt;These days I&amp;#8217;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;#8217;t even need to write tests!&amp;#8221; I&amp;#8217;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;#8217;t even need to test it!&amp;#8221; This makes no sense, and it&amp;#8217;s simply unjustifiable.&lt;/p&gt;
+
+&lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;#8217;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
+
+&lt;p&gt;When you look at microservices this way, they become a lot less scary, and in a sense a lot of the hype around them goes away. Obviously, a microservice architecture remains a fantastic approach that I would highly suggest for a lot of use cases. But it&amp;#8217;s not, in any way, a different approach to programming. It&amp;#8217;s the same, clean, high quality code that you have (hopefully) been writing until now, now deployed and perhaps organised differently.&lt;/p&gt;
+
+&lt;p&gt;Now, I am not saying that having a microservice architecture will not affect any of your design decisions. It will. But I am suggesting we don&amp;#8217;t give it more credit than we should. I am saying that we should design the architecture of our application regardless of whether it will eventually be deployed into small microservices or not. And, by all means, let&amp;#8217;s not allow the &lt;em&gt;small-ness&lt;/em&gt; of each microservice to suspend the rules of programming. No architectural choice is worth you giving up on being a professional.&lt;/p&gt;
+
+&lt;p&gt;Microservices won&amp;#8217;t improve your code quality. They won&amp;#8217;t make it worse either. Really, it&amp;#8217;s up to you, as it always was, and always will be.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Technical debt is not a unicorn</title>
+      <link>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</guid>
+      <description>
+
+&lt;p&gt;Amongst software engineers, there is this thing called &lt;em&gt;technical debt&lt;/em&gt; that is very often talked about and that tends to have somewhat of an ethereal nature.&lt;/p&gt;
+
+&lt;p&gt;Almost every company will have the technical debt prophet who will try to convince her people that doing what &amp;#8220;feels good&amp;#8221; now is not going to pay off down the line, and that &amp;#8220;future generations&amp;#8221; will have to pay for it. But, almost inevitably, choices will be made that will inescapably lead to some degree of technical debt.&lt;/p&gt;
+
+&lt;p&gt;The list of things that feel good now includes but is not limited to: shipping as fast as possible, making the manager happy, getting back to those hilarious videos on youtube, etc.&lt;/p&gt;
+
+&lt;p&gt;The problem is that sometimes we fail to understand how much of a damage are we actually making with those poor choices being implemented.&lt;/p&gt;
+
+&lt;h2 id=&#34;business-and-codebase-should-grow-together:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Business and codebase should grow together&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-first-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The first stage of growth&lt;/h3&gt;
+
+&lt;p&gt;Think of the Business side of your company and its software codebase as two parts of the whole picture that should be growing and maturing together. So, for example, when the company is at its early stages, and the way everything is being run is very simple and lean because there isn&amp;#8217;t much to be run anyway, the software should also be really down to the basics. No unnecessary complexity, no premature optimisation. Keep it simple, keep it &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;clean&lt;/a&gt;. Write the cleanest code you possibly can, rely on a rock-solid, time tested set of tools. Don&amp;#8217;t adventure in something that you &lt;em&gt;think&lt;/em&gt; will be useful as you grow, rather make sure that you make it as easy as possible to transition the software to a different framework, database, architecture (e.g. a &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt; architecture).&lt;/p&gt;
+
+&lt;h3 id=&#34;the-second-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The second stage of growth&lt;/h3&gt;
+
+&lt;p&gt;As the company begins to gain traction, there will be a time of relatively rapid growth. The company is going from literally zero to hundreds or thousands of people using the particular services they offer. At this time, it will begin to become evident whether good choices were made in the prior stage; it should be very easy to change anything based on a new decision from the managers or, perhaps, from the customer&amp;#8217;s feedback. Changing anything should be a matter of hours, not days. Implementing a new feature should be an absolute pleasure. No important architectural change should be necessary in order for the whole platfom to keep functioning even in the face of thousands of new users being added daily. Of course, things like implementing a new cache layer to ease the pressure on the servers, or adding a new cluster for the database, are okay. But no discussion about changing framework, or adopting a new database should take place. If the framework or database adopted can&amp;#8217;t handle this type of pressure nicely, then someone made a very incompetent choice at the previous level, the one where this type of decisions were made. But ideally, all modern frameworks and databases should be able to manage the amount of traffic that is happening at this particular stage.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-third-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The third stage of growth&lt;/h3&gt;
+
+&lt;p&gt;The third stage would be the one of multiplication. At this point, the company is so successful that it may want to launch its services abroad. As the product is already popular enough in its home country, say the US, you&amp;#8217;d expect that on day one of the launch to the next territory, say Europe, you&amp;#8217;d have to handle hundreds of thousands of new users, with support for multiple languages and a whole lot of things that will have to be customised on a single Country basis. This is the time where considerations like, &amp;#8220;should we switch framework&amp;#8221; or &amp;#8220;can our database handle this much&amp;#8221; are more than appropriate. Here more than anywhere else, it will become evident whether everyone did his/her job properly. If good choices were made and everyone acted like a professional at the prior stages, moving from one database to another, adopting a different framework, or switching to a more scalable architecture, should only be a matter of days. But, most importantly, the key people in the team should have a clear path in their mind of what needs to be done in order for that transition to take place. There should be no guessing.&lt;/p&gt;
+
+&lt;h2 id=&#34;technical-debt-is-suicide:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Technical debt is suicide&lt;/h2&gt;
+
+&lt;p&gt;Just like any other debt, technical debt will only lead to bad things. And as it increases, the chances of a company succeeding are going to be greatly diminished. There is an inversely proportional relationship between the two.&lt;/p&gt;
+
+&lt;p&gt;Now imagine the opposite situation, of a company that does it all wrong. It would look something like this: at the first stage of growth, there would be two plausible scenarios. The first, would be that of premature optimisation with unnecessary choices and decisions being made, because of incompetent leaders and programmers who think their little company should have the same scalability that Google has. Days, weeks, are wasted implementing layers of caching and database clusters, and setting up complex development and deployment tools, without even enough people to maintain all this stuff. If anything breaks, the CTO, a team lead or a senior engineer needs to spend a day or two fixing the problem because there aren&amp;#8217;t even enough people to take care of it (you don&amp;#8217;t usually have devops or system people in a small startup). The growth of the company is slowed down, and you&amp;#8217;re lucky if it succeeds at all.&lt;/p&gt;
+
+&lt;p&gt;The second scenario would be that of someone who wants to avoid at any cost the first scenario, and decides that, after all, the only thing that matters is for the company to keep growing as fast as possible. They won&amp;#8217;t waste an hour more on a ticket in order to write tests and to make sure the code is clean. They won&amp;#8217;t make sure it&amp;#8217;s easy at any point in future to switch database or even adopt a different ORM library. The &lt;em&gt;illusion&lt;/em&gt; of this scenario is that it is likely to get the company to the second stage of growth, even if at the cost of a few late nights and weekends spent fixing bugs and an overall unstable platform.&lt;/p&gt;
+
+&lt;p&gt;At the second stage of growth, coming from the second scenario, choices that should have been made at the third stage, like switching to a different database or a change of architecture, will become necessary because the platform can&amp;#8217;t even handle the few thousands of new users that are being added on a periodic basis. What&amp;#8217;s even worse, a rewriting of many parts or the codebase will become inevitable and a lot of time will have to be spent desperately trying to raise the percentage of code covered by some sort of test.&lt;/p&gt;
+
+&lt;p&gt;For the company coming from the first scenario, it won&amp;#8217;t look too different. A lof of technical choices that had been made in the first stage will be shown as wrong for the actual needs of this specific platform, and so again time will have to be spent switching and rewriting.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s hard to imagine a company getting to the third stage of growth under these circumstances, but if it does, it should look similar to what it would have looked like in normal conditions. But, again, it&amp;#8217;s unlikely to get there, and if it does, so much time and money will have been wasted to get here, that it will be hard to justify again any change or rewriting, though this is the only stage where those things would have actually made sense. It&amp;#8217;s also likely that a few key people in the engineering team has been replaced because of their incompetence, adding to everything else the costs of having to introduce new people and mosts importantly new leaders.&lt;/p&gt;
+
+&lt;h2 id=&#34;avoiding-technical-debt:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Avoiding technical debt&lt;/h2&gt;
+
+&lt;p&gt;Technical debt exists, it&amp;#8217;s real and it can be proven, almost touched. It&amp;#8217;s not a myth, and the first step to avoiding it is realising how damaging it can be. Doing things right will not only lead to building a successful platfom serving happy customers. It will also be a lot more fun. It&amp;#8217;s way more enjoyable to work on clean code, to be able to introduce a new feature in a matter of hours and not weeks. It&amp;#8217;s a lot better to spend time solving real problems rather than fixing bugs. And of course, no one wants to work late nights and weekends if it&amp;#8217;s not absolutely necessary.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-resources:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;More resources&lt;/h2&gt;
+
+&lt;h3 id=&#34;to-read:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Read&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;The clean architecture&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&amp;#038;camp=1789&amp;#038;creative=390957&amp;#038;creativeASIN=0132350882&amp;#038;linkCode=as2&amp;#038;tag=marctroi-20&amp;#038;linkId=7KDRFWMKHKFMNWAR&#34;&gt;Clean Code: A Handbook of Agile Software Craftsmanship&lt;/a&gt; &lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=0132350882&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;(Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&amp;#038;camp=1789&amp;#038;creative=390957&amp;#038;creativeASIN=1617292397&amp;#038;linkCode=as2&amp;#038;tag=marctroi-20&amp;#038;linkId=CVFNNRQ23ADXVH4O&#34;&gt;Soft Skills: The software developer&amp;#8217;s life manual&lt;/a&gt; &lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=1617292397&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;(John Sonmez)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;to-watch:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Watch&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HhNIttd87xs&#34;&gt;Architecture: the lost years&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD&#34;&gt;Workflows of refactoring&lt;/a&gt; (Martin Fowler)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What can we learn from Periscope</title>
+      <link>http://www.marcotroisi.com/what-can-we-learn-from-periscope/</link>
+      <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/what-can-we-learn-from-periscope/</guid>
+      <description>
+
+&lt;p&gt;I have been using &lt;a href=&#34;http://www.periscope.tv&#34;&gt;Periscope&lt;/a&gt; for a while now, and I am really enjoying it. If you don&amp;#8217;t know it, Periscope is Twitter&amp;#8217;s new live streaming app, that allows anyone to stream directly from one&amp;#8217;s smartphone, and it will notify you as soon as someone you follow is live-streaming.&lt;/p&gt;
+
+&lt;p&gt;The concept of live streaming is not a new one, but Periscope (alongside with their competitor, &lt;a href=&#34;https://meerkatapp.co/&#34;&gt;Meerkat&lt;/a&gt;) has made it really easy to do so from a mobile device and, most importantly, to create a community of followers around it.&lt;/p&gt;
+
+&lt;p&gt;If you are on Twitter, it makes sense that you&amp;#8217;d want to give Periscope a shot. What makes it different from YouTube is of course the live element, what makes it different from, say, &lt;a href=&#34;https://plus.google.com/hangouts/onair&#34;&gt;Google Hangouts On Air&lt;/a&gt;, is the sense of &lt;em&gt;impromptu-ness&lt;/em&gt; and familiarity that it creates, as you&amp;#8217;re literally speaking from your phone, but also the fact that you already have a community of followers that will be notified when you start streaming, so there is no need to plan it in advance.&lt;/p&gt;
+
+&lt;p&gt;Personally, I have been using Periscope as a watcher, rather than a streamer, in order to follow some of my favourite people that I already follow on other social media channels.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-8217-s-great-about-periscope:506996eb1ee3dc44d275f124525b4fee&#34;&gt;What&amp;#8217;s great about Periscope&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignright wp-image-446 size-full&#34; src=&#34;http://www.marcotroisi.com/wp-content/uploads/2015/09/periscope.png&#34; alt=&#34;periscope&#34; width=&#34;228&#34; height=&#34;228&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you use Periscope, two things will become obvious to you after a little while:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The app is beautifully designed. It&amp;#8217;s elegant yet simple to use.&lt;/li&gt;
+&lt;li&gt;There is still a lot that can be improved.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I find this great, and I think there is something engineers, product managers and other people involved in building apps and online services can learn. It&amp;#8217;s something that has to do with focus, with avoiding being a perfectionist and with not wasting time. Here&amp;#8217;s what I think are the lesson Periscope&amp;#8217;s creators can teach us:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core business&lt;/strong&gt;. Spend some time understanding what exactly your core business is about, and focus mainly on that until you know it&amp;#8217;s absolutely awesome. In Periscope&amp;#8217;s case the core business is &lt;em&gt;live streaming&lt;/em&gt;. There is much more they can do to make the app better and better, like a better player for re-watching videos, a landscape mode, perhaps even a web/desktop version of the app. But, the things that are there, are absolutely great. The app does only a few things, but it works so well! It&amp;#8217;s smooth, it&amp;#8217;s elegant, it&amp;#8217;s simple. In other words, it&amp;#8217;s addictive. Just like Twitter.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perfectionism is bad&lt;/strong&gt;. Saying that you want your app to be great is one thing. Trying to make it perfect is unrealistic. Once you&amp;#8217;ve found your core business, make sure you deliver enough functionalities so that users can actually understand, and enjoy, the core business. When you use Periscope, it won&amp;#8217;t take you long before realising that the app is all about live streaming and creating a community around live videos. That&amp;#8217;s it. Like I said, there are so many functionalities they could add, but trying to have them all from the start, would have delayed indefinitely their launch, and would have probably confused people on what the app is about. Think of Google and their years-long beta version of Gmail: they kept it in beta knowing that they wanted to keep improving it. Yet, the core functionalities where there, and, frankly, they were great from the beginning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;#8217;t waste time&lt;/strong&gt;. In the programming world, we talk about &lt;em&gt;premature optimisation&lt;/em&gt; as the unfortunate situation where programmers spend too much time thinking about how to make sure the app is ready for a lot of functionalities that, from a business point of view, may not even have been decided yet. The solution to that, is to develop software that has a solid foundation, and that is flexible enough that you can keep improving it and adding to it without fear of breaking something in the process. Periscope seems to have done this. Since I have been using it, I have experienced no crashes. The app works really well and it seems to me to be pretty stable. Yet, as I have already said, there are things they could add to make it better. But what is there is enough to make people want to use it, and the foundation has been laid for adding new features that will make it even better.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In conclusion, Periscope is a great app, but what is making it a huge success is how they have handled the development phase. If you like Meerkat or other competitor apps, that&amp;#8217;s great, but the reason why I didn&amp;#8217;t like it, was that I found it overly complex and it just didn&amp;#8217;t feel as smooth and simple to use. It lacks focus. On the flip side, Periscope developers seem to have gotten it right.&lt;/p&gt;
+
+&lt;p&gt;This is of course just my point of view, and I would love to hear yours! &lt;a href=&#34;https://twitter.com/MarcoTroisi/status/639770687045894145&#34;&gt;Let me know&lt;/a&gt; what you think.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-resources:506996eb1ee3dc44d275f124525b4fee&#34;&gt;More resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://michaelhyatt.com/what-i-love-about-periscope.html&#34;&gt;What I love about Periscope&lt;/a&gt; (Michael Hyatt)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B014IP8RU2/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B014IP8RU2&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=CWTOFMMUFKNYIKLR&#34;&gt;Periscope Your Biz: Live Video Broadcasting for Profits&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important;&#34; src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;l=as2&amp;o=1&amp;a=B014IP8RU2&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;(Book &amp;#8211; Amazon)&lt;/li&gt;
+&lt;li&gt;[Leveraging Twitter&amp;#8217;s Periscope: Join The Community, Build Your Business, and Have Fun!][7] &lt;img style=&#34;border: none !important; margin: 0px !important;&#34; src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;l=as2&amp;o=1&amp;a=B012H76NMC&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;(Book &amp;#8211; Amazon)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[7]: &lt;a href=&#34;http://www.amazon.com/gp/product/B012H76NMC/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B012H76NMC&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=Z4TNTOACIIF5P66N&#34;&gt;http://www.amazon.com/gp/product/B012H76NMC/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B012H76NMC&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=Z4TNTOACIIF5P66N&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apple and the battle for privacy</title>
+      <link>http://www.marcotroisi.com/apple-and-the-battle-for-privacy/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/apple-and-the-battle-for-privacy/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Apple is in no position for attacking other companies over how they deal with their users privacy and security. There is nothing in their policies that makes us think they care about us more than other companies do.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Only a few weeks ago, Apple&amp;#8217;s CEO Tim Cook delivered a &lt;a href=&#34;http://techcrunch.com/2015/06/02/apples-tim-cook-delivers-blistering-speech-on-encryption-privacy/#.uvoewi:m2qz&#34;&gt;speech&lt;/a&gt; on privacy, security and how Apple is so much better at these things.&lt;/p&gt;
+
+&lt;p&gt;Now, someone would say I am an anti-Apple guy, although that&amp;#8217;s demonstrably false, if for nothing else, because I have owned and worked with several Apple devices during the course of the past few years. I do not always enjoy how they market their products, the way they make you feel like you absolutely need something you actually don&amp;#8217;t. &lt;a href=&#34;http://www.apple.com/uk/osx/&#34;&gt;Mac OS&lt;/a&gt; is probably my favourite OS, but it is extremely expensive to buy, and in my opinion, unless you are a professional, you really don&amp;#8217;t need anything more than a nice laptop with &lt;a href=&#34;http://www.ubuntu.com&#34;&gt;Ubuntu&lt;/a&gt; on it. But that&amp;#8217;s besides the point.&lt;/p&gt;
+
+&lt;p&gt;It made me feel quite uncomfortable to listen to Cook&amp;#8217;s words on how we can all trust Apple with our data and our messages. Now, don&amp;#8217;t get me wrong, it&amp;#8217;s amazing that a CEO of a major tech company would stand up in defense of his customers&amp;#8217; data, stating how unacceptable it is for any other company not to act this way. But then it made me think that, great words aside, there was nothing there that would justify him attacking other companies (mostly, Google), and positioning himself as the new champion for the defense of people&amp;#8217;s security and privacy.&lt;/p&gt;
+
+&lt;p&gt;There are actually a few reasons why Apple &lt;strong&gt;is not&lt;/strong&gt; in the position of becoming the new advocate of privacy and security:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Apple has been shown vulnerable to attacks a few times already&lt;/strong&gt;. Just think of the not-too-long-ago leaked &lt;a href=&#34;http://www.ibtimes.com/icloud-nude-leaks-26-celebrities-affected-nude-photo-scandal-1692540&#34;&gt;celebrity pictures&lt;/a&gt; from iCloud. Of course, these things happen, not only to Apple products, and most of the times it&amp;#8217;s just people&amp;#8217;s fault for not creating stronger passwords/enabling &lt;a href=&#34;https://en.wikipedia.org/wiki/Two-factor_authentication&#34;&gt;two-factor authentication&lt;/a&gt;. But still, we can&amp;#8217;t recall anything like that happening with Gmail, or Google+ Photos in recent times. And even it had, it would only show they are all susceptible to such attacks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;They are a very closed company&lt;/strong&gt; From my point of view, this is a major one. If the CEO of &lt;a href=&#34;http://www.redhat.com&#34;&gt;Red Hat&lt;/a&gt; were to give a similar speech, I would have applauded him. Why? Because Red Hat (like some other companies out there) adheres to a strict policy of transparency, which is very clear first and foremost by the fact that they open source &lt;strong&gt;all of their products&lt;/strong&gt;. This means that they could never put themselves in Cook&amp;#8217;s position without having thousands of people going to actually check their code to verify the truth of their claims. But this is simply impossible with Apple. A more closed, walled-garden type of company I can&amp;#8217;t think of. A while ago my wife and I had a really bad experience with trying to move all our iCloud photos somewhere else, so that we could access them from our non-Apple devices as well. We struggled and struggled, and took us hours to move everything. The reality is, there is no easy way to opt-out from Apple, whereas it&amp;#8217;s really easy to move away from most of, say, Google&amp;#8217;s products. If they really cared about my data, they should at least give me the ability to easily export it somewhere else anytime I want. It is my data, after all.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is not true that if something is for free, then you must be the real product&lt;/strong&gt;. Derek Powazek wrote a &lt;a href=&#34;http://powazek.com/posts/3229&#34;&gt;great piece&lt;/a&gt; on this. Companies like Apple like to charge you for everything. And they want to make you believe that because you are paying &lt;em&gt;a lot&lt;/em&gt; of money, you will have a better service and your data won&amp;#8217;t be used for other purposes, like, showing you ads based on your searches. But this is demonstrably false. First of all, there is no direct connection between you paying for a service and how your data will be used. For all we know, Apple (and others) could be doing &lt;a href=&#34;http://advertising.apple.com/&#34;&gt;the same thing&lt;/a&gt; with your data even though you paid for their products. Besides, I can give you plenty of examples of products for which I have paid money, only to be treated rubbish by the companies who made them. On the other hand, some of the free services that I use, have made me incredibly happy. All this is saying, is that &lt;em&gt;there is no correlation between how much you pay, and how much they care about you&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Like I said at the beginning, I am not an anti-Apple person, and I didn&amp;#8217;t write this piece to attack Apple. Rather, I wanted to put things back into the right perspective. I do not believe companies like Google, Microsoft or Amazon do any better than Apple in terms of privacy and security. Which doesn&amp;#8217;t mean what they do is bad. All of these companies adopt (or are in the process to adopt) first-class encryption techniques, and one would want to argue that if there is anyone with enough resources to actually keep your data safe, then it has to be these companies, including Apple. Besides, privacy is a highly regulated matter (especially here in [Europe][9]), and so there is no way they can use your data to do what they want, unless you explicitly authorise them.&lt;/p&gt;
+
+&lt;p&gt;But, it would be arrogant of one of them to stand up as the messiah of privacy and security, especially if that means attacking other companies. If they want us to keep trusting them with our data, they need to keep doing the right thing. They should ask us only for informations that are strictly necessary; they should use world class encryption and spare no resource in order to keep everything safe; they should use all their influence when governments try to change laws and make it acceptable for them to have a look at my holidays pictures.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Cover photo from Flickr.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;[9]: &lt;a href=&#34;https://en.wikipedia.org/wiki/Data_Protection_Directive&#34;&gt;https://en.wikipedia.org/wiki/Data_Protection_Directive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Ethics of Code Reviews</title>
+      <link>http://www.marcotroisi.com/the-ethics-of-code-reviews/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/the-ethics-of-code-reviews/</guid>
+      <description>&lt;p&gt;Code Reviewing is one of the greatest tools we have as software developers, to help us improve the quality of our code. It can be incredibly beneficial, but it can also be a source of pain and overall, a waste of time instead of a time-saver.&lt;/p&gt;
+
+&lt;p&gt;Like with many things in life, knowing &lt;em&gt;why&lt;/em&gt; we do something, can be a good way to do that thing at its best and not to abuse it. Let&amp;#8217;s begin then to unpack what a code review &lt;strong&gt;is not&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is not your nice, daily half an hour of shooting at your team mates and pointing fingers at their mistakes. If you do code reviews because you find pleasure in finding other people&amp;#8217;s code mistakes or lack of use of best practices, then you shouldn&amp;#8217;t be doing code reviews in the first place.&lt;/li&gt;
+&lt;li&gt;It is not a place for &lt;em&gt;teaching&lt;/em&gt;. If you have best practices that you think your team mates should know and use, then there should be a time, prior to starting your project if at all possible, where such best practices and guidelines are established, accepted and understood.&lt;/li&gt;
+&lt;li&gt;It is not where discussions should occur. Never mind long and opinionated ones! This is where comments should be kept short and to the point. No repartee, no attempts to justify/defend yourself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What, then, is code reviewing for? I have outlined &lt;strong&gt;4 points&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It&amp;#8217;s a way of &lt;strong&gt;sharing responsibilities&lt;/strong&gt;. When we are code reviewing, we are &lt;em&gt;&amp;#8220;carrying the weight together&amp;#8221;&lt;/em&gt;, so to speak. We are quitting the old &amp;#8220;I don&amp;#8217;t care, it&amp;#8217;s not my code&amp;#8221; mentality that many of us tend to have, in favour of a &amp;#8220;we&amp;#8217;re in this together&amp;#8221; attitude.&lt;/li&gt;
+&lt;li&gt;It is a great way to &lt;strong&gt;learn from each other&lt;/strong&gt;. This might, at first sight, seem to be in contrast with the second point of the previous list, but stay with me here: I have learnt &lt;em&gt;so much more&lt;/em&gt; in my career through friendly, non-aggressive opinions and suggestions from my colleagues, than I have from those forceful, unfriendly and aggressive comments from those who thought they knew better than anyone else (or than me, at least). As a matter of fact, not only have I not learnt anything substantial from them, but I have actually &lt;em&gt;hated them&lt;/em&gt; (the comments, not the people!). No matter how good you are, people deserve your respect, and even if they have less experience than you, you were once like them.&lt;/li&gt;
+&lt;li&gt;It&amp;#8217;s where some &lt;strong&gt;bugs and blatant errors are found&lt;/strong&gt;. At the end of the day, this is the real point of doing code reviews. When you do one, focus on finding errors and bugs that whoever wrote the code may have missed, and suggest quick way to fix them. Sometimes you&amp;#8217;ll even find the same error occurring more than once. Resist the temptation to write witty comments like &lt;em&gt;&amp;#8220;I can&amp;#8217;t believe you&amp;#8217;re doing this again&amp;#8221;&lt;/em&gt;, or &lt;em&gt;&amp;#8220;stop doing this for heaven&amp;#8217;s sake!!!!!!&amp;#8221;&lt;/em&gt;. Be professional, and if you think there is something that needs to be discussed, do it personally, in a friendly and not humiliating fashion.&lt;/li&gt;
+&lt;li&gt;It &lt;em&gt;may&lt;/em&gt; be a way of &lt;strong&gt;improving the code quality&lt;/strong&gt;. As outlined before, best practices should have been priorly discussed, but if you find some piece of code that you reasonably think could be made more efficient, suggest it nicely. A more facultative &lt;em&gt;&amp;#8220;Maybe use &lt;code&gt;function2()&lt;/code&gt;, it would run faster&amp;#8221;&lt;/em&gt; is better than a mandatory &lt;em&gt;&amp;#8220;replace &lt;code&gt;function1()&lt;/code&gt; with &lt;code&gt;function2()&lt;/code&gt;&amp;#8220;&lt;/em&gt; kind of thing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At the end of the day, what needs to be remembered is that your collaborators/colleagues/team-mates are professionals like you, regardless of the individual amount of experience. But, ultimately and more importantly, they are human beings! And human beings work better, produce more and tend to be happier in an environment where they are understood, appreciated and respected. And code reviewing can be an incredibly powerful helper in this, if used wisely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5 Tips for becoming a Productive Programmer</title>
+      <link>http://www.marcotroisi.com/productive-programmer-5-tips/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/productive-programmer-5-tips/</guid>
+      <description>&lt;p&gt;Have we not all been there? You&amp;#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&amp;#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.&lt;/p&gt;
+
+&lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc.&lt;/p&gt;
+
+&lt;p&gt;This is both a blessing and a curse. On one hand, it is amazingly challenging and stimulating to be able to use our brains to solve problems, and develop solutions. On the other hand, our brains can be so easily affected by our psycho-physical status, that we easily find ourselves having seemingly unproductive days. Even though just a few days before, we were feeling like we could have designed Google from scratch in a couple of hours!&lt;/p&gt;
+
+&lt;p&gt;This is a theme that&amp;#8217;s important to me, as I myself am the type of person that can be easily distracted and pretty much spend an entire day on a single task without ever really focussing on what I am doing. Then, the next day, I will brilliantly solve &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; different issues and at end of my day I won&amp;#8217;t even feel tired!&lt;/p&gt;
+
+&lt;p&gt;How do we overcome this? How do we make sure our productivity level keeps being consistent?&lt;/p&gt;
+
+&lt;p&gt;I think it&amp;#8217;s wise to recognise that, as humans, we are susceptible to such ups and downs. If all we were doing in life were working, it might have been easier. But that is not the case. We have lives, issues, passions, hobbies, families outside of the workplace. Which is all fine, by the way, it is what makes us so unique and valuable.&lt;/p&gt;
+
+&lt;p&gt;And so, instead of being too hard on ourselves when our brains just can&amp;#8217;t seem to connect to our work, it can be useful to relax and develop a discipline that will help us deliver quality work even on our worst days.&lt;/p&gt;
+
+&lt;p&gt;Here are some simple steps I follow in order to make sure my brain understands that I am intentional about being a productive programmer today:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Wake up early&lt;/strong&gt; Ok, this is harsh, I know. I &lt;em&gt;love&lt;/em&gt; sleeping. My whole life, since I was a kid, I&amp;#8217;ve always gotten out of bed at the very last minute. This is so counter-productive! The average successful person &lt;a href=&#34;http://uk.businessinsider.com/things-successful-people-do-before-breakfast-2014-11?op=1?r=US&#34;&gt;wakes up very early&lt;/a&gt;, like 4-5 am. I&amp;#8217;ve started waking up about two hours before I need to be at work. That means that, by the time I get to work, &lt;strong&gt;my brain is already active&lt;/strong&gt; and ready to go. Besides, this has finally solved my life-long problem of never having time for anything else aside from work! I now have enough time to consistently read, write on my blog, work on side-projects, study German (!), etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Morning is for the hard stuff&lt;/strong&gt;: as far as I can, I &lt;em&gt;avoid&lt;/em&gt; anything distracting in the morning. I do not read my emails (yes, I am one of those who is obsessed by always having a clean inbox!), and I have stopped reading the news and stuff like that first thing. I have developed a routine of: turning on my laptop, going to Spotify to choose some music (see point 3), opening my Code Editor and my browser and starting to work. Everything else is a distraction, and the morning is too precious to waste it with anything else. I know I don&amp;#8217;t have the same level of concentration in the afternoon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Not all music is the same&lt;/strong&gt;. I love music. As a musician myself, it&amp;#8217;s too easy for me to get involved into what I am listening! It is ok for 10-15 minutes to listen to your favourite songs. But, ideally, and especially in the morning, I go on the &lt;em&gt;Moods&lt;/em&gt; section of Spotify and I select one of the playlists under &lt;em&gt;Focus&lt;/em&gt;. This is a way of reminding my brain that now it&amp;#8217;s time to work. This type of music really helps me to concentrate.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Focus on one small task at a time&lt;/strong&gt;. The key here is to put myself under a little bit of healthy pressure. The thing is, when you are working on one big task, and your expected time of delivery is days ahead, it&amp;#8217;s too easy to lose track, and not to make good use of the time you have. It is way better to focus on one little task at a time, with a delivery time expected in hours, not days.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Separate things&lt;/strong&gt;. &amp;#8220;There is a time for everything,&amp;#8221; said King Solomon. In other words, multitasking doesn&amp;#8217;t really work, if you are trying to be productive. &lt;a href=&#34;http://www.health.com/health/gallery/0,,20707868,00.html&#34;&gt;Science proved it&lt;/a&gt; as well. There is nothing like dedicating your focus and attention on one thing at a time. Quality makes the difference, in this type of thing. Do what you have to do with absolute focus, finish earlier than expected, and then move on. This practically means things like: not having too many tabs open on my browser, not being involved in 10 different chats with my friends, not checking my phone every 5 minutes, etc&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While doing all of the above things is undoubtedly a challenge, and it is not rare for me to break one or more of these rules, I use them as a blueprint and point of reference, and I get back to them every time I feel I&amp;#8217;m getting less productive than I should.&lt;/p&gt;
+
+&lt;p&gt;And you? What are your tips and tricks for working with greater focus and delivering higher quality work?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How technology will open even more doors for people to work together</title>
+      <link>http://www.marcotroisi.com/how-technology-will-open-more-doors-for-people-to-work-together/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/how-technology-will-open-more-doors-for-people-to-work-together/</guid>
+      <description>
+
+&lt;p&gt;After reading &lt;a href=&#34;http://www.levels.io&#34;&gt;levels.io&lt;/a&gt;&amp;#8216;s latest brilliantly written &lt;a href=&#34;https://levels.io/a-future-of-two-extremes/&#34;&gt;article&lt;/a&gt;, I started thinking about a future, as suggested by the article, of massive corporations on one hand and billions of self employed individuals on the other.&lt;/p&gt;
+
+&lt;p&gt;Now of course, one need not be a financial analyst to see that companies like Amazon, Google and Apple are going to &amp;#8220;rule the world&amp;#8221; in many ways in the near future (in a sense, they already do). We all accept that. And looking at, for example, the amount of pressure that these companies are able to put on their governments, one also wonders what the future of politics will look like.&lt;/p&gt;
+
+&lt;p&gt;What I struggle to agree with, is this vision of a world of &lt;strong&gt;self employed individuals&lt;/strong&gt;. Now, granted, being a freelancer or any sort of self employed worker is becoming increasingly popular and, in some countries, easier than ever. And I bet this trend is going to keep growing in the foreseeable future.&lt;/p&gt;
+
+&lt;p&gt;But I have also noticed another trend becoming a reality in the last two or three years. It is called &lt;strong&gt;specialisation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Going back a few years ago, it was entirely normal for the same person to be able to do some backend coding, to know a bit of CSS and HTML and also to be able to use Photoshop&amp;#8217;s main functionalities in order to design a decent-looking interface. SEO was never a big issue, all you had to do was to buy a few links. And of course mobile native apps weren&amp;#8217;t even a thing.&lt;/p&gt;
+
+&lt;p&gt;Things today are different. Yes, it is still possible for an individual to do all these things but not without compromising something and with clear limits in terms of scale. I realise that there may be exceptions here, and levels.io&amp;#8217;s success with the [startups he founded][3] in the last few months is striking and encouraging. But I think what his and others&amp;#8217; success says is that, at best, and if a lot of things go like they should, it is possible to build something on your own. This is amazing! But it also says absolutely nothing to disprove the power of, for example, a startup where, say, two, ten or even fifty people, each one of them incredibly well prepared in his/her own field, put their heart and soul in a project.&lt;/p&gt;
+
+&lt;p&gt;One person can build a project/company and can have some degree of success with it. But can that same person keep doing that forever and make that company keep growing? History tells us that this happens rarely if ever. There is something about &lt;strong&gt;a group of people&lt;/strong&gt; serving each other and, ultimately, their customers, with different skill sets and personalities. And there is something about building a company, a product, an organisation, that doesn&amp;#8217;t just last for a few months or years, but that lasts for as many years as possible, leaving an actual impact and making a real difference in people&amp;#8217;s lives, in a way or another.&lt;/p&gt;
+
+&lt;h2 id=&#34;anyone-with-a-laptop-can-build-airbnb-or-can-he:d84b2c1a513cd619f0d73f81ec7a99ab&#34;&gt;Anyone with a laptop can build Airbnb. Or, can he?&lt;/h2&gt;
+
+&lt;p&gt;The idea that, if you do things on your own, a &amp;#8220;kid from Africa with a laptop&amp;#8221; can build something better and rob you of your market in a couple of months, is &lt;em&gt;exactly&lt;/em&gt; the reason why companies formed by &lt;em&gt;at least&lt;/em&gt; two people are a winner. In the &lt;strong&gt;open source&lt;/strong&gt; world, we have known this for a long time: there is power in a group of people committing their time and skills to a project and a vision.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;That a “kid with a laptop” can build smtg better than your one-man startup in a few weeks, is exactly why companies usually win. [&lt;a href=&#34;https://twitter.com/intent/tweet?source=tweetbutton&amp;#038;text=%22That+a+kid+with+a+laptop+can+build+smtg+better+than+your+1-man+startup+in+a+few+weeks,+is+exactly+why+Companies+win.%22&amp;#038;via=marcotroisi&#34; target=&#34;_blank&#34;&gt;tweet this&lt;/a&gt;]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;conclusion:d84b2c1a513cd619f0d73f81ec7a99ab&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Technology has given us an incredible amount of tools that we can use to build our projects and companies. People all over the world, and for years now, have built the most amazing blogs, websites, apps, etc. But there comes a time where you will need to go to the next level, and some people with different skills will need to be added to your team. This is what we call a Company (a startup, if we want it to sound cool!), or an Organisation (if we do not look for a profit). It is that easy. And as I look at the future, I see plenty and increasing opportunities to join forces with &lt;strong&gt;highly specialised&lt;/strong&gt; people in order to build things that really are meaningful.&lt;/p&gt;
+
+&lt;p&gt;[3]: &lt;a href=&#34;https://levels.io/12-startups-12-months/&#34;&gt;https://levels.io/12-startups-12-months/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -11,6 +11,10 @@ echo "/tag folder"
 mkdir public/tag
 cp -r public/tags/* public/tag/
 
+echo "/category folder"
+mkdir public/category
+cp -r public/categories/* public/category/
+
 echo "*** Git add & commit ***"
 git add -A
 git commit -m "Updating Site"
