@@ -13,7 +13,7 @@ tags:
 - OOP
 - object oriented programming
 title: Healthy OOP
-url: /new-post-url/
+url: /healthy-oop-object-oriented-programming/
 ---
 I enjoy writing code in an Object Oriented fashion. Thinking in terms of objects gives me
 a model that, when followed consistently, ends up giving me code that is well organised,
@@ -94,7 +94,65 @@ working on.
 
 ## Strive to represent real world entities, not bags of data
 
-...
+This is a point that I keep coming back to: take to time to think about your objects and the
+overall architecture.
+
+You should think of your objects as real world entities, rather than data structures, or "helpers".
+So, again, instead of replicating your database tables, think about real world examples that
+would make sense in your case, and expose real behaviour, rather than a bunch of accessors.
+
+Instead of building a `class PasswordEncrypter` that takes in passwords and encrypts them
+using the algorithm of choice, think in terms of small, more maintainable, composable and extendable objects.
+
+Why not defining a simple interface like this:
+
+  type EncryptedPassword interface {
+    func decriptedValue() string;
+  }
+
+and then have simple, small classes using that interface to encrypt a given password using a certain algorithm. Like this:
+
+```
+  type EncryptedSha1Password struct {
+    var encryptedPassword string;  
+  }
+  func (p *EncryptedSha1Password) encryptedValue() string {
+    // here encrypt your password with sha1 and return value
+  }
+```
+
+You could then have another class that looks like this:
+
+```
+  type EncryptedSha1PasswordWithSalt struct {
+    var encryptedPassword string;
+  }
+  func (p *EncryptedSha1PasswordWithSalt) encryptedValue() string {
+    // here encrypt your password with sha1 and return value
+  }
+```
+
+See how simple it is? Following this approach, you'll never end up with overbloated, ever-growing "Services".
+
+The main point here is that you want to build in a way that allows you to keep things always small, always composable,
+always breakable into smaller pieces. The problem with a `PasswordEncrypter` would have been that even if
+at the beginning it supported only one encryption algorithm, the number of such algorithms could have grown with time,
+and there would have been no obvious way to break things into smaller pieces.
+
+Notice that I am not saying that it couldn't have been done, what I am saying is that there wouldn't have been an obvious
+way to do it, which is after all my main point of contemption with OOP: it's a *system* that gives you a way to
+consistently keep your code organised, easy to break into smaller pieces, easy to understand.
+
+In the example above, the real world entity is the *encrypted password*, as defined by the initial interface. It is very easy to
+imagine that this password could have been encrypted with as many encryption algorithms as you can think of, and all you need to do
+is to have an object representing each one of those algorithms. Want to encrypt a password with an algorithm on top of another one?
+Create an object for it (probably the best approach), or do something like this:
+
+```
+  // code with result of one object into another
+```
+
+
 
 ## Further reading:
 
