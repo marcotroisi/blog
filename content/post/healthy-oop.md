@@ -65,7 +65,7 @@ Personally, my favourite approach would be to build [SQL-speaking Objects](http:
 
 At any rate, if you decide to go with an ORM, that's entirely your prerogative, and it's not wrong per se. But make sure
 you're building things in a *clean* fashion, and don't use the ORM-generated mappers as your main objects. A decent approach would
-probably to have your *ORM-speaking objects*, or in other words, objects into which the appropriate ORM mappers are injected (as
+probably be that of having your *ORM-speaking objects*, or in other words, objects into which the appropriate ORM mappers are injected (as
 opposed to injecting a database connection library or something of that sort).
 
 ## Accessors and mutators vs useful methods
@@ -92,12 +92,12 @@ making it implement the interface you just defined, and then start filling those
 with actual functionalities, all the while writing your tests for the methods you are
 working on.
 
-## Strive to represent real world entities, not bags of data
+## Strive to represent real world entities, not bags of data
 
-This is a point that I keep coming back to: take to time to think about your objects and the
+This is a point that I keep coming back to: take the time to **think about your objects** and the
 overall architecture.
 
-You should think of your objects as real world entities, rather than data structures, or "helpers".
+You should think of your objects as **real world entities**, rather than data structures or "helpers".
 So, again, instead of replicating your database tables, think about real world examples that
 would make sense in your case, and expose real behaviour, rather than a bunch of accessors.
 
@@ -106,30 +106,32 @@ using the algorithm of choice, think in terms of small, more maintainable, compo
 
 Why not defining a simple interface like this:
 
-  type EncryptedPassword interface {
-    func decriptedValue() string;
-  }
+```
+type EncryptedPasswordInterface interface {
+  func decriptedValue() string;
+}
+```
 
 and then have simple, small classes using that interface to encrypt a given password using a certain algorithm. Like this:
 
 ```
-  type EncryptedSha1Password struct {
-    var encryptedPassword string;  
-  }
-  func (p *EncryptedSha1Password) encryptedValue() string {
-    // here encrypt your password with sha1 and return value
-  }
+type Sha1EncryptedPassword struct {
+  var encryptedPassword string;  
+}
+func (p *Sha1EncryptedPassword) encryptedValue() string {
+  // here encrypt your password with sha1 and return value
+}
 ```
 
-You could then have another class that looks like this:
+You could also have another class that looks like this:
 
 ```
-  type EncryptedSha1PasswordWithSalt struct {
-    var encryptedPassword string;
-  }
-  func (p *EncryptedSha1PasswordWithSalt) encryptedValue() string {
-    // here encrypt your password with sha1 and return value
-  }
+type Sha1EncryptedPasswordWithSalt struct {
+  var encryptedPassword string;
+}
+func (p *Sha1EncryptedPasswordWithSalt) encryptedValue() string {
+  // here encrypt your password with sha1 and return value
+}
 ```
 
 See how simple it is? Following this approach, you'll never end up with overbloated, ever-growing "Services".
@@ -140,7 +142,7 @@ at the beginning it supported only one encryption algorithm, the number of such 
 and there would have been no obvious way to break things into smaller pieces.
 
 Notice that I am not saying that it couldn't have been done, what I am saying is that there wouldn't have been an obvious
-way to do it, which is after all my main point of contemption with OOP: it's a *system* that gives you a way to
+way to do it, which is after all my main point of contemption with OOP: it's a *system* that gives you a more obvious way to
 consistently keep your code organised, easy to break into smaller pieces, easy to understand.
 
 In the example above, the real world entity is the *encrypted password*, as defined by the initial interface. It is very easy to
@@ -149,11 +151,29 @@ is to have an object representing each one of those algorithms. Want to encrypt 
 Create an object for it (probably the best approach), or do something like this:
 
 ```
-  // code with result of one object into another
+md5Password := NewMd5EncryptedPassword(unencryptedPassword);
+encryptedPassword := NewSha1EncryptedPassword(mdPassword);
 ```
 
+In the above example, `encryptedPassword` will have double encryption, MD5 and SHA1. Of course an even nicer approach would be
+to build a *decorator*, which is an invaluable tool in OOP. It would have looked like this:
 
+```
+// Constructor for Sha1PasswordFromMd5
+func NewSha1PasswordFromMd5(md5EncryptedPassword *EncryptedPasswordInterface) (p *Sha1PasswordFromMd5) {
+  return &Sha1PasswordFromMd5{md5EncryptedPassword};
+}
+// Sha1PasswordFromMd5 is a decorator that takes as an argument EncryptedPasswordInterface and returns
+// this value with Sha1 encryption
+type Sha1PasswordFromMd5 struct {
+  var md5EncryptedPassword *EncryptedPasswordInterface;
+}
+func (p *Sha1PasswordFromMd5) encryptedValue() string {
+  // here encrypt md5EncryptedPassword with sha1 and return value
+}
+```
+***
 
-## Further reading:
+### Further reading:
 
 * [Why getter and setter methods are evil](http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html) - Allen Holub
