@@ -7,11 +7,14 @@ categories:
 date: 2016-04-29T08:34:57+01:00
 description: Brief description of the article
 draft: true
-featured_image: '** remove this if not present **'
+#featured_image: '** remove this if not present **'
 layout: post
 tags:
 - OOP
 - object oriented programming
+- Php
+- Javascript
+- Golang
 title: Healthy OOP
 url: /healthy-oop-object-oriented-programming/
 ---
@@ -152,11 +155,11 @@ Create an object for it (probably the best approach), or do something like this:
 
 ```
 md5Password := NewMd5EncryptedPassword(unencryptedPassword);
-encryptedPassword := NewSha1EncryptedPassword(mdPassword);
+encryptedPassword := NewSha1EncryptedPassword(md5Password.encryptedValue);
 ```
 
-In the above example, `encryptedPassword` will have double encryption, MD5 and SHA1. Of course an even nicer approach would be
-to build a *decorator*, which is an invaluable tool in OOP. It would have looked like this:
+In the above example, `encryptedPassword` will have double encryption, MD5 and SHA1. A different approach would be
+to build a *decorator*, which is an invaluable tool in OOP. It would look like this:
 
 ```
 // Constructor for Sha1PasswordFromMd5
@@ -172,6 +175,30 @@ func (p *Sha1PasswordFromMd5) encryptedValue() string {
   // here encrypt md5EncryptedPassword with sha1 and return value
 }
 ```
+
+These are all examples of course, and you would have to use the best approach that works for what you're trying to build.
+
+## Use interfaces
+
+Interfaces can be a controversial topic. Oddly enough, I've found myself having to justify the use of interfaces or making
+the case for them to other developers more often that it would have been reasonable to.
+
+Unfortunately, some languages (see Javascript) don't even come with first class support for interfaces (although the
+excellent Typescript [does](http://www.typescriptlang.org/docs/handbook/interfaces.html)), whereas in some other languages,
+like PHP, interfaces were a later addition and many developers don't seem to have ever taken the time to study the matter
+and understand what the use cases for them are. Golang has had support for interfaces since the beginning, and the use of them
+seems to be part of the language's *ethos*.
+
+There are many reasons to use interfaces. Personally, I tend to create an interface for virtually every object that I create.
+This has several benefits:
+
+- It allows me to define *what the object does* without having yet to worry about actual implementation of functionalities and related tests
+- It makes writing tests **very easy**
+- By defining the *signatures* of your object, I'm forcing it to adhere to a **contract** of sort, as my
+object's public methods will all be described by a previously designed interface.
+- It makes it easier to avoid violations of the *[Interface Segregation Principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)*
+- It gives me the flexibility to quickly *swap one object for another*, as long as the interface adopted is the same
+
 ***
 
 ### Further reading:
