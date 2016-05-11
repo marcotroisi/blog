@@ -176,7 +176,8 @@ func (p *Sha1PasswordFromMd5) encryptedValue() string {
 }
 ```
 
-These are all examples of course, and you would have to use the best approach that works for what you're trying to build.
+These are all examples of course, and you would have to use the best approach that works for what you're trying to build. The main
+idea is to build object as representatives of a real world (not necessarily physical) entity. 
 
 ## Use interfaces
 
