@@ -3,6 +3,22 @@
 <div id="content" class="site-content">
 
 <section id="primary" class="content-area">
+
+	<div class='searchForm'>
+		<script>
+		  (function() {
+		    var cx = '004140550115655549566:cnxs0xt2pme';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
+	</div>
+
 	<main id="main" class="site-main" role="main">
 
     {{ range first 10 .Data.Pages }}
