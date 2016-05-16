@@ -27,3 +27,7 @@ body { background-color: #fff; }
 }
 
 #social-menu { font-size:13px; }
+
+.searchForm { width:80%; margin:0 auto; }
+
+.email-subscribe-text { text-align: center; font-style: italic; font-size:13px; }
