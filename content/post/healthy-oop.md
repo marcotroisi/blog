@@ -189,7 +189,7 @@ This has several benefits:
 - It makes writing tests **very easy**
 - By defining the *signature* of an object, I'm forcing it to adhere to a **contract** of sort, as my
 object's public methods will all be described by a previously designed interface.
-- It makes it easier to avoid violations of the *[Interface Segregation Principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)*
+- It makes it easier to avoid more obvious violations of the *[Interface Segregation Principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)*
 - It gives me the flexibility to quickly *swap one object for another*, as long as the interface adopted is the same
 
 No matter what language you're working with, make it a point to have an abstract signature of your object before you go
@@ -198,8 +198,7 @@ ahead with the actual implementation.
 ## Conclusion
 
 There are other good practices that can be kept in mind while doing OOP, such as aiming for object's immutability.
-But I believe that by at least keeping in mind the practices listed above, you can write high quality Object Oriented
-Code that makes sense and that you can be proud of.
+But I believe that by at least keeping in mind the practices listed above, you can write high quality Object Oriented Code that makes sense and that you can be proud of. 
 
 ***
 
@@ -208,4 +207,5 @@ Code that makes sense and that you can be proud of.
 * [Why getter and setter methods are evil](http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html) - Allen Holub
 * [Achieving Abstraction In JavaScript](http://www.yusufaytas.com/achieving-abstraction-in-javascript/) - Yosuf Aytas
 * [Objects should be immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html) - Yegor Bugayenko
+* [Is Go OOP?](http://spf13.com/post/is-go-object-oriented/) - Steve Francia
 * [Elegant Objects](http://amzn.to/1R0NSpg) [Amazon] - Yegor Bugayenko
