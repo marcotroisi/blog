@@ -18,10 +18,10 @@
       <description>
 
 &lt;p&gt;I enjoy writing code in an Object Oriented fashion. Thinking in terms of objects gives me
-a model that, when followed consistently, ends up giving me code that is well organised,
-and that I know to be relatively easy to understand, test and refactor.&lt;/p&gt;
+a model that, when followed consistently, ends up producing code that is well organised,
+and that I know to be relatively easy to understand, test, and refactor.&lt;/p&gt;
 
-&lt;p&gt;Now &lt;a href=&#34;https://mcollina.github.io/we-are-not-object-oriented-anymore/&#34;&gt;some people&lt;/a&gt; would want to argue that OOP doesn&amp;rsquo;t really work and/or that we don&amp;rsquo;t need it anymore to build modern software, and why I by no means think or want to say that OOP is the ultimate paradigm, I would definitely want to maintain that &lt;em&gt;it is&lt;/em&gt; helpful and that no, a bunch of procedural code, however &lt;em&gt;nicely&lt;/em&gt; organised (even if that means &lt;a href=&#34;http://marcotroisi.com/microservices-wont-improve-your-code-quality/&#34;&gt;microservices&lt;/a&gt;), &lt;em&gt;is not&lt;/em&gt; the answer.&lt;/p&gt;
+&lt;p&gt;Now &lt;a href=&#34;https://mcollina.github.io/we-are-not-object-oriented-anymore/&#34;&gt;some people&lt;/a&gt; would want to argue that OOP doesn&amp;rsquo;t really work and/or that we don&amp;rsquo;t need it anymore to build modern software. While I by no means think or want to say that OOP is the ultimate paradigm, I would definitely want to maintain that &lt;em&gt;it is&lt;/em&gt; helpful and that a bunch of procedural code, however &lt;em&gt;nicely&lt;/em&gt; organised (even if that means &lt;a href=&#34;http://marcotroisi.com/microservices-wont-improve-your-code-quality/&#34;&gt;microservices&lt;/a&gt;), &lt;em&gt;is not&lt;/em&gt; the answer.&lt;/p&gt;
 
 &lt;p&gt;The problem with a lot of the criticism that OOP gets, is that it tends to refer to things that in popular programmer culture have become somehow associated with OOP (like the use of ORM), while that isn&amp;rsquo;t really the case.&lt;/p&gt;
 
@@ -29,7 +29,7 @@ and that I know to be relatively easy to understand, test and refactor.&lt;/p&gt
 
 &lt;h2 id=&#34;orm-no-thanks:afb2935814a74c80f457c590571676b4&#34;&gt;ORM? No, thanks&lt;/h2&gt;
 
-&lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is, overwhelmingly, not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;Martin Fowler Orm Hate&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
+&lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;Martin Fowler Orm Hate&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
 
 &lt;p&gt;The biggest issue here is that when you use an ORM you are encouraged to create what you are told to be objects, and use them as &lt;em&gt;mappers&lt;/em&gt; to a database table (or collection). While this may sound very convenient
 on paper, in practice it will inevitably lead you to create big classes, at least as big as your database tables.&lt;/p&gt;
@@ -40,14 +40,14 @@ probably done for you by some sort of automated &lt;em&gt;table-to-class&lt;/em&
 
 &lt;p&gt;But database tables are meant to be relatively big collections of data, in a structured and easy-to-query fashion. There is very little correlation between that and your Objects, which are supposed to be kept small, cohesive, easy to extend, refactor and manipulate. Not to mention the need to keep your &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;&lt;em&gt;architecture clean&lt;/em&gt;&lt;/a&gt;, which won&amp;rsquo;t happen if you start tightening up your code with whichever database you&amp;rsquo;ve decided to use. It will eventually cause &lt;a href=&#34;http://marcotroisi.com/technical-debt-is-not-a-unicorn/&#34;&gt;technical debt&lt;/a&gt;, and that simply tells you something went wrong at an architectural decision level.&lt;/p&gt;
 
-&lt;p&gt;So there is a case to be made against the use of ORMs in general, but that is even more so if you&amp;rsquo;re doing OOP.&lt;/p&gt;
+&lt;p&gt;So there is a case to be made against the use of ORMs in general, but even more so if you&amp;rsquo;re doing OOP.&lt;/p&gt;
 
 &lt;p&gt;A note of clarification is due here: if you&amp;rsquo;re building software with a clean architecture, and you really, really want to use
 an ORM, there may be a place for it, and that&amp;rsquo;s at the level of the &lt;em&gt;Interface Adapters&lt;/em&gt;, where you would build proper interfaces between your Objects (at the &lt;em&gt;Entities&lt;/em&gt; and &lt;em&gt;Use cases&lt;/em&gt; levels) and your ORM &amp;ldquo;mappers&amp;rdquo;. If you have no idea what I&amp;rsquo;m talking about here, please do yourself a favour and read Uncle Bob Martin&amp;rsquo;s article on &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;the clean architecture&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Personally, my favourite approach would be to build &lt;a href=&#34;http://www.yegor256.com/2014/12/01/orm-offensive-anti-pattern.html&#34;&gt;SQL-speaking Objects&lt;/a&gt;, as suggested by Yegor Bugayenko in both his blog and &lt;a href=&#34;http://amzn.to/1R0NSpg&#34;&gt;his latest book&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;At any rate, if you decide to go with an ORM, that&amp;rsquo;s entirely your prerogative, and it&amp;rsquo;s not wrong per se. But make sure you&amp;rsquo;re building things in a &lt;em&gt;clean&lt;/em&gt; fashion, and don&amp;rsquo;t use the ORM-generated mappers as your main objects for your business logic.&lt;/p&gt;
+&lt;p&gt;At any rate, if you decide to go with an ORM, that&amp;rsquo;s entirely your prerogative, and it&amp;rsquo;s not wrong in itself. But make sure you&amp;rsquo;re building things in a &lt;em&gt;clean&lt;/em&gt; fashion, and don&amp;rsquo;t use the ORM-generated mappers as your main objects for your business logic.&lt;/p&gt;
 
 &lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods:afb2935814a74c80f457c590571676b4&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
 
@@ -62,7 +62,7 @@ also known as getters and setters, are incredibly popular today. Most IDEs will 
 The reality is that you often don&amp;rsquo;t need to expose your variables to the outside world.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;In OOP, it&amp;rsquo;s better to expose just a limited number of highly focussed and expressive methods, and handle internally everything else.&lt;/p&gt;
+&lt;p&gt;In OOP, it&amp;rsquo;s better to expose just a limited number of highly focussed and expressive methods, and handle everything else internally.&lt;/p&gt;
 
 &lt;p&gt;As a representation of a real world entity, your object should be able to do more than just exposing a bunch of variables through getters and setters.&lt;/p&gt;
 
@@ -91,11 +91,11 @@ Something like &lt;code&gt;Sha1EncryptedPassword&lt;/code&gt;. And then somethin
 
 &lt;p&gt;Following this approach, you&amp;rsquo;ll never end up with overbloated, ever-growing &amp;ldquo;Services&amp;rdquo;, which are really Do-it-all classes, a blatant violation of the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;The main point here is that you want to build in a way that allows you to keep things always small, always composable, always breakable into smaller pieces. Your want your objects to be &lt;em&gt;very specific&lt;/em&gt; and single-focussed.&lt;/p&gt;
+&lt;p&gt;The main point here is that you want to build in a way that always allows you to keep things small, composable, and breakable into smaller pieces. Your want your objects to be &lt;em&gt;very specific&lt;/em&gt; and single-focussed.&lt;/p&gt;
 
 &lt;p&gt;The problem with a &lt;code&gt;PasswordEncrypter&lt;/code&gt; would have been that even if at the beginning it supported only one encryption algorithm, the number of such algorithms could have grown with time, and there would have been no obvious way to break things into smaller pieces.&lt;/p&gt;
 
-&lt;p&gt;Notice that I am not saying that it couldn&amp;rsquo;t have been done, what I am saying is that there wouldn&amp;rsquo;t have been an obvious way to do it, which is after all my main point of contemption with OOP: it&amp;rsquo;s a &lt;em&gt;system&lt;/em&gt; that gives you a more obvious way to consistently keep your code organised, easy to break into smaller pieces, easy to understand.&lt;/p&gt;
+&lt;p&gt;Notice that I am not saying that it couldn&amp;rsquo;t have been done, what I am saying is that there wouldn&amp;rsquo;t have been an obvious way to do it, which is after all my main point of contention with OOP: it&amp;rsquo;s a &lt;em&gt;system&lt;/em&gt; that gives you a more obvious way to consistently keep your code organised, easy to break into smaller pieces, easy to understand.&lt;/p&gt;
 
 &lt;p&gt;In the example above, the real world entity is the &lt;em&gt;encrypted password&lt;/em&gt;, as defined by the initial interface. It is very easy to
 imagine that this password could have been encrypted with as many encryption algorithms as you can think of, and all you need to do
@@ -130,7 +130,7 @@ But the main idea is to build objects as representations of real world (not nece
 
 &lt;h2 id=&#34;use-interfaces:afb2935814a74c80f457c590571676b4&#34;&gt;Use interfaces&lt;/h2&gt;
 
-&lt;p&gt;Interfaces can be a controversial topic. Oddly enough, I&amp;rsquo;ve found myself having to justify the use of interfaces or making the case for them to other developers more often that it would have been reasonable to.&lt;/p&gt;
+&lt;p&gt;Interfaces can be a controversial topic. Oddly enough, I&amp;rsquo;ve found myself having to justify the use of interfaces or making the case for them to other developers more often than would have been reasonable.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, some languages (see Javascript) don&amp;rsquo;t even come with first class support for interfaces (although the
 excellent Typescript &lt;a href=&#34;http://www.typescriptlang.org/docs/handbook/interfaces.html&#34;&gt;does&lt;/a&gt;), whereas in some other languages,
