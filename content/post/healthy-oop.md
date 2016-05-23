@@ -36,7 +36,7 @@ The biggest issue here is that when you use an ORM you are encouraged to create 
 on paper, in practice it will inevitably lead you to create big classes, at least as big as your database tables.
 
 Not only that, but it will also encourage you to skip the "thinking" process, or the architectural side of things.
-In other words, when all you have to do is to *replicate* the exact same structure of your tables into classes (and please don't make the mistake to think of them as objects, because they are not), and when most of this is
+In other words, when all you have to do is to *replicate* the exact same structure of your tables into classes (and please don't make the mistake of thinking of them as objects, because they are not), and when most of this is
 probably done for you by some sort of automated *table-to-class* generator, then there is almost no point in which it makes sense to sit down and thinking through what's the appropriate architecture and the best organisation for the software. You're going to create a bunch of classes that represent your tables, and you'll just work with them as they are.
 
 But database tables are meant to be relatively big collections of data, in a structured and easy-to-query fashion. There is very little correlation between that and your Objects, which are supposed to be kept small, cohesive, easy to extend, refactor and manipulate. Not to mention the need to keep your [*architecture clean*](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html), which won't happen if you start tightening up your code with whichever database you've decided to use. It will eventually cause [technical debt](http://marcotroisi.com/technical-debt-is-not-a-unicorn/), and that simply tells you something went wrong at an architectural decision level.
@@ -82,7 +82,7 @@ Why not defining a simple interface like this:
 
 ```
 type EncryptedPasswordInterface interface {
-  func decriptedValue() string;
+  func encryptedValue() string;
 }
 ```
 

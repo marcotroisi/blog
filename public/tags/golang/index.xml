@@ -35,7 +35,7 @@ and that I know to be relatively easy to understand, test and refactor.&lt;/p&gt
 on paper, in practice it will inevitably lead you to create big classes, at least as big as your database tables.&lt;/p&gt;
 
 &lt;p&gt;Not only that, but it will also encourage you to skip the &amp;ldquo;thinking&amp;rdquo; process, or the architectural side of things.
-In other words, when all you have to do is to &lt;em&gt;replicate&lt;/em&gt; the exact same structure of your tables into classes (and please don&amp;rsquo;t make the mistake to think of them as objects, because they are not), and when most of this is
+In other words, when all you have to do is to &lt;em&gt;replicate&lt;/em&gt; the exact same structure of your tables into classes (and please don&amp;rsquo;t make the mistake of thinking of them as objects, because they are not), and when most of this is
 probably done for you by some sort of automated &lt;em&gt;table-to-class&lt;/em&gt; generator, then there is almost no point in which it makes sense to sit down and thinking through what&amp;rsquo;s the appropriate architecture and the best organisation for the software. You&amp;rsquo;re going to create a bunch of classes that represent your tables, and you&amp;rsquo;ll just work with them as they are.&lt;/p&gt;
 
 &lt;p&gt;But database tables are meant to be relatively big collections of data, in a structured and easy-to-query fashion. There is very little correlation between that and your Objects, which are supposed to be kept small, cohesive, easy to extend, refactor and manipulate. Not to mention the need to keep your &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;&lt;em&gt;architecture clean&lt;/em&gt;&lt;/a&gt;, which won&amp;rsquo;t happen if you start tightening up your code with whichever database you&amp;rsquo;ve decided to use. It will eventually cause &lt;a href=&#34;http://marcotroisi.com/technical-debt-is-not-a-unicorn/&#34;&gt;technical debt&lt;/a&gt;, and that simply tells you something went wrong at an architectural decision level.&lt;/p&gt;
@@ -82,7 +82,7 @@ So, again, instead of replicating your database tables, think about real world e
 &lt;p&gt;Why not defining a simple interface like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;type EncryptedPasswordInterface interface {
-  func decriptedValue() string;
+  func encryptedValue() string;
 }
 &lt;/code&gt;&lt;/pre&gt;
 
