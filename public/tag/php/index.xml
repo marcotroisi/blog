@@ -6,8 +6,168 @@
     <description>Recent content in Php on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 29 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Apr 2016 08:34:57 +0100</lastBuildDate>
     <atom:link href="http://www.marcotroisi.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Healthy OOP</title>
+      <link>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
+      <pubDate>Fri, 29 Apr 2016 08:34:57 +0100</pubDate>
+      
+      <guid>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
+      <description>
+
+&lt;p&gt;I enjoy writing code in an Object Oriented fashion. Thinking in terms of objects gives me
+a model that, when followed consistently, ends up giving me code that is well organised,
+and that I know to be relatively easy to understand, test and refactor.&lt;/p&gt;
+
+&lt;p&gt;Now &lt;a href=&#34;https://mcollina.github.io/we-are-not-object-oriented-anymore/&#34;&gt;some people&lt;/a&gt; would want to argue that OOP doesn&amp;rsquo;t really work and/or that we don&amp;rsquo;t need it anymore to build modern software, and why I by no means think or want to say that OOP is the ultimate paradigm, I would definitely want to maintain that &lt;em&gt;it is&lt;/em&gt; helpful and that no, a bunch of procedural code, however &lt;em&gt;nicely&lt;/em&gt; organised (even if that means &lt;a href=&#34;http://marcotroisi.com/microservices-wont-improve-your-code-quality/&#34;&gt;microservices&lt;/a&gt;), &lt;em&gt;is not&lt;/em&gt; the answer.&lt;/p&gt;
+
+&lt;p&gt;The problem with a lot of the criticism that OOP gets, is that it tends to refer to things that in popular programmer culture have become somehow associated with OOP (like the use of ORM), while that isn&amp;rsquo;t really the case.&lt;/p&gt;
+
+&lt;p&gt;Object Oriented Programming &lt;em&gt;done well&lt;/em&gt;, or what I call &lt;strong&gt;Healthy OOP&lt;/strong&gt;, comes with a lot of benefits. Here&amp;rsquo;s a number of things everyone needs to know in order to write good quality code in an OOP way.&lt;/p&gt;
+
+&lt;h2 id=&#34;orm-no-thanks:afb2935814a74c80f457c590571676b4&#34;&gt;ORM? No, thanks&lt;/h2&gt;
+
+&lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is, overwhelmingly, not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;Martin Fowler Orm Hate&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
+
+&lt;p&gt;The biggest issue here is that when you use an ORM you are encouraged to create what you are told to be objects, and use them as &lt;em&gt;mappers&lt;/em&gt; to a database table (or collection). While this may sound very convenient
+on paper, in practice it will inevitably lead you to create big classes, at least as big as your database tables.&lt;/p&gt;
+
+&lt;p&gt;Not only that, but it will also encourage you to skip the &amp;ldquo;thinking&amp;rdquo; process, or the architectural side of things.
+In other words, when all you have to do is to &lt;em&gt;replicate&lt;/em&gt; the exact same structure of your tables into classes (and please don&amp;rsquo;t make the mistake to think of them as objects, because they are not), and when most of this is
+probably done for you by some sort of automated &lt;em&gt;table-to-class&lt;/em&gt; generator, then there is almost no point in which it makes sense to sit down and thinking through what&amp;rsquo;s the appropriate architecture and the best organisation for the software. You&amp;rsquo;re going to create a bunch of classes that represent your tables, and you&amp;rsquo;ll just work with them as they are.&lt;/p&gt;
+
+&lt;p&gt;But database tables are meant to be relatively big collections of data, in a structured and easy-to-query fashion. There is very little correlation between that and your Objects, which are supposed to be kept small, cohesive, easy to extend, refactor and manipulate. Not to mention the need to keep your &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;&lt;em&gt;architecture clean&lt;/em&gt;&lt;/a&gt;, which won&amp;rsquo;t happen if you start tightening up your code with whichever database you&amp;rsquo;ve decided to use. It will eventually cause &lt;a href=&#34;http://marcotroisi.com/technical-debt-is-not-a-unicorn/&#34;&gt;technical debt&lt;/a&gt;, and that simply tells you something went wrong at an architectural decision level.&lt;/p&gt;
+
+&lt;p&gt;So there is a case to be made against the use of ORMs in general, but that is even more so if you&amp;rsquo;re doing OOP.&lt;/p&gt;
+
+&lt;p&gt;A note of clarification is due here: if you&amp;rsquo;re building software with a clean architecture, and you really, really want to use
+an ORM, there may be a place for it, and that&amp;rsquo;s at the level of the &lt;em&gt;Interface Adapters&lt;/em&gt;, where you would build proper interfaces between your Objects (at the &lt;em&gt;Entities&lt;/em&gt; and &lt;em&gt;Use cases&lt;/em&gt; levels) and your ORM &amp;ldquo;mappers&amp;rdquo;. If you have no idea what I&amp;rsquo;m talking about here, please do yourself a favour and read Uncle Bob Martin&amp;rsquo;s article on &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;the clean architecture&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Personally, my favourite approach would be to build &lt;a href=&#34;http://www.yegor256.com/2014/12/01/orm-offensive-anti-pattern.html&#34;&gt;SQL-speaking Objects&lt;/a&gt;, as suggested by Yegor Bugayenko in both his blog and &lt;a href=&#34;http://amzn.to/1R0NSpg&#34;&gt;his latest book&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At any rate, if you decide to go with an ORM, that&amp;rsquo;s entirely your prerogative, and it&amp;rsquo;s not wrong per se. But make sure you&amp;rsquo;re building things in a &lt;em&gt;clean&lt;/em&gt; fashion, and don&amp;rsquo;t use the ORM-generated mappers as your main objects for your business logic.&lt;/p&gt;
+
+&lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods:afb2935814a74c80f457c590571676b4&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Accessors&lt;/em&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Mutator_method&#34;&gt;&lt;em&gt;mutators&lt;/em&gt;&lt;/a&gt;,
+also known as getters and setters, are incredibly popular today. Most IDEs will even automatically generate them for you, which make them even more tempting, as you can have them there and ready to use in just a few seconds.&lt;/p&gt;
+
+&lt;p&gt;Why then take the time to think about more appropriate, expressive and useful methods? There are a few advantages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;It makes your Object closer to a real-world entity.&lt;/strong&gt; &lt;code&gt;Email.enableAutoresponder()&lt;/code&gt; is simply a lot nicer and more expressive than &lt;code&gt;Email.setAutoresponder(true)&lt;/code&gt;, and it&amp;rsquo;s closer to how you would conceive that operation in the real world&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You don&amp;rsquo;t need to expose all of your internal variables.&lt;/strong&gt; What&amp;rsquo;s the point of having your variables as &lt;code&gt;private&lt;/code&gt; if you&amp;rsquo;re going to have setters and getters for all of them? You might as well have them all &lt;code&gt;public&lt;/code&gt;!
+The reality is that you often don&amp;rsquo;t need to expose your variables to the outside world.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In OOP, it&amp;rsquo;s better to expose just a limited number of highly focussed and expressive methods, and handle internally everything else.&lt;/p&gt;
+
+&lt;p&gt;As a representation of a real world entity, your object should be able to do more than just exposing a bunch of variables through getters and setters.&lt;/p&gt;
+
+&lt;p&gt;Ultimately and probably the biggest benefit is that by following a more expressive approach you are always going to force yourself to think about the internal architecture of your object (as opposed to not delegating its functionalities to automatically generated getters and setters) by exposing only relevant information via nice and expressively named methods.&lt;/p&gt;
+
+&lt;p&gt;A great approach to doing this is to first &lt;strong&gt;create an interface&lt;/strong&gt; where you would define all the methods that will be exposed by your object. Then, create your object, making it implement the interface you just defined, and then start filling those methods with actual functionalities, all the while writing your tests for the methods you are working on.&lt;/p&gt;
+
+&lt;h2 id=&#34;real-world-entities-are-better-than-services:afb2935814a74c80f457c590571676b4&#34;&gt;Real world entities are better than Services&lt;/h2&gt;
+
+&lt;p&gt;This is a point that I keep coming back to: take the time to &lt;strong&gt;think about your objects&lt;/strong&gt; and the overall architecture.&lt;/p&gt;
+
+&lt;p&gt;You should see your objects as &lt;strong&gt;real world entities&lt;/strong&gt;, rather than data structures or &amp;ldquo;helpers&amp;rdquo;.
+So, again, instead of replicating your database tables, think about real world examples that would make sense in your case, and expose real behaviour, rather than a bunch of accessors.&lt;/p&gt;
+
+&lt;p&gt;Instead of building a &lt;code&gt;class PasswordEncrypter&lt;/code&gt; that takes in passwords and encrypts them using the algorithm of choice, think in terms of small, more maintainable, composable and extendable objects.&lt;/p&gt;
+
+&lt;p&gt;Why not defining a simple interface like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;type EncryptedPasswordInterface interface {
+  func decriptedValue() string;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then have simple, small classes implementing that interface to encrypt a given password using a certain algorithm.
+Something like &lt;code&gt;Sha1EncryptedPassword&lt;/code&gt;. And then something like &lt;code&gt;Sha1EncryptedPasswordWithSalt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Following this approach, you&amp;rsquo;ll never end up with overbloated, ever-growing &amp;ldquo;Services&amp;rdquo;, which are really Do-it-all classes, a blatant violation of the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The main point here is that you want to build in a way that allows you to keep things always small, always composable, always breakable into smaller pieces. Your want your objects to be &lt;em&gt;very specific&lt;/em&gt; and single-focussed.&lt;/p&gt;
+
+&lt;p&gt;The problem with a &lt;code&gt;PasswordEncrypter&lt;/code&gt; would have been that even if at the beginning it supported only one encryption algorithm, the number of such algorithms could have grown with time, and there would have been no obvious way to break things into smaller pieces.&lt;/p&gt;
+
+&lt;p&gt;Notice that I am not saying that it couldn&amp;rsquo;t have been done, what I am saying is that there wouldn&amp;rsquo;t have been an obvious way to do it, which is after all my main point of contemption with OOP: it&amp;rsquo;s a &lt;em&gt;system&lt;/em&gt; that gives you a more obvious way to consistently keep your code organised, easy to break into smaller pieces, easy to understand.&lt;/p&gt;
+
+&lt;p&gt;In the example above, the real world entity is the &lt;em&gt;encrypted password&lt;/em&gt;, as defined by the initial interface. It is very easy to
+imagine that this password could have been encrypted with as many encryption algorithms as you can think of, and all you need to do
+is to have an object representing each one of those algorithms. Want to encrypt a password with an algorithm on top of another one? Create an object for it (probably the best approach), or do something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;md5Password := NewMd5EncryptedPassword(unencryptedPassword);
+encryptedPassword := NewSha1EncryptedPassword(md5Password.encryptedValue);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the above example, &lt;code&gt;encryptedPassword&lt;/code&gt; will have double encryption, MD5 and SHA1. A different approach would be
+to build a &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Decorator_pattern&#34;&gt;decorator&lt;/a&gt;&lt;/em&gt;, which is an invaluable tool in OOP. It would look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// Constructor for Sha1PasswordFromMd5
+func NewSha1PasswordFromEncrypted(md5EncryptedPassword *EncryptedPasswordInterface) (p *Sha1PasswordFromEncrypted) {
+  return &amp;amp;Sha1PasswordFromEncrypted{md5EncryptedPassword};
+}
+// Sha1PasswordFromEncrypted is a decorator that takes as an argument
+// EncryptedPasswordInterface and returns this value with Sha1 encryption
+type Sha1PasswordFromEncrypted struct {
+  var Md5EncryptedPassword *EncryptedPasswordInterface;
+}
+func (p *Sha1PasswordFromEncrypted) encryptedValue() string {
+  // here encrypt Md5EncryptedPassword with sha1 and return value
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see, &lt;code&gt;Sha1PasswordFromEncrypted&lt;/code&gt; is a decorator that takes as a parameter an object that implements its very same interface,
+&lt;code&gt;EncryptedPasswordInterface&lt;/code&gt;. It then applies Sha1 encryption on top of the already existing one, and returns the encrypted value as demanded by its interface.&lt;/p&gt;
+
+&lt;p&gt;These are all examples of course, and you would have to use the best approach that works for what you&amp;rsquo;re trying to build.
+But the main idea is to build objects as representations of real world (not necessarily physical) entities.&lt;/p&gt;
+
+&lt;h2 id=&#34;use-interfaces:afb2935814a74c80f457c590571676b4&#34;&gt;Use interfaces&lt;/h2&gt;
+
+&lt;p&gt;Interfaces can be a controversial topic. Oddly enough, I&amp;rsquo;ve found myself having to justify the use of interfaces or making the case for them to other developers more often that it would have been reasonable to.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, some languages (see Javascript) don&amp;rsquo;t even come with first class support for interfaces (although the
+excellent Typescript &lt;a href=&#34;http://www.typescriptlang.org/docs/handbook/interfaces.html&#34;&gt;does&lt;/a&gt;), whereas in some other languages,
+like PHP, interfaces were a later addition and some developers don&amp;rsquo;t seem to have ever taken the time to study the matter
+and understand what the use cases for them are. Golang has had support for interfaces since the beginning, and their use seems to be part of the language&amp;rsquo;s &lt;em&gt;ethos&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many reasons to use interfaces. Personally, I tend to create an interface for virtually every object that I create.
+This has several benefits:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It allows me to define &lt;em&gt;what the object does&lt;/em&gt; without having yet to worry about actual implementation of functionalities and related tests&lt;/li&gt;
+&lt;li&gt;It makes writing tests &lt;strong&gt;very easy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;By defining the &lt;em&gt;signature&lt;/em&gt; of an object, I&amp;rsquo;m forcing it to adhere to a &lt;strong&gt;contract&lt;/strong&gt; of sort, as my object&amp;rsquo;s public methods will all be described by a previously designed interface.&lt;/li&gt;
+&lt;li&gt;It makes it easier to avoid more obvious violations of the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Interface_segregation_principle&#34;&gt;Interface Segregation Principle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;It gives me the flexibility to quickly &lt;em&gt;swap one object for another&lt;/em&gt;, as long as the interface adopted is the same&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No matter what language you&amp;rsquo;re working with, make it a point to have an abstract signature of your object before you go ahead with the actual implementation.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:afb2935814a74c80f457c590571676b4&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;There are other good practices that can be kept in mind while doing OOP, such as aiming for object&amp;rsquo;s immutability.
+But I believe that by at least keeping in mind the practices listed above, you can write high quality Object Oriented Code that makes sense and that you can be proud of.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;further-reading:afb2935814a74c80f457c590571676b4&#34;&gt;Further reading:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html&#34;&gt;Why getter and setter methods are evil&lt;/a&gt; - Allen Holub&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.yusufaytas.com/achieving-abstraction-in-javascript/&#34;&gt;Achieving Abstraction In JavaScript&lt;/a&gt; - Yosuf Aytas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html&#34;&gt;Objects should be immutable&lt;/a&gt; - Yegor Bugayenko&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://spf13.com/post/is-go-object-oriented/&#34;&gt;Is Go OOP?&lt;/a&gt; - Steve Francia&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/1R0NSpg&#34;&gt;Elegant Objects&lt;/a&gt; [Amazon] - Yegor Bugayenko&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Hailo and their “Journey into Microservices”</title>
