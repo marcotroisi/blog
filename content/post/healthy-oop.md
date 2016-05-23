@@ -4,8 +4,8 @@ categories:
 - Software Development
 - Php
 - Opinions
-date: 2016-04-29T08:34:57+01:00
-description: Brief description of the article
+date: 2016-05-23T08:34:57+01:00
+description: How to write high quality Object Oriented Code
 draft: false
 layout: post
 tags:
