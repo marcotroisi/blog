@@ -29,7 +29,7 @@ and that I know to be relatively easy to understand, test, and refactor.&lt;/p&g
 
 &lt;h2 id=&#34;orm-no-thanks:afb2935814a74c80f457c590571676b4&#34;&gt;ORM? No, thanks&lt;/h2&gt;
 
-&lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;Martin Fowler Orm Hate&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
+&lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;http://martinfowler.com/bliki/OrmHate.html&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
 
 &lt;p&gt;The biggest issue here is that when you use an ORM you are encouraged to create what you are told to be objects, and use them as &lt;em&gt;mappers&lt;/em&gt; to a database table (or collection). While this may sound very convenient
 on paper, in practice it will inevitably lead you to create big classes, at least as big as your database tables.&lt;/p&gt;
