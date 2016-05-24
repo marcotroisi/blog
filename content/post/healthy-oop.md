@@ -30,7 +30,7 @@ Object Oriented Programming *done well*, or what I call **Healthy OOP**, comes w
 
 ## ORM? No, thanks
 
-The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into [Orm Hate](Martin Fowler Orm Hate) just for the sake of it. But, at least if you're trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.
+The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into [Orm Hate](http://martinfowler.com/bliki/OrmHate.html) just for the sake of it. But, at least if you're trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.
 
 The biggest issue here is that when you use an ORM you are encouraged to create what you are told to be objects, and use them as *mappers* to a database table (or collection). While this may sound very convenient
 on paper, in practice it will inevitably lead you to create big classes, at least as big as your database tables.
