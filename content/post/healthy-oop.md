@@ -73,10 +73,10 @@ A great approach to doing this is to first **create an interface** where you wou
 
 This is a point that I keep coming back to: take the time to **think about your objects** and the overall architecture.
 
-You should see your objects as **real world entities**, rather than data structures or "helpers".
+You should see your objects as **real world entities**, rather than data structures, "helpers", or "services".
 So, again, instead of replicating your database tables, think about real world examples that would make sense in your case, and expose real behaviour, rather than a bunch of accessors.
 
-Instead of building a `class PasswordEncrypter` that takes in passwords and encrypts them using the algorithm of choice, think in terms of small, more maintainable, composable and extendable objects.
+Instead of building a `class PasswordEncrypter` (or `class PasswordEncryptionService`) that takes in passwords and encrypts them using the algorithm of choice, think in terms of small, more maintainable, composable and extendable objects.
 
 Why not defining a simple interface like this:
 
