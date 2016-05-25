@@ -74,10 +74,10 @@ The reality is that you often don&amp;rsquo;t need to expose your variables to t
 
 &lt;p&gt;This is a point that I keep coming back to: take the time to &lt;strong&gt;think about your objects&lt;/strong&gt; and the overall architecture.&lt;/p&gt;
 
-&lt;p&gt;You should see your objects as &lt;strong&gt;real world entities&lt;/strong&gt;, rather than data structures or &amp;ldquo;helpers&amp;rdquo;.
+&lt;p&gt;You should see your objects as &lt;strong&gt;real world entities&lt;/strong&gt;, rather than data structures, &amp;ldquo;helpers&amp;rdquo;, or &amp;ldquo;services&amp;rdquo;.
 So, again, instead of replicating your database tables, think about real world examples that would make sense in your case, and expose real behaviour, rather than a bunch of accessors.&lt;/p&gt;
 
-&lt;p&gt;Instead of building a &lt;code&gt;class PasswordEncrypter&lt;/code&gt; that takes in passwords and encrypts them using the algorithm of choice, think in terms of small, more maintainable, composable and extendable objects.&lt;/p&gt;
+&lt;p&gt;Instead of building a &lt;code&gt;class PasswordEncrypter&lt;/code&gt; (or &lt;code&gt;class PasswordEncryptionService&lt;/code&gt;) that takes in passwords and encrypts them using the algorithm of choice, think in terms of small, more maintainable, composable and extendable objects.&lt;/p&gt;
 
 &lt;p&gt;Why not defining a simple interface like this:&lt;/p&gt;
 
