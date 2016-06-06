@@ -4,6 +4,7 @@
 
 <section id="primary" class="content-area">
 
+	<!-- SEARCH -->
 	<div class='searchForm'>
 		<script>
 		  (function() {
@@ -18,12 +19,18 @@
 		</script>
 		<gcse:search></gcse:search>
 	</div>
+	<!-- END SEARCH -->
 
 	<main id="main" class="site-main" role="main">
 
-    {{ range first 10 .Data.Pages }}
-        {{ .Render "summary"}}
-    {{ end }}
+	    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+	    {{ range $paginator.Pages }}
+	        {{ .Render "summary"}}
+	    {{ end }}
+
+    <div class="pagination-wrapper">
+	    {{ template "_internal/pagination.html" . }}
+    </div>
 
   </main><!-- #main -->
 </section><!-- #primary -->
