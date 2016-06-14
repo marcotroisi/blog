@@ -1,0 +1,61 @@
+{{ partial "header.html" . }}
+
+
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+<!-- {{ $index := 0 }} -->
+{{ range $index, $pages := $paginator.Pages }}
+    {{ if eq $index 0 }}
+		<section class="home__featured">
+			<div class="show__image">
+				<section class="blog__image">
+					{{ if (isset .Params "featured_image") }}
+				    <a href="{{ .Permalink }}" title="{{ .Title }}" >
+				      <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+				    </a>
+				    {{ end }}
+				</section>
+
+				<h1>
+						<a href="{{ .Permalink }}">
+						<span> {{ .Date.Format "Jan 2, 2006" }} </span>
+						{{ .Title }}
+						</a>
+				</h1>
+			</div>
+		</section>
+
+		<section class="home__intro">
+
+			<div class="align__right">
+					<h1 class="intro__m"><a href="about-me">Hello</a></h1>
+
+					_Hi, I’m Marco, a senior software developer working in Ireland. <br>
+					<a class="about" href="/about"> (Read more) </a>
+					<a class="about__m" href="/about"> &#8594; Read more </a>
+			</div>
+
+			<div class="align__left">
+				<ul>
+
+	{{ else }}
+
+		{{ .Render "summary"}}
+
+	{{ end }}
+
+	
+{{ end }}
+
+			{{ if .Paginator.HasNext }} 
+			<li class="archive"> <a href="{{ .Paginator.Next.URL }}"> &#8594; More </a> </li>
+			{{ end }}
+
+			{{ if .Paginator.HasPrev }} 
+			<li class="archive"> <a href="{{ .Paginator.Prev.URL }}"> &#8592; Back </a> </li>
+			{{ end }}
+		</ul>
+	</div>
+
+</section>
+
+{{ partial "footer.html" . }}

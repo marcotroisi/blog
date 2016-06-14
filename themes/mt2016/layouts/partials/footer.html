@@ -1,0 +1,26 @@
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="http://twitter.com/studionugae">nugae</a>
+        </ul>
+        <!-- ?php mnml_nav ? -->
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+
+  </body>
+</html>

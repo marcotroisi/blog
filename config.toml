@@ -1,7 +1,7 @@
 baseurl = "http://www.marcotroisi.com"
 languageCode = "en-gb"
 title = "Marco Troisi | technology, software development and productivity"
-theme = "mt2015"
+theme = "mt2016"
 paginate = 10
 aliases = [
     "/index.xml",

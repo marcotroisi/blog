@@ -1,0 +1,33 @@
+{{ partial "header_post.html" . }}
+
+<header class="blog__header">
+  <h1>
+    <span> {{ .Date.Format "Jan 2, 2006" }} </span>
+    {{ .Title }}
+  </h1>
+</header>
+
+{{ if (isset .Params "featured_image") }}
+  <section class="blog__image">
+    <a href="{{ .Permalink }}" title="{{ .Title }}" >
+      <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+    </a>
+  </section>
+{{ end }}
+
+<article class="blog__wrap clear">
+  {{ .Content }}
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  <section class='email-subscribe-text'>
+    To get the latest high-quality articles on
+    technology, software development and productivity
+    <a href="https://feedburner.google.com/fb/a/mailverify?uri=MarcoTroisi&amp;loc=en_US">subscribe by email</a>.
+  </section>
+</article>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+{{ partial "footer.html" . }}
