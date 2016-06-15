@@ -9,7 +9,7 @@ featured_image: "/marcotroisi_picture.jpg"
 ---
 I am a senior software engineer mainly involved with web development, with team leading experience. I absolutely love learning and experiencing new things, and I see software development &#8211; and technology as a whole &#8211; as a way for people to get things done more easily and faster.
 
-I am currently working as a software developer at a fintech startup in Ireland. Prior to that I have worked in Milan (Italy), Johannesburg (South Africa) and Berlin (Germany) for several different companies/organisations. I also occasionally freelance for small projects and contribute to [open source][1] projects.
+I am currently working at a fintech startup in Ireland. Prior to that I have worked in Milan (Italy), Johannesburg (South Africa) and Berlin (Germany) for several different companies/organisations. I also occasionally freelance for small projects and contribute to [open source][1] projects.
 
 If you want to meet up and have a chat, discuss a project or ask me for help, please do not hesitate to [contact me][2].
 
