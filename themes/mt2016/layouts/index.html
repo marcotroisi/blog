@@ -17,7 +17,7 @@
 
 				<h1>
 						<a href="{{ .Permalink }}">
-						<span> {{ .Date.Format "Jan 2, 2006" }} </span>
+						<span> {{ .Date.Format "2 Jan '06" }} </span>
 						{{ .Title }}
 						</a>
 				</h1>
@@ -36,6 +36,21 @@
 
 			<div class="align__left">
 				<ul>
+
+				<li class="archive__m">
+					<div class="show__thumb">
+						<section class="blog__thumb">
+								{{ if (isset .Params "featured_image") }}
+							    <a href="{{ .Permalink }}" title="{{ .Title }}" >
+							      <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+							    </a>
+							    {{ end }}
+						</section>
+
+						<span> {{ .Date.Format "2 Jan '06" }} </span>
+						<a href="{{ .Permalink }}"> {{ .Title }} </a>
+					</div>
+				</li>
 
 	{{ else }}
 
