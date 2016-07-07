@@ -67,22 +67,22 @@ The industry is also saying that the *best version control system* is **Git**. I
 Another thing the industry has been saying for a while now, is that the *best way to share code* is to use **GitHub** on top of the already-mentioned Git. Now, I understand that some companies may find that BitBucket or GitLab fit their needs better. But given the choice, and all things being equal, GitHub is *the* one. It's the most widely supported and most well known collaboration platform out there.
 
 <a name="code-review"></a>
-## Code review
+## Code review
 
 Tools for [Code reviewing](http://marcotroisi.com/the-ethics-of-code-reviews/) are also important, and they are strictly related to collaboration tools in that the *best way to review* your peers' code appear to be yet again **GitHub**. Their code reviewing tool is just too good, and it's simply too easy to use when you're already on GitHub, thus there's just no need to be looking for anything else.
 
 <a name="bug-tracking"></a>
-## Bug tracking
+## Bug tracking
 
 For a project to work well, you're going to need some kind of bug tracking system. I've personally had to work with several of them, from [Redmine](http://www.redmine.org/) to [Trello](https://trello.com/), from [Jira](https://www.atlassian.com/software/jira) to [YouTrack](https://www.jetbrains.com/youtrack/), and of course GitHub Issues. Here I'd have to say that I've had decent experiences with pretty much all of them: once you get used to one of them, they can all do their job, no question about it. But there seems to be a general consensus on **Jira** being the best tool out there, and I think that's right. While every other platform I've used was good enough, every time that I come back to Jira after a while, I am just amazed at how powerful and functional it is. And, every time I use a different tool after having worked with Jira for a while, it always takes me a while to adapt and a good dose of resignation at knowing that I'll be missing some Jira's unique features.
 
 <a name="continuous-integration"></a>
-## Continuous integration
+## Continuous integration
 
 Continuous integration is another critical topic. Here, what the industry appears to be saying is that [you need to do it](https://www.thoughtworks.com/continuous-integration). There is no point in looking at tools here if one doesn't even believe in the usefulness of doing Continuous integration. It will make it incredibly easier for you to keep track of what is going on, and to find bugs before they get deployed on production. As far as tools go, no longer that a few years ago the only viable option was to set up Jenkins on some server of yours, and spend days trying to make it work, not to mention the fact that someone will have to keep an eye on it because something might always break. This problem has now been largely solved by the emergence of many excellent, cloud-based CI platform. Prices are pretty fair, usually free for open source and in some cases free for small private projects as well. The most complete, well documented and most supported of them is undoubtedly Berlin-based [Travis](https://travis-ci.com/). Recently, [CircleCI](https://circleci.com/) has also attracted a lot of attention, mostly because it's very fast, and because it's free for small projects (i.e. if you only run one build at a time). I haven't found their documentation to be outstanding, and there's not (yet) much help to be found online, but with a bit of work I've always been able to make it work nicely.
 
 <a name="static-analysers"></a>
-## Static analysers
+## Static analysers
 
 Something else that you should make sure to have in your stack at some point: static analysers. These tools, while obviously far from replacing the need for writing clean code on the side of the programmer, are very helpful in pointing out a lot of code smells, therefore helping immensely especially during (or before) the process of code reviewing. Here things may change based on the language you're using. [CodeClimate](https://codeclimate.com/) supports a lot of languages, and it's probably the one you want to go for in many cases. Being open source, you can either download it and use it from your command line, or pay for the cloud version, which offers a nice UI and it's perhaps a better deal overall. When working with PHP, I've found [Scrutinizer](https://scrutinizer-ci.com/) to be just amazing. As far as Java goes, I've heard good things about [Qulice](http://www.qulice.com/). The best way to make static analysers part of your development process, is to add it to your GitHub build. This allows you to check in real time, as you create a Pull Request, the quality of code you're trying to push to the master branch. Moreover, you can make this even stricter by using GitHub's [Protected Branches](https://help.github.com/articles/about-protected-branches/) feature, and disallowing you and your collaborators from merging into the master branch unless a certain level of quality has been reached.
 
