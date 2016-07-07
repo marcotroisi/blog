@@ -22,7 +22,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#why-you-need-the-best-tools&#34;&gt;Why you need the best tools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#writing-code&#34;&gt;Writing code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#ersion-control&#34;&gt;ersion Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#version-control&#34;&gt;Version Control&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#code-sharing-and-collaboration&#34;&gt;Code sharing and collaboration&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#code-review&#34;&gt;Code review&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#bug-tracking&#34;&gt;Bug tracking&lt;/a&gt;&lt;/li&gt;
@@ -56,8 +56,9 @@
 
 &lt;p&gt;The &lt;em&gt;best way to write code&lt;/em&gt; is through a powerfully integrated IDE like the ones from JetBrains, or a faster text editor like Sublime Text or Atom, provided you have the right plugins for your language of choice installed. No, you can&amp;rsquo;t use Notepad++, that&amp;rsquo;s just not good enough!&lt;/p&gt;
 
-&lt;p&gt;&lt;a name=&#34;ersion-control&#34;&gt;&lt;/a&gt;
-##Version Control&lt;/p&gt;
+&lt;p&gt;&lt;a name=&#34;version-control&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;version-control:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Version Control&lt;/h2&gt;
 
 &lt;p&gt;The industry is also saying that the &lt;em&gt;best version control system&lt;/em&gt; is &lt;strong&gt;Git&lt;/strong&gt;. It&amp;rsquo;s the system that the biggest number of companies and developers all around the world have found to be the most powerful one. While in terms of usage percentage it may still be fighting against SVN, a quick look at the project that still use the latter will quickly reveal how the vast majority of them are only using it because of legacy. In other words, those are very old projects, and they were using SVN since before Git was even a thing. But then, why would they keep using such an ancient and inefficient system when there are plenty of ways to migrate to Git, is something I don&amp;rsquo;t fully understand.&lt;/p&gt;
 

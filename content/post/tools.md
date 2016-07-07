@@ -25,7 +25,7 @@ url: /right-tools-for-programming/
 
 - [Why you need the best tools](#why-you-need-the-best-tools)
 - [Writing code](#writing-code)
-- [ersion Control](#ersion-control)
+- [Version Control](#version-control)
 - [Code sharing and collaboration](#code-sharing-and-collaboration)
 - [Code review](#code-review)
 - [Bug tracking](#bug-tracking)
@@ -56,8 +56,8 @@ These things may and will change in the future, but as things stand now, the ind
 
 The *best way to write code* is through a powerfully integrated IDE like the ones from JetBrains, or a faster text editor like Sublime Text or Atom, provided you have the right plugins for your language of choice installed. No, you can't use Notepad++, that's just not good enough!
 
-<a name="ersion-control"></a>
-##Version Control 
+<a name="version-control"></a>
+## Version Control 
 
 The industry is also saying that the *best version control system* is **Git**. It's the system that the biggest number of companies and developers all around the world have found to be the most powerful one. While in terms of usage percentage it may still be fighting against SVN, a quick look at the project that still use the latter will quickly reveal how the vast majority of them are only using it because of legacy. In other words, those are very old projects, and they were using SVN since before Git was even a thing. But then, why would they keep using such an ancient and inefficient system when there are plenty of ways to migrate to Git, is something I don't fully understand.
 
