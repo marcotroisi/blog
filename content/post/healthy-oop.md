@@ -28,6 +28,7 @@ The problem with a lot of the criticism that OOP gets, is that it tends to refer
 
 Object Oriented Programming *done well*, or what I call **Healthy OOP**, comes with a lot of benefits. Here's a number of things everyone needs to know in order to write good quality code in an OOP way.
 
+<a name="orm-no-thanks"></a>
 ## ORM? No, thanks
 
 The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into [Orm Hate](http://martinfowler.com/bliki/OrmHate.html) just for the sake of it. But, at least if you're trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.
@@ -50,6 +51,7 @@ Personally, my favourite approach would be to build [SQL-speaking Objects](http:
 
 At any rate, if you decide to go with an ORM, that's entirely your prerogative, and it's not wrong in itself. But make sure you're building things in a *clean* fashion, and don't use the ORM-generated mappers as your main objects for your business logic.
 
+<a name="accessors-and-mutators-vs-useful-methods"></a>
 ## Accessors and mutators vs useful methods
 
 *Accessors* and [*mutators*](https://en.wikipedia.org/wiki/Mutator_method),
@@ -69,6 +71,7 @@ Ultimately and probably the biggest benefit is that by following a more expressi
 
 A great approach to doing this is to first **create an interface** where you would define all the methods that will be exposed by your object. Then, create your object, making it implement the interface you just defined, and then start filling those methods with actual functionalities, all the while writing your tests for the methods you are working on.
 
+<a name="real-world-entities-are-better-than-services"></a>
 ## Real world entities are better than Services
 
 This is a point that I keep coming back to: take the time to **think about your objects** and the overall architecture.
@@ -130,6 +133,7 @@ As you can see, `Sha1PasswordFromEncrypted` is a decorator that takes as a param
 These are all examples of course, and you would have to use the best approach that works for what you're trying to build.
 But the main idea is to build objects as representations of real world (not necessarily physical) entities.
 
+<a name="use-interfaces"></a>
 ## Use interfaces
 
 Interfaces can be a controversial topic. Oddly enough, I've found myself having to justify the use of interfaces or making the case for them to other developers more often than would have been reasonable.
@@ -150,6 +154,7 @@ This has several benefits:
 
 No matter what language you're working with, make it a point to have an abstract signature of your object before you go ahead with the actual implementation.
 
+<a name="conclusion"></a>
 ## Conclusion
 
 There are other good practices that can be kept in mind while doing OOP, such as aiming for object's immutability.

@@ -27,6 +27,8 @@ and that I know to be relatively easy to understand, test, and refactor.&lt;/p&g
 
 &lt;p&gt;Object Oriented Programming &lt;em&gt;done well&lt;/em&gt;, or what I call &lt;strong&gt;Healthy OOP&lt;/strong&gt;, comes with a lot of benefits. Here&amp;rsquo;s a number of things everyone needs to know in order to write good quality code in an OOP way.&lt;/p&gt;
 
+&lt;p&gt;&lt;a name=&#34;orm-no-thanks&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;orm-no-thanks:afb2935814a74c80f457c590571676b4&#34;&gt;ORM? No, thanks&lt;/h2&gt;
 
 &lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;http://martinfowler.com/bliki/OrmHate.html&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
@@ -49,6 +51,8 @@ an ORM, there may be a place for it, and that&amp;rsquo;s at the level of the &l
 
 &lt;p&gt;At any rate, if you decide to go with an ORM, that&amp;rsquo;s entirely your prerogative, and it&amp;rsquo;s not wrong in itself. But make sure you&amp;rsquo;re building things in a &lt;em&gt;clean&lt;/em&gt; fashion, and don&amp;rsquo;t use the ORM-generated mappers as your main objects for your business logic.&lt;/p&gt;
 
+&lt;p&gt;&lt;a name=&#34;accessors-and-mutators-vs-useful-methods&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods:afb2935814a74c80f457c590571676b4&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Accessors&lt;/em&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Mutator_method&#34;&gt;&lt;em&gt;mutators&lt;/em&gt;&lt;/a&gt;,
@@ -69,6 +73,8 @@ The reality is that you often don&amp;rsquo;t need to expose your variables to t
 &lt;p&gt;Ultimately and probably the biggest benefit is that by following a more expressive approach you are always going to force yourself to think about the internal architecture of your object (as opposed to not delegating its functionalities to automatically generated getters and setters) by exposing only relevant information via nice and expressively named methods.&lt;/p&gt;
 
 &lt;p&gt;A great approach to doing this is to first &lt;strong&gt;create an interface&lt;/strong&gt; where you would define all the methods that will be exposed by your object. Then, create your object, making it implement the interface you just defined, and then start filling those methods with actual functionalities, all the while writing your tests for the methods you are working on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;real-world-entities-are-better-than-services&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;real-world-entities-are-better-than-services:afb2935814a74c80f457c590571676b4&#34;&gt;Real world entities are better than Services&lt;/h2&gt;
 
@@ -128,6 +134,8 @@ func (p *Sha1PasswordFromEncrypted) encryptedValue() string {
 &lt;p&gt;These are all examples of course, and you would have to use the best approach that works for what you&amp;rsquo;re trying to build.
 But the main idea is to build objects as representations of real world (not necessarily physical) entities.&lt;/p&gt;
 
+&lt;p&gt;&lt;a name=&#34;use-interfaces&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;use-interfaces:afb2935814a74c80f457c590571676b4&#34;&gt;Use interfaces&lt;/h2&gt;
 
 &lt;p&gt;Interfaces can be a controversial topic. Oddly enough, I&amp;rsquo;ve found myself having to justify the use of interfaces or making the case for them to other developers more often than would have been reasonable.&lt;/p&gt;
@@ -149,6 +157,8 @@ This has several benefits:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;No matter what language you&amp;rsquo;re working with, make it a point to have an abstract signature of your object before you go ahead with the actual implementation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;conclusion:afb2935814a74c80f457c590571676b4&#34;&gt;Conclusion&lt;/h2&gt;
 
