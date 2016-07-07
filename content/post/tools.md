@@ -7,7 +7,7 @@ categories:
 date: 2016-07-07T20:32:31+01:00
 description: You need the best tools to do your job well. Aligning yourself to the industry is the best thing you can do.
 draft: false
-featured_image: "http://www.marcotroisi.com/images/right-tools.jpg"
+featured_image: "http://www.marcotroisi.com/images/right_tools.jpg"
 layout: post
 tags:
 - tools
