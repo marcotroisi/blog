@@ -69,7 +69,7 @@ Another thing the industry has been saying for a while now, is that the *best wa
 <a name="code-review"></a>
 ## Code review
 
-Tools for [Code reviewing](http://marcotroisi.com/the-ethics-of-code-reviews/) are also important, and they are strictly related to collaboration tools in that the *best way to review* your peers' code appear to be yet again **GitHub**. Their code reviewing tool is just too good, and it's simply too easy to use when you're already on GitHub, thus there's just no need to be looking for anything else.
+Tools for [Code reviewing](http://marcotroisi.com/the-ethics-of-code-reviews/) are also important, and they are strictly related to collaboration tools in that the *best way to review* your peers' code appears to be yet again **GitHub**. Their code reviewing tool is just too good, and it's simply too easy to use when you're already on GitHub, thus there's just no need to be looking for anything else.
 
 <a name="bug-tracking"></a>
 ## Bug tracking
