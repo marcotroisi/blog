@@ -38,13 +38,13 @@ url: /right-tools-for-programming/
 <a name="why-you-need-the-best-tools"></a>
 ## Why you need the best tools
 
-Hardly any job can be done without the right tools. You always need some-*thing* to do what you do. This applies to virtually everyone, from the dentist to the photographer, from the journalist to the mathematician. And of course the software engineer is not excused.
+Hardly any job can be done without the right tools. You always need *something* to do what you do. This applies to virtually everyone, from a dentist to a photographer, a journalist to a mathematician. And of course the software engineer is not excused.
 
-Give an old, cheap, faulty camera to a great photographer, and he'll come back to you tired and frustrated, with only a few nice photos and more bad ones than it would be acceptable from a professional. Give a fantastic camera to a decent photographer who knows how to use it, and he'll come back with many good photos, a few amazing ones, and perhaps a couple of not-so-good ones.
+Give an old, cheap, faulty camera to a great photographer, and he'll come back to you tired and frustrated, with only a few nice photos and more bad ones than what would be considered acceptable from a professional. Give a fantastic camera to a decent photographer who knows how to use it, and he'll come back with loads of good photos, a few amazing ones, and perhaps a couple of not so great ones.
 
-That's why I'm always amazed at how many, both software engineers and employers, tend to overlook the importance of using the right tools. It is simply astonishing. One reason for that, as I understand it, would be fragmentation, or *diversity of opinions*. A developer might like a certain tool more than another one.
+That's why I'm always amazed at how many software engineers and employers tend to overlook the importance of using the right tools. It's simply astonishing. One reason for that, as I understand it, would be fragmentation, or *diversity of opinions*. A developer might like a certain tool more than another one.
 
-But here's where I think the controversy starts, in my opinion: it doesn't really matter what you think is better. **What's better is what the industry decides it is**. Look at it this way: if you're a photographer and you think the best way to take photos of your clients is on a 15-years-old Polaroid, does that make it the best tool for the job? I mean, your customers are paying you real money for professional, high-quality photos that they can not only print, but also store on their hard drives. And you give them a bunch of low quality photos printed from an old instant camera. Does this sound right to you? It doesn't to me.
+But here's where I think the controversy starts: it doesn't really matter what you think is better. **What's better is what the industry decides it is**. Look at it this way: if you're a photographer and you think the best way to take photos of your clients is on a 15-years-old Polaroid, does that make it the best tool for the job? I mean, your customers are paying you real money for professional, high-quality photos that they can not only print, but also store on their hard drives. And you give them a bunch of low quality photos printed from an old instant camera. Does this sound right to you? It doesn't to me.
 
 In the same way, it wouldn't matter how cool and geeky it makes you feel to work on a *Raspberry PI Model A*. The truth is that you're going to spend twice as much time doing what you have to do, because of the inherent slowness of such a small machine; plus you won't have state-of-the-art tools to help you write code, test, debug and so on, because most development software isn't yet supported on an ARM architecture.
 
@@ -60,7 +60,7 @@ The *best way to write code* is through a powerfully integrated IDE like the one
 <a name="version-control"></a>
 ## Version Control 
 
-The industry is also saying that the *best version control system* is **Git**. It's the system that the biggest number of companies and developers all around the world have found to be the most powerful one. While in terms of usage percentage it may still be fighting against SVN, a quick look at the projects that still use the latter will quickly reveal how the vast majority of them are only using it because of legacy. In other words, those are very old projects, and they were using SVN since before Git was even a thing. But then, why would they keep using such an ancient and inefficient system when there are plenty of ways to migrate to Git, is something I don't fully understand.
+The industry is also saying that the *best version control system* is **Git**. It's the system that the biggest number of companies and developers all around the world have found to be the most powerful one. While in terms of usage percentage it may still be fighting against SVN, a quick look at the projects that still use the latter will quickly reveal how the vast majority of them are only using it because of legacy. In other words, those are very old projects, and they were using SVN since before Git was even a thing. But then, why would they keep using such an ancient and inefficient system when there are plenty of ways to migrate to Git? This is something I don't fully understand.
 
 <a name="code-sharing-and-collaboration"></a>
 ## Code sharing and collaboration
@@ -70,7 +70,7 @@ Another thing the industry has been saying for a while now, is that the *best wa
 <a name="code-review"></a>
 ## Code review
 
-Tools for [Code reviewing](http://marcotroisi.com/the-ethics-of-code-reviews/) are also important, and they are strictly related to collaboration tools in that the *best way to review* your peers' code appears to be yet again **GitHub**. Their code reviewing tool is just too good, and it's simply too easy to use when you're already on GitHub, thus there's just no need to be looking for anything else.
+Tools for [Code reviewing](http://marcotroisi.com/the-ethics-of-code-reviews/) are also important, and they are strictly related to collaboration tools in that the *best way to review* your peers' code appears to be yet again **GitHub**. Their code reviewing tool is just too good, and it's simply too easy to use when you're already on GitHub, so there's just no need to be looking for anything else.
 
 <a name="bug-tracking"></a>
 ## Bug tracking
