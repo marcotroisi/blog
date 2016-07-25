@@ -55,7 +55,7 @@ These things may and will change in the future, but as things stand now, the ind
 <a name="writing-code"></a>
 ## Writing code
 
-The *best way to write code* is through a powerfully integrated IDE like the ones from JetBrains, or a faster text editor like Sublime Text or Atom, provided you have the right plugins for your language of choice installed. No, you can't use Notepad++, that's just not good enough!
+The *best way to write code* is through a powerfully integrated IDE like the ones from JetBrains, or a faster text editor like Sublime Text or Atom, provided you have the right plugins for your language of choice installed. No, you can't use Notepad, that's just not good enough!
 
 <a name="version-control"></a>
 ## Version Control 
