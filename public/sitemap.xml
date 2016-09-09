@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://www.marcotroisi.com/</loc>
-    <lastmod>2016-07-07T20:32:31+01:00</lastmod>
+    <lastmod>2016-09-09T08:05:54+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.marcotroisi.com/when-to-use-microservices-video/</loc>
+    <lastmod>2016-09-09T08:05:54+01:00</lastmod>
   </url>
   
   <url>
@@ -155,6 +160,14 @@
   <url>
     <loc>http://www.marcotroisi.com/about/</loc>
     <lastmod>2012-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.marcotroisi.com/post/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.marcotroisi.com/post/tools/</loc>
   </url>
   
   <url>

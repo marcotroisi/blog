@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/video/</link>
+    <description>Recent content in Video on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 09 Sep 2016 08:05:54 +0100</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>When to use microservices (video)</title>
+      <link>http://www.marcotroisi.com/when-to-use-microservices-video/</link>
+      <pubDate>Fri, 09 Sep 2016 08:05:54 +0100</pubDate>
+      
+      <guid>http://www.marcotroisi.com/when-to-use-microservices-video/</guid>
+      <description>&lt;p&gt;A few weeks ago, after giving a talk at PHP Dublin, I was interviewed by the fine folks from the &lt;a href=&#34;https://uxdxconf.com/&#34;&gt;UXDX&lt;/a&gt; conference.&lt;/p&gt;
+
+&lt;p&gt;The topic of the interview was &lt;strong&gt;&amp;ldquo;When to use microservices&amp;rdquo;&lt;/strong&gt;. It was partly inspired by the talk I gave that very night. In the interview, I do my best to define what microservices are and when should companies adopt them. I then proceed to give insights as to how to succeed from both a code quality and a project management point of view.&lt;/p&gt;
+
+&lt;p&gt;UXDX is a conference that will run in Dublin, Ireland, on November the 2nd, 2016. The event&amp;rsquo;s goal is to &lt;em&gt;focus on improving the team behind the product&lt;/em&gt;. There will be a set of great speakers from some of the best companies in Ireland and not only. If you can go, you shouldn&amp;rsquo;t miss it. You can get your tickets &lt;a href=&#34;https://uxdxconf.com/#/tickets&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is the video of the inteview. It&amp;rsquo;s less than 7 minutes long, but I think it contains some interesting points which you might want to look into.&lt;/p&gt;
+
+&lt;div class=&#34;videoWrapper&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/MxdynUAGQGc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Direct link: &lt;a href=&#34;https://youtu.be/MxdynUAGQGc&#34;&gt;https://youtu.be/MxdynUAGQGc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have questions or comments regarding what I just said in this video? Feel free to &lt;a href=&#34;https://www.twitter.com/marcotroisi&#34;&gt;message me&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
