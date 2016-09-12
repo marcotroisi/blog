@@ -47,10 +47,10 @@ Like I said, one of the reasons why I worked on MicroTranslator is because I wan
 
 Let&#8217;s have a look at the points I outlined back then:
 
-  1. **It is a Stand-alone service/application.**: Yes, MicroTranslator is stand-alone. It doesn&#8217;t need, and actually, it doesn&#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic API calls.
+  1. **It is a Stand-alone service/application.**: Yes, MicroTranslator is stand-alone. It doesn&#8217;t need, and actually, it doesn&#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic REST API calls.
   2. **It is quick to (re)write.**: Absolutely! I wrote MicroTranslator in a weekend plus a few other free hours during the week. You can totally rewrite it in a week or less as soon as you feel like it.
   3. **It focuses on one task**: It only cares about your translations. It doesn&#8217;t even want to know how you use them.
-  4. **It is Language-agnostic.**: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from application, regardless of the language/framework/tools you are using.
+  4. **It is Language-agnostic.**: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from any application, regardless of the language/framework/tools you are using.
   5. **It is aware of failures**. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&#8217;t _directly_ affect your main application.
 
 ## In practice, it&#8217;s not that difficult

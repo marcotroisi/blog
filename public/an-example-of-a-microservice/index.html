@@ -138,10 +138,10 @@ tests: {}
 <p>Let&#8217;s have a look at the points I outlined back then:</p>
 
 <ol>
-<li><strong>It is a Stand-alone service/application.</strong>: Yes, MicroTranslator is stand-alone. It doesn&#8217;t need, and actually, it doesn&#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic API calls.</li>
+<li><strong>It is a Stand-alone service/application.</strong>: Yes, MicroTranslator is stand-alone. It doesn&#8217;t need, and actually, it doesn&#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic REST API calls.</li>
 <li><strong>It is quick to (re)write.</strong>: Absolutely! I wrote MicroTranslator in a weekend plus a few other free hours during the week. You can totally rewrite it in a week or less as soon as you feel like it.</li>
 <li><strong>It focuses on one task</strong>: It only cares about your translations. It doesn&#8217;t even want to know how you use them.</li>
-<li><strong>It is Language-agnostic.</strong>: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from application, regardless of the language/framework/tools you are using.</li>
+<li><strong>It is Language-agnostic.</strong>: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from any application, regardless of the language/framework/tools you are using.</li>
 <li><strong>It is aware of failures</strong>. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&#8217;t <em>directly</em> affect your main application.</li>
 </ol>
 

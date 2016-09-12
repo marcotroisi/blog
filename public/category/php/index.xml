@@ -271,10 +271,10 @@ But I believe that by at least keeping in mind the practices listed above, you c
 &lt;p&gt;Let&amp;#8217;s have a look at the points I outlined back then:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;It is a Stand-alone service/application.&lt;/strong&gt;: Yes, MicroTranslator is stand-alone. It doesn&amp;#8217;t need, and actually, it doesn&amp;#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic API calls.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is a Stand-alone service/application.&lt;/strong&gt;: Yes, MicroTranslator is stand-alone. It doesn&amp;#8217;t need, and actually, it doesn&amp;#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic REST API calls.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;It is quick to (re)write.&lt;/strong&gt;: Absolutely! I wrote MicroTranslator in a weekend plus a few other free hours during the week. You can totally rewrite it in a week or less as soon as you feel like it.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;It focuses on one task&lt;/strong&gt;: It only cares about your translations. It doesn&amp;#8217;t even want to know how you use them.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;It is Language-agnostic.&lt;/strong&gt;: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from application, regardless of the language/framework/tools you are using.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It is Language-agnostic.&lt;/strong&gt;: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from any application, regardless of the language/framework/tools you are using.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;It is aware of failures&lt;/strong&gt;. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&amp;#8217;t &lt;em&gt;directly&lt;/em&gt; affect your main application.&lt;/li&gt;
 &lt;/ol&gt;
 
