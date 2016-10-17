@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/talks/</link>
+    <description>Recent content in Talks on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 17 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.marcotroisi.com/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talks</title>
+      <link>http://www.marcotroisi.com/talks/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/talks/</guid>
+      <description>&lt;p&gt;This is a list of talks I&amp;rsquo;ve given so far:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical Debt is not a unicorn&lt;/strong&gt; - &lt;em&gt;Corkdev.io&lt;/em&gt;, Cork (Ireland); 19th July 2016 [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/technical-debt-is-not-a-unicorn&#34;&gt;slides&lt;/a&gt;] [&lt;a href=&#34;https://www.youtube.com/watch?v=YiOuOybCTzI&#34;&gt;video&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Microservices won&amp;rsquo;t improve your code quality&lt;/strong&gt; - &lt;em&gt;PHP Dublin&lt;/em&gt;, Dublin (Ireland); 11th August 2016 [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/microservices-wont-improve-your-code-quality&#34;&gt;slides&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When to use microservices&lt;/strong&gt; - Video interview, Dublin (Ireland); 11th August 2016 [&lt;a href=&#34;https://www.youtube.com/watch?v=MxdynUAGQGc&#34;&gt;video&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Healthy OOP in Javascript&lt;/strong&gt; - &lt;em&gt;BelfastJS&lt;/em&gt;, Belfast (UK); 31st August 2016 [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/healthy-oop-in-javascript&#34;&gt;slides&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mistakes made and Lessons learned (Panel)&lt;/strong&gt; - &lt;em&gt;PHP Dublin&lt;/em&gt;, Dublin (Ireland); 4th October 2016&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Would you like me to speak at your event/meetup/conference? Feel free to &lt;a href=&#34;http://www.marcotroisi.com/about/&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

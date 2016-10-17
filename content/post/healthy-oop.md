@@ -136,7 +136,7 @@ But the main idea is to build objects as representations of real world (not nece
 <a name="use-interfaces"></a>
 ## Use interfaces
 
-Interfaces can be a controversial topic. Oddly enough, I've found myself having to justify the use of interfaces or making the case for them to other developers more often than would have been reasonable.
+Interfaces can be a controversial topic. Oddly enough, I've found myself having to justify the use of interfaces or making the case for them to other developers more often than it would have been reasonable.
 
 Unfortunately, some languages (see Javascript) don't even come with first class support for interfaces (although the
 excellent Typescript [does](http://www.typescriptlang.org/docs/handbook/interfaces.html)), whereas in some other languages,
