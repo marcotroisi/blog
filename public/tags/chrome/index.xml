@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chrome on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/chrome/</link>
-    <description>Recent content in Chrome on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/chrome/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 12 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +15,9 @@
       <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/make-your-website-available-offline-with-html5/</guid>
-      <description>
+      <description>&lt;p&gt;One of the really cool things &lt;strong&gt;HTML5&lt;/strong&gt; allows to do is to make our web apps available even when our visitors are not connected to any network (assuming, obviously, that they have visited the website before, under network coverage).&lt;/p&gt;
 
-&lt;p&gt;One of the really cool things &lt;strong&gt;HTML5&lt;/strong&gt; allows to do is to make our web apps available even when our visitors are not connected to any network (assuming, obviously, that they have visited the website before, under network coverage).&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;While it is to be said that this feature (called &lt;strong&gt;&lt;em&gt;AppCache&lt;/em&gt;&lt;/strong&gt;) might not be useful/appropriate for many websites, it still remains a great feature that is going to positively affect the web in the next years, offering a much better user experience and giving a new reason to developers and companies for developing just one great HTML5 web app instead of &lt;em&gt;a lot&lt;/em&gt; of native applications.&lt;/p&gt;
 
@@ -29,7 +29,7 @@
 
 &lt;p&gt;&amp;#8211; &lt;strong&gt;Less charge to the server&lt;/strong&gt;: as it only have to download resources that have been changed&lt;/p&gt;
 
-&lt;h2 id=&#34;let-8217-s-make-your-website-available-offline:cac56a5fff391b52f21b9921cdfce1eb&#34;&gt;Let&amp;#8217;s make your website available offline&lt;/h2&gt;
+&lt;h2 id=&#34;let-8217-s-make-your-website-available-offline&#34;&gt;Let&amp;#8217;s make your website available offline&lt;/h2&gt;
 
 &lt;p&gt;The first thing you have to do is to &lt;strong&gt;create a manifest&lt;/strong&gt; that will list all the resources you want the local device to download. This manifest must be declared in your &lt;html&gt; element as an attribute.&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 
 &lt;pre&gt;AddType text/cache-manifest .appcache&lt;/pre&gt;
 
-&lt;h2 id=&#34;the-appcache-manifest-file:cac56a5fff391b52f21b9921cdfce1eb&#34;&gt;The Appcache manifest file&lt;/h2&gt;
+&lt;h2 id=&#34;the-appcache-manifest-file&#34;&gt;The Appcache manifest file&lt;/h2&gt;
 
 &lt;p&gt;The Appcache manifest file is a simple text file that lists the resources (identified by URI) that you want the browser to cache for offline access. The following is an example of a manifest file:&lt;/p&gt;
 
@@ -73,19 +73,18 @@ FALLBACK:
 
 &lt;p&gt;You can also add a further section &lt;strong&gt;CACHE&lt;/strong&gt;, which will work just as the lines after CACHE MANIFEST. All the three sections CACHE, NETWORK and FALLBACK are optional and can be declared more than once in the manifest file.&lt;/p&gt;
 
-&lt;h2 id=&#34;testing:cac56a5fff391b52f21b9921cdfce1eb&#34;&gt;Testing!&lt;/h2&gt;
+&lt;h2 id=&#34;testing&#34;&gt;Testing!&lt;/h2&gt;
 
 &lt;p&gt;If you think that this is going to work at the first attempt you&amp;#8217;re probably crazy. The smallest error in the appcache manifest file will actually prevent your application to be locally cached on a device. In such situations, tools like &lt;strong&gt;Manifesto&lt;/strong&gt; (&lt;a title=&#34;Manifesto&#34; href=&#34;http://manifesto.ericdelabar.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://manifesto.ericdelabar.com/&#34;&gt;http://manifesto.ericdelabar.com/&lt;/a&gt;&lt;/a&gt;) are simply priceless and save you a lot of time and headaches.&lt;/p&gt;
 
 &lt;p&gt;&lt;del&gt;Firefox and a few other browsers display a &lt;strong&gt;notification bar&lt;/strong&gt; the first time a user loads an application that uses the application cache.&lt;/del&gt; [&lt;strong&gt;UPDATE:&lt;/strong&gt;  Since v. 26, there is no longer a notification bar on Firefox when websites use &lt;em&gt;appcache&lt;/em&gt;]&lt;/p&gt;
 
-&lt;h2 id=&#34;see-also:cac56a5fff391b52f21b9921cdfce1eb&#34;&gt;See also&lt;/h2&gt;
+&lt;h2 id=&#34;see-also&#34;&gt;See also&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A beginner&amp;#8217;s Guide to Using the Application Cache from HTML5Rocks: &lt;a href=&#34;http://www.html5rocks.com/en/tutorials/appcache/beginner/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.html5rocks.com/en/tutorials/appcache/beginner/&#34;&gt;http://www.html5rocks.com/en/tutorials/appcache/beginner/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Check browser compatibilities on HTML5Test: &lt;a href=&#34;http://html5test.com/compare/feature/offline-applicationCache.html&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://html5test.com/compare/feature/offline-applicationCache.html&#34;&gt;http://html5test.com/compare/feature/offline-applicationCache.html&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

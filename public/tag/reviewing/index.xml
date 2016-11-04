@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reviewing on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/reviewing/</link>
-    <description>Recent content in Reviewing on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/reviewing/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 06 May 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/reviewing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -36,8 +36,7 @@
 
 &lt;p&gt;At the end of the day, what needs to be remembered is that your collaborators/colleagues/team-mates are professionals like you, regardless of the individual amount of experience. But, ultimately and more importantly, they are human beings! And human beings work better, produce more and tend to be happier in an environment where they are understood, appreciated and respected. And code reviewing can be an incredibly powerful helper in this, if used wisely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

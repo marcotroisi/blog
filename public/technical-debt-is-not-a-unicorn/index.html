@@ -103,9 +103,7 @@ tests: {}
 
 
 <article class="blog__wrap clear">
-  
-
-<p>Amongst software engineers, there is this thing called <em>technical debt</em> that is very often talked about and that tends to have somewhat of an ethereal nature.</p>
+  <p>Amongst software engineers, there is this thing called <em>technical debt</em> that is very often talked about and that tends to have somewhat of an ethereal nature.</p>
 
 <p>Almost every company will have the technical debt prophet who will try to convince her people that doing what &#8220;feels good&#8221; now is not going to pay off down the line, and that &#8220;future generations&#8221; will have to pay for it. But, almost inevitably, choices will be made that will inescapably lead to some degree of technical debt.</p>
 
@@ -113,21 +111,21 @@ tests: {}
 
 <p>The problem is that sometimes we fail to understand how much of a damage are we actually making with those poor choices being implemented.</p>
 
-<h2 id="business-and-codebase-should-grow-together:ba68cad4b50dffd8852ca325ccaae48d">Business and codebase should grow together</h2>
+<h2 id="business-and-codebase-should-grow-together">Business and codebase should grow together</h2>
 
-<h3 id="the-first-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d">The first stage of growth</h3>
+<h3 id="the-first-stage-of-growth">The first stage of growth</h3>
 
 <p>Think of the Business side of your company and its software codebase as two parts of the whole picture that should be growing and maturing together. So, for example, when the company is at its early stages, and the way everything is being run is very simple and lean because there isn&#8217;t much to be run anyway, the software should also be really down to the basics. No unnecessary complexity, no premature optimisation. Keep it simple, keep it <a href="https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html">clean</a>. Write the cleanest code you possibly can, rely on a rock-solid, time tested set of tools. Don&#8217;t adventure in something that you <em>think</em> will be useful as you grow, rather make sure that you make it as easy as possible to transition the software to a different framework, database, architecture (e.g. a <a href="http://www.marcotroisi.com/micro-services-a-quick-introduction/">Microservices</a> architecture).</p>
 
-<h3 id="the-second-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d">The second stage of growth</h3>
+<h3 id="the-second-stage-of-growth">The second stage of growth</h3>
 
 <p>As the company begins to gain traction, there will be a time of relatively rapid growth. The company is going from literally zero to hundreds or thousands of people using the particular services they offer. At this time, it will begin to become evident whether good choices were made in the prior stage; it should be very easy to change anything based on a new decision from the managers or, perhaps, from the customer&#8217;s feedback. Changing anything should be a matter of hours, not days. Implementing a new feature should be an absolute pleasure. No important architectural change should be necessary in order for the whole platfom to keep functioning even in the face of thousands of new users being added daily. Of course, things like implementing a new cache layer to ease the pressure on the servers, or adding a new cluster for the database, are okay. But no discussion about changing framework, or adopting a new database should take place. If the framework or database adopted can&#8217;t handle this type of pressure nicely, then someone made a very incompetent choice at the previous level, the one where this type of decisions were made. But ideally, all modern frameworks and databases should be able to manage the amount of traffic that is happening at this particular stage.</p>
 
-<h3 id="the-third-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d">The third stage of growth</h3>
+<h3 id="the-third-stage-of-growth">The third stage of growth</h3>
 
 <p>The third stage would be the one of multiplication. At this point, the company is so successful that it may want to launch its services abroad. As the product is already popular enough in its home country, say the US, you&#8217;d expect that on day one of the launch to the next territory, say Europe, you&#8217;d have to handle hundreds of thousands of new users, with support for multiple languages and a whole lot of things that will have to be customised on a single Country basis. This is the time where considerations like, &#8220;should we switch framework&#8221; or &#8220;can our database handle this much&#8221; are more than appropriate. Here more than anywhere else, it will become evident whether everyone did his/her job properly. If good choices were made and everyone acted like a professional at the prior stages, moving from one database to another, adopting a different framework, or switching to a more scalable architecture, should only be a matter of days. But, most importantly, the key people in the team should have a clear path in their mind of what needs to be done in order for that transition to take place. There should be no guessing.</p>
 
-<h2 id="technical-debt-is-suicide:ba68cad4b50dffd8852ca325ccaae48d">Technical debt is suicide</h2>
+<h2 id="technical-debt-is-suicide">Technical debt is suicide</h2>
 
 <p>Just like any other debt, technical debt will only lead to bad things. And as it increases, the chances of a company succeeding are going to be greatly diminished. There is an inversely proportional relationship between the two.</p>
 
@@ -141,13 +139,13 @@ tests: {}
 
 <p>It&#8217;s hard to imagine a company getting to the third stage of growth under these circumstances, but if it does, it should look similar to what it would have looked like in normal conditions. But, again, it&#8217;s unlikely to get there, and if it does, so much time and money will have been wasted to get here, that it will be hard to justify again any change or rewriting, though this is the only stage where those things would have actually made sense. It&#8217;s also likely that a few key people in the engineering team has been replaced because of their incompetence, adding to everything else the costs of having to introduce new people and mosts importantly new leaders.</p>
 
-<h2 id="avoiding-technical-debt:ba68cad4b50dffd8852ca325ccaae48d">Avoiding technical debt</h2>
+<h2 id="avoiding-technical-debt">Avoiding technical debt</h2>
 
 <p>Technical debt exists, it&#8217;s real and it can be proven, almost touched. It&#8217;s not a myth, and the first step to avoiding it is realising how damaging it can be. Doing things right will not only lead to building a successful platfom serving happy customers. It will also be a lot more fun. It&#8217;s way more enjoyable to work on clean code, to be able to introduce a new feature in a matter of hours and not weeks. It&#8217;s a lot better to spend time solving real problems rather than fixing bugs. And of course, no one wants to work late nights and weekends if it&#8217;s not absolutely necessary.</p>
 
-<h2 id="more-resources:ba68cad4b50dffd8852ca325ccaae48d">More resources</h2>
+<h2 id="more-resources">More resources</h2>
 
-<h3 id="to-read:ba68cad4b50dffd8852ca325ccaae48d">To Read</h3>
+<h3 id="to-read">To Read</h3>
 
 <ul>
 <li><a href="https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html">The clean architecture</a> (Uncle Bob Martin)</li>
@@ -155,13 +153,12 @@ tests: {}
 <li><a rel="nofollow" href="http://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&#038;camp=1789&#038;creative=390957&#038;creativeASIN=1617292397&#038;linkCode=as2&#038;tag=marctroi-20&#038;linkId=CVFNNRQ23ADXVH4O">Soft Skills: The software developer&#8217;s life manual</a> <img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=1617292397" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />(John Sonmez)</li>
 </ul>
 
-<h3 id="to-watch:ba68cad4b50dffd8852ca325ccaae48d">To Watch</h3>
+<h3 id="to-watch">To Watch</h3>
 
 <ul>
 <li><a href="https://www.youtube.com/watch?v=HhNIttd87xs">Architecture: the lost years</a> (Uncle Bob Martin)</li>
 <li><a href="https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD">Workflows of refactoring</a> (Martin Fowler)</li>
 </ul>
-
   ---<br>
   <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
 

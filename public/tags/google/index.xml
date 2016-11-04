@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/google/</link>
-    <description>Recent content in Google on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/google/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 23 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -33,14 +33,11 @@
 &lt;li&gt;&lt;strong&gt;It is not true that if something is for free, then you must be the real product&lt;/strong&gt;. Derek Powazek wrote a &lt;a href=&#34;http://powazek.com/posts/3229&#34;&gt;great piece&lt;/a&gt; on this. Companies like Apple like to charge you for everything. And they want to make you believe that because you are paying &lt;em&gt;a lot&lt;/em&gt; of money, you will have a better service and your data won&amp;#8217;t be used for other purposes, like, showing you ads based on your searches. But this is demonstrably false. First of all, there is no direct connection between you paying for a service and how your data will be used. For all we know, Apple (and others) could be doing &lt;a href=&#34;http://advertising.apple.com/&#34;&gt;the same thing&lt;/a&gt; with your data even though you paid for their products. Besides, I can give you plenty of examples of products for which I have paid money, only to be treated rubbish by the companies who made them. On the other hand, some of the free services that I use, have made me incredibly happy. All this is saying, is that &lt;em&gt;there is no correlation between how much you pay, and how much they care about you&lt;/em&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Like I said at the beginning, I am not an anti-Apple person, and I didn&amp;#8217;t write this piece to attack Apple. Rather, I wanted to put things back into the right perspective. I do not believe companies like Google, Microsoft or Amazon do any better than Apple in terms of privacy and security. Which doesn&amp;#8217;t mean what they do is bad. All of these companies adopt (or are in the process to adopt) first-class encryption techniques, and one would want to argue that if there is anyone with enough resources to actually keep your data safe, then it has to be these companies, including Apple. Besides, privacy is a highly regulated matter (especially here in [Europe][9]), and so there is no way they can use your data to do what they want, unless you explicitly authorise them.&lt;/p&gt;
+&lt;p&gt;Like I said at the beginning, I am not an anti-Apple person, and I didn&amp;#8217;t write this piece to attack Apple. Rather, I wanted to put things back into the right perspective. I do not believe companies like Google, Microsoft or Amazon do any better than Apple in terms of privacy and security. Which doesn&amp;#8217;t mean what they do is bad. All of these companies adopt (or are in the process to adopt) first-class encryption techniques, and one would want to argue that if there is anyone with enough resources to actually keep your data safe, then it has to be these companies, including Apple. Besides, privacy is a highly regulated matter (especially here in &lt;a href=&#34;https://en.wikipedia.org/wiki/Data_Protection_Directive&#34;&gt;Europe&lt;/a&gt;), and so there is no way they can use your data to do what they want, unless you explicitly authorise them.&lt;/p&gt;
 
 &lt;p&gt;But, it would be arrogant of one of them to stand up as the messiah of privacy and security, especially if that means attacking other companies. If they want us to keep trusting them with our data, they need to keep doing the right thing. They should ask us only for informations that are strictly necessary; they should use world class encryption and spare no resource in order to keep everything safe; they should use all their influence when governments try to change laws and make it acceptable for them to have a look at my holidays pictures.&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt;Cover photo from Flickr.&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;[9]: &lt;a href=&#34;https://en.wikipedia.org/wiki/Data_Protection_Directive&#34;&gt;https://en.wikipedia.org/wiki/Data_Protection_Directive&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;small&gt;Cover photo from Flickr.&lt;/small&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -95,21 +95,19 @@ tests: {}
 
 
 <article class="blog__wrap clear">
-  
-
-<p>In today&#8217;s article, I would like to talk about something which I see that, sometimes, developers aren&#8217;t too familiar with. Most of us know what the traditional concept of <strong>inheritance</strong> is: a child class extends a parent class. And, obviously, multiple children classes can extend the same parent class.</p>
+  <p>In today&#8217;s article, I would like to talk about something which I see that, sometimes, developers aren&#8217;t too familiar with. Most of us know what the traditional concept of <strong>inheritance</strong> is: a child class extends a parent class. And, obviously, multiple children classes can extend the same parent class.</p>
 
 <p>What some developers don&#8217;t seem to be always aware of (or, perhaps, they just aren&#8217;t entirely sure how to use it), is the idea of <strong>composition</strong>.</p>
 
-<h2 id="what-is-composition:4ce74885446f2e1d9fcd5fc40d8cc491">What is Composition</h2>
+<h2 id="what-is-composition">What is Composition</h2>
 
 <p>Composition can be explained by a child class &#8220;incorporating&#8221; one or more classes that it intends to extend. In other words, you are declaring inside your class, what other class&#8217; methods do you want to be able to use, without having to strongly tie up your children class to its parent(s).</p>
 
-<h3 id="has-a-vs-is-a:4ce74885446f2e1d9fcd5fc40d8cc491"><em>Has-a</em> VS <em>Is-a</em></h3>
+<h3 id="has-a-vs-is-a"><em>Has-a</em> VS <em>Is-a</em></h3>
 
 <p>A good way to look at Composition is to think of a class that <em>HAS-A</em> relationship with another class, rather <em>IS-A</em> &#8220;son&#8221; of that class. In this sense, when you use Composition, the class has an &#8220;identity&#8221; of its own, and it&#8217;s not to be seen as being &#8220;only&#8221; a son of that other class which it extends.</p>
 
-<h2 id="the-benefits-of-composition:4ce74885446f2e1d9fcd5fc40d8cc491">The Benefits of Composition</h2>
+<h2 id="the-benefits-of-composition">The Benefits of Composition</h2>
 
 <p>While I am not advocating for the complete elimination of traditional inheritance, there are benefits of using Composition that I would like to highlight. And, the way I see it, it is possible that once we realise the power of Composition over Inheritance, we may actually end up using Inheritance less and less. Here are the reasons why Composition is a good pattern:</p>
 
@@ -121,7 +119,7 @@ tests: {}
 
 <p>There are other benefits to using Composition, but those are the ones I feel are the most worthy of being highlighted here.</p>
 
-<h2 id="how-do-i-use-composition-in-insert-programming-language-here:4ce74885446f2e1d9fcd5fc40d8cc491">How do I use Composition in <em>[insert programming language here]</em></h2>
+<h2 id="how-do-i-use-composition-in-insert-programming-language-here">How do I use Composition in <em>[insert programming language here]</em></h2>
 
 <p>Composition is available out of the box in <a href="http://en.wikipedia.org/wiki/Trait_(computer_programming)#Supported_languages">many of the mainstream languages</a>. It can be implemented in the form of a <em>Trait</em> in PHP, Python, Scala and others; It&#8217;s called a <em>Module</em> in Ruby, and a <em>Role</em> in Perl. Javascript, as per usual, has <a href="http://rjzaworski.com/2013/03/composition-in-javascript">unique ways to implement Composition</a>, but it&#8217;s there. Finally, it&#8217;s interesting to note that Go doesn&#8217;t even consider Inheritance as an option; Composition is the only game in town, and it&#8217;s called <a href="http://golang.org/doc/effective_go.html#embedding">Embedding</a>.</p>
 
@@ -129,14 +127,13 @@ tests: {}
 
 <hr />
 
-<h3 id="more-to-read-on-composition-over-inheritance:4ce74885446f2e1d9fcd5fc40d8cc491">More to read on Composition over Inheritance</h3>
+<h3 id="more-to-read-on-composition-over-inheritance">More to read on Composition over Inheritance</h3>
 
 <ul>
 <li><a href="http://www.clean-code-developer.com/Favor-Composition-over-Inheritance.ashx">Clean Code Developer</a></li>
 <li><a href="http://en.wikipedia.org/wiki/Composition_over_inheritance">Wikipedia</a></li>
 <li><a href="http://codingdelight.com/2014/01/16/favor-composition-over-inheritance-part-1/">Coding Delight</a></li>
 </ul>
-
   ---<br>
   <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
 

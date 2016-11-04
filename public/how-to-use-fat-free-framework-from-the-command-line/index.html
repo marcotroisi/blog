@@ -95,9 +95,7 @@ tests: {}
 
 
 <article class="blog__wrap clear">
-  
-
-<h2 id="introduction:23e234fcc1d49b9af94cfc871f2e6b19">Introduction</h2>
+  <h2 id="introduction">Introduction</h2>
 
 <p>Every good framework should allow you to easily create/execute commands from the <a href="http://en.wikipedia.org/wiki/Command-line_interface" title="command line">command line</a> (also called <em>shell</em> or <em>terminal</em>).</p>
 
@@ -107,7 +105,7 @@ tests: {}
 
 <p>Unfortunately, while executing commands from the command line with Fat Free framework is fairly easy, it is not very well documented and you might find yourself in trouble if you need to use that functionality.</p>
 
-<h2 id="set-up-your-commands:23e234fcc1d49b9af94cfc871f2e6b19">Set up your commands</h2>
+<h2 id="set-up-your-commands">Set up your commands</h2>
 
 <p>To set up your command, create a new route in your application&#8217;s bootstrap page (if you have followed the &#8220;set up&#8221; <a href="https://www.digitalocean.com/community/articles/how-to-use-the-fat-free-php-framework">tutorial</a>, then it should be <code>index.php</code>). To do that, just add a new routing directive:</p>
 
@@ -133,7 +131,7 @@ tests: {}
 });
 </code></pre>
 
-<h2 id="execute-your-command:23e234fcc1d49b9af94cfc871f2e6b19">Execute your command</h2>
+<h2 id="execute-your-command">Execute your command</h2>
 
 <p>And now comes the fun part. In order to execute the command that you have just set up, open a terminal application and write:</p>
 
@@ -150,9 +148,9 @@ php index.php &quot;/command&quot; // execute your command
 <pre><code>php index.php &quot;/command&quot; &gt; /path/to/file.txt
 </code></pre>
 
-<h2 id="troubleshooting:23e234fcc1d49b9af94cfc871f2e6b19">Troubleshooting</h2>
+<h2 id="troubleshooting">Troubleshooting</h2>
 
-<h3 id="server-variables:23e234fcc1d49b9af94cfc871f2e6b19">Server variables</h3>
+<h3 id="server-variables">Server variables</h3>
 
 <p>You might encounter issues with Web server-related functions and variables in your code (e.g. <code>$_SERVER['HTTP_HOST']</code>), which will inevitably return an error, since the command line won&#8217;t recognize them. Here is where the <strong><a href="http://www.php.net/manual/en/reserved.constants.php">PHP_SAPI</a></strong> function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:</p>
 
@@ -165,14 +163,13 @@ echo $http_host;
 <pre><code>echo $_SERVER['HTTP_HOST']; // this will not work on the command line
 </code></pre>
 
-<h3 id="paths:23e234fcc1d49b9af94cfc871f2e6b19">Paths</h3>
+<h3 id="paths">Paths</h3>
 
 <p>Also, the command line will not recognize relative paths within your PHP code. So, be sure to always use the absolute path when you, for instance, handle a file. A path that looks like <code>/files/log/log.txt</code> will then have to become something like <code>/var/www/html/thisismyapp.ie/files/log/log.txt</code>.</p>
 
-<h2 id="conclusion:23e234fcc1d49b9af94cfc871f2e6b19">Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
 <p>As you have seen, using the command line with a framework like Fat Free is easy and does not imply changing a lot of things in your code. That means that you can easily call the same functions from both browser and command line, which makes your life easier (whereas with some other frameworks you have to put your commands in a different place, which means additional work).</p>
-
   ---<br>
   <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
 

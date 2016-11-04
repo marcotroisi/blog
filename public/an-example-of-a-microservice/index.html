@@ -103,11 +103,9 @@ tests: {}
 
 
 <article class="blog__wrap clear">
-  
+  <p>After writing on <a href="http://www.marcotroisi.com/micro-services-a-quick-introduction/">Microservices</a>, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. </p>
 
-<p>After writing on <a href="http://www.marcotroisi.com/micro-services-a-quick-introduction/">Microservices</a>, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example.</p>
-
-<h2 id="introducing-microtranslator:e46d2f865b53e2e53becb431606efa7c">Introducing MicroTranslator</h2>
+<h2 id="introducing-microtranslator">Introducing MicroTranslator</h2>
 
 <p><strong><a href="https://github.com/marcotroisi/microtranslator">MicroTranslator</a></strong> is a microservice that I have built, which is supposed to handle locale and translations in an application. Its tech stack is the following:</p>
 
@@ -120,19 +118,19 @@ tests: {}
 
 <p><del datetime="2015-07-20T07:04:33+00:00"><em><strong>Note:</strong> at the time of this writing (14 Apr &#8217;15) I am still working on MicroTranslator. It will be production-ready (documentation included) in a few days. Sorry about that!</em></del></p>
 
-<h2 id="it-comes-with-rest-api:e46d2f865b53e2e53becb431606efa7c">It comes with REST API</h2>
+<h2 id="it-comes-with-rest-api">It comes with REST API</h2>
 
 <p>MicroTranslator provides simple-to-use REST API. For this reason, you need to know little to no PHP to use it. Simply fire up an instance of PHP on whatever machine you like, and then use the APIs to get the translations on the other Microservices that compose your application.</p>
 
 <p>Now this is important, in my opinion. It means that you can quickly begin working on your application without having to focus on a tedious task such as handling translations, but also that, at any point in time, you can completely get rid of it and rewrite it with, perhaps, a faster language. Or you can simply upgrade your hardware and keep relying on it.</p>
 
-<h2 id="8220-i-could-have-done-this-myself-8221:e46d2f865b53e2e53becb431606efa7c">&#8220;I could have done this myself&#8221;</h2>
+<h2 id="8220-i-could-have-done-this-myself-8221">&#8220;I could have done this myself&#8221;</h2>
 
 <p>You may think now, &#8220;why should I use your stuff when I can write my own translation manager, using the tools that I like the most?&#8221; The simple answer here is &#8220;You shouldn&#8217;t (use my translation manager)!&#8221;</p>
 
 <p>But I would also like to point out that, unless translations represent the core of your application, there is no reason why you would want to waste your time rewriting a library that does the same thing. But even if you do, what you should be avoiding is to tie it all up with the rest of your application. Using a Microservices architecture will allow you to <em>replace</em> parts of your application quickly and seamlessly. And, it will give you the power of choosing the right tools, framework, database, etc for the task.</p>
 
-<h2 id="point-by-point:e46d2f865b53e2e53becb431606efa7c">Point by point</h2>
+<h2 id="point-by-point">Point by point</h2>
 
 <p>Like I said, one of the reasons why I worked on MicroTranslator is because I wanted to create a real-life example out of my previous article on <em>what is a Microservice</em>.</p>
 
@@ -146,12 +144,11 @@ tests: {}
 <li><strong>It is aware of failures</strong>. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&#8217;t <em>directly</em> affect your main application.</li>
 </ol>
 
-<h2 id="in-practice-it-8217-s-not-that-difficult:e46d2f865b53e2e53becb431606efa7c">In practice, it&#8217;s not that difficult</h2>
+<h2 id="in-practice-it-8217-s-not-that-difficult">In practice, it&#8217;s not that difficult</h2>
 
 <p>It&#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that <em>very well</em>. This is, by the way, also one the keys of greater <a href="http://www.marcotroisi.com/productive-programmer-5-tips/">productivity</a>.</p>
 
 <p><strong><em>Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on <a href="http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/">Facebook</a> or <a href="https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;source=tweetbutton&amp;text=%3F&amp;url=http://goo.gl/KdOum9&amp;via=marcotroisi">Twitter</a>.</em></strong></p>
-
   ---<br>
   <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
 

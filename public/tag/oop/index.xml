@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oop on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/oop/</link>
-    <description>Recent content in Oop on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/oop/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 23 May 2016 08:34:57 +0100</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/oop/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -29,7 +29,7 @@ and that I know to be relatively easy to understand, test, and refactor.&lt;/p&g
 
 &lt;p&gt;&lt;a name=&#34;orm-no-thanks&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;orm-no-thanks:afb2935814a74c80f457c590571676b4&#34;&gt;ORM? No, thanks&lt;/h2&gt;
+&lt;h2 id=&#34;orm-no-thanks&#34;&gt;ORM? No, thanks&lt;/h2&gt;
 
 &lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;http://martinfowler.com/bliki/OrmHate.html&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
 
@@ -53,7 +53,7 @@ an ORM, there may be a place for it, and that&amp;rsquo;s at the level of the &l
 
 &lt;p&gt;&lt;a name=&#34;accessors-and-mutators-vs-useful-methods&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods:afb2935814a74c80f457c590571676b4&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
+&lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Accessors&lt;/em&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Mutator_method&#34;&gt;&lt;em&gt;mutators&lt;/em&gt;&lt;/a&gt;,
 also known as getters and setters, are incredibly popular today. Most IDEs will even automatically generate them for you, which make them even more tempting, as you can have them there and ready to use in just a few seconds.&lt;/p&gt;
@@ -76,7 +76,7 @@ The reality is that you often don&amp;rsquo;t need to expose your variables to t
 
 &lt;p&gt;&lt;a name=&#34;real-world-entities-are-better-than-services&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;real-world-entities-are-better-than-services:afb2935814a74c80f457c590571676b4&#34;&gt;Real world entities are better than Services&lt;/h2&gt;
+&lt;h2 id=&#34;real-world-entities-are-better-than-services&#34;&gt;Real world entities are better than Services&lt;/h2&gt;
 
 &lt;p&gt;This is a point that I keep coming back to: take the time to &lt;strong&gt;think about your objects&lt;/strong&gt; and the overall architecture.&lt;/p&gt;
 
@@ -136,7 +136,7 @@ But the main idea is to build objects as representations of real world (not nece
 
 &lt;p&gt;&lt;a name=&#34;use-interfaces&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;use-interfaces:afb2935814a74c80f457c590571676b4&#34;&gt;Use interfaces&lt;/h2&gt;
+&lt;h2 id=&#34;use-interfaces&#34;&gt;Use interfaces&lt;/h2&gt;
 
 &lt;p&gt;Interfaces can be a controversial topic. Oddly enough, I&amp;rsquo;ve found myself having to justify the use of interfaces or making the case for them to other developers more often than it would have been reasonable.&lt;/p&gt;
 
@@ -160,14 +160,14 @@ This has several benefits:&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion:afb2935814a74c80f457c590571676b4&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;There are other good practices that can be kept in mind while doing OOP, such as aiming for object&amp;rsquo;s immutability.
 But I believe that by at least keeping in mind the practices listed above, you can write high quality Object Oriented Code that makes sense and that you can be proud of.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;further-reading:afb2935814a74c80f457c590571676b4&#34;&gt;Further reading:&lt;/h3&gt;
+&lt;h3 id=&#34;further-reading&#34;&gt;Further reading:&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html&#34;&gt;Why getter and setter methods are evil&lt;/a&gt; - Allen Holub&lt;/li&gt;

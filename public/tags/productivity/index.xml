@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Productivity on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/productivity/</link>
-    <description>Recent content in Productivity on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/productivity/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 30 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to cope in a bad job (or, how not to get desensitized)</title>
+      <link>http://www.marcotroisi.com/how-to-cope-in-bad-job/</link>
+      <pubDate>Thu, 03 Nov 2016 08:12:18 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/how-to-cope-in-bad-job/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;re not always as lucky as to work at our dream job, are we? Sometimes you&amp;rsquo;re just stuck in a job that can be boring, underpaid or too political. It&amp;rsquo;s particularly annoying in an industry like ours. Most people don&amp;rsquo;t decide to do our job because they&amp;rsquo;d like a so-called &amp;ldquo;job for life&amp;rdquo;, like some jobs in the public sector, where you can settle for doing the bare minimum, knowing that your pay is always going to be on average just enough to get by.&lt;/p&gt;
+
+&lt;p&gt;No, a lot of people enter our industry because they are attracted by a field of work that promises a good pay in exchange for hard but very interesting and stimulating work. And the feeling of doing something that actually matters, solving real problems for the people around you by using the power of technology.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-reality-of-a-bad-job&#34;&gt;The reality of a bad job&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, sometimes reality has a different taste. The truth is that while it&amp;rsquo;s possible that you might find a job like that in the early years of your career as a software engineer, it is more likely that you&amp;rsquo;re going to end up in a less-than-ideal job for quite some time.&lt;/p&gt;
+
+&lt;p&gt;The ideal job would have all of the checkboxes ticked: great salary, great team, great technology, great leadership, interesting product.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to imagine that for a number of reasons (usually not enough experience, but there could be other motivations) sometimes one might have to work at a place where the product is interesting and solves real problems, but the technology sucks. Or, the technology is great and team is a lot of fun, but the salary is rather low.&lt;/p&gt;
+
+&lt;p&gt;I myself have had a number of jobs where at least one or two of those elements weren&amp;rsquo;t right. Let me tell you, it sucks. If you&amp;rsquo;re there right now, I&amp;rsquo;m speaking to you. I hear your pain, and I want to encourage you to keep going.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-sometimes-it-s-worth-staying&#34;&gt;Why sometimes it&amp;rsquo;s worth staying&lt;/h2&gt;
+
+&lt;p&gt;When I was in those jobs, I would go and seek for advice, both online and offline. What I would get was either &amp;ldquo;Leave that job as soon as you can!&amp;rdquo; or something along the lines of &amp;ldquo;Stick around for as long as you can because there is a lot to be learnt from bad companies too&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;To be honest, I never felt satisfied by either answer. Undeniably, there is some truth and wisdom in both. It&amp;rsquo;s true, changing the DNA of a company is almost impossible, and so it makes sense to say that you should leave a bad job as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;Then at the same time, it&amp;rsquo;s also true that if you don&amp;rsquo;t have a bad job at least once in your life, you&amp;rsquo;re never going to know what a good job looks like, nevermind being grateful for it.&lt;/p&gt;
+
+&lt;p&gt;In the end I&amp;rsquo;ve found that the best approach is somewhat of a middle ground. A more pragmatic way, if you will. &lt;strong&gt;Stay for as long as the reasons for staying are more (or stronger) than the reasons for leaving&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In my career, I&amp;rsquo;ve sometimes worked in underpaid jobs where I could barely make end&amp;rsquo;s meet. It was tough. But I sticked around for as long as I could because I was learning so much, and the technologies I got to work with were phenomenal. I knew that the longer I stayed, the higher I could shoot for when it came to my next job. At other times, I&amp;rsquo;ve worked in places where the pay was as high as I could get with my then level of experience, but the technology was a disaster and the people around me weren&amp;rsquo;t too great either! Again, I didn&amp;rsquo;t rush looking for another job even though it was &lt;em&gt;even more frustrating&lt;/em&gt; to work in a place like that (the reason being that I&amp;rsquo;d rather be underpaid but know that I&amp;rsquo;m growing, learning and advancing than get a high salary but be stuck in the &amp;lsquo;80s, feeling like my work is making no difference whatsoever).&lt;/p&gt;
+
+&lt;p&gt;The reasons for staying can be of any nature. As said above, you may feel like you&amp;rsquo;re in a season of learning and growing, and so you&amp;rsquo;re willing to sacrifice the money for a while in order to gain as much experience as possible. Or you may be in a time when the money is vital (perhaps you&amp;rsquo;re starting a family, or have debts to pay) but the company that will pay you the highest salary for your level of experience also happens to be a boring one. You may also be living in a city where there aren&amp;rsquo;t that many jobs after all, and remote work is just not your cup of tea.&lt;/p&gt;
+
+&lt;h2 id=&#34;can-you-settle&#34;&gt;Can you settle?&lt;/h2&gt;
+
+&lt;p&gt;Some people are good at &amp;ldquo;settling&amp;rdquo;. All they&amp;rsquo;re looking for is a stable job where they can earn just as much as they need to live comfortably and provide for their families. That&amp;rsquo;s what life is about for them.&lt;/p&gt;
+
+&lt;p&gt;You ought to feel even jealous of this kind of people! They have a job they like, and by carefully avoiding conflict or too much exposure, given just a little incentive, they&amp;rsquo;ll work for the same company for 20 years. If you&amp;rsquo;re one of those, frankly there is nothing for you here. You can stop reading.&lt;/p&gt;
+
+&lt;p&gt;But if you&amp;rsquo;re as ambitious as I am, this is just not the type of life you can settle for. You look at the future and you don&amp;rsquo;t just see yourself making more money than ever before but, most importantly, making as big a difference as possible. You aim at being a master at what you do with skills that cover different areas and technologies, not limiting yourself to knowing just about what you need to get by.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-to-do-to-survive&#34;&gt;What to do to survive&lt;/h2&gt;
+
+&lt;p&gt;So, how do you survive? How do you keep the motivation high, remain optimist about the future and keep the dream alive? No matter what you say or think, your job is the environment where you spend at least 8 hours a day. If you&amp;rsquo;re not intentional about staying true to who you are, that environment is going to change you before you can change it, if you can ever do that.&lt;/p&gt;
+
+&lt;p&gt;So here&amp;rsquo;s what I suggest. It&amp;rsquo;s my &amp;ldquo;survival guide&amp;rdquo;, and it has kept me going when I&amp;rsquo;ve found myself in a bad job.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read&lt;/strong&gt;. Get hold of the &lt;a href=&#34;http://amzn.to/2f7zLof&#34;&gt;best books&lt;/a&gt;, and aim at reading them at as much of a regular pace as possible. I don&amp;rsquo;t care if it&amp;rsquo;s one book a month, or one every two months or even one every week! But keep going and make it a habit. At any given point, especially if you&amp;rsquo;re feeling discouraged, you want to be able to look back at a month ago and know that, no matter what, you&amp;rsquo;ve learnt something new and your skills are advancing. In other words, you&amp;rsquo;re slowly getting where you want to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work on side projects&lt;/strong&gt;. Especially if you&amp;rsquo;re working with bad and old technology, the best way to keep growing and stay up-to-date with current technology is to work on side projects. It&amp;rsquo;s also a great way to showcase your skills when you apply for your next job.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Surround yourself by professionals&lt;/strong&gt;. That&amp;rsquo;s relatively easy especially if you live in a bigger city. All it means is, attend as many meetups and conferences as you can. Get to know people, get them to tell you what they&amp;rsquo;re working on, and be inspired by them. Also, share your experiences! Knowing that someone is interested in what you&amp;rsquo;re working on is great.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see, it&amp;rsquo;s easy enough, at least in theory. These are of course things everyone should do no matter what. But it&amp;rsquo;s a good idea to double down on them especially when you&amp;rsquo;re spending 8 hours of your day not really growing. You need to make a bigger effort to make up for that.&lt;/p&gt;
+
+&lt;h2 id=&#34;when-to-move-on&#34;&gt;When to move on&lt;/h2&gt;
+
+&lt;p&gt;Honestly, it&amp;rsquo;s hard to say. Ideally, if you follow my rule, as soon as the reasons for staying are no longer stronger than the ones for leaving, you should leave. Immediately. No reason to waste even more of your time. But of course only you know when that time comes. Just make sure you&amp;rsquo;re not settling for something when you know you can do better than that!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>5 Tips for becoming a Productive Programmer</title>
@@ -17,7 +81,7 @@
       <guid>http://www.marcotroisi.com/productive-programmer-5-tips/</guid>
       <description>&lt;p&gt;Have we not all been there? You&amp;#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&amp;#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.&lt;/p&gt;
 
-&lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc.&lt;/p&gt;
+&lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc. &lt;/p&gt;
 
 &lt;p&gt;This is both a blessing and a curse. On one hand, it is amazingly challenging and stimulating to be able to use our brains to solve problems, and develop solutions. On the other hand, our brains can be so easily affected by our psycho-physical status, that we easily find ourselves having seemingly unproductive days. Even though just a few days before, we were feeling like we could have designed Google from scratch in a couple of hours!&lt;/p&gt;
 
@@ -45,8 +109,7 @@
 
 &lt;p&gt;While doing all of the above things is undoubtedly a challenge, and it is not rare for me to break one or more of these rules, I use them as a blueprint and point of reference, and I get back to them every time I feel I&amp;#8217;m getting less productive than I should.&lt;/p&gt;
 
-&lt;p&gt;And you? What are your tips and tricks for working with greater focus and delivering higher quality work?&lt;/p&gt;
-</description>
+&lt;p&gt;And you? What are your tips and tricks for working with greater focus and delivering higher quality work?&lt;/p&gt;</description>
     </item>
     
   </channel>

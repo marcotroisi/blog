@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/about/</link>
-    <description>Recent content in Abouts on Marco Troisi | technology, software development and productivity</description>
+    <title>About-rsses on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/about/index.xml</link>
+    <description>Recent content in About-rsses on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
     <lastBuildDate>Sat, 08 Sep 2012 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.marcotroisi.com/about/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +24,7 @@
 
 &lt;p&gt;If you want to meet up and have a chat, discuss a project or ask me for help, please do not hesitate to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34; title=&#34;Contact&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;contact-info-marcotroisi-com:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Contact (info@marcotroisi.com)&lt;/h3&gt;
+&lt;h3 id=&#34;contact-info-marcotroisi-com&#34;&gt;Contact (info@marcotroisi.com)&lt;/h3&gt;
 
 &lt;p&gt;If you need help with your software, I may be able to help. I provide personal consulting services, as well as put people in contact with the best web professionals in various places of the world.&lt;/p&gt;
 

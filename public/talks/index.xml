@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talks on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/talks/</link>
-    <description>Recent content in Talks on Marco Troisi | technology, software development and productivity</description>
+    <title>Talks-rsses on Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/talks/index.xml</link>
+    <description>Recent content in Talks-rsses on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
     <lastBuildDate>Mon, 17 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.marcotroisi.com/talks/index.xml" rel="self" type="application/rss+xml" />
     

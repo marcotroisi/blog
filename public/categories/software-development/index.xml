@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software Development on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/categories/software-development/</link>
-    <description>Recent content in Software Development on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/categories/software-development/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 Sep 2016 08:05:54 +0100</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/categories/software-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to cope in a bad job (or, how not to get desensitized)</title>
+      <link>http://www.marcotroisi.com/how-to-cope-in-bad-job/</link>
+      <pubDate>Thu, 03 Nov 2016 08:12:18 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/how-to-cope-in-bad-job/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;re not always as lucky as to work at our dream job, are we? Sometimes you&amp;rsquo;re just stuck in a job that can be boring, underpaid or too political. It&amp;rsquo;s particularly annoying in an industry like ours. Most people don&amp;rsquo;t decide to do our job because they&amp;rsquo;d like a so-called &amp;ldquo;job for life&amp;rdquo;, like some jobs in the public sector, where you can settle for doing the bare minimum, knowing that your pay is always going to be on average just enough to get by.&lt;/p&gt;
+
+&lt;p&gt;No, a lot of people enter our industry because they are attracted by a field of work that promises a good pay in exchange for hard but very interesting and stimulating work. And the feeling of doing something that actually matters, solving real problems for the people around you by using the power of technology.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-reality-of-a-bad-job&#34;&gt;The reality of a bad job&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, sometimes reality has a different taste. The truth is that while it&amp;rsquo;s possible that you might find a job like that in the early years of your career as a software engineer, it is more likely that you&amp;rsquo;re going to end up in a less-than-ideal job for quite some time.&lt;/p&gt;
+
+&lt;p&gt;The ideal job would have all of the checkboxes ticked: great salary, great team, great technology, great leadership, interesting product.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to imagine that for a number of reasons (usually not enough experience, but there could be other motivations) sometimes one might have to work at a place where the product is interesting and solves real problems, but the technology sucks. Or, the technology is great and team is a lot of fun, but the salary is rather low.&lt;/p&gt;
+
+&lt;p&gt;I myself have had a number of jobs where at least one or two of those elements weren&amp;rsquo;t right. Let me tell you, it sucks. If you&amp;rsquo;re there right now, I&amp;rsquo;m speaking to you. I hear your pain, and I want to encourage you to keep going.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-sometimes-it-s-worth-staying&#34;&gt;Why sometimes it&amp;rsquo;s worth staying&lt;/h2&gt;
+
+&lt;p&gt;When I was in those jobs, I would go and seek for advice, both online and offline. What I would get was either &amp;ldquo;Leave that job as soon as you can!&amp;rdquo; or something along the lines of &amp;ldquo;Stick around for as long as you can because there is a lot to be learnt from bad companies too&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;To be honest, I never felt satisfied by either answer. Undeniably, there is some truth and wisdom in both. It&amp;rsquo;s true, changing the DNA of a company is almost impossible, and so it makes sense to say that you should leave a bad job as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;Then at the same time, it&amp;rsquo;s also true that if you don&amp;rsquo;t have a bad job at least once in your life, you&amp;rsquo;re never going to know what a good job looks like, nevermind being grateful for it.&lt;/p&gt;
+
+&lt;p&gt;In the end I&amp;rsquo;ve found that the best approach is somewhat of a middle ground. A more pragmatic way, if you will. &lt;strong&gt;Stay for as long as the reasons for staying are more (or stronger) than the reasons for leaving&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In my career, I&amp;rsquo;ve sometimes worked in underpaid jobs where I could barely make end&amp;rsquo;s meet. It was tough. But I sticked around for as long as I could because I was learning so much, and the technologies I got to work with were phenomenal. I knew that the longer I stayed, the higher I could shoot for when it came to my next job. At other times, I&amp;rsquo;ve worked in places where the pay was as high as I could get with my then level of experience, but the technology was a disaster and the people around me weren&amp;rsquo;t too great either! Again, I didn&amp;rsquo;t rush looking for another job even though it was &lt;em&gt;even more frustrating&lt;/em&gt; to work in a place like that (the reason being that I&amp;rsquo;d rather be underpaid but know that I&amp;rsquo;m growing, learning and advancing than get a high salary but be stuck in the &amp;lsquo;80s, feeling like my work is making no difference whatsoever).&lt;/p&gt;
+
+&lt;p&gt;The reasons for staying can be of any nature. As said above, you may feel like you&amp;rsquo;re in a season of learning and growing, and so you&amp;rsquo;re willing to sacrifice the money for a while in order to gain as much experience as possible. Or you may be in a time when the money is vital (perhaps you&amp;rsquo;re starting a family, or have debts to pay) but the company that will pay you the highest salary for your level of experience also happens to be a boring one. You may also be living in a city where there aren&amp;rsquo;t that many jobs after all, and remote work is just not your cup of tea.&lt;/p&gt;
+
+&lt;h2 id=&#34;can-you-settle&#34;&gt;Can you settle?&lt;/h2&gt;
+
+&lt;p&gt;Some people are good at &amp;ldquo;settling&amp;rdquo;. All they&amp;rsquo;re looking for is a stable job where they can earn just as much as they need to live comfortably and provide for their families. That&amp;rsquo;s what life is about for them.&lt;/p&gt;
+
+&lt;p&gt;You ought to feel even jealous of this kind of people! They have a job they like, and by carefully avoiding conflict or too much exposure, given just a little incentive, they&amp;rsquo;ll work for the same company for 20 years. If you&amp;rsquo;re one of those, frankly there is nothing for you here. You can stop reading.&lt;/p&gt;
+
+&lt;p&gt;But if you&amp;rsquo;re as ambitious as I am, this is just not the type of life you can settle for. You look at the future and you don&amp;rsquo;t just see yourself making more money than ever before but, most importantly, making as big a difference as possible. You aim at being a master at what you do with skills that cover different areas and technologies, not limiting yourself to knowing just about what you need to get by.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-to-do-to-survive&#34;&gt;What to do to survive&lt;/h2&gt;
+
+&lt;p&gt;So, how do you survive? How do you keep the motivation high, remain optimist about the future and keep the dream alive? No matter what you say or think, your job is the environment where you spend at least 8 hours a day. If you&amp;rsquo;re not intentional about staying true to who you are, that environment is going to change you before you can change it, if you can ever do that.&lt;/p&gt;
+
+&lt;p&gt;So here&amp;rsquo;s what I suggest. It&amp;rsquo;s my &amp;ldquo;survival guide&amp;rdquo;, and it has kept me going when I&amp;rsquo;ve found myself in a bad job.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read&lt;/strong&gt;. Get hold of the &lt;a href=&#34;http://amzn.to/2f7zLof&#34;&gt;best books&lt;/a&gt;, and aim at reading them at as much of a regular pace as possible. I don&amp;rsquo;t care if it&amp;rsquo;s one book a month, or one every two months or even one every week! But keep going and make it a habit. At any given point, especially if you&amp;rsquo;re feeling discouraged, you want to be able to look back at a month ago and know that, no matter what, you&amp;rsquo;ve learnt something new and your skills are advancing. In other words, you&amp;rsquo;re slowly getting where you want to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work on side projects&lt;/strong&gt;. Especially if you&amp;rsquo;re working with bad and old technology, the best way to keep growing and stay up-to-date with current technology is to work on side projects. It&amp;rsquo;s also a great way to showcase your skills when you apply for your next job.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Surround yourself by professionals&lt;/strong&gt;. That&amp;rsquo;s relatively easy especially if you live in a bigger city. All it means is, attend as many meetups and conferences as you can. Get to know people, get them to tell you what they&amp;rsquo;re working on, and be inspired by them. Also, share your experiences! Knowing that someone is interested in what you&amp;rsquo;re working on is great.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see, it&amp;rsquo;s easy enough, at least in theory. These are of course things everyone should do no matter what. But it&amp;rsquo;s a good idea to double down on them especially when you&amp;rsquo;re spending 8 hours of your day not really growing. You need to make a bigger effort to make up for that.&lt;/p&gt;
+
+&lt;h2 id=&#34;when-to-move-on&#34;&gt;When to move on&lt;/h2&gt;
+
+&lt;p&gt;Honestly, it&amp;rsquo;s hard to say. Ideally, if you follow my rule, as soon as the reasons for staying are no longer stronger than the ones for leaving, you should leave. Immediately. No reason to waste even more of your time. But of course only you know when that time comes. Just make sure you&amp;rsquo;re not settling for something when you know you can do better than that!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>When to use microservices (video)</title>
@@ -59,7 +123,7 @@
 
 &lt;p&gt;&lt;a name=&#34;why-you-need-the-best-tools&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;why-you-need-the-best-tools:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Why you need the best tools&lt;/h2&gt;
+&lt;h2 id=&#34;why-you-need-the-best-tools&#34;&gt;Why you need the best tools&lt;/h2&gt;
 
 &lt;p&gt;Hardly any job can be done without the right tools. You always need &lt;em&gt;something&lt;/em&gt; to do what you do. This applies to virtually everyone, from a dentist to a photographer, a journalist to a mathematician. And of course the software engineer is not excused.&lt;/p&gt;
 
@@ -77,43 +141,43 @@
 
 &lt;p&gt;&lt;a name=&#34;writing-code&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;writing-code:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Writing code&lt;/h2&gt;
+&lt;h2 id=&#34;writing-code&#34;&gt;Writing code&lt;/h2&gt;
 
 &lt;p&gt;The &lt;em&gt;best way to write code&lt;/em&gt; is through a powerfully integrated IDE like the ones from JetBrains, or a faster text editor like Sublime Text or Atom, provided you have the right plugins for your language of choice installed. No, you can&amp;rsquo;t use Notepad, that&amp;rsquo;s just not good enough!&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;version-control&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;version-control:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Version Control&lt;/h2&gt;
+&lt;h2 id=&#34;version-control&#34;&gt;Version Control&lt;/h2&gt;
 
 &lt;p&gt;The industry is also saying that the &lt;em&gt;best version control system&lt;/em&gt; is &lt;strong&gt;Git&lt;/strong&gt;. It&amp;rsquo;s the system that the biggest number of companies and developers all around the world have found to be the most powerful one. While in terms of usage percentage it may still be fighting against SVN, a quick look at the projects that still use the latter will quickly reveal how the vast majority of them are only using it because of legacy. In other words, those are very old projects, and they were using SVN since before Git was even a thing. But then, why would they keep using such an ancient and inefficient system when there are plenty of ways to migrate to Git? This is something I don&amp;rsquo;t fully understand.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;code-sharing-and-collaboration&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;code-sharing-and-collaboration:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Code sharing and collaboration&lt;/h2&gt;
+&lt;h2 id=&#34;code-sharing-and-collaboration&#34;&gt;Code sharing and collaboration&lt;/h2&gt;
 
 &lt;p&gt;Another thing the industry has been saying for a while now, is that the &lt;em&gt;best way to share code&lt;/em&gt; is to use &lt;strong&gt;GitHub&lt;/strong&gt; on top of the already-mentioned Git. Now, I understand that some companies may find that BitBucket or GitLab fit their needs better. But given the choice, and all things being equal, GitHub is &lt;em&gt;the&lt;/em&gt; one. It&amp;rsquo;s the most widely supported and most well known collaboration platform out there.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;code-review&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;code-review:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Code review&lt;/h2&gt;
+&lt;h2 id=&#34;code-review&#34;&gt;Code review&lt;/h2&gt;
 
 &lt;p&gt;Tools for &lt;a href=&#34;http://marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Code reviewing&lt;/a&gt; are also important, and they are strictly related to collaboration tools in that the &lt;em&gt;best way to review&lt;/em&gt; your peers&amp;rsquo; code appears to be yet again &lt;strong&gt;GitHub&lt;/strong&gt;. Their code reviewing tool is just too good, and it&amp;rsquo;s simply too easy to use when you&amp;rsquo;re already on GitHub, so there&amp;rsquo;s just no need to be looking for anything else.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;bug-tracking&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;bug-tracking:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Bug tracking&lt;/h2&gt;
+&lt;h2 id=&#34;bug-tracking&#34;&gt;Bug tracking&lt;/h2&gt;
 
 &lt;p&gt;For a project to work well, you&amp;rsquo;re going to need some kind of bug tracking system. I&amp;rsquo;ve personally had to work with several of them, from &lt;a href=&#34;http://www.redmine.org/&#34;&gt;Redmine&lt;/a&gt; to &lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt;, from &lt;a href=&#34;https://www.atlassian.com/software/jira&#34;&gt;Jira&lt;/a&gt; to &lt;a href=&#34;https://www.jetbrains.com/youtrack/&#34;&gt;YouTrack&lt;/a&gt;, and of course GitHub Issues. Here I&amp;rsquo;d have to say that I&amp;rsquo;ve had decent experiences with pretty much all of them: once you get used to one of them, they can all do their job, no question about it. But there seems to be a general consensus on &lt;strong&gt;Jira&lt;/strong&gt; being the best tool out there, and I think that&amp;rsquo;s right. While every other platform I&amp;rsquo;ve used was good enough, every time that I come back to Jira after a while, I am just amazed at how powerful and functional it is. And, every time I use a different tool after having worked with Jira for a while, it always takes me a while to adapt and a good dose of resignation at knowing that I&amp;rsquo;ll be missing some Jira&amp;rsquo;s unique features.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;continuous-integration&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;continuous-integration:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Continuous integration&lt;/h2&gt;
+&lt;h2 id=&#34;continuous-integration&#34;&gt;Continuous integration&lt;/h2&gt;
 
 &lt;p&gt;Continuous integration is another critical topic. Here, what the industry appears to be saying is that &lt;a href=&#34;https://www.thoughtworks.com/continuous-integration&#34;&gt;you need to do it&lt;/a&gt;. There is no point in looking at tools here if one doesn&amp;rsquo;t even believe in the usefulness of doing Continuous integration. It will make it incredibly easier for you to keep track of what is going on, and to find bugs before they get deployed on production. As far as tools go, no longer that a few years ago the only viable option was to set up Jenkins on some server of yours, and spend days trying to make it work, not to mention the fact that someone will have to keep an eye on it because something might always break. This problem has now been largely solved by the emergence of many excellent, cloud-based CI platform. Prices are pretty fair, usually free for open source and in some cases free for small private projects as well. The most complete, well documented and most supported of them is undoubtedly Berlin-based &lt;a href=&#34;https://travis-ci.com/&#34;&gt;Travis&lt;/a&gt;. Recently, &lt;a href=&#34;https://circleci.com/&#34;&gt;CircleCI&lt;/a&gt; has also attracted a lot of attention, mostly because it&amp;rsquo;s very fast, and because it&amp;rsquo;s free for small projects (i.e. if you only run one build at a time). I haven&amp;rsquo;t found their documentation to be outstanding, and there&amp;rsquo;s not (yet) much help to be found online, but with a bit of effort I&amp;rsquo;ve always been able to make it work nicely.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;static-analysers&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;static-analysers:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Static analysers&lt;/h2&gt;
+&lt;h2 id=&#34;static-analysers&#34;&gt;Static analysers&lt;/h2&gt;
 
 &lt;p&gt;Something else that you should make sure to have in your stack at some point: static analysers. These tools, while obviously far from replacing the need for writing clean code on the side of the programmer, are very helpful in pointing out a lot of code smells, therefore helping immensely especially during (or before) the process of code reviewing. Here things may change based on the language you&amp;rsquo;re using. &lt;a href=&#34;https://codeclimate.com/&#34;&gt;CodeClimate&lt;/a&gt; supports a lot of languages, and it&amp;rsquo;s probably the one you want to go for in many cases. Being open source, you can either download it and use it from your command line, or pay for the cloud version, which offers a nice UI and it&amp;rsquo;s perhaps a better deal overall. I&amp;rsquo;m also a big fan of &lt;a href=&#34;https://scrutinizer-ci.com/&#34;&gt;Scrutinizer&lt;/a&gt;, but it supports only a limited number of languages. The best way to make static analysers part of your development process, is to add it to your GitHub build. This allows you to check in real time, as you create a Pull Request, the quality of code you&amp;rsquo;re trying to push to the master branch. Moreover, you can make this even stricter by using GitHub&amp;rsquo;s &lt;a href=&#34;https://help.github.com/articles/about-protected-branches/&#34;&gt;Protected Branches&lt;/a&gt; feature, and disallowing you and your collaborators from merging into the master branch unless a certain level of quality has been reached.&lt;/p&gt;
 
@@ -121,7 +185,7 @@
 
 &lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;While it&amp;rsquo;s totally understandable that from time to time it might not be possible for someone to follow the above guidelines in their entirety, it&amp;rsquo;s probably worth it to &lt;strong&gt;ask yourself&lt;/strong&gt; if there are good reasons for not following them. If there aren&amp;rsquo;t, then it&amp;rsquo;s definitely time to consider implementing some change.&lt;/p&gt;
 
@@ -149,7 +213,7 @@ and that I know to be relatively easy to understand, test, and refactor.&lt;/p&g
 
 &lt;p&gt;&lt;a name=&#34;orm-no-thanks&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;orm-no-thanks:afb2935814a74c80f457c590571676b4&#34;&gt;ORM? No, thanks&lt;/h2&gt;
+&lt;h2 id=&#34;orm-no-thanks&#34;&gt;ORM? No, thanks&lt;/h2&gt;
 
 &lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;http://martinfowler.com/bliki/OrmHate.html&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
 
@@ -173,7 +237,7 @@ an ORM, there may be a place for it, and that&amp;rsquo;s at the level of the &l
 
 &lt;p&gt;&lt;a name=&#34;accessors-and-mutators-vs-useful-methods&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods:afb2935814a74c80f457c590571676b4&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
+&lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Accessors&lt;/em&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Mutator_method&#34;&gt;&lt;em&gt;mutators&lt;/em&gt;&lt;/a&gt;,
 also known as getters and setters, are incredibly popular today. Most IDEs will even automatically generate them for you, which make them even more tempting, as you can have them there and ready to use in just a few seconds.&lt;/p&gt;
@@ -196,7 +260,7 @@ The reality is that you often don&amp;rsquo;t need to expose your variables to t
 
 &lt;p&gt;&lt;a name=&#34;real-world-entities-are-better-than-services&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;real-world-entities-are-better-than-services:afb2935814a74c80f457c590571676b4&#34;&gt;Real world entities are better than Services&lt;/h2&gt;
+&lt;h2 id=&#34;real-world-entities-are-better-than-services&#34;&gt;Real world entities are better than Services&lt;/h2&gt;
 
 &lt;p&gt;This is a point that I keep coming back to: take the time to &lt;strong&gt;think about your objects&lt;/strong&gt; and the overall architecture.&lt;/p&gt;
 
@@ -256,7 +320,7 @@ But the main idea is to build objects as representations of real world (not nece
 
 &lt;p&gt;&lt;a name=&#34;use-interfaces&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;use-interfaces:afb2935814a74c80f457c590571676b4&#34;&gt;Use interfaces&lt;/h2&gt;
+&lt;h2 id=&#34;use-interfaces&#34;&gt;Use interfaces&lt;/h2&gt;
 
 &lt;p&gt;Interfaces can be a controversial topic. Oddly enough, I&amp;rsquo;ve found myself having to justify the use of interfaces or making the case for them to other developers more often than it would have been reasonable.&lt;/p&gt;
 
@@ -280,14 +344,14 @@ This has several benefits:&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion:afb2935814a74c80f457c590571676b4&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;There are other good practices that can be kept in mind while doing OOP, such as aiming for object&amp;rsquo;s immutability.
 But I believe that by at least keeping in mind the practices listed above, you can write high quality Object Oriented Code that makes sense and that you can be proud of.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;further-reading:afb2935814a74c80f457c590571676b4&#34;&gt;Further reading:&lt;/h3&gt;
+&lt;h3 id=&#34;further-reading&#34;&gt;Further reading:&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html&#34;&gt;Why getter and setter methods are evil&lt;/a&gt; - Allen Holub&lt;/li&gt;
@@ -315,7 +379,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;But we are professionals, and as such we can&amp;rsquo;t afford going after what&amp;rsquo;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
 
-&lt;h2 id=&#34;write-great-code-first:bd261709805cb407baec357c21e1511f&#34;&gt;Write great code first&lt;/h2&gt;
+&lt;h2 id=&#34;write-great-code-first&#34;&gt;Write great code first&lt;/h2&gt;
 
 &lt;p&gt;Just as knowing how to count doesn&amp;rsquo;t make you a Mathematician, knowing how to write some code doesn&amp;rsquo;t make you a Programmer. I hope I don&amp;rsquo;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;rsquo;t take ourselves seriously, no one else will.&lt;/p&gt;
 
@@ -323,7 +387,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
 
 &lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
 
@@ -334,11 +398,11 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;Let&amp;rsquo;s have a closer look at them:&lt;/p&gt;
 
-&lt;h3 id=&#34;the-monolith-is-not-bad-per-se:bd261709805cb407baec357c21e1511f&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
 
 &lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;rsquo;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
 
-&lt;h3 id=&#34;microservices-don-t-magically-suspend-the-rules:bd261709805cb407baec357c21e1511f&#34;&gt;Microservices don&amp;rsquo;t magically suspend the rules.&lt;/h3&gt;
+&lt;h3 id=&#34;microservices-don-t-magically-suspend-the-rules&#34;&gt;Microservices don&amp;rsquo;t magically suspend the rules.&lt;/h3&gt;
 
 &lt;p&gt;Say you know how to do your job well, and you&amp;rsquo;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;rsquo;t need to put the same amount of care into it. Is that true? No, it isn&amp;rsquo;t.&lt;/p&gt;
 
@@ -350,7 +414,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;These days I&amp;rsquo;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;rsquo;t even need to write tests!&amp;#8221; I&amp;rsquo;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;rsquo;t even need to test it!&amp;#8221; This makes no sense, and it&amp;rsquo;s simply unjustifiable.&lt;/p&gt;
 
-&lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+&lt;h2 id=&#34;re-defining-microservices&#34;&gt;(Re)defining microservices&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;rsquo;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
 
@@ -368,9 +432,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
       <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</guid>
-      <description>
-
-&lt;p&gt;Amongst software engineers, there is this thing called &lt;em&gt;technical debt&lt;/em&gt; that is very often talked about and that tends to have somewhat of an ethereal nature.&lt;/p&gt;
+      <description>&lt;p&gt;Amongst software engineers, there is this thing called &lt;em&gt;technical debt&lt;/em&gt; that is very often talked about and that tends to have somewhat of an ethereal nature.&lt;/p&gt;
 
 &lt;p&gt;Almost every company will have the technical debt prophet who will try to convince her people that doing what &amp;#8220;feels good&amp;#8221; now is not going to pay off down the line, and that &amp;#8220;future generations&amp;#8221; will have to pay for it. But, almost inevitably, choices will be made that will inescapably lead to some degree of technical debt.&lt;/p&gt;
 
@@ -378,21 +440,21 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;The problem is that sometimes we fail to understand how much of a damage are we actually making with those poor choices being implemented.&lt;/p&gt;
 
-&lt;h2 id=&#34;business-and-codebase-should-grow-together:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Business and codebase should grow together&lt;/h2&gt;
+&lt;h2 id=&#34;business-and-codebase-should-grow-together&#34;&gt;Business and codebase should grow together&lt;/h2&gt;
 
-&lt;h3 id=&#34;the-first-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The first stage of growth&lt;/h3&gt;
+&lt;h3 id=&#34;the-first-stage-of-growth&#34;&gt;The first stage of growth&lt;/h3&gt;
 
 &lt;p&gt;Think of the Business side of your company and its software codebase as two parts of the whole picture that should be growing and maturing together. So, for example, when the company is at its early stages, and the way everything is being run is very simple and lean because there isn&amp;#8217;t much to be run anyway, the software should also be really down to the basics. No unnecessary complexity, no premature optimisation. Keep it simple, keep it &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;clean&lt;/a&gt;. Write the cleanest code you possibly can, rely on a rock-solid, time tested set of tools. Don&amp;#8217;t adventure in something that you &lt;em&gt;think&lt;/em&gt; will be useful as you grow, rather make sure that you make it as easy as possible to transition the software to a different framework, database, architecture (e.g. a &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt; architecture).&lt;/p&gt;
 
-&lt;h3 id=&#34;the-second-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The second stage of growth&lt;/h3&gt;
+&lt;h3 id=&#34;the-second-stage-of-growth&#34;&gt;The second stage of growth&lt;/h3&gt;
 
 &lt;p&gt;As the company begins to gain traction, there will be a time of relatively rapid growth. The company is going from literally zero to hundreds or thousands of people using the particular services they offer. At this time, it will begin to become evident whether good choices were made in the prior stage; it should be very easy to change anything based on a new decision from the managers or, perhaps, from the customer&amp;#8217;s feedback. Changing anything should be a matter of hours, not days. Implementing a new feature should be an absolute pleasure. No important architectural change should be necessary in order for the whole platfom to keep functioning even in the face of thousands of new users being added daily. Of course, things like implementing a new cache layer to ease the pressure on the servers, or adding a new cluster for the database, are okay. But no discussion about changing framework, or adopting a new database should take place. If the framework or database adopted can&amp;#8217;t handle this type of pressure nicely, then someone made a very incompetent choice at the previous level, the one where this type of decisions were made. But ideally, all modern frameworks and databases should be able to manage the amount of traffic that is happening at this particular stage.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-third-stage-of-growth:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;The third stage of growth&lt;/h3&gt;
+&lt;h3 id=&#34;the-third-stage-of-growth&#34;&gt;The third stage of growth&lt;/h3&gt;
 
 &lt;p&gt;The third stage would be the one of multiplication. At this point, the company is so successful that it may want to launch its services abroad. As the product is already popular enough in its home country, say the US, you&amp;#8217;d expect that on day one of the launch to the next territory, say Europe, you&amp;#8217;d have to handle hundreds of thousands of new users, with support for multiple languages and a whole lot of things that will have to be customised on a single Country basis. This is the time where considerations like, &amp;#8220;should we switch framework&amp;#8221; or &amp;#8220;can our database handle this much&amp;#8221; are more than appropriate. Here more than anywhere else, it will become evident whether everyone did his/her job properly. If good choices were made and everyone acted like a professional at the prior stages, moving from one database to another, adopting a different framework, or switching to a more scalable architecture, should only be a matter of days. But, most importantly, the key people in the team should have a clear path in their mind of what needs to be done in order for that transition to take place. There should be no guessing.&lt;/p&gt;
 
-&lt;h2 id=&#34;technical-debt-is-suicide:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Technical debt is suicide&lt;/h2&gt;
+&lt;h2 id=&#34;technical-debt-is-suicide&#34;&gt;Technical debt is suicide&lt;/h2&gt;
 
 &lt;p&gt;Just like any other debt, technical debt will only lead to bad things. And as it increases, the chances of a company succeeding are going to be greatly diminished. There is an inversely proportional relationship between the two.&lt;/p&gt;
 
@@ -406,13 +468,13 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;It&amp;#8217;s hard to imagine a company getting to the third stage of growth under these circumstances, but if it does, it should look similar to what it would have looked like in normal conditions. But, again, it&amp;#8217;s unlikely to get there, and if it does, so much time and money will have been wasted to get here, that it will be hard to justify again any change or rewriting, though this is the only stage where those things would have actually made sense. It&amp;#8217;s also likely that a few key people in the engineering team has been replaced because of their incompetence, adding to everything else the costs of having to introduce new people and mosts importantly new leaders.&lt;/p&gt;
 
-&lt;h2 id=&#34;avoiding-technical-debt:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;Avoiding technical debt&lt;/h2&gt;
+&lt;h2 id=&#34;avoiding-technical-debt&#34;&gt;Avoiding technical debt&lt;/h2&gt;
 
 &lt;p&gt;Technical debt exists, it&amp;#8217;s real and it can be proven, almost touched. It&amp;#8217;s not a myth, and the first step to avoiding it is realising how damaging it can be. Doing things right will not only lead to building a successful platfom serving happy customers. It will also be a lot more fun. It&amp;#8217;s way more enjoyable to work on clean code, to be able to introduce a new feature in a matter of hours and not weeks. It&amp;#8217;s a lot better to spend time solving real problems rather than fixing bugs. And of course, no one wants to work late nights and weekends if it&amp;#8217;s not absolutely necessary.&lt;/p&gt;
 
-&lt;h2 id=&#34;more-resources:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;More resources&lt;/h2&gt;
+&lt;h2 id=&#34;more-resources&#34;&gt;More resources&lt;/h2&gt;
 
-&lt;h3 id=&#34;to-read:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Read&lt;/h3&gt;
+&lt;h3 id=&#34;to-read&#34;&gt;To Read&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;The clean architecture&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
@@ -420,13 +482,12 @@ But I believe that by at least keeping in mind the practices listed above, you c
 &lt;li&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&amp;#038;camp=1789&amp;#038;creative=390957&amp;#038;creativeASIN=1617292397&amp;#038;linkCode=as2&amp;#038;tag=marctroi-20&amp;#038;linkId=CVFNNRQ23ADXVH4O&#34;&gt;Soft Skills: The software developer&amp;#8217;s life manual&lt;/a&gt; &lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=1617292397&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;(John Sonmez)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;to-watch:ba68cad4b50dffd8852ca325ccaae48d&#34;&gt;To Watch&lt;/h3&gt;
+&lt;h3 id=&#34;to-watch&#34;&gt;To Watch&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HhNIttd87xs&#34;&gt;Architecture: the lost years&lt;/a&gt; (Uncle Bob Martin)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vqEg37e4Mkw&amp;amp;list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD&#34;&gt;Workflows of refactoring&lt;/a&gt; (Martin Fowler)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -441,7 +502,11 @@ But I believe that by at least keeping in mind the practices listed above, you c
 &lt;p&gt;Hello Marco,&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve just stumbled upon your articles about microservices. I&amp;#8217;m really trying to get into it, I find it a really interesting approach when it comes to build web apps. I got bored with all those frameworks claiming MVC etc. What I want to focus on is SOC, so microservices really fits in there. However I didn&amp;#8217;t have time yet to practice what I could have read on that, and there are still things that are pretty obscure to me, maybe you could give me your point of view.&lt;/p&gt;
+&lt;/blockquote&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
 &lt;p&gt;My main concern is about information sharing between services. What happens when a microservice is &amp;#8220;linked&amp;#8221; to another one ? If I take your example of WordPress refactoring, you&amp;#8217;re for example stating that there could be a Post and Media Content microservices. But here, the media content microservices isn&amp;#8217;t really standalone as it wouldn&amp;#8217;t make sense to use it without the Post microservice, because Media Content is directly attached to a Post, see what I mean ? It sounds kind of weird to me, but maybe I&amp;#8217;m wrong.&lt;/p&gt;
 
 &lt;p&gt;Also my second point would be about user authentication. How do you persist the state between microservices ? Do you have an example of that ?&lt;/p&gt;
@@ -485,8 +550,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;Marco&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -495,9 +559,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
       <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/what-can-we-learn-from-periscope/</guid>
-      <description>
-
-&lt;p&gt;I have been using &lt;a href=&#34;http://www.periscope.tv&#34;&gt;Periscope&lt;/a&gt; for a while now, and I am really enjoying it. If you don&amp;#8217;t know it, Periscope is Twitter&amp;#8217;s new live streaming app, that allows anyone to stream directly from one&amp;#8217;s smartphone, and it will notify you as soon as someone you follow is live-streaming.&lt;/p&gt;
+      <description>&lt;p&gt;I have been using &lt;a href=&#34;http://www.periscope.tv&#34;&gt;Periscope&lt;/a&gt; for a while now, and I am really enjoying it. If you don&amp;#8217;t know it, Periscope is Twitter&amp;#8217;s new live streaming app, that allows anyone to stream directly from one&amp;#8217;s smartphone, and it will notify you as soon as someone you follow is live-streaming.&lt;/p&gt;
 
 &lt;p&gt;The concept of live streaming is not a new one, but Periscope (alongside with their competitor, &lt;a href=&#34;https://meerkatapp.co/&#34;&gt;Meerkat&lt;/a&gt;) has made it really easy to do so from a mobile device and, most importantly, to create a community of followers around it.&lt;/p&gt;
 
@@ -505,7 +567,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;Personally, I have been using Periscope as a watcher, rather than a streamer, in order to follow some of my favourite people that I already follow on other social media channels.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-8217-s-great-about-periscope:506996eb1ee3dc44d275f124525b4fee&#34;&gt;What&amp;#8217;s great about Periscope&lt;/h2&gt;
+&lt;h2 id=&#34;what-8217-s-great-about-periscope&#34;&gt;What&amp;#8217;s great about Periscope&lt;/h2&gt;
 
 &lt;p&gt;&lt;img class=&#34;alignright wp-image-446 size-full&#34; src=&#34;http://www.marcotroisi.com/wp-content/uploads/2015/09/periscope.png&#34; alt=&#34;periscope&#34; width=&#34;228&#34; height=&#34;228&#34; /&gt;&lt;/p&gt;
 
@@ -528,16 +590,13 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;This is of course just my point of view, and I would love to hear yours! &lt;a href=&#34;https://twitter.com/MarcoTroisi/status/639770687045894145&#34;&gt;Let me know&lt;/a&gt; what you think.&lt;/p&gt;
 
-&lt;h2 id=&#34;more-resources:506996eb1ee3dc44d275f124525b4fee&#34;&gt;More resources&lt;/h2&gt;
+&lt;h2 id=&#34;more-resources&#34;&gt;More resources&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://michaelhyatt.com/what-i-love-about-periscope.html&#34;&gt;What I love about Periscope&lt;/a&gt; (Michael Hyatt)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B014IP8RU2/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B014IP8RU2&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=CWTOFMMUFKNYIKLR&#34;&gt;Periscope Your Biz: Live Video Broadcasting for Profits&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important;&#34; src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;l=as2&amp;o=1&amp;a=B014IP8RU2&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;(Book &amp;#8211; Amazon)&lt;/li&gt;
-&lt;li&gt;[Leveraging Twitter&amp;#8217;s Periscope: Join The Community, Build Your Business, and Have Fun!][7] &lt;img style=&#34;border: none !important; margin: 0px !important;&#34; src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;l=as2&amp;o=1&amp;a=B012H76NMC&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;(Book &amp;#8211; Amazon)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;[7]: &lt;a href=&#34;http://www.amazon.com/gp/product/B012H76NMC/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B012H76NMC&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=Z4TNTOACIIF5P66N&#34;&gt;http://www.amazon.com/gp/product/B012H76NMC/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B012H76NMC&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=Z4TNTOACIIF5P66N&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B012H76NMC/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B012H76NMC&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=Z4TNTOACIIF5P66N&#34;&gt;Leveraging Twitter&amp;#8217;s Periscope: Join The Community, Build Your Business, and Have Fun!&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important;&#34; src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;l=as2&amp;o=1&amp;a=B012H76NMC&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;(Book &amp;#8211; Amazon)&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -567,8 +626,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;At the end of the day, what needs to be remembered is that your collaborators/colleagues/team-mates are professionals like you, regardless of the individual amount of experience. But, ultimately and more importantly, they are human beings! And human beings work better, produce more and tend to be happier in an environment where they are understood, appreciated and respected. And code reviewing can be an incredibly powerful helper in this, if used wisely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -583,12 +641,9 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;If you are interested, read the articles, starting from the first one: &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/&#34;&gt;A Journey into Microservices&lt;/a&gt;, and then go ahead with &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/&#34;&gt;part two&lt;/a&gt; and &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/&#34;&gt;part three&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or [Twitter][7].&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Featured photo from the Hailo website&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;[7]: &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;em&gt;Featured photo from the Hailo website&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -597,21 +652,19 @@ But I believe that by at least keeping in mind the practices listed above, you c
       <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/composition-over-inheritance/</guid>
-      <description>
-
-&lt;p&gt;In today&amp;#8217;s article, I would like to talk about something which I see that, sometimes, developers aren&amp;#8217;t too familiar with. Most of us know what the traditional concept of &lt;strong&gt;inheritance&lt;/strong&gt; is: a child class extends a parent class. And, obviously, multiple children classes can extend the same parent class.&lt;/p&gt;
+      <description>&lt;p&gt;In today&amp;#8217;s article, I would like to talk about something which I see that, sometimes, developers aren&amp;#8217;t too familiar with. Most of us know what the traditional concept of &lt;strong&gt;inheritance&lt;/strong&gt; is: a child class extends a parent class. And, obviously, multiple children classes can extend the same parent class.&lt;/p&gt;
 
 &lt;p&gt;What some developers don&amp;#8217;t seem to be always aware of (or, perhaps, they just aren&amp;#8217;t entirely sure how to use it), is the idea of &lt;strong&gt;composition&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-is-composition:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;What is Composition&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-composition&#34;&gt;What is Composition&lt;/h2&gt;
 
 &lt;p&gt;Composition can be explained by a child class &amp;#8220;incorporating&amp;#8221; one or more classes that it intends to extend. In other words, you are declaring inside your class, what other class&amp;#8217; methods do you want to be able to use, without having to strongly tie up your children class to its parent(s).&lt;/p&gt;
 
-&lt;h3 id=&#34;has-a-vs-is-a:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;&lt;em&gt;Has-a&lt;/em&gt; VS &lt;em&gt;Is-a&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;has-a-vs-is-a&#34;&gt;&lt;em&gt;Has-a&lt;/em&gt; VS &lt;em&gt;Is-a&lt;/em&gt;&lt;/h3&gt;
 
 &lt;p&gt;A good way to look at Composition is to think of a class that &lt;em&gt;HAS-A&lt;/em&gt; relationship with another class, rather &lt;em&gt;IS-A&lt;/em&gt; &amp;#8220;son&amp;#8221; of that class. In this sense, when you use Composition, the class has an &amp;#8220;identity&amp;#8221; of its own, and it&amp;#8217;s not to be seen as being &amp;#8220;only&amp;#8221; a son of that other class which it extends.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-benefits-of-composition:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;The Benefits of Composition&lt;/h2&gt;
+&lt;h2 id=&#34;the-benefits-of-composition&#34;&gt;The Benefits of Composition&lt;/h2&gt;
 
 &lt;p&gt;While I am not advocating for the complete elimination of traditional inheritance, there are benefits of using Composition that I would like to highlight. And, the way I see it, it is possible that once we realise the power of Composition over Inheritance, we may actually end up using Inheritance less and less. Here are the reasons why Composition is a good pattern:&lt;/p&gt;
 
@@ -623,7 +676,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;There are other benefits to using Composition, but those are the ones I feel are the most worthy of being highlighted here.&lt;/p&gt;
 
-&lt;h2 id=&#34;how-do-i-use-composition-in-insert-programming-language-here:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;How do I use Composition in &lt;em&gt;[insert programming language here]&lt;/em&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;how-do-i-use-composition-in-insert-programming-language-here&#34;&gt;How do I use Composition in &lt;em&gt;[insert programming language here]&lt;/em&gt;&lt;/h2&gt;
 
 &lt;p&gt;Composition is available out of the box in &lt;a href=&#34;http://en.wikipedia.org/wiki/Trait_(computer_programming)#Supported_languages&#34;&gt;many of the mainstream languages&lt;/a&gt;. It can be implemented in the form of a &lt;em&gt;Trait&lt;/em&gt; in PHP, Python, Scala and others; It&amp;#8217;s called a &lt;em&gt;Module&lt;/em&gt; in Ruby, and a &lt;em&gt;Role&lt;/em&gt; in Perl. Javascript, as per usual, has &lt;a href=&#34;http://rjzaworski.com/2013/03/composition-in-javascript&#34;&gt;unique ways to implement Composition&lt;/a&gt;, but it&amp;#8217;s there. Finally, it&amp;#8217;s interesting to note that Go doesn&amp;#8217;t even consider Inheritance as an option; Composition is the only game in town, and it&amp;#8217;s called &lt;a href=&#34;http://golang.org/doc/effective_go.html#embedding&#34;&gt;Embedding&lt;/a&gt;.&lt;/p&gt;
 
@@ -631,14 +684,13 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;more-to-read-on-composition-over-inheritance:4ce74885446f2e1d9fcd5fc40d8cc491&#34;&gt;More to read on Composition over Inheritance&lt;/h3&gt;
+&lt;h3 id=&#34;more-to-read-on-composition-over-inheritance&#34;&gt;More to read on Composition over Inheritance&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.clean-code-developer.com/Favor-Composition-over-Inheritance.ashx&#34;&gt;Clean Code Developer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Composition_over_inheritance&#34;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://codingdelight.com/2014/01/16/favor-composition-over-inheritance-part-1/&#34;&gt;Coding Delight&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -647,11 +699,9 @@ But I believe that by at least keeping in mind the practices listed above, you c
       <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/an-example-of-a-microservice/</guid>
-      <description>
+      <description>&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
 
-&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example.&lt;/p&gt;
-
-&lt;h2 id=&#34;introducing-microtranslator:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
+&lt;h2 id=&#34;introducing-microtranslator&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/marcotroisi/microtranslator&#34;&gt;MicroTranslator&lt;/a&gt;&lt;/strong&gt; is a microservice that I have built, which is supposed to handle locale and translations in an application. Its tech stack is the following:&lt;/p&gt;
 
@@ -664,19 +714,19 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;&lt;del datetime=&#34;2015-07-20T07:04:33+00:00&#34;&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; at the time of this writing (14 Apr &amp;#8217;15) I am still working on MicroTranslator. It will be production-ready (documentation included) in a few days. Sorry about that!&lt;/em&gt;&lt;/del&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;it-comes-with-rest-api:e46d2f865b53e2e53becb431606efa7c&#34;&gt;It comes with REST API&lt;/h2&gt;
+&lt;h2 id=&#34;it-comes-with-rest-api&#34;&gt;It comes with REST API&lt;/h2&gt;
 
 &lt;p&gt;MicroTranslator provides simple-to-use REST API. For this reason, you need to know little to no PHP to use it. Simply fire up an instance of PHP on whatever machine you like, and then use the APIs to get the translations on the other Microservices that compose your application.&lt;/p&gt;
 
 &lt;p&gt;Now this is important, in my opinion. It means that you can quickly begin working on your application without having to focus on a tedious task such as handling translations, but also that, at any point in time, you can completely get rid of it and rewrite it with, perhaps, a faster language. Or you can simply upgrade your hardware and keep relying on it.&lt;/p&gt;
 
-&lt;h2 id=&#34;8220-i-could-have-done-this-myself-8221:e46d2f865b53e2e53becb431606efa7c&#34;&gt;&amp;#8220;I could have done this myself&amp;#8221;&lt;/h2&gt;
+&lt;h2 id=&#34;8220-i-could-have-done-this-myself-8221&#34;&gt;&amp;#8220;I could have done this myself&amp;#8221;&lt;/h2&gt;
 
 &lt;p&gt;You may think now, &amp;#8220;why should I use your stuff when I can write my own translation manager, using the tools that I like the most?&amp;#8221; The simple answer here is &amp;#8220;You shouldn&amp;#8217;t (use my translation manager)!&amp;#8221;&lt;/p&gt;
 
 &lt;p&gt;But I would also like to point out that, unless translations represent the core of your application, there is no reason why you would want to waste your time rewriting a library that does the same thing. But even if you do, what you should be avoiding is to tie it all up with the rest of your application. Using a Microservices architecture will allow you to &lt;em&gt;replace&lt;/em&gt; parts of your application quickly and seamlessly. And, it will give you the power of choosing the right tools, framework, database, etc for the task.&lt;/p&gt;
 
-&lt;h2 id=&#34;point-by-point:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Point by point&lt;/h2&gt;
+&lt;h2 id=&#34;point-by-point&#34;&gt;Point by point&lt;/h2&gt;
 
 &lt;p&gt;Like I said, one of the reasons why I worked on MicroTranslator is because I wanted to create a real-life example out of my previous article on &lt;em&gt;what is a Microservice&lt;/em&gt;.&lt;/p&gt;
 
@@ -690,12 +740,11 @@ But I believe that by at least keeping in mind the practices listed above, you c
 &lt;li&gt;&lt;strong&gt;It is aware of failures&lt;/strong&gt;. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&amp;#8217;t &lt;em&gt;directly&lt;/em&gt; affect your main application.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult:e46d2f865b53e2e53becb431606efa7c&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
+&lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
 
 &lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -704,13 +753,11 @@ But I believe that by at least keeping in mind the practices listed above, you c
       <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/micro-services-a-quick-introduction/</guid>
-      <description>
-
-&lt;p&gt;As I am in the middle of reading the excellent &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;Building Microservices&lt;/a&gt; from Sam Newman, I thought I would spend some time de-mistyfying what &lt;strong&gt;Microservices&lt;/strong&gt; are, when/if are they needed and why.&lt;/p&gt;
+      <description>&lt;p&gt;As I am in the middle of reading the excellent &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;Building Microservices&lt;/a&gt; from Sam Newman, I thought I would spend some time de-mistyfying what &lt;strong&gt;Microservices&lt;/strong&gt; are, when/if are they needed and why.&lt;/p&gt;
 
 &lt;p&gt;I am really grateful to this book, which I warmly recommend, for finally making the concept of Microservices so easy for me to understand, while never standing back from actually going into the difficulties of the practical world, with several real-life advices on how to make Microservices work in a modern architecture.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-is-a-microservice:d2a877b8532553626d56ad0c60240a12&#34;&gt;What is a Microservice&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-a-microservice&#34;&gt;What is a Microservice&lt;/h2&gt;
 
 &lt;p&gt;While you can find all sorts of amazingly technical explanations out there, Newman defines a Microservice in a strikingly simple way, which I am paraphrasing here:&lt;/p&gt;
 
@@ -730,7 +777,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 &lt;li&gt;&lt;strong&gt;It knows that failures exist&lt;/strong&gt;. In a monolithic application, if anything fails, the whole thing is likely going to fail as well. With Microservices, you know that each one of them can possibly fail or just be unreachable at any time, and so you handle it in a gracious way, with no need to panic. In our theoretical Blogging Platform, if your &lt;em&gt;Media&lt;/em&gt; Microservice becomes unreachable because, say, the Database engine of choice has stopped working, there is zero-need for the whole application to crash. You can still minimise the impact and work on bringing &lt;em&gt;Media&lt;/em&gt; back to life without impacting everything else.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;why-using-microservices:d2a877b8532553626d56ad0c60240a12&#34;&gt;Why Using Microservices&lt;/h2&gt;
+&lt;h2 id=&#34;why-using-microservices&#34;&gt;Why Using Microservices&lt;/h2&gt;
 
 &lt;p&gt;Do you still need me to convince you? No, seriously, if you have been around in the Software Development world for a while, you have probably already realised, by reading the above listed points, what is the potential of using Microservices for your next application. Nevertheless, it is good to talk about it.&lt;/p&gt;
 
@@ -743,7 +790,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 &lt;li&gt;&lt;strong&gt;Better Failure Management&lt;/strong&gt;. As outlined before, should a single Microservice fail for whatever reason, you can handle this graciously, and at the very least, you know that the rest of your application is not going to be affected.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;conclusion:d2a877b8532553626d56ad0c60240a12&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;It is not my goal here to give you the most complete explanation of what Microservices are (for that, I would suggest you read the &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;above said book&lt;/a&gt;). Rather, I am only outlining what I think are some of the most important characteristics of a Microservice architecture, and why it might be a good idea for you to build your next application in that way.&lt;/p&gt;
 
@@ -751,13 +798,12 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;Are you using Microservices or planning to use them? I would love to hear your opinion on the subject.&lt;/p&gt;
 
-&lt;h2 id=&#34;other-resources:d2a877b8532553626d56ad0c60240a12&#34;&gt;Other resources&lt;/h2&gt;
+&lt;h2 id=&#34;other-resources&#34;&gt;Other resources&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B00VJ3NP4A/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00VJ3NP4A&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=5EGJ6QO6G66E6UHZ&#34;&gt;Microservices: Patterns and Applications: Designing fine-grained services by applying patterns&lt;/a&gt;&lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=B00VJ3NP4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Martin Fowler on Microservices&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -768,7 +814,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
       <guid>http://www.marcotroisi.com/my-two-cents-on-golang/</guid>
       <description>&lt;p&gt;I have recently been studying and trying &lt;a href=&#34;http://www.golang.org&#34;&gt;Go&lt;/a&gt; (Golang), a statically typed language developed by Google, which promises really fast execution times and a pleasant development experience.&lt;/p&gt;
 
-&lt;p&gt;I must say, it is pleasant to use indeed. And quite simple to learn. But it does also demolish some of the things that, coming from other languages, you might be giving for granted. While trying to get my head around it, it felt a lot like when I was trying to learn proper Javascript (i.e. &lt;em&gt;beyond&lt;/em&gt; jQuery), that is, it can sometimes take a while to understand, but then at one point something &amp;#8216;clicks&amp;#8217;, and immediately everything becomes so clear and easy. You do not end up necessarily thinking that it is &lt;em&gt;the best language ever&lt;/em&gt;, but you do come to appreciate its design choices.&lt;/p&gt;
+&lt;p&gt;I must say, it is pleasant to use indeed. And quite simple to learn. But it does also demolish some of the things that, coming from other languages, you might be giving for granted. While trying to get my head around it, it felt a lot like when I was trying to learn proper Javascript (i.e. &lt;em&gt;beyond&lt;/em&gt; jQuery), that is, it can sometimes take a while to understand, but then at one point something &amp;#8216;clicks&amp;#8217;, and immediately everything becomes so clear and easy. You do not end up necessarily thinking that it is &lt;em&gt;the best language ever&lt;/em&gt;, but you do come to appreciate its design choices. &lt;/p&gt;
 
 &lt;p&gt;And it is easy to use, no doubt about that.&lt;/p&gt;
 
@@ -850,8 +896,7 @@ user    0m0.138s
 sys 0m0.021s
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Go is remarkably faster, while being frankly pretty easy to write. I have come to appreciate this language more and more, and I would wholeheartedly suggest to any PHP/Ruby/Python developer to add this nice, simple and fast language to his own skills. Learning more programming languages always ultimately make you a better developer.&lt;/p&gt;
-</description>
+&lt;p&gt;Go is remarkably faster, while being frankly pretty easy to write. I have come to appreciate this language more and more, and I would wholeheartedly suggest to any PHP/Ruby/Python developer to add this nice, simple and fast language to his own skills. Learning more programming languages always ultimately make you a better developer.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -871,38 +916,7 @@ sys 0m0.021s
 
 &lt;div id=&#34;polls-2-loading&#34; class=&#34;wp-polls-loading&#34;&gt;
   &lt;img src=&#34;http://www.marcotroisi.com/wp-content/plugins/wp-polls/images/loading.gif&#34; width=&#34;16&#34; height=&#34;16&#34; alt=&#34;Loading ...&#34; title=&#34;Loading ...&#34; class=&#34;wp-polls-image&#34; /&gt;&amp;nbsp;Loading ...
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>WordPress and Ghost: a CMS vs a blogging platform</title>
-      <link>http://www.marcotroisi.com/wordpress-and-ghost/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.marcotroisi.com/wordpress-and-ghost/</guid>
-      <description>
-
-&lt;p&gt;I am definitely amongst the growing group of developers that are fascinated and thrilled by &lt;a href=&#34;http://www.nodejs.org&#34;&gt;node.js&lt;/a&gt;, its thriving community, its being simple yet powerful, super-fast and scalable.&lt;/p&gt;
-
-&lt;p&gt;Although my main language remains &lt;a href=&#34;http://www.php.net&#34;&gt;PHP&lt;/a&gt; (mostly because my employer wants me to work with it, but also because of its enormous libraries collection and its maturity as a language for the web), I can undoubtedly see a future with most of the cool apps out there being developed with node.js. I am convinced that, should I start a new project of my own today, a project that I believed would conquer the market, I would totally go for a lightweight HTML5 + CSS3 + JS (with the help of &lt;a href=&#34;http://www.angularjs.org&#34;&gt;Angular.js&lt;/a&gt;) interface backed by a powerful node.js (with &lt;a href=&#34;http://www.expressjs.com&#34;&gt;express.js&lt;/a&gt;)-based API.&lt;/p&gt;
-
-&lt;p&gt;So when I came to know about this new, elegant and lightweight blogging platform named &lt;a href=&#34;http://www.ghost.org&#34;&gt;Ghost&lt;/a&gt; and based on node.js I was more than happy and I thought it was just what we needed to be &lt;em&gt;finally&lt;/em&gt; set free from WordPress! But I then worked out that I was almost surely wrong.&lt;/p&gt;
-
-&lt;h2 id=&#34;wordpress-is-a-cms-not-a-blogging-platform:e98746c1693166ee1e473de41c4d5de5&#34;&gt;WordPress is a CMS, not a blogging platform&lt;/h2&gt;
-
-&lt;p&gt;While it still remains the best blogging platform out there, as of today &lt;a href=&#34;http://www.wordpress.org&#34;&gt;WordPress&lt;/a&gt; is a fully fledged CMS and, in my opinion, it&amp;#8217;s the best CMS you might desire. It&amp;#8217;s simple enough to use and it&amp;#8217;s got so many &lt;a href=&#34;http://wordpress.org/plugins/&#34;&gt;plugins and extensions&lt;/a&gt; that to call it an ecosystem wouldn&amp;#8217;t mean overrating it. And, to be fair, the fact that it&amp;#8217;s based on PHP means that it can run virtually everywhere with the minimum effort required.&lt;/p&gt;
-
-&lt;h2 id=&#34;ghost-is-what-it-claims-to-be-just-a-blogging-platform:e98746c1693166ee1e473de41c4d5de5&#34;&gt;Ghost is what it claims to be: &lt;em&gt;just a blogging platform&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;Ghost is beautiful, easy to use and it&amp;#8217;s got everything in the right place. The dashboard is right the one that you would love to have in your WordPress blog. And it&amp;#8217;s seriously fast, and you would expect that since it&amp;#8217;s built on node.js. But it&amp;#8217;s limited to blogging and they ([the developers][8]) want it to be so. That&amp;#8217;s great indeed, but it means that you have to be sure that your blog will always be just a blog, nothing more. And you&amp;#8217;ve got to know that, apart from the pleasure of a great platform for writing, you&amp;#8217;re not going to have a lot more in terms of functionalities and extensions. Of course they&amp;#8217;ll come in the future, but we can easily say that in the foreseeable future they won&amp;#8217;t be as many as WordPress.&lt;/p&gt;
-
-&lt;h2 id=&#34;conclusion-verdict:e98746c1693166ee1e473de41c4d5de5&#34;&gt;Conclusion/Verdict&lt;/h2&gt;
-
-&lt;p&gt;They&amp;#8217;re both great platforms, WordPress being a lot more mature, Ghost being still in its infancy. Just don&amp;#8217;t think of them as one replacing the other. They do different things, and they both work. Decide &lt;em&gt;what your website is gonna be about&lt;/em&gt; and then pick the right platform for you!&lt;/p&gt;
-
-&lt;p&gt;[8]: &lt;a href=&#34;https://ghost.org/about/&#34;&gt;https://ghost.org/about/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>

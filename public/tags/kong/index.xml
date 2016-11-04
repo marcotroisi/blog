@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kong on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/kong/</link>
-    <description>Recent content in Kong on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/kong/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 24 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/kong/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -21,7 +21,11 @@
 &lt;p&gt;Hello Marco,&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve just stumbled upon your articles about microservices. I&amp;#8217;m really trying to get into it, I find it a really interesting approach when it comes to build web apps. I got bored with all those frameworks claiming MVC etc. What I want to focus on is SOC, so microservices really fits in there. However I didn&amp;#8217;t have time yet to practice what I could have read on that, and there are still things that are pretty obscure to me, maybe you could give me your point of view.&lt;/p&gt;
+&lt;/blockquote&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
 &lt;p&gt;My main concern is about information sharing between services. What happens when a microservice is &amp;#8220;linked&amp;#8221; to another one ? If I take your example of WordPress refactoring, you&amp;#8217;re for example stating that there could be a Post and Media Content microservices. But here, the media content microservices isn&amp;#8217;t really standalone as it wouldn&amp;#8217;t make sense to use it without the Post microservice, because Media Content is directly attached to a Post, see what I mean ? It sounds kind of weird to me, but maybe I&amp;#8217;m wrong.&lt;/p&gt;
 
 &lt;p&gt;Also my second point would be about user authentication. How do you persist the state between microservices ? Do you have an example of that ?&lt;/p&gt;
@@ -65,8 +69,7 @@
 
 &lt;p&gt;Marco&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
     
   </channel>

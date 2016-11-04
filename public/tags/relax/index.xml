@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Relax on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/relax/</link>
-    <description>Recent content in Relax on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/relax/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 30 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/relax/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,7 +17,7 @@
       <guid>http://www.marcotroisi.com/productive-programmer-5-tips/</guid>
       <description>&lt;p&gt;Have we not all been there? You&amp;#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&amp;#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.&lt;/p&gt;
 
-&lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc.&lt;/p&gt;
+&lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc. &lt;/p&gt;
 
 &lt;p&gt;This is both a blessing and a curse. On one hand, it is amazingly challenging and stimulating to be able to use our brains to solve problems, and develop solutions. On the other hand, our brains can be so easily affected by our psycho-physical status, that we easily find ourselves having seemingly unproductive days. Even though just a few days before, we were feeling like we could have designed Google from scratch in a couple of hours!&lt;/p&gt;
 
@@ -45,8 +45,7 @@
 
 &lt;p&gt;While doing all of the above things is undoubtedly a challenge, and it is not rare for me to break one or more of these rules, I use them as a blueprint and point of reference, and I get back to them every time I feel I&amp;#8217;m getting less productive than I should.&lt;/p&gt;
 
-&lt;p&gt;And you? What are your tips and tricks for working with greater focus and delivering higher quality work?&lt;/p&gt;
-</description>
+&lt;p&gt;And you? What are your tips and tricks for working with greater focus and delivering higher quality work?&lt;/p&gt;</description>
     </item>
     
   </channel>

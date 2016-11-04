@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microservices on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/microservices/</link>
-    <description>Recent content in Microservices on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/microservices/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 Sep 2016 08:05:54 +0100</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -49,7 +49,7 @@
 
 &lt;p&gt;But we are professionals, and as such we can&amp;rsquo;t afford going after what&amp;rsquo;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
 
-&lt;h2 id=&#34;write-great-code-first:bd261709805cb407baec357c21e1511f&#34;&gt;Write great code first&lt;/h2&gt;
+&lt;h2 id=&#34;write-great-code-first&#34;&gt;Write great code first&lt;/h2&gt;
 
 &lt;p&gt;Just as knowing how to count doesn&amp;rsquo;t make you a Mathematician, knowing how to write some code doesn&amp;rsquo;t make you a Programmer. I hope I don&amp;rsquo;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;rsquo;t take ourselves seriously, no one else will.&lt;/p&gt;
 
@@ -57,7 +57,7 @@
 
 &lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
 
 &lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
 
@@ -68,11 +68,11 @@
 
 &lt;p&gt;Let&amp;rsquo;s have a closer look at them:&lt;/p&gt;
 
-&lt;h3 id=&#34;the-monolith-is-not-bad-per-se:bd261709805cb407baec357c21e1511f&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
 
 &lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;rsquo;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
 
-&lt;h3 id=&#34;microservices-don-t-magically-suspend-the-rules:bd261709805cb407baec357c21e1511f&#34;&gt;Microservices don&amp;rsquo;t magically suspend the rules.&lt;/h3&gt;
+&lt;h3 id=&#34;microservices-don-t-magically-suspend-the-rules&#34;&gt;Microservices don&amp;rsquo;t magically suspend the rules.&lt;/h3&gt;
 
 &lt;p&gt;Say you know how to do your job well, and you&amp;rsquo;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;rsquo;t need to put the same amount of care into it. Is that true? No, it isn&amp;rsquo;t.&lt;/p&gt;
 
@@ -84,7 +84,7 @@
 
 &lt;p&gt;These days I&amp;rsquo;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;rsquo;t even need to write tests!&amp;#8221; I&amp;rsquo;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;rsquo;t even need to test it!&amp;#8221; This makes no sense, and it&amp;rsquo;s simply unjustifiable.&lt;/p&gt;
 
-&lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+&lt;h2 id=&#34;re-defining-microservices&#34;&gt;(Re)defining microservices&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;rsquo;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
 
@@ -108,7 +108,11 @@
 &lt;p&gt;Hello Marco,&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve just stumbled upon your articles about microservices. I&amp;#8217;m really trying to get into it, I find it a really interesting approach when it comes to build web apps. I got bored with all those frameworks claiming MVC etc. What I want to focus on is SOC, so microservices really fits in there. However I didn&amp;#8217;t have time yet to practice what I could have read on that, and there are still things that are pretty obscure to me, maybe you could give me your point of view.&lt;/p&gt;
+&lt;/blockquote&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
 &lt;p&gt;My main concern is about information sharing between services. What happens when a microservice is &amp;#8220;linked&amp;#8221; to another one ? If I take your example of WordPress refactoring, you&amp;#8217;re for example stating that there could be a Post and Media Content microservices. But here, the media content microservices isn&amp;#8217;t really standalone as it wouldn&amp;#8217;t make sense to use it without the Post microservice, because Media Content is directly attached to a Post, see what I mean ? It sounds kind of weird to me, but maybe I&amp;#8217;m wrong.&lt;/p&gt;
 
 &lt;p&gt;Also my second point would be about user authentication. How do you persist the state between microservices ? Do you have an example of that ?&lt;/p&gt;
@@ -152,8 +156,7 @@
 
 &lt;p&gt;Marco&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -168,12 +171,9 @@
 
 &lt;p&gt;If you are interested, read the articles, starting from the first one: &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/&#34;&gt;A Journey into Microservices&lt;/a&gt;, and then go ahead with &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/&#34;&gt;part two&lt;/a&gt; and &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/&#34;&gt;part three&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or [Twitter][7].&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Featured photo from the Hailo website&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;[7]: &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;em&gt;Featured photo from the Hailo website&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -182,11 +182,9 @@
       <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/an-example-of-a-microservice/</guid>
-      <description>
+      <description>&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
 
-&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example.&lt;/p&gt;
-
-&lt;h2 id=&#34;introducing-microtranslator:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
+&lt;h2 id=&#34;introducing-microtranslator&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/marcotroisi/microtranslator&#34;&gt;MicroTranslator&lt;/a&gt;&lt;/strong&gt; is a microservice that I have built, which is supposed to handle locale and translations in an application. Its tech stack is the following:&lt;/p&gt;
 
@@ -199,19 +197,19 @@
 
 &lt;p&gt;&lt;del datetime=&#34;2015-07-20T07:04:33+00:00&#34;&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; at the time of this writing (14 Apr &amp;#8217;15) I am still working on MicroTranslator. It will be production-ready (documentation included) in a few days. Sorry about that!&lt;/em&gt;&lt;/del&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;it-comes-with-rest-api:e46d2f865b53e2e53becb431606efa7c&#34;&gt;It comes with REST API&lt;/h2&gt;
+&lt;h2 id=&#34;it-comes-with-rest-api&#34;&gt;It comes with REST API&lt;/h2&gt;
 
 &lt;p&gt;MicroTranslator provides simple-to-use REST API. For this reason, you need to know little to no PHP to use it. Simply fire up an instance of PHP on whatever machine you like, and then use the APIs to get the translations on the other Microservices that compose your application.&lt;/p&gt;
 
 &lt;p&gt;Now this is important, in my opinion. It means that you can quickly begin working on your application without having to focus on a tedious task such as handling translations, but also that, at any point in time, you can completely get rid of it and rewrite it with, perhaps, a faster language. Or you can simply upgrade your hardware and keep relying on it.&lt;/p&gt;
 
-&lt;h2 id=&#34;8220-i-could-have-done-this-myself-8221:e46d2f865b53e2e53becb431606efa7c&#34;&gt;&amp;#8220;I could have done this myself&amp;#8221;&lt;/h2&gt;
+&lt;h2 id=&#34;8220-i-could-have-done-this-myself-8221&#34;&gt;&amp;#8220;I could have done this myself&amp;#8221;&lt;/h2&gt;
 
 &lt;p&gt;You may think now, &amp;#8220;why should I use your stuff when I can write my own translation manager, using the tools that I like the most?&amp;#8221; The simple answer here is &amp;#8220;You shouldn&amp;#8217;t (use my translation manager)!&amp;#8221;&lt;/p&gt;
 
 &lt;p&gt;But I would also like to point out that, unless translations represent the core of your application, there is no reason why you would want to waste your time rewriting a library that does the same thing. But even if you do, what you should be avoiding is to tie it all up with the rest of your application. Using a Microservices architecture will allow you to &lt;em&gt;replace&lt;/em&gt; parts of your application quickly and seamlessly. And, it will give you the power of choosing the right tools, framework, database, etc for the task.&lt;/p&gt;
 
-&lt;h2 id=&#34;point-by-point:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Point by point&lt;/h2&gt;
+&lt;h2 id=&#34;point-by-point&#34;&gt;Point by point&lt;/h2&gt;
 
 &lt;p&gt;Like I said, one of the reasons why I worked on MicroTranslator is because I wanted to create a real-life example out of my previous article on &lt;em&gt;what is a Microservice&lt;/em&gt;.&lt;/p&gt;
 
@@ -225,12 +223,11 @@
 &lt;li&gt;&lt;strong&gt;It is aware of failures&lt;/strong&gt;. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&amp;#8217;t &lt;em&gt;directly&lt;/em&gt; affect your main application.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult:e46d2f865b53e2e53becb431606efa7c&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
+&lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
 
 &lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -239,13 +236,11 @@
       <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/micro-services-a-quick-introduction/</guid>
-      <description>
-
-&lt;p&gt;As I am in the middle of reading the excellent &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;Building Microservices&lt;/a&gt; from Sam Newman, I thought I would spend some time de-mistyfying what &lt;strong&gt;Microservices&lt;/strong&gt; are, when/if are they needed and why.&lt;/p&gt;
+      <description>&lt;p&gt;As I am in the middle of reading the excellent &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;Building Microservices&lt;/a&gt; from Sam Newman, I thought I would spend some time de-mistyfying what &lt;strong&gt;Microservices&lt;/strong&gt; are, when/if are they needed and why.&lt;/p&gt;
 
 &lt;p&gt;I am really grateful to this book, which I warmly recommend, for finally making the concept of Microservices so easy for me to understand, while never standing back from actually going into the difficulties of the practical world, with several real-life advices on how to make Microservices work in a modern architecture.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-is-a-microservice:d2a877b8532553626d56ad0c60240a12&#34;&gt;What is a Microservice&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-a-microservice&#34;&gt;What is a Microservice&lt;/h2&gt;
 
 &lt;p&gt;While you can find all sorts of amazingly technical explanations out there, Newman defines a Microservice in a strikingly simple way, which I am paraphrasing here:&lt;/p&gt;
 
@@ -265,7 +260,7 @@
 &lt;li&gt;&lt;strong&gt;It knows that failures exist&lt;/strong&gt;. In a monolithic application, if anything fails, the whole thing is likely going to fail as well. With Microservices, you know that each one of them can possibly fail or just be unreachable at any time, and so you handle it in a gracious way, with no need to panic. In our theoretical Blogging Platform, if your &lt;em&gt;Media&lt;/em&gt; Microservice becomes unreachable because, say, the Database engine of choice has stopped working, there is zero-need for the whole application to crash. You can still minimise the impact and work on bringing &lt;em&gt;Media&lt;/em&gt; back to life without impacting everything else.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;why-using-microservices:d2a877b8532553626d56ad0c60240a12&#34;&gt;Why Using Microservices&lt;/h2&gt;
+&lt;h2 id=&#34;why-using-microservices&#34;&gt;Why Using Microservices&lt;/h2&gt;
 
 &lt;p&gt;Do you still need me to convince you? No, seriously, if you have been around in the Software Development world for a while, you have probably already realised, by reading the above listed points, what is the potential of using Microservices for your next application. Nevertheless, it is good to talk about it.&lt;/p&gt;
 
@@ -278,7 +273,7 @@
 &lt;li&gt;&lt;strong&gt;Better Failure Management&lt;/strong&gt;. As outlined before, should a single Microservice fail for whatever reason, you can handle this graciously, and at the very least, you know that the rest of your application is not going to be affected.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;conclusion:d2a877b8532553626d56ad0c60240a12&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;It is not my goal here to give you the most complete explanation of what Microservices are (for that, I would suggest you read the &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;above said book&lt;/a&gt;). Rather, I am only outlining what I think are some of the most important characteristics of a Microservice architecture, and why it might be a good idea for you to build your next application in that way.&lt;/p&gt;
 
@@ -286,13 +281,12 @@
 
 &lt;p&gt;Are you using Microservices or planning to use them? I would love to hear your opinion on the subject.&lt;/p&gt;
 
-&lt;h2 id=&#34;other-resources:d2a877b8532553626d56ad0c60240a12&#34;&gt;Other resources&lt;/h2&gt;
+&lt;h2 id=&#34;other-resources&#34;&gt;Other resources&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B00VJ3NP4A/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00VJ3NP4A&amp;amp;linkCode=as2&amp;amp;tag=marctroi-20&amp;amp;linkId=5EGJ6QO6G66E6UHZ&#34;&gt;Microservices: Patterns and Applications: Designing fine-grained services by applying patterns&lt;/a&gt;&lt;img src=&#34;http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&amp;#038;l=as2&amp;#038;o=1&amp;#038;a=B00VJ3NP4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Martin Fowler on Microservices&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

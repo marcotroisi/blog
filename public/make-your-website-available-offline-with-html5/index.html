@@ -95,9 +95,9 @@ tests: {}
 
 
 <article class="blog__wrap clear">
-  
+  <p>One of the really cool things <strong>HTML5</strong> allows to do is to make our web apps available even when our visitors are not connected to any network (assuming, obviously, that they have visited the website before, under network coverage).</p>
 
-<p>One of the really cool things <strong>HTML5</strong> allows to do is to make our web apps available even when our visitors are not connected to any network (assuming, obviously, that they have visited the website before, under network coverage).</p>
+<p></p>
 
 <p>While it is to be said that this feature (called <strong><em>AppCache</em></strong>) might not be useful/appropriate for many websites, it still remains a great feature that is going to positively affect the web in the next years, offering a much better user experience and giving a new reason to developers and companies for developing just one great HTML5 web app instead of <em>a lot</em> of native applications.</p>
 
@@ -109,7 +109,7 @@ tests: {}
 
 <p>&#8211; <strong>Less charge to the server</strong>: as it only have to download resources that have been changed</p>
 
-<h2 id="let-8217-s-make-your-website-available-offline:cac56a5fff391b52f21b9921cdfce1eb">Let&#8217;s make your website available offline</h2>
+<h2 id="let-8217-s-make-your-website-available-offline">Let&#8217;s make your website available offline</h2>
 
 <p>The first thing you have to do is to <strong>create a manifest</strong> that will list all the resources you want the local device to download. This manifest must be declared in your <html> element as an attribute.</p>
 
@@ -125,7 +125,7 @@ tests: {}
 
 <pre>AddType text/cache-manifest .appcache</pre>
 
-<h2 id="the-appcache-manifest-file:cac56a5fff391b52f21b9921cdfce1eb">The Appcache manifest file</h2>
+<h2 id="the-appcache-manifest-file">The Appcache manifest file</h2>
 
 <p>The Appcache manifest file is a simple text file that lists the resources (identified by URI) that you want the browser to cache for offline access. The following is an example of a manifest file:</p>
 
@@ -153,19 +153,18 @@ FALLBACK:
 
 <p>You can also add a further section <strong>CACHE</strong>, which will work just as the lines after CACHE MANIFEST. All the three sections CACHE, NETWORK and FALLBACK are optional and can be declared more than once in the manifest file.</p>
 
-<h2 id="testing:cac56a5fff391b52f21b9921cdfce1eb">Testing!</h2>
+<h2 id="testing">Testing!</h2>
 
 <p>If you think that this is going to work at the first attempt you&#8217;re probably crazy. The smallest error in the appcache manifest file will actually prevent your application to be locally cached on a device. In such situations, tools like <strong>Manifesto</strong> (<a title="Manifesto" href="http://manifesto.ericdelabar.com/" target="_blank"><a href="http://manifesto.ericdelabar.com/">http://manifesto.ericdelabar.com/</a></a>) are simply priceless and save you a lot of time and headaches.</p>
 
 <p><del>Firefox and a few other browsers display a <strong>notification bar</strong> the first time a user loads an application that uses the application cache.</del> [<strong>UPDATE:</strong>  Since v. 26, there is no longer a notification bar on Firefox when websites use <em>appcache</em>]</p>
 
-<h2 id="see-also:cac56a5fff391b52f21b9921cdfce1eb">See also</h2>
+<h2 id="see-also">See also</h2>
 
 <ul>
 <li>A beginner&#8217;s Guide to Using the Application Cache from HTML5Rocks: <a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/" target="_blank"><a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/">http://www.html5rocks.com/en/tutorials/appcache/beginner/</a></a></li>
 <li>Check browser compatibilities on HTML5Test: <a href="http://html5test.com/compare/feature/offline-applicationCache.html" target="_blank"><a href="http://html5test.com/compare/feature/offline-applicationCache.html">http://html5test.com/compare/feature/offline-applicationCache.html</a></a></li>
 </ul>
-
   ---<br>
   <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
 

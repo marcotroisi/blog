@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code Quality on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/code-quality/</link>
-    <description>Recent content in Code Quality on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/code-quality/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 Sep 2016 08:05:54 +0100</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -49,7 +49,7 @@
 
 &lt;p&gt;But we are professionals, and as such we can&amp;rsquo;t afford going after what&amp;rsquo;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
 
-&lt;h2 id=&#34;write-great-code-first:bd261709805cb407baec357c21e1511f&#34;&gt;Write great code first&lt;/h2&gt;
+&lt;h2 id=&#34;write-great-code-first&#34;&gt;Write great code first&lt;/h2&gt;
 
 &lt;p&gt;Just as knowing how to count doesn&amp;rsquo;t make you a Mathematician, knowing how to write some code doesn&amp;rsquo;t make you a Programmer. I hope I don&amp;rsquo;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;rsquo;t take ourselves seriously, no one else will.&lt;/p&gt;
 
@@ -57,7 +57,7 @@
 
 &lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
 
 &lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
 
@@ -68,11 +68,11 @@
 
 &lt;p&gt;Let&amp;rsquo;s have a closer look at them:&lt;/p&gt;
 
-&lt;h3 id=&#34;the-monolith-is-not-bad-per-se:bd261709805cb407baec357c21e1511f&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
 
 &lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;rsquo;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
 
-&lt;h3 id=&#34;microservices-don-t-magically-suspend-the-rules:bd261709805cb407baec357c21e1511f&#34;&gt;Microservices don&amp;rsquo;t magically suspend the rules.&lt;/h3&gt;
+&lt;h3 id=&#34;microservices-don-t-magically-suspend-the-rules&#34;&gt;Microservices don&amp;rsquo;t magically suspend the rules.&lt;/h3&gt;
 
 &lt;p&gt;Say you know how to do your job well, and you&amp;rsquo;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;rsquo;t need to put the same amount of care into it. Is that true? No, it isn&amp;rsquo;t.&lt;/p&gt;
 
@@ -84,7 +84,7 @@
 
 &lt;p&gt;These days I&amp;rsquo;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;rsquo;t even need to write tests!&amp;#8221; I&amp;rsquo;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;rsquo;t even need to test it!&amp;#8221; This makes no sense, and it&amp;rsquo;s simply unjustifiable.&lt;/p&gt;
 
-&lt;h2 id=&#34;re-defining-microservices:bd261709805cb407baec357c21e1511f&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+&lt;h2 id=&#34;re-defining-microservices&#34;&gt;(Re)defining microservices&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;rsquo;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
 

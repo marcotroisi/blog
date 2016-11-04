@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fat Free Framework on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/categories/fat-free-framework/</link>
-    <description>Recent content in Fat Free Framework on Marco Troisi | technology, software development and productivity</description>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/categories/fat-free-framework/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 14 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>Marco Troisi</copyright>
     <atom:link href="http://www.marcotroisi.com/categories/fat-free-framework/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,11 +15,9 @@
       <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/an-example-of-a-microservice/</guid>
-      <description>
+      <description>&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
 
-&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example.&lt;/p&gt;
-
-&lt;h2 id=&#34;introducing-microtranslator:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
+&lt;h2 id=&#34;introducing-microtranslator&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/marcotroisi/microtranslator&#34;&gt;MicroTranslator&lt;/a&gt;&lt;/strong&gt; is a microservice that I have built, which is supposed to handle locale and translations in an application. Its tech stack is the following:&lt;/p&gt;
 
@@ -32,19 +30,19 @@
 
 &lt;p&gt;&lt;del datetime=&#34;2015-07-20T07:04:33+00:00&#34;&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; at the time of this writing (14 Apr &amp;#8217;15) I am still working on MicroTranslator. It will be production-ready (documentation included) in a few days. Sorry about that!&lt;/em&gt;&lt;/del&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;it-comes-with-rest-api:e46d2f865b53e2e53becb431606efa7c&#34;&gt;It comes with REST API&lt;/h2&gt;
+&lt;h2 id=&#34;it-comes-with-rest-api&#34;&gt;It comes with REST API&lt;/h2&gt;
 
 &lt;p&gt;MicroTranslator provides simple-to-use REST API. For this reason, you need to know little to no PHP to use it. Simply fire up an instance of PHP on whatever machine you like, and then use the APIs to get the translations on the other Microservices that compose your application.&lt;/p&gt;
 
 &lt;p&gt;Now this is important, in my opinion. It means that you can quickly begin working on your application without having to focus on a tedious task such as handling translations, but also that, at any point in time, you can completely get rid of it and rewrite it with, perhaps, a faster language. Or you can simply upgrade your hardware and keep relying on it.&lt;/p&gt;
 
-&lt;h2 id=&#34;8220-i-could-have-done-this-myself-8221:e46d2f865b53e2e53becb431606efa7c&#34;&gt;&amp;#8220;I could have done this myself&amp;#8221;&lt;/h2&gt;
+&lt;h2 id=&#34;8220-i-could-have-done-this-myself-8221&#34;&gt;&amp;#8220;I could have done this myself&amp;#8221;&lt;/h2&gt;
 
 &lt;p&gt;You may think now, &amp;#8220;why should I use your stuff when I can write my own translation manager, using the tools that I like the most?&amp;#8221; The simple answer here is &amp;#8220;You shouldn&amp;#8217;t (use my translation manager)!&amp;#8221;&lt;/p&gt;
 
 &lt;p&gt;But I would also like to point out that, unless translations represent the core of your application, there is no reason why you would want to waste your time rewriting a library that does the same thing. But even if you do, what you should be avoiding is to tie it all up with the rest of your application. Using a Microservices architecture will allow you to &lt;em&gt;replace&lt;/em&gt; parts of your application quickly and seamlessly. And, it will give you the power of choosing the right tools, framework, database, etc for the task.&lt;/p&gt;
 
-&lt;h2 id=&#34;point-by-point:e46d2f865b53e2e53becb431606efa7c&#34;&gt;Point by point&lt;/h2&gt;
+&lt;h2 id=&#34;point-by-point&#34;&gt;Point by point&lt;/h2&gt;
 
 &lt;p&gt;Like I said, one of the reasons why I worked on MicroTranslator is because I wanted to create a real-life example out of my previous article on &lt;em&gt;what is a Microservice&lt;/em&gt;.&lt;/p&gt;
 
@@ -58,12 +56,11 @@
 &lt;li&gt;&lt;strong&gt;It is aware of failures&lt;/strong&gt;. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&amp;#8217;t &lt;em&gt;directly&lt;/em&gt; affect your main application.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult:e46d2f865b53e2e53becb431606efa7c&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
+&lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
 
 &lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,9 +69,7 @@
       <pubDate>Sun, 04 May 2014 00:00:00 +0000</pubDate>
       
       <guid>http://www.marcotroisi.com/how-to-use-fat-free-framework-from-the-command-line/</guid>
-      <description>
-
-&lt;h2 id=&#34;introduction:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Introduction&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;Every good framework should allow you to easily create/execute commands from the &lt;a href=&#34;http://en.wikipedia.org/wiki/Command-line_interface&#34; title=&#34;command line&#34;&gt;command line&lt;/a&gt; (also called &lt;em&gt;shell&lt;/em&gt; or &lt;em&gt;terminal&lt;/em&gt;).&lt;/p&gt;
 
@@ -84,7 +79,7 @@
 
 &lt;p&gt;Unfortunately, while executing commands from the command line with Fat Free framework is fairly easy, it is not very well documented and you might find yourself in trouble if you need to use that functionality.&lt;/p&gt;
 
-&lt;h2 id=&#34;set-up-your-commands:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Set up your commands&lt;/h2&gt;
+&lt;h2 id=&#34;set-up-your-commands&#34;&gt;Set up your commands&lt;/h2&gt;
 
 &lt;p&gt;To set up your command, create a new route in your application&amp;#8217;s bootstrap page (if you have followed the &amp;#8220;set up&amp;#8221; &lt;a href=&#34;https://www.digitalocean.com/community/articles/how-to-use-the-fat-free-php-framework&#34;&gt;tutorial&lt;/a&gt;, then it should be &lt;code&gt;index.php&lt;/code&gt;). To do that, just add a new routing directive:&lt;/p&gt;
 
@@ -110,7 +105,7 @@
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;execute-your-command:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Execute your command&lt;/h2&gt;
+&lt;h2 id=&#34;execute-your-command&#34;&gt;Execute your command&lt;/h2&gt;
 
 &lt;p&gt;And now comes the fun part. In order to execute the command that you have just set up, open a terminal application and write:&lt;/p&gt;
 
@@ -127,9 +122,9 @@ php index.php &amp;quot;/command&amp;quot; // execute your command
 &lt;pre&gt;&lt;code&gt;php index.php &amp;quot;/command&amp;quot; &amp;gt; /path/to/file.txt
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;troubleshooting:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Troubleshooting&lt;/h2&gt;
+&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h2&gt;
 
-&lt;h3 id=&#34;server-variables:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Server variables&lt;/h3&gt;
+&lt;h3 id=&#34;server-variables&#34;&gt;Server variables&lt;/h3&gt;
 
 &lt;p&gt;You might encounter issues with Web server-related functions and variables in your code (e.g. &lt;code&gt;$_SERVER[&#39;HTTP_HOST&#39;]&lt;/code&gt;), which will inevitably return an error, since the command line won&amp;#8217;t recognize them. Here is where the &lt;strong&gt;&lt;a href=&#34;http://www.php.net/manual/en/reserved.constants.php&#34;&gt;PHP_SAPI&lt;/a&gt;&lt;/strong&gt; function could turn out to be extremely valuable, as it will allow you to detect whether your code is being executed by a web server or through the command line. This is what you might want to write to avoid this type of error:&lt;/p&gt;
 
@@ -142,14 +137,13 @@ echo $http_host;
 &lt;pre&gt;&lt;code&gt;echo $_SERVER[&#39;HTTP_HOST&#39;]; // this will not work on the command line
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;paths:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Paths&lt;/h3&gt;
+&lt;h3 id=&#34;paths&#34;&gt;Paths&lt;/h3&gt;
 
 &lt;p&gt;Also, the command line will not recognize relative paths within your PHP code. So, be sure to always use the absolute path when you, for instance, handle a file. A path that looks like &lt;code&gt;/files/log/log.txt&lt;/code&gt; will then have to become something like &lt;code&gt;/var/www/html/thisismyapp.ie/files/log/log.txt&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion:23e234fcc1d49b9af94cfc871f2e6b19&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;As you have seen, using the command line with a framework like Fat Free is easy and does not imply changing a lot of things in your code. That means that you can easily call the same functions from both browser and command line, which makes your life easier (whereas with some other frameworks you have to put your commands in a different place, which means additional work).&lt;/p&gt;
-</description>
+&lt;p&gt;As you have seen, using the command line with a framework like Fat Free is easy and does not imply changing a lot of things in your code. That means that you can easily call the same functions from both browser and command line, which makes your life easier (whereas with some other frameworks you have to put your commands in a different place, which means additional work).&lt;/p&gt;</description>
     </item>
     
   </channel>
