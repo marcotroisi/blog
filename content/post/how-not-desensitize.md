@@ -11,7 +11,7 @@ layout: post
 tags:
 - productivity
 - opinion
-title: How to cope in a bad job (or, how not to get desensitized)
+title: How to cope in a bad job 
 url: /how-to-cope-in-bad-job/
 ---
 
