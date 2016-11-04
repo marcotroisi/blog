@@ -5,7 +5,7 @@ categories:
 - Technology
 date: 2016-11-03T08:12:18Z
 description: What do you do when you're stuck in bad job? A simple survival guide.
-draft: false
+draft: true
 featured_image: "http://www.marcotroisi.com/images/typewriter.jpg"
 layout: post
 tags:
