@@ -5,7 +5,7 @@ categories:
 - OOP
 date: 2016-11-22T08:16:23Z
 description: Object orientation produces code that is well organized, and easy to understand, test, and refactor. But it&#039;s misunderstood.
-draft: true
+draft: false
 featured_image: 'http://www.marcotroisi.com/images/is-oop-dead.jpeg'
 layout: post
 tags:

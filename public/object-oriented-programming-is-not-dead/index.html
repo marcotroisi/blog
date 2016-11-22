@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Is object oriented programming dead? Not by a long shot | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="http://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="http://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="Object orientation produces code that is well organized, and easy to understand, test, and refactor. But it&amp;#039;s misunderstood."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://www.marcotroisi.com" />
+<link rel="next" href="http://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Is object oriented programming dead? Not by a long shot" />
+<meta property="og:description" content="Object orientation produces code that is well organized, and easy to understand, test, and refactor. But it&amp;#039;s misunderstood." />
+<meta property="og:url" content="http://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Object orientation produces code that is well organized, and easy to understand, test, and refactor. But it&amp;#039;s misunderstood." />
+<meta name="twitter:title" content="Is object oriented programming dead? Not by a long shot" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="http://www.marcotroisi.com/images/is-oop-dead.jpeg" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="http://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about / contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> Nov 22, 2016 </span>
+    Is object oriented programming dead? Not by a long shot
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="http://www.marcotroisi.com/object-oriented-programming-is-not-dead/" title="Is object oriented programming dead? Not by a long shot" >
+      <img width="800" height="533" src="http://www.marcotroisi.com/images/is-oop-dead.jpeg" alt="Is object oriented programming dead? Not by a long shot" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<p>Is object-oriented programming (OOP) any good, really? If not, is it just plain bad, or are we simply not doing it right? Are OOP <a href="http://techbeacon.com/13-programming-languages-defining-future-coding">languages even in your future</a>?</p>
+
+<p>You&rsquo;ve learned about OOP, and you&rsquo;ve probably done it, or at least you think you have. You listened to other people tell you that it&rsquo;s the right way—or the wrong way—to do things. You&rsquo;ve spent long, excruciating hours listening to your computer science teacher talking about how &ldquo;Toyota&rdquo; inherits from &ldquo;car,&rdquo; and so on.</p>
+
+<p>In real life, though, you may not have found it useful. Perhaps you&rsquo;ve worked with OOP languages, and at times it seemed more like a restriction than something that actually helps. Perhaps it has bothered you so much that you&rsquo;ve welcomed the arrival of different and more modern paradigms.</p>
+
+<p>You probably identify with at least some of the above sentences. So you may be asking yourself:</p>
+
+<h2 id="why-oop">Why OOP?</h2>
+
+<p>I enjoy writing code in an object-oriented fashion. Thinking in terms of objects gives me a model that, when followed consistently,  produces code that is well organized, and easy to understand, test, and refactor.</p>
+
+<p>Some people argue that OOP doesn&rsquo;t really work, or that you don&rsquo;t need it to build modern software. But while I don&rsquo;t think OOP is the ultimate paradigm, it is helpful. A bunch of procedural code, however nicely organized, is simply not the answer.</p>
+
+<p>But what about functional programming, you might say? That&rsquo;s all fine and good. Many people say OOP and functional programming don&rsquo;t <em>necessarily</em> conflict with each other. In fact, they complement each other.</p>
+
+<h2 id="understanding-oop-polymorphism-and-immutability">Understanding OOP, polymorphism and immutability</h2>
+
+<p>Robert Martin has argued that the <a href="http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html">biggest benefit you can take from OOP</a> is polymorphism, the notion that you can define a single interface with multiple underlying implementations. As software engineers, we wouldn&rsquo;t want to lose that. One of polymorphism&rsquo;s many benefits is that lets you attain <em>inversion of dependency</em>. In OOP, this means that &ldquo;both high- and low-level objects must depend on the same abstraction,&rdquo; according to Wikipedia. In practice, this translates into software components that are no longer highly coupled. Each component, both high-level and low-level ones, can be easily replaced.</p>
+
+<p>Martin further states that the biggest benefit you can take from functional programming is immutability, the idea that we design functions or objects so that they always return the same result, given the same values as parameters. Much has been said about this topic, and it&rsquo;s apparent that its many advantages, such as code maintainability and lack of side effects, far outweigh possible downsides, such as a lack of flexibility of sort.</p>
+
+<p>It shouldn&rsquo;t come as a surprise, then, that immutability has been a recurring theme among people who have done OOP for a while. In his book, Effective Java, Joshua Bloc says that &ldquo;Classes should be immutable unless there&rsquo;s a very good reason to make them mutable&hellip; If a class cannot be made immutable, limit its mutability as much as possible.&rdquo;</p>
+
+<p><a href="http://www.yegor256.com/">Yegor Bugayenko</a>, CTO of teamed.io, is one of the strongest advocates of a return to pure OOP. He writes extensively about the <a href="http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html">advantages of immutability</a>, saying that &ldquo;&hellip;all classes should be immutable in a perfect object-oriented world.&rdquo;</p>
+
+<p>There is a lot more to it, and Yegor himself recently wrote a clarifying article, &ldquo;<a href="http://www.yegor256.com/2016/09/07/gradients-of-immutability.html">Gradients of immutability</a>,&rdquo; where he explains how an immutable object doesn&rsquo;t always need to have a rigid structure.</p>
+
+<p>This is a big topic, worthy of further study. But by now it should be clear that one good reason to do OOP is so you can retain polymorphism. Not only is that possible, but many people recommended it. While we do OOP, we should also hold on to as much immutability as possible, thereby bringing the single biggest advantage of functional programming into OOP.</p>
+
+<p>If we could get back to the primary advantages of OOP,  and get rid of all of the unnecessary ideas that have cluttered it to the point where most programmers have felt like OOP had become counterproductive, we could add more value to the way we write software.</p>
+
+<p>I&rsquo;ll get back to what this type of stripped-down, or pure OOP, looks like in a minute. But the fact is that real OOP may look quite a bit different from the way you have understood it up to now.</p>
+
+<p>At this point, it&rsquo;s worth asking the question: why objects? Why do we need to design programs as a number of objects, as opposed to functions, or procedures?</p>
+
+<h2 id="use-objects-as-a-way-to-understand-the-world">Use objects as a way to understand the world</h2>
+
+<p>David West, the author of &ldquo;<a href="http://amzn.to/2e4s5FM">Object Thinking</a>,&rdquo; said in a recent <a href="https://www.youtube.com/watch?v=bW5K5cJ-AVs">interview</a> that &ldquo;You look at the world around you and you don&rsquo;t see functions, but you see objects.&rdquo; He&rsquo;s on solid ground here: Philosophers have used terms like <em>abstract</em> and <em>concrete objects</em> to describe the world around them for a long time.</p>
+
+<p>Objects begin to make sense once we stop thinking in terms of bits and bytes, or lines of code. Thinking in terms of objects also lets us stop seeing ourselves as simply people who write code. Our job is really about solving problems, and finding meaningful ways to represent the domain in which we operate. It&rsquo;s a completely different approach from the one that most people take when writing software. It&rsquo;s the notion that <a href="https://mitpress.mit.edu/sicp/full-text/sicp/book/node3.html">&ldquo;programs must be written for people to read, and only incidentally for machines to execute,&rdquo;</a> as Harold Abelson, Gerald Jay Sussman and Julie Sussman state in their book, <em><a href="https://mitpress.mit.edu/sicp/full-text/sicp/book/book.html">Structure and Interpretation of Computer Programs</a></em>.</p>
+
+<p>Thinking in an object-orientated way is a great way to understand the problem you are trying to solve. It allows you to build software that is more maintainable, and easily understandable, for other people.</p>
+
+<p>By contrast, when you write code in a procedural way, you&rsquo;re really putting yourself in the computer&rsquo;s shoes, so to speak, and writing lines of code in the way it will eventually receive your commands anyway. That&rsquo;s convenient, if you&rsquo;re writing a quick 10-lines-long script, but less so if you&rsquo;re building a complex system on which many programmers must work. Eventually, common sense says you should somehow organize this code into smaller chunks, each containing a different set of procedures (or functions) and representing a distinct domain of sort. In the end, hardly any of this will feel natural, or even logical.</p>
+
+<p>In this case, had the programmer originally designed the software in an object-oriented fashion, instead of having a lump of disorganized code, the software would be well structured and easy to understand. This isn’t necessarily a bad thing for the computer, as often code that&rsquo;s well written and easy to understand is fast to execute, with less chance of memory leaks.</p>
+
+<h2 id="the-source-of-all-that-oop-criticism">The source of all that OOP criticism</h2>
+
+<p>The problem with a lot of the <a href="https://mcollina.github.io/we-are-not-object-oriented-anymore/">OOP criticism</a> out there is that it tends to refer to things that in popular programmer culture have become associated with OOP, but shouldn&rsquo;t be.</p>
+
+<p>One example is <a href="http://marcotroisi.com/healthy-oop-object-oriented-programming/#orm-no-thanks">object-relational mapping</a> (ORMs). Truthfully, you could drop the &ldquo;O&rdquo; in this acronym, as there is no way to directly represent a relational database table in a real-world object. Then there&rsquo;s <a href="http://marcotroisi.com/healthy-oop-object-oriented-programming/#accessors-and-mutators-vs-useful-methods">accessors and mutators</a> (or <a href="http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html">getters and setters</a>) as they will inevitably change the face of your object into a big &ldquo;data bag,&rdquo; throwing encapsulation and data abstraction out the window. The <a href="http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#2-he-works-by-contracts">absence of interfaces</a> is one of the main causes for tight coupling (or lack of flexibility) in our code. Finally, <a href="http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#5-his-class-doesn-39-t-have-anything-static">static methods</a> turn what may have started as an object into a big collection of functions, or procedures, which was never OOP&rsquo;s purpose.</p>
+
+<p>Quite a few practices have somehow become part of our daily work but were never supposed to be found in OOP. In fact, using them takes us very far from truly object-oriented code. As a result, we lose out on many of the advantages we could have experienced.</p>
+
+<p>If you were to take a codebase and eliminate at least two of the above mentioned practices, the face of your code would experience a noticeable change for the better.</p>
+
+<p>OOP done well comes with a lot of benefits. But it&rsquo;s absolutely necessary to remind ourselves what it is that OOP really is, and free ourselves from the many bad practices that have nothing to do with true object thinking.</p>
+
+<hr />
+
+<p><strong><em>This article was first published on <a href="http://techbeacon.com/object-oriented-programming-dead-not-long-shot">TechBeacon</a>.</em></strong></p>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  <section class='email-subscribe-text'>
+    To get the latest high-quality articles on
+    technology, software development and productivity
+    <a href="https://feedburner.google.com/fb/a/mailverify?uri=MarcoTroisi&amp;loc=en_US">subscribe by email</a>.
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="http://twitter.com/studionugae">nugae</a>
+        </ul>
+        
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+
+  </body>
+</html>
+
