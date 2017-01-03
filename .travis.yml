@@ -1,5 +1,5 @@
 language: go
-install: cd ~ && wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb && sudo dpkg -i hugo*.deb && hugo version
+install: cd ~ && wget https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1-64bit.deb && sudo dpkg -i hugo*.deb && hugo version
 script: 
   - cd $HOME/gopath/src/github.com/marcotroisi/blog
   - git config --global user.email "hello@marcotroisi.com"
