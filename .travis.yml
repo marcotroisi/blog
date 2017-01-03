@@ -1,5 +1,5 @@
 deploy:
   provider: script
-  script: deploy.sh
+  script: deploy_test.sh
   on:
     branch: master
