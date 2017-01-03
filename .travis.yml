@@ -3,4 +3,6 @@ install: go get -v github.com/spf13/hugo
 script: 
   - git config --global user.email "hello@marcotroisi.com"
   - git config --global user.name "Travis CI"
+  - git remote add origin https://$GH_TOKEN@github.com/marcotroisi/blog.git
+after_success:
   - ./deploy.sh
