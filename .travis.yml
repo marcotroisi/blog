@@ -7,3 +7,7 @@ script:
   - git remote remove origin
   - git remote add origin https://$GH_TOKEN@github.com/marcotroisi/blog.git
   - ./deploy.sh
+
+branches:
+  only:
+  - master
