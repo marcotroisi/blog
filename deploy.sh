@@ -21,6 +21,6 @@ git commit -m "Updating Site"
 git push origin master
 
 echo "*** Push Public folder to GitHub Pages ***"
-git subtree push --prefix=public https://$GH_TOKEN@github.com/marcotroisi/blog.git gh-pages master 
+git subtree push --prefix=public https://$GH_TOKEN@github.com/marcotroisi/blog.git gh-pages
 
 echo "*** DONE! ***"
