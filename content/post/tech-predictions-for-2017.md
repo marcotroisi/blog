@@ -1,10 +1,10 @@
 ---
 author: Marco Troisi
 categories:
-- Software Development
+- Predictions
 - Technology
 date: 2017-01-03T01:32:26Z
-description: Brief description of the article
+description: My predictions for technology in 2017
 draft: true
 featured_image: '** remove this if not present **'
 layout: post
