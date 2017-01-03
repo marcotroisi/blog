@@ -10,7 +10,8 @@ featured_image: '** remove this if not present **'
 layout: post
 tags:
 - technology
-- news
+- predictions
+- 2017
 title: My tech predictions for 2017
 url: /tech-predictions-for-2017/
 ---
