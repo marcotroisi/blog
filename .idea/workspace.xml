@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09c36edf-faf3-4bb3-aa48-a37b351b1b0c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a-list-apart/index.html" afterPath="$PROJECT_DIR$/a-list-apart/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/an-example-of-a-microservice/index.html" afterPath="$PROJECT_DIR$/an-example-of-a-microservice/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apple-and-the-battle-for-privacy/index.html" afterPath="$PROJECT_DIR$/apple-and-the-battle-for-privacy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/fat-free-framework/index.html" afterPath="$PROJECT_DIR$/categories/fat-free-framework/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/golang/index.html" afterPath="$PROJECT_DIR$/categories/golang/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/html5/index.html" afterPath="$PROJECT_DIR$/categories/html5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/javascript/index.html" afterPath="$PROJECT_DIR$/categories/javascript/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/mobile/index.html" afterPath="$PROJECT_DIR$/categories/mobile/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/news/index.html" afterPath="$PROJECT_DIR$/categories/news/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/node.js/index.html" afterPath="$PROJECT_DIR$/categories/node.js/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/opinions/index.html" afterPath="$PROJECT_DIR$/categories/opinions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/php/index.html" afterPath="$PROJECT_DIR$/categories/php/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/productivity/index.html" afterPath="$PROJECT_DIR$/categories/productivity/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/raspberry-pi/index.html" afterPath="$PROJECT_DIR$/categories/raspberry-pi/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/software-development/index.html" afterPath="$PROJECT_DIR$/categories/software-development/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/startups/index.html" afterPath="$PROJECT_DIR$/categories/startups/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/technology/index.html" afterPath="$PROJECT_DIR$/categories/technology/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/tutorials/index.html" afterPath="$PROJECT_DIR$/categories/tutorials/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/yii-framework/index.html" afterPath="$PROJECT_DIR$/categories/yii-framework/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composition-over-inheritance/index.html" afterPath="$PROJECT_DIR$/composition-over-inheritance/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/index.html" afterPath="$PROJECT_DIR$/contact/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hailo-journey-into-microservices/index.html" afterPath="$PROJECT_DIR$/hailo-journey-into-microservices/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/how-technology-will-open-more-doors-for-people-to-work-together/index.html" afterPath="$PROJECT_DIR$/how-technology-will-open-more-doors-for-people-to-work-together/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/how-to-use-fat-free-framework-from-the-command-line/index.html" afterPath="$PROJECT_DIR$/how-to-use-fat-free-framework-from-the-command-line/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/how-to-web-server-on-raspberry-pi/index.html" afterPath="$PROJECT_DIR$/how-to-web-server-on-raspberry-pi/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/i-got-a-rasperry-pi/index.html" afterPath="$PROJECT_DIR$/i-got-a-rasperry-pi/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make-your-website-available-offline-with-html5/index.html" afterPath="$PROJECT_DIR$/make-your-website-available-offline-with-html5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/micro-services-a-quick-introduction/index.html" afterPath="$PROJECT_DIR$/micro-services-a-quick-introduction/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices-wont-improve-your-code-quality/index.html" afterPath="$PROJECT_DIR$/microservices-wont-improve-your-code-quality/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moving-to-germany/index.html" afterPath="$PROJECT_DIR$/moving-to-germany/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-two-cents-on-golang/index.html" afterPath="$PROJECT_DIR$/my-two-cents-on-golang/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/native-apps-vs-web-apps/index.html" afterPath="$PROJECT_DIR$/native-apps-vs-web-apps/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/index.html" afterPath="$PROJECT_DIR$/post/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productive-programmer-5-tips/index.html" afterPath="$PROJECT_DIR$/productive-programmer-5-tips/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questions-about-microservices/index.html" afterPath="$PROJECT_DIR$/questions-about-microservices/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/apache/index.html" afterPath="$PROJECT_DIR$/tags/apache/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/appcache/index.html" afterPath="$PROJECT_DIR$/tags/appcache/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/apple/index.html" afterPath="$PROJECT_DIR$/tags/apple/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/architecture/index.html" afterPath="$PROJECT_DIR$/tags/architecture/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/authentication/index.html" afterPath="$PROJECT_DIR$/tags/authentication/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/benchmark/index.html" afterPath="$PROJECT_DIR$/tags/benchmark/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/berlin-milan-moving-job/index.html" afterPath="$PROJECT_DIR$/tags/berlin-milan-moving-job/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/business/index.html" afterPath="$PROJECT_DIR$/tags/business/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/chrome/index.html" afterPath="$PROJECT_DIR$/tags/chrome/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/cms/index.html" afterPath="$PROJECT_DIR$/tags/cms/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/code-quality/index.html" afterPath="$PROJECT_DIR$/tags/code-quality/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/code-reviews/index.html" afterPath="$PROJECT_DIR$/tags/code-reviews/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/companies/index.html" afterPath="$PROJECT_DIR$/tags/companies/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/composition/index.html" afterPath="$PROJECT_DIR$/tags/composition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/development/index.html" afterPath="$PROJECT_DIR$/tags/development/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/discipline/index.html" afterPath="$PROJECT_DIR$/tags/discipline/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/efficiency/index.html" afterPath="$PROJECT_DIR$/tags/efficiency/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/embedding/index.html" afterPath="$PROJECT_DIR$/tags/embedding/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/encryption/index.html" afterPath="$PROJECT_DIR$/tags/encryption/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/firefox/index.html" afterPath="$PROJECT_DIR$/tags/firefox/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/ghost/index.html" afterPath="$PROJECT_DIR$/tags/ghost/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/github-pages/index.html" afterPath="$PROJECT_DIR$/tags/github-pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/go/index.html" afterPath="$PROJECT_DIR$/tags/go/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/golang/index.html" afterPath="$PROJECT_DIR$/tags/golang/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/google/index.html" afterPath="$PROJECT_DIR$/tags/google/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/hailo/index.html" afterPath="$PROJECT_DIR$/tags/hailo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/html5/index.html" afterPath="$PROJECT_DIR$/tags/html5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/inheritance/index.html" afterPath="$PROJECT_DIR$/tags/inheritance/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/javascript/index.html" afterPath="$PROJECT_DIR$/tags/javascript/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jekyll/index.html" afterPath="$PROJECT_DIR$/tags/jekyll/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/kong/index.html" afterPath="$PROJECT_DIR$/tags/kong/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/lampp/index.html" afterPath="$PROJECT_DIR$/tags/lampp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/manifest/index.html" afterPath="$PROJECT_DIR$/tags/manifest/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/medium/index.html" afterPath="$PROJECT_DIR$/tags/medium/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/microservices/index.html" afterPath="$PROJECT_DIR$/tags/microservices/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/microtranslator/index.html" afterPath="$PROJECT_DIR$/tags/microtranslator/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/mobile/index.html" afterPath="$PROJECT_DIR$/tags/mobile/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/modules/index.html" afterPath="$PROJECT_DIR$/tags/modules/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/monolithic/index.html" afterPath="$PROJECT_DIR$/tags/monolithic/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/mysql/index.html" afterPath="$PROJECT_DIR$/tags/mysql/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/native/index.html" afterPath="$PROJECT_DIR$/tags/native/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/node.js/index.html" afterPath="$PROJECT_DIR$/tags/node.js/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/octopress/index.html" afterPath="$PROJECT_DIR$/tags/octopress/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/offline/index.html" afterPath="$PROJECT_DIR$/tags/offline/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/open-web/index.html" afterPath="$PROJECT_DIR$/tags/open-web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/perfectionism/index.html" afterPath="$PROJECT_DIR$/tags/perfectionism/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/periscope/index.html" afterPath="$PROJECT_DIR$/tags/periscope/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/php/index.html" afterPath="$PROJECT_DIR$/tags/php/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/privacy/index.html" afterPath="$PROJECT_DIR$/tags/privacy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/productivity/index.html" afterPath="$PROJECT_DIR$/tags/productivity/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/programming/index.html" afterPath="$PROJECT_DIR$/tags/programming/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/quality/index.html" afterPath="$PROJECT_DIR$/tags/quality/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/raspberry-pi/index.html" afterPath="$PROJECT_DIR$/tags/raspberry-pi/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/refactoring/index.html" afterPath="$PROJECT_DIR$/tags/refactoring/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/relax/index.html" afterPath="$PROJECT_DIR$/tags/relax/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/reviewing/index.html" afterPath="$PROJECT_DIR$/tags/reviewing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/security/index.html" afterPath="$PROJECT_DIR$/tags/security/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/specialisation/index.html" afterPath="$PROJECT_DIR$/tags/specialisation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/startups/index.html" afterPath="$PROJECT_DIR$/tags/startups/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/team/index.html" afterPath="$PROJECT_DIR$/tags/team/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/technical-debt/index.html" afterPath="$PROJECT_DIR$/tags/technical-debt/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/tim-cook/index.html" afterPath="$PROJECT_DIR$/tags/tim-cook/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/traits/index.html" afterPath="$PROJECT_DIR$/tags/traits/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/transition/index.html" afterPath="$PROJECT_DIR$/tags/transition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/twitter/index.html" afterPath="$PROJECT_DIR$/tags/twitter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/web-apps/index.html" afterPath="$PROJECT_DIR$/tags/web-apps/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/wordpress/index.html" afterPath="$PROJECT_DIR$/tags/wordpress/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technical-debt-is-not-a-unicorn/index.html" afterPath="$PROJECT_DIR$/technical-debt-is-not-a-unicorn/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the-ethics-of-code-reviews/index.html" afterPath="$PROJECT_DIR$/the-ethics-of-code-reviews/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waiting-for-the-yii-book/index.html" afterPath="$PROJECT_DIR$/waiting-for-the-yii-book/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/what-can-we-learn-from-periscope/index.html" afterPath="$PROJECT_DIR$/what-can-we-learn-from-periscope/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/what-would-your-ideal-publishing-platform-look-like/index.html" afterPath="$PROJECT_DIR$/what-would-your-ideal-publishing-platform-look-like/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/why-should-you-develop-web-apps/index.html" afterPath="$PROJECT_DIR$/why-should-you-develop-web-apps/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-and-ghost/index.html" afterPath="$PROJECT_DIR$/wordpress-and-ghost/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/index.html" afterPath="$PROJECT_DIR$/wp-content/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/writing-for-milk-honey-mag/index.html" afterPath="$PROJECT_DIR$/writing-for-milk-honey-mag/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml-generator-yii-framework/index.html" afterPath="$PROJECT_DIR$/xml-generator-yii-framework/index.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09c36edf-faf3-4bb3-aa48-a37b351b1b0c" name="Default" comment="" />
+      <created>1483406510217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483406510217</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
