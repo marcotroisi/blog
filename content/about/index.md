@@ -17,7 +17,9 @@ If you want to meet up and have a chat, discuss a project or ask me for help, pl
 
 If you need help with your software, I may be able to help. I provide personal consulting services, as well as put people in contact with the best web professionals in various places of the world.
 
-Anything from small fixes to enterprise level development, I can quickly assemble a team to get your project off the ground.Also, I am available to consider working for free for non profit projects.
+Anything from small fixes to enterprise level development, I can quickly assemble a team to get your project off the ground.
+
+Also, I am available to consider working for free for non profit projects.
 
 My consulting services include:
 
