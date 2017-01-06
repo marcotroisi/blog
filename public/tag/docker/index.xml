@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>http://www.marcotroisi.com/tags/docker/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
+    <atom:link href="http://www.marcotroisi.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My tech predictions for 2017</title>
+      <link>http://www.marcotroisi.com/tech-predictions-for-2017/</link>
+      <pubDate>Tue, 03 Jan 2017 01:32:26 +0000</pubDate>
+      
+      <guid>http://www.marcotroisi.com/tech-predictions-for-2017/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;re now a few days into the new year, and it&amp;rsquo;s probably a good time to look into what might or might not happen during the next 12 months.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a fun exercise, and of course I might be wrong about some or all of the following predictions. They&amp;rsquo;re based on my personal observations of what I see happening in the industry at the moment.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-apple&#34;&gt;#1: Apple&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Apple&lt;/strong&gt; is going to keep trying hard but it is unlikely to release anything truly useful and game-changing over the next year.&lt;/p&gt;
+
+&lt;p&gt;As with the &lt;a href=&#34;http://www.apple.com/ie/macbook-pro/&#34;&gt;new MacBook Pro&lt;/a&gt; (the one with the touch bar), they&amp;rsquo;re going to keep releasing products that are only marginally better from a purely technological point of view, with nice and shiny features (like the abovementioned touch bar) that are &lt;a href=&#34;https://michaelhyatt.com/companies-forget-product.html&#34;&gt;driven by marketing&lt;/a&gt; and not an overall technological/product vision.&lt;/p&gt;
+
+&lt;p&gt;Moreover, a &lt;a href=&#34;http://bgr.com/2016/10/28/macbook-pro-2016-specs-creative-professionals-developers/&#34;&gt;sense of discontent&lt;/a&gt; seems to be around, with people &lt;a href=&#34;https://twitter.com/spolsky/status/815250470843269120&#34;&gt;complaining&lt;/a&gt; and even &lt;a href=&#34;https://www.facebook.com/michaelhyatt/photos/a.10150425974849385.362668.133149524384/10154334024454385/?type=3&amp;amp;theater&#34;&gt;returning&lt;/a&gt; their brand new MacBook Pros.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Also keep an eye on:&lt;/strong&gt; While 2017 might be too early, as an old Linux enthusiast I really hope someone will eventually come up with a Linux-based solution that can stand against MacBooks both in terms of hardware and software.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-docker&#34;&gt;#2: Docker&lt;/h2&gt;
+
+&lt;p&gt;More tools are going to come up with the goal of making &lt;strong&gt;&lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;&lt;/strong&gt; easier to use. In particular, &lt;em&gt;&lt;a href=&#34;https://docs.docker.com/compose/&#34;&gt;Docker Compose&lt;/a&gt;&lt;/em&gt; is going to become production-ready, and keeping Docker commands into Compose&amp;rsquo;s easy-to-read yaml files is going to become most developers&amp;rsquo; preferred way of running Docker apps, as opposed to having to remember huge, unreadable command line commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Also keep an eye on:&lt;/strong&gt; CoreOS&amp;rsquo;s &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;rkt&lt;/a&gt; as a viable (and more secure) alternative to Docker.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-kubernetes-and-openshift&#34;&gt;#3: Kubernetes and Openshift&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt;&lt;/strong&gt; is going to become the de-facto industry standard for container orchestration. At the same time, solutions like RedHat&amp;rsquo;s &lt;strong&gt;&lt;a href=&#34;https://www.openshift.com/&#34;&gt;OpenShift&lt;/a&gt;&lt;/strong&gt; are going to make it easier than ever to benefit from the enourmous power of Kubernetes. Currently, Kubernetes is already seen as the most complete solution, but relatively hard to setup and work with. With OpenShift reaching its more mature stage, small and big companies are going to look at it as a way to ease themselves into the world of Kubernetes and container orchestration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Also keep an eye on:&lt;/strong&gt; &lt;a href=&#34;https://www.weave.works/solution/cloud/&#34;&gt;Weave.Cloud&lt;/a&gt; as another possible Kubernetes-based alternative to OpenShift. Weave offers an impressive set of tools that can be very helpful when building software with a microservices architecture.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-microservices&#34;&gt;#4: Microservices&lt;/h2&gt;
+
+&lt;p&gt;As we move away from the hype of &lt;strong&gt;microservices&lt;/strong&gt; being the solution to all of humanity&amp;rsquo;s problems, there are going to be more people talking about when it&amp;rsquo;s &lt;em&gt;not&lt;/em&gt; a good idea to build software with a microservices architecture. At the same time, tools that help us manage a distributed architecture are going to reach a higher level of maturity, making it easier than ever before to work with microservices.&lt;/p&gt;
+
+&lt;h2 id=&#34;5-ai&#34;&gt;#5: AI&lt;/h2&gt;
+
+&lt;p&gt;There&amp;rsquo;s going to be more clarity and (hopefully) less plugging around the topic of &lt;strong&gt;Artificial Intelligence&lt;/strong&gt;. As we realise that completely replacing humans may never be possible any time soon (if ever), more resources are going to be invested into smaller, practical projects and technologies that use the power of machines to actually make us more productive and improve our lives in meaningful ways.&lt;/p&gt;
+
+&lt;p&gt;This is the sensible way to look at this topic. The purpose of software is to help us live better lives and achieve more and more efficiently. To think of software and, by extension, artificial intelligence only as ways of replacing humans isn&amp;rsquo;t helpful and isn&amp;rsquo;t going to get us anywhere.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I hope you enjoyed reading my personal predictions for 2017! I&amp;rsquo;d love to hear what your thoughts are and what you think we&amp;rsquo;ll see more (or less) of over the next year.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
