@@ -7,6 +7,12 @@ date: 2016-10-17
 ---
 This is a list of talks I've given so far:
 
+## 2017
+
+coming soon!
+
+## 2016
+
 **Technical Debt is not a unicorn** - *Corkdev.io*, Cork (Ireland); 19th July 2016 [[slides](https://speakerdeck.com/marcotroisi/technical-debt-is-not-a-unicorn)] [[video](https://www.youtube.com/watch?v=YiOuOybCTzI)]
 
 **Microservices won't improve your code quality** - *PHP Dublin*, Dublin (Ireland); 11th August 2016 [[slides](https://speakerdeck.com/marcotroisi/microservices-wont-improve-your-code-quality)]
