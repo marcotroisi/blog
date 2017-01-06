@@ -9,7 +9,7 @@ This is a list of talks I've given so far:
 
 ## 2017
 
-coming soon!
+coming soon!!
 
 ## 2016
 
