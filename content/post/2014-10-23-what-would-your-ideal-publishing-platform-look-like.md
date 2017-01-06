@@ -24,9 +24,4 @@ Hopefully this will result, one day, in the publishing platform that we all have
 
 Thank you for your time!
 
-<div id="polls-2" class="wp-polls">
-</div>
-
-<div id="polls-2-loading" class="wp-polls-loading">
-  <img src="http://www.marcotroisi.com/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...
-</div>
+**UPDATE**: the poll has now been removed from this page
