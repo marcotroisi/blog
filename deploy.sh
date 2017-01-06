@@ -23,6 +23,10 @@ git push origin master
 
 echo "*** Push Public folder to GitHub Pages ***"
 git push origin :gh-pages
-git subtree push --prefix=public https://$GH_TOKEN@github.com/marcotroisi/blog.git gh-pages
+if [[ $GH_TOKEN ]]; then
+	git subtree push --prefix=public https://$GH_TOKEN@github.com/marcotroisi/blog.git gh-pages
+else
+	git subtree push --prefix=public https://github.com/marcotroisi/blog.git gh-pages
+fi
 
 echo "*** DONE! ***"
