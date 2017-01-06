@@ -36,10 +36,6 @@ My consulting services include:
         <td>express.js, sails.js, etc.</td>
     </tr>
     <tr>
-        <td class="tag">Front end development</td>
-        <td>HTML5, CSS3, Javascript (jQuery, AngularJS, Backbone.js, etc.)</td>
-    </tr>
-    <tr>
         <td class="tag">Database</td>
         <td>Development, Design and Migration (MongoDB, MySQL, PostgreSQL, Sqlite, etc.)</td>
     </tr>
