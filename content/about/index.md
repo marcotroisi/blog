@@ -25,11 +25,11 @@ My consulting services include:
     <tbody>
     <tr>
         <td class="tag">PHP development</td>
-        <td>PHP5, Yii framework, Phalcon, WordPress, etc.</td>
+        <td>PHP5, Symphony, Yii framework, Phalcon, etc.</td>
     </tr>
     <tr>
-        <td class="tag">GO development</td>
-        <td>Revel, Gin, Gorilla, etc.</td>
+        <td class="tag">Go development</td>
+        <td>go-kit, Gorilla, Gin etc.</td>
     </tr>
     <tr>
         <td class="tag">Node.js development</td>

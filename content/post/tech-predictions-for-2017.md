@@ -16,6 +16,7 @@ tags:
 - docker
 - kubernetes
 - openshift
+- weaveworks
 - microservices
 - artificial intelligence
 title: My tech predictions for 2017

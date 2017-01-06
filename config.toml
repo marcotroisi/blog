@@ -9,6 +9,11 @@ aliases = [
 ]
 MetaDataFormat = "yaml"
 
+[taxonomies]
+    tag = "tag"
+    category = "category"
+    series = "series"
+
 [params]
     site_author = "Marco Troisi"
     site_description = "Marco Troisi's Blog on Technology, Software Development and Productivity."
