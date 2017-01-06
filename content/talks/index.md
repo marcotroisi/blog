@@ -7,11 +7,11 @@ date: 2016-10-17
 ---
 This is a list of talks I've given so far:
 
-## 2017
+## 2017
 
 coming soon!!
 
-## 2016
+## 2016
 
 **Technical Debt is not a unicorn** - *Corkdev.io*, Cork (Ireland); 19th July 2016 [[slides](https://speakerdeck.com/marcotroisi/technical-debt-is-not-a-unicorn)] [[video](https://www.youtube.com/watch?v=YiOuOybCTzI)]
 
