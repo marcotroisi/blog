@@ -5,7 +5,7 @@ RUN apt-get update \
  && apt-get install -y wget
 
 RUN cd ~ \
- && wget https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1-64bit.deb \
+ && wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17-64bit.deb \
  && dpkg -i hugo*.deb 
 
 RUN mkdir /website
