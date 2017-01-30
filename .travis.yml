@@ -1,5 +1,10 @@
+sudo: required
 language: go
-install: cd ~ && wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17-64bit.deb && sudo dpkg -i hugo*.deb && hugo version
+services:
+  - docker
+before_install:
+  - docker pull marcotroisi/hugo:0.17
+install: cd ~ docker run -v `pwd`:/website  marcotroisi/hugo:0.17 version
 script: 
   - cd $HOME/gopath/src/github.com/marcotroisi/blog
   - git config --global user.email "hello@marcotroisi.com"

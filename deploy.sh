@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "*** Hugo... ***"
-hugo
+docker run -v `pwd`:/website  marcotroisi/hugo:0.17
 
 echo "RSS in /feed"
 mkdir public/feed/
