@@ -4,8 +4,8 @@ categories:
 - Architecture
 - Technology
 - Serverless
-date: 2017-01-31T16:53:45Z
-description: Brief description of the article
+date: 2017-02-02T16:53:45Z
+description: What Serverless really use, and when should you use it.
 draft: true
 featured_image: '** remove this if not present **'
 layout: post
@@ -16,8 +16,8 @@ tags:
 - microservices
 - functions
 - faas
-title: An Intro to Serverless
-url: /an-intro-to-serverless/
+title: Serverless: what it is and when to use it
+url: /serverless-what-it-is/
 ---
 
 <!-- MarkdownTOC -->
