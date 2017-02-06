@@ -7,7 +7,7 @@ categories:
 date: 2017-02-02T16:53:45Z
 description: What Serverless really means, and when should you use it.
 draft: false
-featured_image: "http://www.marcotroisi.com/images/2017.png"
+featured_image: "http://www.marcotroisi.com/images/serverless.png"
 layout: post
 tags:
 - serverless
