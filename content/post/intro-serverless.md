@@ -16,9 +16,9 @@ tags:
 - microservices
 - functions
 - faas
-title: "Serverless: what it is and when to use it"
+title: "Serverless: What it is and when to use it"
 url: /serverless-what-it-is/
-disqusShortname = "serverless"
+disqusShortname: "serverless"
 ---
 
 <!-- MarkdownTOC -->
