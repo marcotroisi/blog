@@ -20,7 +20,7 @@
   ---<br>
   <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
   
-  {{ if (isset .Params "comments") }}
+  {{ if (isset .Params "disqusShortname") }}
     {{ template "_internal/disqus.html" . }}
   {{ end }}
 

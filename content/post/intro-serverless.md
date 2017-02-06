@@ -18,7 +18,7 @@ tags:
 - faas
 title: "Serverless: what it is and when to use it"
 url: /serverless-what-it-is/
-comments: true
+disqusShortname = "serverless"
 ---
 
 <!-- MarkdownTOC -->
