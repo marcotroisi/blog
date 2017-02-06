@@ -60,7 +60,7 @@ On a good old PaaS platform such as Heroku, we would have had the same peace of 
 <a name="do-we-need-it"></a>
 ## Do we need it?
 
-I believe that looking at Serverless as a "PaaS on steroids". While undoubtedly an over-simplification, this definition can be helpful. Not only it helps us understand Serverless better, it also gives us some direction as to when and whether we need to consider Serverless for our software.
+Looking at Serverless as a "PaaS on steroids", whilst clearly an over-simplification, can be helpful. Not only it helps us understand Serverless better, it also gives us some direction as to when and whether we need to consider Serverless for our software.
 
 In most cases, if you had good reasons for not using a PaaS platform, then those same reasons probably still apply for Serverless. 
 
