@@ -49,9 +49,9 @@ Interestingly, Google Cloud has a similar (if not identical) product called Clou
 
 When it comes down to it, you could look at Serverless as Heroku on steroids.
 
-Clearly, the servers are still there. It's just that those companies (AWS, GCE, etc) have gotten to the point where they can get their servers up and down in a matter of milliseconds. Hence, they tell you, if you have a functionality which is only running several times a day on an on-demand basis, do you need a server dedicated to it and running all day long?
+Clearly, the servers are still there. It's just that those companies (AWS, GCE, etc) have gotten to the point where they can get their servers up and down in a matter of milliseconds. So, as they'd ask you, if you have a functionality which is only running several times a day on an on-demand basis, do you really need a server dedicated to it and running all day long?
 
-Looking at it from a microservices perspective, that's what we would have done. We would have split that critical functionality into a separate microservice, running on its own server. Then, we would have made sure we could expand that server's capabilities in as painless a way as possible. 
+Looking at it from a microservices perspective, that's what we would've done. We would have split that critical functionality into a separate microservice, running on its own server. Then, we would have made sure we could expand that server's capabilities in as painless a way as possible. 
 
 Serverless promises to take care of some of that for us. Firstly, it's supposed to save us some money by only making us pay for the computing resources we need. Then, it takes care of scaling the servers up and down based on the need of the moment. 
 
@@ -60,11 +60,11 @@ On a good old PaaS platform such as Heroku, we would have had the same peace of 
 <a name="do-we-need-it"></a>
 ## Do we need it?
 
-I believe that looking at Serverless as a "PaaS on steroids", while undoubtedly an over-simplification, can be helpful. Not only it helps us understand Serverless better, it also gives us some direction as to when and whether we need to consider Serverless for our software.
+I believe that looking at Serverless as a "PaaS on steroids". While undoubtedly an over-simplification, this definition can be helpful. Not only it helps us understand Serverless better, it also gives us some direction as to when and whether we need to consider Serverless for our software.
 
 In most cases, if you had good reasons for not using a PaaS platform, then those same reasons probably still apply for Serverless. 
 
-If you're a happy PaaS user, then Serverless may be an option to consider, but it won't always work. Similarly, if you're doing microservices, Serveless is again something you can keep an open mind about.
+If you're a happy PaaS user, then Serverless may be an option to consider, but it won't always work. Similarly, if you're doing microservices, Serverless is again something you can keep an open mind about.
 
 So, while Serverless and traditional PaaS are not exactly the same thing, they can be seen as solving similar problems though they have different use cases.
 
@@ -82,7 +82,7 @@ If your system is a monolith, then you probably have your good reasons why you w
 <a name="when-not-to-use-it"></a>
 ## When NOT to use it
 
-If you're not already on the cloud, then Serverless is really not a good idea. Services like Lambda work well when tightly integrated with the AWS' platform. For example, you trigger an event when storing a file on S3, then you run your Serverless function which does something to that file, then you store the changed file on S3 and perhaps add/update a record on DynamoDB/RDS to indicate that the operation was successful.
+If you're not already on the cloud, then Serverless is really not a good idea. Services like Lambda work well when tightly integrated with the AWS platform. For example, you trigger an event when storing a file on S3, then you run your Serverless function which does something to that file, then you store the changed file on S3 and perhaps add/update a record on DynamoDB/RDS to indicate that the operation was successful.
 
 If you want to use Lambda but you're not already on AWS, then Serverless is just not for you. The same applies with GCE's Cloud Functions and Azure's [Functions](https://azure.microsoft.com/en-us/services/functions/).
 
