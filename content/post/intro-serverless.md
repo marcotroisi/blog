@@ -101,6 +101,8 @@ To conclude, Serverless/FaaS is an advancement in the way we operate our servers
 
 In any situation where all of the above conditions don't check out, a more "traditional" approach is recommended.
 
+***Have you used a Serverless platform? Do you agree with my definition and guidelines? Feel free to leave a comment below.***
+
 ***
 
 <a name="more-resources"></a>
