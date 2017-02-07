@@ -18,7 +18,7 @@ tags:
 - faas
 title: "Serverless: What it is and when to use it"
 url: /serverless-what-it-is/
-disqusShortname: "serverless"
+comments: true
 ---
 
 <!-- MarkdownTOC -->
@@ -29,6 +29,7 @@ disqusShortname: "serverless"
 - [When to use it](#when-to-use-it)
 - [When NOT to use it](#when-not-to-use-it)
 - [Conclusion](#conclusion)
+    - [More resources:](#more-resources)
 
 <!-- /MarkdownTOC -->
 
@@ -102,6 +103,7 @@ In any situation where all of the above conditions don't check out, a more "trad
 
 ***
 
+<a name="more-resources"></a>
 ### More resources:
 
 - [Serverless](https://martinfowler.com/articles/serverless.html#what-isnt-serverless) (Martin Fowler's blog)
