@@ -21,7 +21,7 @@ url: /serverless-what-it-is/
 comments: true
 ---
 
-<!-- MarkdownTOC -->
+<!-- MarkdownTOC depth="1" -->
 
 - [How it's presented](#how-its-presented)
 - [What it essentially is](#what-it-essentially-is)
@@ -29,7 +29,6 @@ comments: true
 - [When to use it](#when-to-use-it)
 - [When NOT to use it](#when-not-to-use-it)
 - [Conclusion](#conclusion)
-    - [More resources:](#more-resources)
 
 <!-- /MarkdownTOC -->
 
