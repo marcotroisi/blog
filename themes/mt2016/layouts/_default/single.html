@@ -2,10 +2,18 @@
 
 <header class="blog__header">
   <h1>
-    <span> {{ .Date.Format "Jan 2, 2006" }} </span>
+    <span> 
+      {{ .Date.Format "Jan 2, 2006" }} 
+    </span>
     {{ .Title }}
   </h1>
 </header>
+
+{{ if (isset .Params "comments") }}
+  <div id="header_comments">
+    <a href="#disqus_thread">Comments</a>
+  </div>
+  {{ end }}
 
 {{ if (isset .Params "featured_image") }}
   <section class="blog__image">
@@ -33,5 +41,9 @@
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+{{ if (isset .Params "comments") }}
+<script id="dsq-count-scr" src="//marcotroisi.disqus.com/count.js" async></script>
+{{ end }}
 
 {{ partial "footer.html" . }}
