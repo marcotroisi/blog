@@ -7,9 +7,17 @@ date: 2016-10-17
 ---
 This is a list of talks I've given so far. For more info, you can also look at [my Lanyrd profile page](http://lanyrd.com/profile/marcotroisi/).
 
-## 2017
+## Upcoming 
 
-coming soon!!
+**OOP is not dead**  
+[PHP London](https://www.meetup.com/phplondon/)  
+London (UK)  
+2nd March 2017
+
+**Microservices won't improve your code quality**  
+[Agile Eastern Europe Conference](http://kiev2017.agileee.org/)  
+Kiev (Ukraine)  
+7th-8th April 2017
 
 ## 2016
 
