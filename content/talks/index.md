@@ -10,7 +10,7 @@ This is a list of talks I've given so far. For more info, you can also look at [
 ## Upcoming 
 
 **OOP is not dead**  
-[PHP London](https://www.meetup.com/phplondon/)  
+[PHP London](https://www.meetup.com/phplondon/events/237870919/?rv=ea1&_af=event&_af_eid=237870919&https=on)  
 London (UK)  
 2nd March 2017
 
