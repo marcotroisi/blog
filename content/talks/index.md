@@ -14,9 +14,9 @@ This is a list of talks I've given so far. For more info, you can also look at [
 Kiev (Ukraine)  
 7th-8th April 2017
 
-**Best security practices for microservices**
-[PHP South Coast 2017](https://2017.phpsouthcoast.co.uk/)
-Portsmouth (UK)
+**Best security practices for microservices** 
+[PHP South Coast 2017](https://2017.phpsouthcoast.co.uk/) 
+Portsmouth (UK) 
 9th-10th June 2017
 
 ## 2017
