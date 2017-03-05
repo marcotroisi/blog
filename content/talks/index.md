@@ -21,7 +21,7 @@ Portsmouth (UK)
 
 ## 2017
 
-**OOP is not dead** [[slides](https://speakerdeck.com/marcotroisi/is-oop-dead?slide=2)] 
+**OOP is not dead** [[slides](https://speakerdeck.com/marcotroisi/is-oop-dead?slide=2)]  
 [PHP London](https://www.meetup.com/phplondon/events/237870919/?rv=ea1&_af=event&_af_eid=237870919&https=on)  
 London (UK)  
 2nd March 2017
