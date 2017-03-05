@@ -1,0 +1,18 @@
+<article class="post">
+
+  <header class="entry-header">
+    {{ if (isset .Params "featured_image") }}
+    <a href="{{ .Permalink }}" title="{{ .Title }}" >
+      <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
+    </a>
+    {{ end }}
+    <div class="entry-title"><h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2></div>
+  </header>
+
+  <div class="entry-content">
+    {{ .Summary }}
+    <br>
+    <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+  </div><!-- .entry-content -->
+
+</article>
