@@ -2,7 +2,11 @@
 
 <header class="blog__header">
   <h1>
-    <span> {{ .Date.Format "Jan 2, 2006" }} </span>
+    <span> 
+        {{ if eq .Layout "post" }}
+          {{ .Date.Format "2 Jan '06" }} 
+        {{ end }}  
+    </span>
     {{ .Title }}
   </h1>
 </header>
