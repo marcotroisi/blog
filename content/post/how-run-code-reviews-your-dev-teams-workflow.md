@@ -15,6 +15,7 @@ tags:
 - development workflow
 title: How to run code reviews in your dev team's workflow
 url: /how-run-code-reviews-in-your-workflow/
+comments: true
 ---
 
 While they're usually accepted as a good practice, code reviews remain a topic of debate among software engineers. Many programmers still struggle to identify the extent of code reviews' value and their place within a team's workflow.
@@ -23,7 +24,7 @@ The questions of [why you should do them](http://marcotroisi.com/the-ethics-of-c
 
 At the same time, trying to artificially fit code reviews within your existing workflow is not always a good idea. If you want to make sure you get the best out of every code review, adding one as just another step to your workflow may not be enough. Some changes to your workflow could be necessary. I'm going to help you answer the simple question:
 
-## Before the code gets merged
+## Before the code gets merged
 
 The most obvious advice when it comes to code reviews is to do them [before the new code gets merged](http://softwareengineering.stackexchange.com/a/121665) into your production or main development branch.
 
@@ -33,7 +34,7 @@ This does, of course, seem to work better with a distributed version-control sys
 
 Note that there is nothing wrong with performing a second code review after the code has been merged, but it would be a mistake for the code not to be reviewed before it gets to that point. Also, post-merge is probably a better time to perform an [independent review](http://www.yegor256.com/2014/12/18/independent-technical-reviews.html).
 
-##  After the tests have been run
+## After the tests have been run
 
 Code reviews are no replacement for a reasonably high test coverage. While it's obvious that a code review itself should help find bugs in the code, your fellow code reviewers shouldn't be finding regressions—those should be caught by automated tests.
 
@@ -47,7 +48,7 @@ As far as the process goes, the priority is to make sure that all tests are auto
 
 The results of the automated tests should also be clearly visible to everyone. Your automated tests should be integrated as a required step before merging, with the results of those tests publicly available. This is very easily done on [GitHub](https://help.github.com/articles/enabling-required-status-checks/) and similar platforms.
 
-## The case for small branches
+## The case for small branches
 
 I already mentioned how a bad development workflow might negatively impact the effectiveness of code reviews. A bad practice that many teams seem to fall victim to is creating big tickets/tasks (and therefore branches) that someone will be working on for several days, weeks, or even months.
 
@@ -55,7 +56,7 @@ You want to do the opposite. Keep your tasks (and branches) as small as possible
 
 Reviewing a day's worth of code is a task that can be done in a few minutes, and the review will likely be much more accurate than if the reviewer had to check several weeks' worth of work. The chances of missing something crucial when reviewing big chunks of work, rather than small ones, go up exponentially.
 
-## Short reviews, often
+## Short reviews, often
 
 Reviewing other people's code shouldn't take hours out of an engineer's day. By keeping tasks small, you allow the senior engineers or software architect to do code reviews often and for short sessions.
 
@@ -65,7 +66,7 @@ First, it doesn't interrupt your flow. Engineers know how important this is; the
 
 Second, it's less frustrating for the person who wrote the code, since he won't need to wait several days for someone to finish reviewing his work. Instead, he can get quick feedback and apply the requested changes while everything is still fresh in his mind.
 
-## Are "pair reviews" a good idea?
+## Are "pair reviews" a good idea?
 
 Very often in development teams, the code's committer will sit together with the reviewer and look at the new piece of code. The reviewer will scroll through the new code, while the committer will try to explain what's going on.
 
@@ -73,7 +74,7 @@ This may sound like a good idea, and it definitely has its place in various inst
 
 The only way to make sure this is the case is for the reviewer to look at the code alone and try to get an understanding of it without asking the code writer any questions. If the reviewer is unable to understand the code, that is typically a sign of badly written code or a lack of good unit tests.
 
-## Should the architect or senior engineers do the review?
+## Should the architect or senior engineers do the review?
 
 Ideally, both another engineer and the software architect should perform code reviews.
 
@@ -93,12 +94,14 @@ Modern code review tools such as [GitHub](http://marcotroisi.com/right-tools-for
 
 Companies should invest in code review tools because they are a relatively cheap and simple way to make sure that the new code doesn't cause any damage once it gets introduced. Making sure that your team has the best code review tools is a great way to protect the quality of your software and safeguard your customers from potential new bugs.
 
-## A simple but powerful tool
+## A simple but powerful tool
 
 Code reviews are one of the simplest tools we have to ensure the highest quality of our software. But their effectiveness will greatly increase or diminish based on how well code reviews fit within the development workflow and on whether we're willing to invest in them.
 
 Changing or adapting some aspects of your workflow based on the advice I've given will help your team perform more effective code reviews. 
 
 ***How does your team run code reviews? Share your best (or worst!) practices in the comments below.***
+
+*** 
 
 ***This article was first published on [TechBeacon](https://techbeacon.com/how-run-code-reviews-your-dev-teams-workflow).***
