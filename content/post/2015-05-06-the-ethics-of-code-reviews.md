@@ -6,6 +6,7 @@ layout: post
 date: 2015-05-06
 url: /the-ethics-of-code-reviews/
 categories:
+  - Code Reviews
   - Opinions
   - Productivity
   - Software Development
