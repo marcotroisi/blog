@@ -9,6 +9,7 @@ This is a list of talks I've given so far. For more info, you can also look at [
 
 If you would like me to speak at your event/meetup/conference, feel free to [contact me](http://www.marcotroisi.com/about/).
 
+<!--
 ## Upcoming 
 
 <img src="http://www.marcotroisi.com/images/conferences/phpsouthcoast2017_logo.png" alt="PHP South Coast UK 2017" class="talks__conflogo" style="height:23px;">  
@@ -16,6 +17,7 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 [PHP South Coast 2017](https://2017.phpsouthcoast.co.uk/)  
 Portsmouth (UK)  
 9th-10th June 2017
+-->
 
 ## 2017
 
