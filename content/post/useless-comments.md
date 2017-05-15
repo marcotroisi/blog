@@ -14,6 +14,7 @@ tags:
 - comments
 title: Useless comments can ruin your code reviews. Here's how to erase them
 url: /useless-comments-can-ruin-code-review/
+comments: true
 ---
 
 <p>When it comes to reviewing someone else's code, how should you approach comments?</p>
