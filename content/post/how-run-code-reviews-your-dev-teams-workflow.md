@@ -3,6 +3,7 @@ author: Marco Troisi
 categories:
 - Software Development
 - Code Reviews
+- Teamwork
 date: 2017-04-20T08:01:27+01:00
 description: "What's the best time to do code reviews? When considering your development or DevOps workflow."
 draft: false
