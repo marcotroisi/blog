@@ -5,7 +5,7 @@ categories:
 - Code Reviews
 date: 2017-05-26T11:46:11Z
 description: "As a code reviewer, keeping code readable and maintainable is job one. Learn how to spot overly complex code—and simplify it."
-draft: true
+draft: false
 featured_image: 'http://www.marcotroisi.com/images/simplicity-abstraction.jpg'
 layout: post
 tags:
