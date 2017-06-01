@@ -30,7 +30,7 @@ Two of the main paradigms of computer programming are *[imperative](https://en.w
 
 The reason declarative programming is deemed by many to be a [superior](https://tylermcginnis.com/imperative-vs-declarative-programming/) way to write code is that it's often a lot easier to read someone else's declarative code than something written imperatively. When you read and work on declarative code, you don't need to bother with implementation details. You can, instead, focus on the general business logic and only look at the specific implementation of something if you need to.
 
-## Too much code?
+## Too much code?
 
 For code to be easier to read and understand, its business logic should be as obvious as possible. And for that to happen, there needs to be as few "implementation details" floating around as possible.
 
@@ -74,7 +74,7 @@ Now anyone can read that segment of code and have a pretty clear idea of what it
 
 When reviewing someone else's code, look for places where implementation details are hindering a clear understanding of the business logic. Suggest practical ways to abstract away the *what*, leaving only the *how* exposed. The easiest way to do that is typically by replacing that piece of implementation code with a small function or object, as shown in the above example.
 
-## Decompose conditional
+## Decompose conditional
 
 Another place where you can find too much code in the wrong place is within *if* conditions. When reading an *if* condition it should, again, be immediately obvious to any reader what that condition is trying to accomplish.
 
@@ -110,7 +110,7 @@ In the first condition, even after reading it all, you probably still wouldn't k
 
 In the second condition, it's immediately clear what the business logic is. Unless you care about the specific requirements for a person to be eligible for retirement, you can happily keep reading the rest of the code.
 
-## Consolidate conditional expression
+## Consolidate conditional expression
 
 Something else to be on the lookout for is when a number of conditions return the same result.
 
@@ -153,7 +153,7 @@ As you can see, in all of the cases we’ve looked at, the complexity wasn’t d
 
 Code like that should be abstracted away. It occupies valuable space and slows down the reading of anyone who wants to use and understand that code.
 
-## The value of code reusability
+## The value of code reusability
 
 Code reusability is at the heart of good software. And for the code to be reused, it's essential that it be readable and easy to understand.
 
