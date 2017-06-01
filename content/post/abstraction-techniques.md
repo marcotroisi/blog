@@ -17,6 +17,7 @@ tags:
 - consolidate conditional expression
 title: "Basic abstraction techniques: What code reviewers need to know"
 url: /basic-abstraction-techniques-what-code-reviewers-need-know/
+comments: true
 ---
 
 While having a large amount of code doesn't necessarily mean the code is complex, there certainly is such a thing as *too much code in the wrong place*. Programming code can also be unnecessarily complex and hard to follow. As a matter of fact, these two problems often occur together, and it's something you need to be on the lookout for as a [code reviewer](https://techbeacon.com/how-run-code-reviews-your-dev-teams-workflow).
