@@ -14,7 +14,7 @@ tags:
 - comments
 title: Useless comments can ruin your code reviews. Here's how to erase them
 url: /useless-comments-can-ruin-code-review/
-comments: true
+comments: false
 ---
 
 <p>When it comes to reviewing someone else's code, how should you approach comments?</p>
@@ -146,8 +146,6 @@ This is a perfectly acceptable comment that gives us context as to what the `Car
 
 <p>As we've seen, there are some cases (however limited) where comments can be useful for the person reading them. The key is to only add information that the reader could have deduced anyway. Comments should help provide context to a construct, but they should not be used to describe what the code is doing.</p>
 <p>It's important to also make sure that comments aren't masking bigger issues, such as fundamental organizational inefficiencies or laziness on the part of the developer who wrote the code. Even though comments are often viewed as positive, it's always a good idea to carefully review code with too many comments mixed in.</p>
-
-***What's your experience with useless or bad comments? Share your thoughts in the comments below.*** 
 
 *** 
 
