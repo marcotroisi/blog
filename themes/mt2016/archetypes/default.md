@@ -11,5 +11,4 @@ tags:
   - technology
   - news
 featured_image: "** remove this if not present **"
-comments: false
 ---
