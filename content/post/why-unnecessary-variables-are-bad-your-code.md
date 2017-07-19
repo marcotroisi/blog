@@ -13,7 +13,7 @@ tags:
 - code
 - variables
 - unnecessary variables
-title: Why unnecessary variables are bad your code
+title: Why unnecessary variables are bad for your code
 url: /why-unnecessary-variables-are-bad-your-code/
 comments: true
 ---
