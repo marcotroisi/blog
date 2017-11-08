@@ -12,7 +12,7 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 
 ## Upcoming 
 
-<img src="http://www.marcotroisi.com/images/conferences/waterford_tech_meetup_twitter_profile.jpg" alt="Waterford Tech Meetup" class="talks__conflogo" style="height:23px;">  
+<img src="http://www.marcotroisi.com/images/conferences/waterford_tech_meetup_twitter_profile.jpg" alt="Waterford Tech Meetup" class="talks__conflogo">  
 **Serverless: what it is, when to use it**  
 [Waterford Tech Meetup](http://waterfordtechmeetup.com/)  
 Waterford (Ireland)  
