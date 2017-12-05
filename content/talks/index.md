@@ -9,17 +9,15 @@ This is a list of talks I've given so far. For more info, you can also look at [
 
 If you would like me to speak at your event/meetup/conference, feel free to [contact me](http://www.marcotroisi.com/about/).
 
-
-## Upcoming 
+<!-- ## Upcoming -->
+## 2017
 
 <img src="http://www.marcotroisi.com/images/conferences/waterford_tech_meetup_twitter_profile.jpg" alt="Waterford Tech Meetup" class="talks__conflogo">  
 **Serverless: what it is, when to use it**  
 [Waterford Tech Meetup](http://waterfordtechmeetup.com/)  
 Waterford (Ireland)  
 29th November 2017
-
-
-## 2017
+&nbsp;  
 
 <img src="http://www.marcotroisi.com/images/conferences/agileEE2017_logo.png" alt="Agile EE 2017" class="talks__conflogo">   
 **Microservices won't improve your code quality** [[slides](https://speakerdeck.com/marcotroisi/microservices-wont-improve-your-code-quality)]  
