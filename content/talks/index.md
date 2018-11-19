@@ -11,7 +11,7 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 
 ## Upcoming
 
-<img src="http://www.marcotroisi.com/images/conferences/waterford_tech_meetup_twitter_profile.jpg" alt="Waterford Tech Meetup" class="talks__conflogo">  
+<img src="http://www.marcotroisi.com/images/conferences/dublin_microservices.png" alt="Dublin Microservices Meetup" class="talks__conflogo">  
 **I've been to the land of serverless and I've come back to tell you all about it**  
 [Dublin Microservices Meetup](https://www.meetup.com/Dublin-Microservices-User-Group/events/255391340/)  
 Dublin (Ireland)  
