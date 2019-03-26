@@ -63,7 +63,7 @@ Working in technology, it is only natural that when I was looking at ways to pla
 
 But about a couple of years ago, I came across [this book](https://amzn.to/2Oyxsg9), and it has affected my thinking so much that I’m now a lot more inclined to use [analogue solutions](https://bulletjournal.com/) for crucial planning such as this. Being able to detach from my laptop or phone, alone with my notebook, and focus on what I need to get done is invaluable. 
 
-Of course, there are no hard and fast rules here. While the benefits of [using analogue tools for planning your life](https://michaelhyatt.com/why-paper-planner/) are not a mistery, there are plenty of [great productivity apps](https://todo.microsoft.com). Before I went analogue, I was keeping a simple document for the current week on [Dropbox Paper](http://paper.dropbox.com/). It worked reasonably well.
+Of course, there are no hard and fast rules here. While the benefits of [using analogue tools for planning your life](https://michaelhyatt.com/why-paper-planner/) are not a mystery, there are plenty of [great productivity apps](https://todo.microsoft.com). Before I went analogue, I was keeping a simple document for the current week on [Dropbox Paper](http://paper.dropbox.com/). It worked reasonably well.
 
 ## How do you plan your week?
 I hope this will give you some inspiration or ideas for how to plan your week and days more effectively. I’d love to hear what you’re using, and what is currently working for you.
