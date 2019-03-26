@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/kong/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/kong/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/kong/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/kong/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Question about Microservices</title>
-      <link>http://www.marcotroisi.com/questions-about-microservices/</link>
+      <link>https://www.marcotroisi.com/questions-about-microservices/</link>
       <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/questions-about-microservices/</guid>
+      <guid>https://www.marcotroisi.com/questions-about-microservices/</guid>
       <description>&lt;p&gt;I received this question about microservices, and I am happy to publish my reply. Perhaps someone else will also find it helpful.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -69,7 +69,7 @@
 
 &lt;p&gt;Marco&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;https://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
     
   </channel>

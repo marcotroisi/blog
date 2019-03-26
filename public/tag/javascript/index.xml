@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/javascript/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/javascript/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Healthy OOP</title>
-      <link>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
+      <link>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
       <pubDate>Mon, 23 May 2016 08:34:57 +0100</pubDate>
       
-      <guid>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
+      <guid>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
       <description>
 
 &lt;p&gt;I enjoy writing code in an Object Oriented fashion. Thinking in terms of objects gives me
@@ -181,10 +181,10 @@ But I believe that by at least keeping in mind the practices listed above, you c
     
     <item>
       <title>Native apps are faster than web apps. Ok, what’s the news?</title>
-      <link>http://www.marcotroisi.com/native-apps-vs-web-apps/</link>
+      <link>https://www.marcotroisi.com/native-apps-vs-web-apps/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/native-apps-vs-web-apps/</guid>
+      <guid>https://www.marcotroisi.com/native-apps-vs-web-apps/</guid>
       <description>&lt;p&gt;I honestly don&amp;#8217;t understand what&amp;#8217;s the point of &lt;a href=&#34;http://sealedabstract.com/rants/mobile-web-apps-are-slow/&#34; target=&#34;_blank&#34;&gt;a post&lt;/a&gt; trying to convince people that &lt;em&gt;web apps are slower than native apps&lt;/em&gt;. I don&amp;#8217;t understand it, and I think I have good reasons for that.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;

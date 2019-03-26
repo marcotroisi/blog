@@ -13,7 +13,7 @@ tags:
   - architecture
   - code quality
   - microservices
-featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/12/microservices-wont-improve-code-quality-small.jpg"
+featured_image: "https://www.marcotroisi.com/wp-content/uploads/2015/12/microservices-wont-improve-code-quality-small.jpg"
 
 ---
 If you've read some of my [previous posts][1], you'll know that I'm fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be _one of_ the answers to _some of_ the problems we face.
@@ -67,5 +67,5 @@ Now, I am not saying that having a microservice architecture will not affect any
 
 Microservices won't improve your code quality. They won't make it worse either. Really, it's up to you, as it always was, and always will be.
 
- [1]: http://www.marcotroisi.com/tag/microservices/
+ [1]: https://www.marcotroisi.com/tag/microservices/
  [2]: http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html

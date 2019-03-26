@@ -31,5 +31,5 @@ _Featured photo from the Hailo website_
  [3]: https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/
  [4]: https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/
  [5]: https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/
- [6]: http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/
- [7]: https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&source=tweetbutton&text=%3F&url=http://goo.gl/MB66xW&via=marcotroisi
+ [6]: http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/hailo-journey-into-microservices/
+ [7]: https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/hailo-journey-into-microservices/&source=tweetbutton&text=%3F&url=http://goo.gl/MB66xW&via=marcotroisi

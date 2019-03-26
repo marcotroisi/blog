@@ -5,7 +5,7 @@ categories:
 date: 2019-03-26T08:07:41Z
 description: "My simple system for planning and organising my weekly tasks."
 draft: false
-featured_image: 'http://www.marcotroisi.com/images/weekly_planning.jpg'
+featured_image: 'https://www.marcotroisi.com/images/weekly_planning.jpg'
 layout: post
 tags:
 - productivity

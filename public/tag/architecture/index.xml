@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/architecture/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/architecture/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>When to use microservices (video)</title>
-      <link>http://www.marcotroisi.com/when-to-use-microservices-video/</link>
+      <link>https://www.marcotroisi.com/when-to-use-microservices-video/</link>
       <pubDate>Fri, 09 Sep 2016 08:05:54 +0100</pubDate>
       
-      <guid>http://www.marcotroisi.com/when-to-use-microservices-video/</guid>
+      <guid>https://www.marcotroisi.com/when-to-use-microservices-video/</guid>
       <description>&lt;p&gt;A few weeks ago, after giving a talk at PHP Dublin, I was interviewed by the fine folks from the &lt;a href=&#34;https://uxdxconf.com/&#34;&gt;UXDX&lt;/a&gt; conference.&lt;/p&gt;
 
 &lt;p&gt;The topic of the interview was &lt;strong&gt;&amp;ldquo;When to use microservices&amp;rdquo;&lt;/strong&gt;. It was partly inspired by the talk I gave that very night. In the interview, I do my best to define what microservices are and when should companies adopt them. I then proceed to give insights as to how to succeed from both a code quality and a project management point of view.&lt;/p&gt;
@@ -35,13 +35,13 @@
     
     <item>
       <title>Microservices won’t improve your code quality</title>
-      <link>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <link>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <guid>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
       <description>
 
-&lt;p&gt;If you&amp;rsquo;ve read some of my &lt;a href=&#34;http://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;rsquo;ll know that I&amp;rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve read some of my &lt;a href=&#34;https://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;rsquo;ll know that I&amp;rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
 
 &lt;p&gt;I say that and I mean it. Who doesn&amp;rsquo;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;rsquo;t think it&amp;rsquo;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
 
@@ -98,10 +98,10 @@
     
     <item>
       <title>Technical debt is not a unicorn</title>
-      <link>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</link>
+      <link>https://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</link>
       <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</guid>
+      <guid>https://www.marcotroisi.com/technical-debt-is-not-a-unicorn/</guid>
       <description>&lt;p&gt;Amongst software engineers, there is this thing called &lt;em&gt;technical debt&lt;/em&gt; that is very often talked about and that tends to have somewhat of an ethereal nature.&lt;/p&gt;
 
 &lt;p&gt;Almost every company will have the technical debt prophet who will try to convince her people that doing what &amp;#8220;feels good&amp;#8221; now is not going to pay off down the line, and that &amp;#8220;future generations&amp;#8221; will have to pay for it. But, almost inevitably, choices will be made that will inescapably lead to some degree of technical debt.&lt;/p&gt;
@@ -114,7 +114,7 @@
 
 &lt;h3 id=&#34;the-first-stage-of-growth&#34;&gt;The first stage of growth&lt;/h3&gt;
 
-&lt;p&gt;Think of the Business side of your company and its software codebase as two parts of the whole picture that should be growing and maturing together. So, for example, when the company is at its early stages, and the way everything is being run is very simple and lean because there isn&amp;#8217;t much to be run anyway, the software should also be really down to the basics. No unnecessary complexity, no premature optimisation. Keep it simple, keep it &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;clean&lt;/a&gt;. Write the cleanest code you possibly can, rely on a rock-solid, time tested set of tools. Don&amp;#8217;t adventure in something that you &lt;em&gt;think&lt;/em&gt; will be useful as you grow, rather make sure that you make it as easy as possible to transition the software to a different framework, database, architecture (e.g. a &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt; architecture).&lt;/p&gt;
+&lt;p&gt;Think of the Business side of your company and its software codebase as two parts of the whole picture that should be growing and maturing together. So, for example, when the company is at its early stages, and the way everything is being run is very simple and lean because there isn&amp;#8217;t much to be run anyway, the software should also be really down to the basics. No unnecessary complexity, no premature optimisation. Keep it simple, keep it &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;clean&lt;/a&gt;. Write the cleanest code you possibly can, rely on a rock-solid, time tested set of tools. Don&amp;#8217;t adventure in something that you &lt;em&gt;think&lt;/em&gt; will be useful as you grow, rather make sure that you make it as easy as possible to transition the software to a different framework, database, architecture (e.g. a &lt;a href=&#34;https://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt; architecture).&lt;/p&gt;
 
 &lt;h3 id=&#34;the-second-stage-of-growth&#34;&gt;The second stage of growth&lt;/h3&gt;
 

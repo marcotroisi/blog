@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/categories/php/index.xml</link>
+    <link>https://www.marcotroisi.com/categories/php/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/categories/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/categories/php/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Healthy OOP</title>
-      <link>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
+      <link>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
       <pubDate>Mon, 23 May 2016 08:34:57 +0100</pubDate>
       
-      <guid>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
+      <guid>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
       <description>
 
 &lt;p&gt;I enjoy writing code in an Object Oriented fashion. Thinking in terms of objects gives me
@@ -181,10 +181,10 @@ But I believe that by at least keeping in mind the practices listed above, you c
     
     <item>
       <title>Composition over Inheritance (what it is, why use it)</title>
-      <link>http://www.marcotroisi.com/composition-over-inheritance/</link>
+      <link>https://www.marcotroisi.com/composition-over-inheritance/</link>
       <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/composition-over-inheritance/</guid>
+      <guid>https://www.marcotroisi.com/composition-over-inheritance/</guid>
       <description>&lt;p&gt;In today&amp;#8217;s article, I would like to talk about something which I see that, sometimes, developers aren&amp;#8217;t too familiar with. Most of us know what the traditional concept of &lt;strong&gt;inheritance&lt;/strong&gt; is: a child class extends a parent class. And, obviously, multiple children classes can extend the same parent class.&lt;/p&gt;
 
 &lt;p&gt;What some developers don&amp;#8217;t seem to be always aware of (or, perhaps, they just aren&amp;#8217;t entirely sure how to use it), is the idea of &lt;strong&gt;composition&lt;/strong&gt;.&lt;/p&gt;
@@ -213,7 +213,7 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;p&gt;Composition is available out of the box in &lt;a href=&#34;http://en.wikipedia.org/wiki/Trait_(computer_programming)#Supported_languages&#34;&gt;many of the mainstream languages&lt;/a&gt;. It can be implemented in the form of a &lt;em&gt;Trait&lt;/em&gt; in PHP, Python, Scala and others; It&amp;#8217;s called a &lt;em&gt;Module&lt;/em&gt; in Ruby, and a &lt;em&gt;Role&lt;/em&gt; in Perl. Javascript, as per usual, has &lt;a href=&#34;http://rjzaworski.com/2013/03/composition-in-javascript&#34;&gt;unique ways to implement Composition&lt;/a&gt;, but it&amp;#8217;s there. Finally, it&amp;#8217;s interesting to note that Go doesn&amp;#8217;t even consider Inheritance as an option; Composition is the only game in town, and it&amp;#8217;s called &lt;a href=&#34;http://golang.org/doc/effective_go.html#embedding&#34;&gt;Embedding&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your thoughts on Composition over Inheritance? Where is it best to use one over the other? Share your ideas on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/composition-over-inheritance/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/composition-over-inheritance/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=goo.gl/AU3t8k&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your thoughts on Composition over Inheritance? Where is it best to use one over the other? Share your ideas on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/composition-over-inheritance/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/composition-over-inheritance/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=goo.gl/AU3t8k&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -228,11 +228,11 @@ But I believe that by at least keeping in mind the practices listed above, you c
     
     <item>
       <title>An example of a Microservice</title>
-      <link>http://www.marcotroisi.com/an-example-of-a-microservice/</link>
+      <link>https://www.marcotroisi.com/an-example-of-a-microservice/</link>
       <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/an-example-of-a-microservice/</guid>
-      <description>&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
+      <guid>https://www.marcotroisi.com/an-example-of-a-microservice/</guid>
+      <description>&lt;p&gt;After writing on &lt;a href=&#34;https://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
 
 &lt;h2 id=&#34;introducing-microtranslator&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
 
@@ -275,17 +275,17 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
 
-&lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;https://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My Two Cents on Go</title>
-      <link>http://www.marcotroisi.com/my-two-cents-on-golang/</link>
+      <link>https://www.marcotroisi.com/my-two-cents-on-golang/</link>
       <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/my-two-cents-on-golang/</guid>
+      <guid>https://www.marcotroisi.com/my-two-cents-on-golang/</guid>
       <description>&lt;p&gt;I have recently been studying and trying &lt;a href=&#34;http://www.golang.org&#34;&gt;Go&lt;/a&gt; (Golang), a statically typed language developed by Google, which promises really fast execution times and a pleasant development experience.&lt;/p&gt;
 
 &lt;p&gt;I must say, it is pleasant to use indeed. And quite simple to learn. But it does also demolish some of the things that, coming from other languages, you might be giving for granted. While trying to get my head around it, it felt a lot like when I was trying to learn proper Javascript (i.e. &lt;em&gt;beyond&lt;/em&gt; jQuery), that is, it can sometimes take a while to understand, but then at one point something &amp;#8216;clicks&amp;#8217;, and immediately everything becomes so clear and easy. You do not end up necessarily thinking that it is &lt;em&gt;the best language ever&lt;/em&gt;, but you do come to appreciate its design choices. &lt;/p&gt;
@@ -375,10 +375,10 @@ sys 0m0.021s
     
     <item>
       <title>How to use Fat Free framework from the command line</title>
-      <link>http://www.marcotroisi.com/how-to-use-fat-free-framework-from-the-command-line/</link>
+      <link>https://www.marcotroisi.com/how-to-use-fat-free-framework-from-the-command-line/</link>
       <pubDate>Sun, 04 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/how-to-use-fat-free-framework-from-the-command-line/</guid>
+      <guid>https://www.marcotroisi.com/how-to-use-fat-free-framework-from-the-command-line/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;Every good framework should allow you to easily create/execute commands from the &lt;a href=&#34;http://en.wikipedia.org/wiki/Command-line_interface&#34; title=&#34;command line&#34;&gt;command line&lt;/a&gt; (also called &lt;em&gt;shell&lt;/em&gt; or &lt;em&gt;terminal&lt;/em&gt;).&lt;/p&gt;
@@ -458,10 +458,10 @@ echo $http_host;
     
     <item>
       <title>WordPress and Ghost: a CMS vs a blogging platform</title>
-      <link>http://www.marcotroisi.com/wordpress-and-ghost/</link>
+      <link>https://www.marcotroisi.com/wordpress-and-ghost/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wordpress-and-ghost/</guid>
+      <guid>https://www.marcotroisi.com/wordpress-and-ghost/</guid>
       <description>&lt;p&gt;I am definitely amongst the growing group of developers that are fascinated and thrilled by &lt;a href=&#34;http://www.nodejs.org&#34;&gt;node.js&lt;/a&gt;, its thriving community, its being simple yet powerful, super-fast and scalable.&lt;/p&gt;
 
 &lt;p&gt;Although my main language remains &lt;a href=&#34;http://www.php.net&#34;&gt;PHP&lt;/a&gt; (mostly because my employer wants me to work with it, but also because of its enormous libraries collection and its maturity as a language for the web), I can undoubtedly see a future with most of the cool apps out there being developed with node.js. I am convinced that, should I start a new project of my own today, a project that I believed would conquer the market, I would totally go for a lightweight HTML5 + CSS3 + JS (with the help of &lt;a href=&#34;http://www.angularjs.org&#34;&gt;Angular.js&lt;/a&gt;) interface backed by a powerful node.js (with &lt;a href=&#34;http://www.expressjs.com&#34;&gt;express.js&lt;/a&gt;)-based API.&lt;/p&gt;
@@ -485,10 +485,10 @@ echo $http_host;
     
     <item>
       <title>Waiting for ‘The Yii Book’</title>
-      <link>http://www.marcotroisi.com/waiting-for-the-yii-book/</link>
+      <link>https://www.marcotroisi.com/waiting-for-the-yii-book/</link>
       <pubDate>Sat, 27 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/waiting-for-the-yii-book/</guid>
+      <guid>https://www.marcotroisi.com/waiting-for-the-yii-book/</guid>
       <description>&lt;p&gt;It&amp;#8217;s about a month ago that I came to know that &lt;a href=&#34;http://www.larryullman.com&#34; target=&#34;_blank&#34;&gt;Larry Ullman&lt;/a&gt;, a web programmer and writer of wonderful tutorials/books, was about to write a &lt;a href=&#34;http://www.larryullman.com/2012/09/12/yii-2-and-the-yii-book/&#34; target=&#34;_blank&#34;&gt;new book&lt;/a&gt; on the &lt;a href=&#34;http://www.yiiframework.com&#34; target=&#34;_blank&#34;&gt;Yii framework&lt;/a&gt;, my favourite PHP framework at all.&lt;/p&gt;
 
 &lt;p&gt;While there&amp;#8217;s no doubt I will be one of the firsts to buy it, I suggest to everyone interested in (and/or actually involved with) programming with PHP and using a framework to make your webapps more stable, simple to keep updated (especially if you work with a team) and stable, to read Larry&amp;#8217;s incredibly clear and well written &amp;#8220;&lt;a href=&#34;http://www.larryullman.com/series/learning-the-yii-framework/&#34; target=&#34;_blank&#34;&gt;Learning Yii framework&lt;/a&gt;&amp;#8221; series on his blog. Should you like it, you may consider to buy his next to be published book.&lt;/p&gt;
@@ -506,17 +506,17 @@ echo $http_host;
     
     <item>
       <title>Yii: XML generator</title>
-      <link>http://www.marcotroisi.com/xml-generator-yii-framework/</link>
+      <link>https://www.marcotroisi.com/xml-generator-yii-framework/</link>
       <pubDate>Sat, 27 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/xml-generator-yii-framework/</guid>
+      <guid>https://www.marcotroisi.com/xml-generator-yii-framework/</guid>
       <description>&lt;p&gt;As I needed to create some custom XMLs for a project I am working on, I have created an Yii extension based on a nice class being developed by &lt;a href=&#34;http://simonwillison.net/&#34; target=&#34;_blank&#34;&gt;Simon Willison&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Using this extension, everyone will be easily able to generate an XML. I am pretty sure there may be different and even more powerful approaches to do the same thing, but what I like of this extension is that it does make really simple to create a custom XML. And, sometimes, simple is better -especially when it means less time to do the same thing!&lt;/p&gt;
 
 &lt;p&gt;If you&amp;#8217;ve never used an extension with the Yii framework, you may find useful to read the &amp;#8216;extensions&amp;#8217; section on the Yii framework official website: &lt;a href=&#34;http://www.yiiframework.com/doc/guide/1.1/en/extension.overview&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.yiiframework.com/doc/guide/1.1/en/extension.overview&#34;&gt;http://www.yiiframework.com/doc/guide/1.1/en/extension.overview&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&amp;#8211; Download the &lt;a href=&#34;http://www.marcotroisi.com/wp-content/uploads/2012/10/XmlGenerator1.zip&#34;&gt;XmlGenerator&lt;/a&gt; (extension for Yii framework)&lt;/p&gt;
+&lt;p&gt;&amp;#8211; Download the &lt;a href=&#34;https://www.marcotroisi.com/wp-content/uploads/2012/10/XmlGenerator1.zip&#34;&gt;XmlGenerator&lt;/a&gt; (extension for Yii framework)&lt;/p&gt;
 </description>
     </item>
     

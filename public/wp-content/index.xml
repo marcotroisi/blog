@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wp-content-rsses on Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/wp-content/index.xml</link>
+    <link>https://www.marcotroisi.com/wp-content/index.xml</link>
     <description>Recent content in Wp-content-rsses on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/wp-content/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/wp-content/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-30-23/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-30-23/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-30-23/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-30-23/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;
@@ -38,7 +38,7 @@
 &lt;body style=&#34;margin:0;padding:3px;font-family:monospace;font-size:12px;line-height:15px;background-color:#000;color:#fff;white-space:nowrap;&#34;&gt;
 [INFO] BackWPup version 3.1.4; A project of Inpsyde GmbH&lt;br /&gt;
 [INFO] WordPress version 4.1.1&lt;br /&gt;
-[INFO] Blog url: http://www.marcotroisi.com/&lt;br /&gt;
+[INFO] Blog url: https://www.marcotroisi.com/&lt;br /&gt;
 [INFO] BackWPup job: Total Backup; DBDUMP+FILE+WPEXP+WPPLUGIN&lt;br /&gt;
 [INFO] BackWPup no automatic job start configured&lt;br /&gt;
 [INFO] BackWPup job started manually&lt;br /&gt;
@@ -96,10 +96,10 @@
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-32-35/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-32-35/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-32-35/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-04-18_14-32-35/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;
@@ -123,7 +123,7 @@
 &lt;body style=&#34;margin:0;padding:3px;font-family:monospace;font-size:12px;line-height:15px;background-color:#000;color:#fff;white-space:nowrap;&#34;&gt;
 [INFO] BackWPup version 3.1.4; A project of Inpsyde GmbH&lt;br /&gt;
 [INFO] WordPress version 4.1.1&lt;br /&gt;
-[INFO] Blog url: http://www.marcotroisi.com/&lt;br /&gt;
+[INFO] Blog url: https://www.marcotroisi.com/&lt;br /&gt;
 [INFO] BackWPup job: Total Backup; DBDUMP+FILE+WPEXP+WPPLUGIN&lt;br /&gt;
 [INFO] BackWPup no automatic job start configured&lt;br /&gt;
 [INFO] BackWPup job started manually&lt;br /&gt;
@@ -186,10 +186,10 @@
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-06-23_08-56-40/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-06-23_08-56-40/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-06-23_08-56-40/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-06-23_08-56-40/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;
@@ -213,7 +213,7 @@
 &lt;body style=&#34;margin:0;padding:3px;font-family:monospace;font-size:12px;line-height:15px;background-color:#000;color:#fff;white-space:nowrap;&#34;&gt;
 [INFO] BackWPup version 3.1.4; A project of Inpsyde GmbH&lt;br /&gt;
 [INFO] WordPress version 4.1.1&lt;br /&gt;
-[INFO] Blog url: http://www.marcotroisi.com/&lt;br /&gt;
+[INFO] Blog url: https://www.marcotroisi.com/&lt;br /&gt;
 [INFO] BackWPup job: Total Backup; DBDUMP+FILE+WPEXP+WPPLUGIN&lt;br /&gt;
 [INFO] BackWPup no automatic job start configured&lt;br /&gt;
 [INFO] BackWPup job started manually&lt;br /&gt;
@@ -276,10 +276,10 @@
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-07-05_22-49-55/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-07-05_22-49-55/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-07-05_22-49-55/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-07-05_22-49-55/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;
@@ -303,7 +303,7 @@
 &lt;body style=&#34;margin:0;padding:3px;font-family:monospace;font-size:12px;line-height:15px;background-color:#000;color:#fff;white-space:nowrap;&#34;&gt;
 [INFO] BackWPup version 3.1.4; A project of Inpsyde GmbH&lt;br /&gt;
 [INFO] WordPress version 4.2.2&lt;br /&gt;
-[INFO] Blog url: http://www.marcotroisi.com/&lt;br /&gt;
+[INFO] Blog url: https://www.marcotroisi.com/&lt;br /&gt;
 [INFO] BackWPup job: Total Backup; DBDUMP+FILE+WPEXP+WPPLUGIN&lt;br /&gt;
 [INFO] BackWPup no automatic job start configured&lt;br /&gt;
 [INFO] BackWPup job started manually&lt;br /&gt;
@@ -366,10 +366,10 @@
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-10-29_10-08-28/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-10-29_10-08-28/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-10-29_10-08-28/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-10-29_10-08-28/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;
@@ -393,7 +393,7 @@
 &lt;body style=&#34;margin:0;padding:3px;font-family:monospace;font-size:12px;line-height:15px;background-color:#000;color:#fff;white-space:nowrap;&#34;&gt;
 [INFO] BackWPup version 3.1.4; A project of Inpsyde GmbH&lt;br /&gt;
 [INFO] WordPress version 4.3.1&lt;br /&gt;
-[INFO] Blog url: http://www.marcotroisi.com/&lt;br /&gt;
+[INFO] Blog url: https://www.marcotroisi.com/&lt;br /&gt;
 [INFO] BackWPup job: Total Backup; DBDUMP+FILE+WPEXP+WPPLUGIN&lt;br /&gt;
 [INFO] BackWPup cron: 0 3 * * 0; Next: Sun, 1 Nov 2015 @ 03:00 &lt;br /&gt;
 [INFO] BackWPup job started manually&lt;br /&gt;
@@ -457,10 +457,10 @@
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-11-10_14-21-16/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-11-10_14-21-16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-11-10_14-21-16/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-11-10_14-21-16/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;
@@ -517,10 +517,10 @@
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-12-09_09-19-59/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-12-09_09-19-59/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-12-09_09-19-59/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2015-12-09_09-19-59/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;
@@ -578,10 +578,10 @@
     
     <item>
       <title></title>
-      <link>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2016-03-09_18-16-46/</link>
+      <link>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2016-03-09_18-16-46/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2016-03-09_18-16-46/</guid>
+      <guid>https://www.marcotroisi.com/wp-content/uploads/backwpup-06939e-logs/backwpup_log_06939e_2016-03-09_18-16-46/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en-GB&#34;&gt;
 &lt;head&gt;

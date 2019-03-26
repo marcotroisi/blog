@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/categories/mobile/index.xml</link>
+    <link>https://www.marcotroisi.com/categories/mobile/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Native apps are faster than web apps. Ok, what’s the news?</title>
-      <link>http://www.marcotroisi.com/native-apps-vs-web-apps/</link>
+      <link>https://www.marcotroisi.com/native-apps-vs-web-apps/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/native-apps-vs-web-apps/</guid>
+      <guid>https://www.marcotroisi.com/native-apps-vs-web-apps/</guid>
       <description>&lt;p&gt;I honestly don&amp;#8217;t understand what&amp;#8217;s the point of &lt;a href=&#34;http://sealedabstract.com/rants/mobile-web-apps-are-slow/&#34; target=&#34;_blank&#34;&gt;a post&lt;/a&gt; trying to convince people that &lt;em&gt;web apps are slower than native apps&lt;/em&gt;. I don&amp;#8217;t understand it, and I think I have good reasons for that.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Make your website available offline with HTML5</title>
-      <link>http://www.marcotroisi.com/make-your-website-available-offline-with-html5/</link>
+      <link>https://www.marcotroisi.com/make-your-website-available-offline-with-html5/</link>
       <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/make-your-website-available-offline-with-html5/</guid>
+      <guid>https://www.marcotroisi.com/make-your-website-available-offline-with-html5/</guid>
       <description>&lt;p&gt;One of the really cool things &lt;strong&gt;HTML5&lt;/strong&gt; allows to do is to make our web apps available even when our visitors are not connected to any network (assuming, obviously, that they have visited the website before, under network coverage).&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -122,10 +122,10 @@ FALLBACK:
     
     <item>
       <title>A List Apart</title>
-      <link>http://www.marcotroisi.com/a-list-apart/</link>
+      <link>https://www.marcotroisi.com/a-list-apart/</link>
       <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/a-list-apart/</guid>
+      <guid>https://www.marcotroisi.com/a-list-apart/</guid>
       <description>&lt;p&gt;I recently found a very interesting and relevant blog/magazine for web developers: &lt;a title=&#34;A List Apart&#34; href=&#34;http://www.alistapart.com/&#34; target=&#34;_blank&#34;&gt;A List Apart&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&amp;#8220;A List Apart Magazine&amp;#8230; explores the design, development, and meaning of web content, with a special focus on web standards and best practices.&amp;#8221; (from &lt;a href=&#34;http://www.alistapart.com/about/&#34;&gt;http://www.alistapart.com/about/&lt;/a&gt;).&lt;/p&gt;
@@ -139,15 +139,15 @@ FALLBACK:
     
     <item>
       <title>Why should you develop web apps</title>
-      <link>http://www.marcotroisi.com/why-should-you-develop-web-apps/</link>
+      <link>https://www.marcotroisi.com/why-should-you-develop-web-apps/</link>
       <pubDate>Fri, 28 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/why-should-you-develop-web-apps/</guid>
+      <guid>https://www.marcotroisi.com/why-should-you-develop-web-apps/</guid>
       <description>&lt;p&gt;So I want to start my blog with one of the arguments that have thrilled me in recent times more than anything else in the programming world: the web app vs native app thing. We&amp;#8217;re obviously focusing our attention on mobile platforms, as no one need someone explaining how much better it is to develop web-based apps for desktop than native ones. Software companies just shifted their efforts from &lt;em&gt;native/only one OS compatible/hard to keep updated/too much influenced by local machine performances&lt;/em&gt; apps to the web (especially after that wonderful browser called Firefox came and thaught to Microsoft and friends how a decent browser should work -a lesson they still seem not to have learnt); and, in my memory, that shift began from the years &lt;sup&gt;2006&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt; on.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;Would you have ever used -or, even known- Facebook if it only was a software to be installed on your Windows/Mac/Linux? I have reasons to think the answer is no. So, why are we talking again about the best choice between native and web &lt;a href=&#34;http://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen.png&#34;&gt;&lt;img class=&#34;alignright size-medium wp-image-27&#34; title=&#34;blackberry_screen&#34; alt=&#34;Web app on BlackBerry&#34; src=&#34;http://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen-300x238.png&#34; width=&#34;300&#34; height=&#34;238&#34; srcset=&#34;http://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen-300x238.png 300w, http://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen.png 383w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;even for apps we know there&amp;#8217;s no other way to succed than using the web as their main platform? The answer is quite simple: mobile devices. Or, to be more precise, the companies that make the OSs running on such devices. It&amp;#8217;s not needed to be said that Apple gets a huge amount of money from the apps that developers publish on their App Store. It&amp;#8217;s $99 per year, and 30% of every sales generated in-app. So, whilst desktop browsers have reached a level that allow you to develop practically everything using the web as your platform, mobile browser have not yet reached the same level. And, while companies like Apple and Google are getting a lot of external pressure to adopt the new HTML5 standards and to make their mobile browser acting just like their desktop versions do, they hesitate because they know they can get no revenue from people developing mobile web apps instead of native ones, and their OSs would also lose their uniqueness from the moment apps begin to work on any OS that have a decent and updated browser.&lt;/p&gt;
+&lt;p&gt;Would you have ever used -or, even known- Facebook if it only was a software to be installed on your Windows/Mac/Linux? I have reasons to think the answer is no. So, why are we talking again about the best choice between native and web &lt;a href=&#34;https://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen.png&#34;&gt;&lt;img class=&#34;alignright size-medium wp-image-27&#34; title=&#34;blackberry_screen&#34; alt=&#34;Web app on BlackBerry&#34; src=&#34;https://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen-300x238.png&#34; width=&#34;300&#34; height=&#34;238&#34; srcset=&#34;https://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen-300x238.png 300w, https://www.marcotroisi.com/wp-content/uploads/2012/09/blackberry_screen.png 383w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;even for apps we know there&amp;#8217;s no other way to succed than using the web as their main platform? The answer is quite simple: mobile devices. Or, to be more precise, the companies that make the OSs running on such devices. It&amp;#8217;s not needed to be said that Apple gets a huge amount of money from the apps that developers publish on their App Store. It&amp;#8217;s $99 per year, and 30% of every sales generated in-app. So, whilst desktop browsers have reached a level that allow you to develop practically everything using the web as your platform, mobile browser have not yet reached the same level. And, while companies like Apple and Google are getting a lot of external pressure to adopt the new HTML5 standards and to make their mobile browser acting just like their desktop versions do, they hesitate because they know they can get no revenue from people developing mobile web apps instead of native ones, and their OSs would also lose their uniqueness from the moment apps begin to work on any OS that have a decent and updated browser.&lt;/p&gt;
 
 &lt;p&gt;But in my opinion things are -slowly- changing. Firstly, since version 4.0 of Android, Google introduced &lt;a href=&#34;http://www.google.com/intl/en/chrome/browser/mobile/android.html&#34;&gt;Chrome for Android&lt;/a&gt;, although it is not yet the default browser (with the exception of their Nexus 7), but it is obviously going to become it. And there are reasons to imagine they will at one point take their Chrome web store (where you can publish, and even sell, your web-based apps) on Android, and that I think is going to be breakthrough. Mozilla&amp;#8217;s doing the same with Firefox, and it&amp;#8217;s not a scoop that they will introduce their new &lt;a href=&#34;https://marketplace.mozilla.org/&#34;&gt;Mozilla Marketplace&lt;/a&gt; (something similar to Chrome web store, but with a few other &lt;a href=&#34;http://liliputing.com/2012/06/mozilla-marketplace-goes-live-install-web-apps-like-native-pc-apps.html&#34;&gt;interesting features&lt;/a&gt;). Even Apple&amp;#8217;s very very slowly improving Safari mobile (it&amp;#8217;s to be said that they&amp;#8217;re the only ones with that cool option &amp;#8220;Add to home screen&amp;#8221; on the main menu, which lets users create an icon launcher of your web app, just like a native app). Also, the next BlackBerry 10 browser seems to be &lt;a href=&#34;http://html5test.com/compare/browser/bb10.html&#34;&gt;very advanced&lt;/a&gt;, and the fact that Mozilla&amp;#8217;s going to launch their Firefox OS (which runs completely on HTML5) is simply exciting.&lt;/p&gt;
 

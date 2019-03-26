@@ -6,7 +6,7 @@ categories:
 date: 2017-02-17T08:20:55Z
 description: "With security, reinventing the wheel is never a good idea. These 8 best practices for securing microservices are a good start."
 draft: false
-featured_image: "http://www.marcotroisi.com/images/best-security-practices-microservices.jpg"
+featured_image: "https://www.marcotroisi.com/images/best-security-practices-microservices.jpg"
 layout: post
 tags:
 - microservices

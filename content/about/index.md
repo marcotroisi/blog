@@ -49,4 +49,4 @@ My consulting services include:
 </table>
 
  [1]: https://github.com/marcotroisi
- [2]: http://www.marcotroisi.com/contact/ "Contact"
+ [2]: https://www.marcotroisi.com/contact/ "Contact"

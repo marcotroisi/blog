@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/code-quality/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/code-quality/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Is object oriented programming dead? Not by a long shot</title>
-      <link>http://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
+      <link>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
       <pubDate>Tue, 22 Nov 2016 08:16:23 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
+      <guid>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
       <description>
 
 &lt;p&gt;Is object-oriented programming (OOP) any good, really? If not, is it just plain bad, or are we simply not doing it right? Are OOP &lt;a href=&#34;http://techbeacon.com/13-programming-languages-defining-future-coding&#34;&gt;languages even in your future&lt;/a&gt;?&lt;/p&gt;
@@ -85,10 +85,10 @@
     
     <item>
       <title>When to use microservices (video)</title>
-      <link>http://www.marcotroisi.com/when-to-use-microservices-video/</link>
+      <link>https://www.marcotroisi.com/when-to-use-microservices-video/</link>
       <pubDate>Fri, 09 Sep 2016 08:05:54 +0100</pubDate>
       
-      <guid>http://www.marcotroisi.com/when-to-use-microservices-video/</guid>
+      <guid>https://www.marcotroisi.com/when-to-use-microservices-video/</guid>
       <description>&lt;p&gt;A few weeks ago, after giving a talk at PHP Dublin, I was interviewed by the fine folks from the &lt;a href=&#34;https://uxdxconf.com/&#34;&gt;UXDX&lt;/a&gt; conference.&lt;/p&gt;
 
 &lt;p&gt;The topic of the interview was &lt;strong&gt;&amp;ldquo;When to use microservices&amp;rdquo;&lt;/strong&gt;. It was partly inspired by the talk I gave that very night. In the interview, I do my best to define what microservices are and when should companies adopt them. I then proceed to give insights as to how to succeed from both a code quality and a project management point of view.&lt;/p&gt;
@@ -109,13 +109,13 @@
     
     <item>
       <title>Microservices won’t improve your code quality</title>
-      <link>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <link>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <guid>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
       <description>
 
-&lt;p&gt;If you&amp;rsquo;ve read some of my &lt;a href=&#34;http://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;rsquo;ll know that I&amp;rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve read some of my &lt;a href=&#34;https://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;rsquo;ll know that I&amp;rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
 
 &lt;p&gt;I say that and I mean it. Who doesn&amp;rsquo;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;rsquo;t think it&amp;rsquo;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
 

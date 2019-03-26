@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/modules/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/modules/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/modules/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/modules/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Composition over Inheritance (what it is, why use it)</title>
-      <link>http://www.marcotroisi.com/composition-over-inheritance/</link>
+      <link>https://www.marcotroisi.com/composition-over-inheritance/</link>
       <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/composition-over-inheritance/</guid>
+      <guid>https://www.marcotroisi.com/composition-over-inheritance/</guid>
       <description>&lt;p&gt;In today&amp;#8217;s article, I would like to talk about something which I see that, sometimes, developers aren&amp;#8217;t too familiar with. Most of us know what the traditional concept of &lt;strong&gt;inheritance&lt;/strong&gt; is: a child class extends a parent class. And, obviously, multiple children classes can extend the same parent class.&lt;/p&gt;
 
 &lt;p&gt;What some developers don&amp;#8217;t seem to be always aware of (or, perhaps, they just aren&amp;#8217;t entirely sure how to use it), is the idea of &lt;strong&gt;composition&lt;/strong&gt;.&lt;/p&gt;
@@ -43,7 +43,7 @@
 
 &lt;p&gt;Composition is available out of the box in &lt;a href=&#34;http://en.wikipedia.org/wiki/Trait_(computer_programming)#Supported_languages&#34;&gt;many of the mainstream languages&lt;/a&gt;. It can be implemented in the form of a &lt;em&gt;Trait&lt;/em&gt; in PHP, Python, Scala and others; It&amp;#8217;s called a &lt;em&gt;Module&lt;/em&gt; in Ruby, and a &lt;em&gt;Role&lt;/em&gt; in Perl. Javascript, as per usual, has &lt;a href=&#34;http://rjzaworski.com/2013/03/composition-in-javascript&#34;&gt;unique ways to implement Composition&lt;/a&gt;, but it&amp;#8217;s there. Finally, it&amp;#8217;s interesting to note that Go doesn&amp;#8217;t even consider Inheritance as an option; Composition is the only game in town, and it&amp;#8217;s called &lt;a href=&#34;http://golang.org/doc/effective_go.html#embedding&#34;&gt;Embedding&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your thoughts on Composition over Inheritance? Where is it best to use one over the other? Share your ideas on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/composition-over-inheritance/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/composition-over-inheritance/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=goo.gl/AU3t8k&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your thoughts on Composition over Inheritance? Where is it best to use one over the other? Share your ideas on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/composition-over-inheritance/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/composition-over-inheritance/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=goo.gl/AU3t8k&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 

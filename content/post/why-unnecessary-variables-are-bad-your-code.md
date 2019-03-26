@@ -6,7 +6,7 @@ categories:
 date: 2017-07-18T08:07:41Z
 description: "Variables shouldn't be used as a shortcut toward readability. Only good code design can give you that."
 draft: false
-featured_image: 'http://www.marcotroisi.com/images/unnecessary_variables.jpg'
+featured_image: 'https://www.marcotroisi.com/images/unnecessary_variables.jpg'
 layout: post
 tags:
 - code reviews

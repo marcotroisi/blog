@@ -15,7 +15,7 @@ tags:
   - programming
   - quality
   - relax
-featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/03/mac-glasses.jpg"
+featured_image: "https://www.marcotroisi.com/wp-content/uploads/2015/03/mac-glasses.jpg"
 
 ---
 Have we not all been there? You&#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.

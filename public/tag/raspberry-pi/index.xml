@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/raspberry-pi/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/raspberry-pi/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to set up a full web server on a Raspberry PI</title>
-      <link>http://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</link>
+      <link>https://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</link>
       <pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</guid>
-      <description>&lt;p&gt;In this post I am going to show you how to set up a fully operative &lt;strong&gt;web server&lt;/strong&gt; on &lt;a href=&#34;http://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/&#34; title=&#34;I got a Rasperry PI!&#34;&gt;Raspberry PI&lt;/a&gt;. More specifically, this a LAMP server, which means Linux+Apache+MySQL+PHP, which the most common combination you find in most of the servers worldwide.&lt;/p&gt;
+      <guid>https://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</guid>
+      <description>&lt;p&gt;In this post I am going to show you how to set up a fully operative &lt;strong&gt;web server&lt;/strong&gt; on &lt;a href=&#34;https://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/&#34; title=&#34;I got a Rasperry PI!&#34;&gt;Raspberry PI&lt;/a&gt;. More specifically, this a LAMP server, which means Linux+Apache+MySQL+PHP, which the most common combination you find in most of the servers worldwide.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
@@ -88,10 +88,10 @@ wget -O - http://www.chive-project.com/Download/Redirect|tar -xzp&lt;/del&gt;&lt
     
     <item>
       <title>I got a Rasperry PI!</title>
-      <link>http://www.marcotroisi.com/i-got-a-rasperry-pi/</link>
+      <link>https://www.marcotroisi.com/i-got-a-rasperry-pi/</link>
       <pubDate>Sat, 05 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/i-got-a-rasperry-pi/</guid>
+      <guid>https://www.marcotroisi.com/i-got-a-rasperry-pi/</guid>
       <description>&lt;p&gt;Yes, I&amp;#8217;ve got it!&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34; alignright&#34; alt=&#34;Raspberry PI&#34; src=&#34;http://www.userlogos.org/files/logos/xelaiv/Raspberry_Pi_Logo_4.png&#34; width=&#34;203&#34; height=&#34;152&#34; /&gt;&lt;/p&gt;
@@ -108,7 +108,7 @@ wget -O - http://www.chive-project.com/Download/Redirect|tar -xzp&lt;/del&gt;&lt
 
 &lt;p&gt;** The great thing about the Raspberry PI, is that it is a &lt;em&gt;full Linux PC&lt;/em&gt; (with very low performances, as you might expect) and &lt;strong&gt;&lt;em&gt;it costs just 35$&lt;/em&gt;&lt;/strong&gt; for its Model B-version, which is better equipped (Model A is -in my opinion- simply not enough, without regarding of what you use it for).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/castelfranco-di-sotto-20121231-00196/&#34; rel=&#34;attachment wp-att-61&#34;&gt;&lt;img class=&#34;size-medium wp-image-61 alignleft&#34; style=&#34;margin-right: 5px;&#34; alt=&#34;My Rasperry PI (2)&#34; src=&#34;http://www.marcotroisi.com/wp-content/uploads/2013/01/Castelfranco-di-Sotto-20121231-00196-300x225.jpg&#34; width=&#34;300&#34; height=&#34;225&#34; srcset=&#34;http://www.marcotroisi.com/wp-content/uploads/2013/01/Castelfranco-di-Sotto-20121231-00196-300x225.jpg 300w, http://www.marcotroisi.com/wp-content/uploads/2013/01/Castelfranco-di-Sotto-20121231-00196.jpg 1024w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;Besides the purpose for which the Raspberry PI is developed, which is to teach kids and young people basic programming skills, there are many things you can do with such a device.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/castelfranco-di-sotto-20121231-00196/&#34; rel=&#34;attachment wp-att-61&#34;&gt;&lt;img class=&#34;size-medium wp-image-61 alignleft&#34; style=&#34;margin-right: 5px;&#34; alt=&#34;My Rasperry PI (2)&#34; src=&#34;https://www.marcotroisi.com/wp-content/uploads/2013/01/Castelfranco-di-Sotto-20121231-00196-300x225.jpg&#34; width=&#34;300&#34; height=&#34;225&#34; srcset=&#34;https://www.marcotroisi.com/wp-content/uploads/2013/01/Castelfranco-di-Sotto-20121231-00196-300x225.jpg 300w, https://www.marcotroisi.com/wp-content/uploads/2013/01/Castelfranco-di-Sotto-20121231-00196.jpg 1024w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;Besides the purpose for which the Raspberry PI is developed, which is to teach kids and young people basic programming skills, there are many things you can do with such a device.&lt;/p&gt;
 
 &lt;p&gt;One of the main things I see programmers doing with the Raspberry PI is &lt;strong&gt;&lt;em&gt;playing&lt;/em&gt;&lt;/strong&gt;. Having fun with it, experimenting anything their imagination can produce (as long as that small device can do it &amp;#8211; don&amp;#8217;t forget it is a very small PC).&lt;/p&gt;
 

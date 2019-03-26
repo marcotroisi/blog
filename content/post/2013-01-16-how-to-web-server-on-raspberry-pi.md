@@ -83,6 +83,6 @@ That&#8217;s all you need to be fully operative with a webserver running on your
 
 &nbsp;
 
- [1]: http://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/ "I got a Rasperry PI!"
+ [1]: https://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/ "I got a Rasperry PI!"
  [2]: http://www.amazon.com/gp/product/1118921666/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1118921666&linkCode=as2&tag=marctroi-20&linkId=TQVYISKDEHET47YV
  [3]: http://www.amazon.com/gp/product/B00T2U7R7I/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00T2U7R7I&linkCode=as2&tag=marctroi-20&linkId=36F2PY7IV6I63X5X

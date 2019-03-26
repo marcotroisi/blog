@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/productivity/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/productivity/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>5 Tips for becoming a Productive Programmer</title>
-      <link>http://www.marcotroisi.com/productive-programmer-5-tips/</link>
+      <link>https://www.marcotroisi.com/productive-programmer-5-tips/</link>
       <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/productive-programmer-5-tips/</guid>
+      <guid>https://www.marcotroisi.com/productive-programmer-5-tips/</guid>
       <description>&lt;p&gt;Have we not all been there? You&amp;#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&amp;#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.&lt;/p&gt;
 
 &lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc. &lt;/p&gt;

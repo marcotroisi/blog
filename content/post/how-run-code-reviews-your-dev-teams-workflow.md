@@ -7,7 +7,7 @@ categories:
 date: 2017-04-20T08:01:27+01:00
 description: "What's the best time to do code reviews? When considering your development or DevOps workflow."
 draft: false
-featured_image: "http://www.marcotroisi.com/images/code-review-workflow.jpg"
+featured_image: "https://www.marcotroisi.com/images/code-review-workflow.jpg"
 layout: post
 tags:
 - code reviews

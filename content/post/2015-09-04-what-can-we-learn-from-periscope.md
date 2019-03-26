@@ -28,7 +28,7 @@ Personally, I have been using Periscope as a watcher, rather than a streamer, in
 
 ## What&#8217;s great about Periscope
 
-<img class="alignright wp-image-446 size-full" src="http://www.marcotroisi.com/wp-content/uploads/2015/09/periscope.png" alt="periscope" width="228" height="228" />
+<img class="alignright wp-image-446 size-full" src="https://www.marcotroisi.com/wp-content/uploads/2015/09/periscope.png" alt="periscope" width="228" height="228" />
   
 When you use Periscope, two things will become obvious to you after a little while:
 

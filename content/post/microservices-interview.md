@@ -8,7 +8,7 @@ categories:
 date: 2016-09-09T08:05:54+01:00
 description: I was recently interviewed on "when to use microservices". Find out what I said!
 draft: false
-featured_image: "http://www.marcotroisi.com/images/microservices_interview_screenshot.png"
+featured_image: "https://www.marcotroisi.com/images/microservices_interview_screenshot.png"
 layout: post
 tags:
 - technology

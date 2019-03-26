@@ -6,7 +6,7 @@ categories:
 date: 2017-01-03T01:32:26Z
 description: My predictions for technology in 2017
 draft: false
-featured_image: "http://www.marcotroisi.com/images/2017.png"
+featured_image: "https://www.marcotroisi.com/images/2017.png"
 layout: post
 tags:
 - technology

@@ -6,7 +6,7 @@ categories:
 date: 2017-05-15T07:09:32Z
 description: "Comments can point to inherent problems with code you're reviewing, but many are a waste. Here's how to separate the good from the bad."
 draft: false
-featured_image: "http://www.marcotroisi.com/images/useless_comments.png"
+featured_image: "https://www.marcotroisi.com/images/useless_comments.png"
 layout: post
 tags:
 - code reviews
