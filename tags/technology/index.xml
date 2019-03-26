@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/technology/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/technology/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My tech predictions for 2017</title>
-      <link>http://www.marcotroisi.com/tech-predictions-for-2017/</link>
+      <link>https://www.marcotroisi.com/tech-predictions-for-2017/</link>
       <pubDate>Tue, 03 Jan 2017 01:32:26 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/tech-predictions-for-2017/</guid>
+      <guid>https://www.marcotroisi.com/tech-predictions-for-2017/</guid>
       <description>
 
 &lt;p&gt;We&amp;rsquo;re now a few days into the new year, and it&amp;rsquo;s probably a good time to look into what might or might not happen during the next 12 months.&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>Is object oriented programming dead? Not by a long shot</title>
-      <link>http://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
+      <link>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
       <pubDate>Tue, 22 Nov 2016 08:16:23 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
+      <guid>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
       <description>
 
 &lt;p&gt;Is object-oriented programming (OOP) any good, really? If not, is it just plain bad, or are we simply not doing it right? Are OOP &lt;a href=&#34;http://techbeacon.com/13-programming-languages-defining-future-coding&#34;&gt;languages even in your future&lt;/a&gt;?&lt;/p&gt;
@@ -135,10 +135,10 @@
     
     <item>
       <title>When to use microservices (video)</title>
-      <link>http://www.marcotroisi.com/when-to-use-microservices-video/</link>
+      <link>https://www.marcotroisi.com/when-to-use-microservices-video/</link>
       <pubDate>Fri, 09 Sep 2016 08:05:54 +0100</pubDate>
       
-      <guid>http://www.marcotroisi.com/when-to-use-microservices-video/</guid>
+      <guid>https://www.marcotroisi.com/when-to-use-microservices-video/</guid>
       <description>&lt;p&gt;A few weeks ago, after giving a talk at PHP Dublin, I was interviewed by the fine folks from the &lt;a href=&#34;https://uxdxconf.com/&#34;&gt;UXDX&lt;/a&gt; conference.&lt;/p&gt;
 
 &lt;p&gt;The topic of the interview was &lt;strong&gt;&amp;ldquo;When to use microservices&amp;rdquo;&lt;/strong&gt;. It was partly inspired by the talk I gave that very night. In the interview, I do my best to define what microservices are and when should companies adopt them. I then proceed to give insights as to how to succeed from both a code quality and a project management point of view.&lt;/p&gt;

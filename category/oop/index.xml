@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/categories/oop/index.xml</link>
+    <link>https://www.marcotroisi.com/categories/oop/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/categories/oop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/categories/oop/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Is object oriented programming dead? Not by a long shot</title>
-      <link>http://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
+      <link>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
       <pubDate>Tue, 22 Nov 2016 08:16:23 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
+      <guid>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
       <description>
 
 &lt;p&gt;Is object-oriented programming (OOP) any good, really? If not, is it just plain bad, or are we simply not doing it right? Are OOP &lt;a href=&#34;http://techbeacon.com/13-programming-languages-defining-future-coding&#34;&gt;languages even in your future&lt;/a&gt;?&lt;/p&gt;

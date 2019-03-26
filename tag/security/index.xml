@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/security/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/security/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Apple and the battle for privacy</title>
-      <link>http://www.marcotroisi.com/apple-and-the-battle-for-privacy/</link>
+      <link>https://www.marcotroisi.com/apple-and-the-battle-for-privacy/</link>
       <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/apple-and-the-battle-for-privacy/</guid>
+      <guid>https://www.marcotroisi.com/apple-and-the-battle-for-privacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Apple is in no position for attacking other companies over how they deal with their users privacy and security. There is nothing in their policies that makes us think they care about us more than other companies do.&lt;/p&gt;
 
 &lt;hr /&gt;

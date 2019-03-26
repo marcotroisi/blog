@@ -18,4 +18,4 @@ If you&#8217;ve never used an extension with the Yii framework, you may find use
 
 &#8211; Download the [XmlGenerator][1] (extension for Yii framework)
 
- [1]: http://www.marcotroisi.com/wp-content/uploads/2012/10/XmlGenerator1.zip
+ [1]: https://www.marcotroisi.com/wp-content/uploads/2012/10/XmlGenerator1.zip

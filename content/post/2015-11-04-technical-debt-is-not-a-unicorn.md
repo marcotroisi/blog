@@ -14,7 +14,7 @@ tags:
   - architecture
   - refactoring
   - technical debt
-featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/11/sanfrancisco_800.jpg"
+featured_image: "https://www.marcotroisi.com/wp-content/uploads/2015/11/sanfrancisco_800.jpg"
 
 ---
 Amongst software engineers, there is this thing called _technical debt_ that is very often talked about and that tends to have somewhat of an ethereal nature.
@@ -71,6 +71,6 @@ Technical debt exists, it&#8217;s real and it can be proven, almost touched. It&
   * [Workflows of refactoring][4] (Martin Fowler)
 
  [1]: https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html
- [2]: http://www.marcotroisi.com/micro-services-a-quick-introduction/
+ [2]: https://www.marcotroisi.com/micro-services-a-quick-introduction/
  [3]: https://www.youtube.com/watch?v=HhNIttd87xs
  [4]: https://www.youtube.com/watch?v=vqEg37e4Mkw&list=PLJb2p0qX8R_r3crCVAxp57dvoqGGjD3yD

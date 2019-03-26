@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/microservices/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/microservices/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My tech predictions for 2017</title>
-      <link>http://www.marcotroisi.com/tech-predictions-for-2017/</link>
+      <link>https://www.marcotroisi.com/tech-predictions-for-2017/</link>
       <pubDate>Tue, 03 Jan 2017 01:32:26 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/tech-predictions-for-2017/</guid>
+      <guid>https://www.marcotroisi.com/tech-predictions-for-2017/</guid>
       <description>
 
 &lt;p&gt;We&amp;rsquo;re now a few days into the new year, and it&amp;rsquo;s probably a good time to look into what might or might not happen during the next 12 months.&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>When to use microservices (video)</title>
-      <link>http://www.marcotroisi.com/when-to-use-microservices-video/</link>
+      <link>https://www.marcotroisi.com/when-to-use-microservices-video/</link>
       <pubDate>Fri, 09 Sep 2016 08:05:54 +0100</pubDate>
       
-      <guid>http://www.marcotroisi.com/when-to-use-microservices-video/</guid>
+      <guid>https://www.marcotroisi.com/when-to-use-microservices-video/</guid>
       <description>&lt;p&gt;A few weeks ago, after giving a talk at PHP Dublin, I was interviewed by the fine folks from the &lt;a href=&#34;https://uxdxconf.com/&#34;&gt;UXDX&lt;/a&gt; conference.&lt;/p&gt;
 
 &lt;p&gt;The topic of the interview was &lt;strong&gt;&amp;ldquo;When to use microservices&amp;rdquo;&lt;/strong&gt;. It was partly inspired by the talk I gave that very night. In the interview, I do my best to define what microservices are and when should companies adopt them. I then proceed to give insights as to how to succeed from both a code quality and a project management point of view.&lt;/p&gt;
@@ -85,13 +85,13 @@
     
     <item>
       <title>Microservices won’t improve your code quality</title>
-      <link>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <link>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <guid>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
       <description>
 
-&lt;p&gt;If you&amp;rsquo;ve read some of my &lt;a href=&#34;http://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;rsquo;ll know that I&amp;rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve read some of my &lt;a href=&#34;https://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;rsquo;ll know that I&amp;rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
 
 &lt;p&gt;I say that and I mean it. Who doesn&amp;rsquo;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;rsquo;t think it&amp;rsquo;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
 
@@ -148,10 +148,10 @@
     
     <item>
       <title>A Question about Microservices</title>
-      <link>http://www.marcotroisi.com/questions-about-microservices/</link>
+      <link>https://www.marcotroisi.com/questions-about-microservices/</link>
       <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/questions-about-microservices/</guid>
+      <guid>https://www.marcotroisi.com/questions-about-microservices/</guid>
       <description>&lt;p&gt;I received this question about microservices, and I am happy to publish my reply. Perhaps someone else will also find it helpful.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -206,33 +206,33 @@
 
 &lt;p&gt;Marco&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;http://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;If you&amp;#8217;d like to send me your questions or suggestions, feel free to &lt;a href=&#34;https://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hailo and their “Journey into Microservices”</title>
-      <link>http://www.marcotroisi.com/hailo-journey-into-microservices/</link>
+      <link>https://www.marcotroisi.com/hailo-journey-into-microservices/</link>
       <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/hailo-journey-into-microservices/</guid>
+      <guid>https://www.marcotroisi.com/hailo-journey-into-microservices/</guid>
       <description>&lt;p&gt;A while ago, while looking for experiences of companies actually transitioning into a Microservice architecture, I stumbled upon this nicely written, real-world series of articles from &lt;a href=&#34;https://twitter.com/mattheath&#34;&gt;Matt Heath&lt;/a&gt;, published on the &lt;a href=&#34;http://www.hailoapp.com&#34;&gt;Hailo&lt;/a&gt; tech blog. The articles talk about their moving from a mostly-PHP, monolithic architecture, towards one based on Microservices.&lt;/p&gt;
 
 &lt;p&gt;It is very interesting to read about the challenges of a company that started that everyone else, and then had to face the inevitable problems of scalability and code maintainability. It is also stimulating to see how they answered the questions almost everyone asks when trying to move into a Microservices architecture.&lt;/p&gt;
 
 &lt;p&gt;If you are interested, read the articles, starting from the first one: &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/&#34;&gt;A Journey into Microservices&lt;/a&gt;, and then go ahead with &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/&#34;&gt;part two&lt;/a&gt; and &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/&#34;&gt;part three&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Featured photo from the Hailo website&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>An example of a Microservice</title>
-      <link>http://www.marcotroisi.com/an-example-of-a-microservice/</link>
+      <link>https://www.marcotroisi.com/an-example-of-a-microservice/</link>
       <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/an-example-of-a-microservice/</guid>
-      <description>&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
+      <guid>https://www.marcotroisi.com/an-example-of-a-microservice/</guid>
+      <description>&lt;p&gt;After writing on &lt;a href=&#34;https://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
 
 &lt;h2 id=&#34;introducing-microtranslator&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
 
@@ -275,17 +275,17 @@
 
 &lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
 
-&lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;https://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Microservices: A Quick Introduction</title>
-      <link>http://www.marcotroisi.com/micro-services-a-quick-introduction/</link>
+      <link>https://www.marcotroisi.com/micro-services-a-quick-introduction/</link>
       <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/micro-services-a-quick-introduction/</guid>
+      <guid>https://www.marcotroisi.com/micro-services-a-quick-introduction/</guid>
       <description>&lt;p&gt;As I am in the middle of reading the excellent &lt;a href=&#34;http://amzn.to/1GIiYTb&#34;&gt;Building Microservices&lt;/a&gt; from Sam Newman, I thought I would spend some time de-mistyfying what &lt;strong&gt;Microservices&lt;/strong&gt; are, when/if are they needed and why.&lt;/p&gt;
 
 &lt;p&gt;I am really grateful to this book, which I warmly recommend, for finally making the concept of Microservices so easy for me to understand, while never standing back from actually going into the difficulties of the practical world, with several real-life advices on how to make Microservices work in a modern architecture.&lt;/p&gt;

@@ -1,4 +1,4 @@
-baseurl = "http://www.marcotroisi.com"
+baseurl = "https://www.marcotroisi.com"
 languageCode = "en-gb"
 title = "Marco Troisi | technology, software development and productivity"
 theme = "mt2015"

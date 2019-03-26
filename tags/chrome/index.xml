@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/chrome/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/chrome/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Make your website available offline with HTML5</title>
-      <link>http://www.marcotroisi.com/make-your-website-available-offline-with-html5/</link>
+      <link>https://www.marcotroisi.com/make-your-website-available-offline-with-html5/</link>
       <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/make-your-website-available-offline-with-html5/</guid>
+      <guid>https://www.marcotroisi.com/make-your-website-available-offline-with-html5/</guid>
       <description>&lt;p&gt;One of the really cool things &lt;strong&gt;HTML5&lt;/strong&gt; allows to do is to make our web apps available even when our visitors are not connected to any network (assuming, obviously, that they have visited the website before, under network coverage).&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/php/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/php/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Healthy OOP</title>
-      <link>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
+      <link>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
       <pubDate>Mon, 23 May 2016 08:34:57 +0100</pubDate>
       
-      <guid>http://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
+      <guid>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
       <description>
 
 &lt;p&gt;I enjoy writing code in an Object Oriented fashion. Thinking in terms of objects gives me
@@ -181,28 +181,28 @@ But I believe that by at least keeping in mind the practices listed above, you c
     
     <item>
       <title>Hailo and their “Journey into Microservices”</title>
-      <link>http://www.marcotroisi.com/hailo-journey-into-microservices/</link>
+      <link>https://www.marcotroisi.com/hailo-journey-into-microservices/</link>
       <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/hailo-journey-into-microservices/</guid>
+      <guid>https://www.marcotroisi.com/hailo-journey-into-microservices/</guid>
       <description>&lt;p&gt;A while ago, while looking for experiences of companies actually transitioning into a Microservice architecture, I stumbled upon this nicely written, real-world series of articles from &lt;a href=&#34;https://twitter.com/mattheath&#34;&gt;Matt Heath&lt;/a&gt;, published on the &lt;a href=&#34;http://www.hailoapp.com&#34;&gt;Hailo&lt;/a&gt; tech blog. The articles talk about their moving from a mostly-PHP, monolithic architecture, towards one based on Microservices.&lt;/p&gt;
 
 &lt;p&gt;It is very interesting to read about the challenges of a company that started that everyone else, and then had to face the inevitable problems of scalability and code maintainability. It is also stimulating to see how they answered the questions almost everyone asks when trying to move into a Microservices architecture.&lt;/p&gt;
 
 &lt;p&gt;If you are interested, read the articles, starting from the first one: &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/&#34;&gt;A Journey into Microservices&lt;/a&gt;, and then go ahead with &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/&#34;&gt;part two&lt;/a&gt; and &lt;a href=&#34;https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/&#34;&gt;part three&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you worked on a transition to a microservice architecture? What has your experience been? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/hailo-journey-into-microservices/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/hailo-journey-into-microservices/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/MB66xW&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Featured photo from the Hailo website&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>An example of a Microservice</title>
-      <link>http://www.marcotroisi.com/an-example-of-a-microservice/</link>
+      <link>https://www.marcotroisi.com/an-example-of-a-microservice/</link>
       <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/an-example-of-a-microservice/</guid>
-      <description>&lt;p&gt;After writing on &lt;a href=&#34;http://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
+      <guid>https://www.marcotroisi.com/an-example-of-a-microservice/</guid>
+      <description>&lt;p&gt;After writing on &lt;a href=&#34;https://www.marcotroisi.com/micro-services-a-quick-introduction/&#34;&gt;Microservices&lt;/a&gt;, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. &lt;/p&gt;
 
 &lt;h2 id=&#34;introducing-microtranslator&#34;&gt;Introducing MicroTranslator&lt;/h2&gt;
 
@@ -245,17 +245,17 @@ But I believe that by at least keeping in mind the practices listed above, you c
 
 &lt;h2 id=&#34;in-practice-it-8217-s-not-that-difficult&#34;&gt;In practice, it&amp;#8217;s not that difficult&lt;/h2&gt;
 
-&lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;http://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that &lt;em&gt;very well&lt;/em&gt;. This is, by the way, also one the keys of greater &lt;a href=&#34;https://www.marcotroisi.com/productive-programmer-5-tips/&#34;&gt;productivity&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/an-example-of-a-microservice/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/an-example-of-a-microservice/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/KdOum9&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My Two Cents on Go</title>
-      <link>http://www.marcotroisi.com/my-two-cents-on-golang/</link>
+      <link>https://www.marcotroisi.com/my-two-cents-on-golang/</link>
       <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/my-two-cents-on-golang/</guid>
+      <guid>https://www.marcotroisi.com/my-two-cents-on-golang/</guid>
       <description>&lt;p&gt;I have recently been studying and trying &lt;a href=&#34;http://www.golang.org&#34;&gt;Go&lt;/a&gt; (Golang), a statically typed language developed by Google, which promises really fast execution times and a pleasant development experience.&lt;/p&gt;
 
 &lt;p&gt;I must say, it is pleasant to use indeed. And quite simple to learn. But it does also demolish some of the things that, coming from other languages, you might be giving for granted. While trying to get my head around it, it felt a lot like when I was trying to learn proper Javascript (i.e. &lt;em&gt;beyond&lt;/em&gt; jQuery), that is, it can sometimes take a while to understand, but then at one point something &amp;#8216;clicks&amp;#8217;, and immediately everything becomes so clear and easy. You do not end up necessarily thinking that it is &lt;em&gt;the best language ever&lt;/em&gt;, but you do come to appreciate its design choices. &lt;/p&gt;
@@ -345,10 +345,10 @@ sys 0m0.021s
     
     <item>
       <title>WordPress and Ghost: a CMS vs a blogging platform</title>
-      <link>http://www.marcotroisi.com/wordpress-and-ghost/</link>
+      <link>https://www.marcotroisi.com/wordpress-and-ghost/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wordpress-and-ghost/</guid>
+      <guid>https://www.marcotroisi.com/wordpress-and-ghost/</guid>
       <description>&lt;p&gt;I am definitely amongst the growing group of developers that are fascinated and thrilled by &lt;a href=&#34;http://www.nodejs.org&#34;&gt;node.js&lt;/a&gt;, its thriving community, its being simple yet powerful, super-fast and scalable.&lt;/p&gt;
 
 &lt;p&gt;Although my main language remains &lt;a href=&#34;http://www.php.net&#34;&gt;PHP&lt;/a&gt; (mostly because my employer wants me to work with it, but also because of its enormous libraries collection and its maturity as a language for the web), I can undoubtedly see a future with most of the cool apps out there being developed with node.js. I am convinced that, should I start a new project of my own today, a project that I believed would conquer the market, I would totally go for a lightweight HTML5 + CSS3 + JS (with the help of &lt;a href=&#34;http://www.angularjs.org&#34;&gt;Angular.js&lt;/a&gt;) interface backed by a powerful node.js (with &lt;a href=&#34;http://www.expressjs.com&#34;&gt;express.js&lt;/a&gt;)-based API.&lt;/p&gt;
@@ -372,11 +372,11 @@ sys 0m0.021s
     
     <item>
       <title>How to set up a full web server on a Raspberry PI</title>
-      <link>http://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</link>
+      <link>https://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</link>
       <pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</guid>
-      <description>&lt;p&gt;In this post I am going to show you how to set up a fully operative &lt;strong&gt;web server&lt;/strong&gt; on &lt;a href=&#34;http://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/&#34; title=&#34;I got a Rasperry PI!&#34;&gt;Raspberry PI&lt;/a&gt;. More specifically, this a LAMP server, which means Linux+Apache+MySQL+PHP, which the most common combination you find in most of the servers worldwide.&lt;/p&gt;
+      <guid>https://www.marcotroisi.com/how-to-web-server-on-raspberry-pi/</guid>
+      <description>&lt;p&gt;In this post I am going to show you how to set up a fully operative &lt;strong&gt;web server&lt;/strong&gt; on &lt;a href=&#34;https://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/&#34; title=&#34;I got a Rasperry PI!&#34;&gt;Raspberry PI&lt;/a&gt;. More specifically, this a LAMP server, which means Linux+Apache+MySQL+PHP, which the most common combination you find in most of the servers worldwide.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 

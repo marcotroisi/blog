@@ -58,8 +58,8 @@ Composition is available out of the box in [many of the mainstream languages][2]
  [2]: http://en.wikipedia.org/wiki/Trait_(computer_programming)#Supported_languages
  [3]: http://rjzaworski.com/2013/03/composition-in-javascript
  [4]: http://golang.org/doc/effective_go.html#embedding
- [5]: http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/composition-over-inheritance/
- [6]: https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/composition-over-inheritance/&source=tweetbutton&text=%3F&url=goo.gl/AU3t8k&via=marcotroisi
+ [5]: http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/composition-over-inheritance/
+ [6]: https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/composition-over-inheritance/&source=tweetbutton&text=%3F&url=goo.gl/AU3t8k&via=marcotroisi
  [7]: http://www.clean-code-developer.com/Favor-Composition-over-Inheritance.ashx
  [8]: http://en.wikipedia.org/wiki/Composition_over_inheritance
  [9]: http://codingdelight.com/2014/01/16/favor-composition-over-inheritance-part-1/

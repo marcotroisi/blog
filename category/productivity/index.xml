@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/categories/productivity/index.xml</link>
+    <link>https://www.marcotroisi.com/categories/productivity/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>What can we learn from Periscope</title>
-      <link>http://www.marcotroisi.com/what-can-we-learn-from-periscope/</link>
+      <link>https://www.marcotroisi.com/what-can-we-learn-from-periscope/</link>
       <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/what-can-we-learn-from-periscope/</guid>
+      <guid>https://www.marcotroisi.com/what-can-we-learn-from-periscope/</guid>
       <description>&lt;p&gt;I have been using &lt;a href=&#34;http://www.periscope.tv&#34;&gt;Periscope&lt;/a&gt; for a while now, and I am really enjoying it. If you don&amp;#8217;t know it, Periscope is Twitter&amp;#8217;s new live streaming app, that allows anyone to stream directly from one&amp;#8217;s smartphone, and it will notify you as soon as someone you follow is live-streaming.&lt;/p&gt;
 
 &lt;p&gt;The concept of live streaming is not a new one, but Periscope (alongside with their competitor, &lt;a href=&#34;https://meerkatapp.co/&#34;&gt;Meerkat&lt;/a&gt;) has made it really easy to do so from a mobile device and, most importantly, to create a community of followers around it.&lt;/p&gt;
@@ -25,7 +25,7 @@
 
 &lt;h2 id=&#34;what-8217-s-great-about-periscope&#34;&gt;What&amp;#8217;s great about Periscope&lt;/h2&gt;
 
-&lt;p&gt;&lt;img class=&#34;alignright wp-image-446 size-full&#34; src=&#34;http://www.marcotroisi.com/wp-content/uploads/2015/09/periscope.png&#34; alt=&#34;periscope&#34; width=&#34;228&#34; height=&#34;228&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;alignright wp-image-446 size-full&#34; src=&#34;https://www.marcotroisi.com/wp-content/uploads/2015/09/periscope.png&#34; alt=&#34;periscope&#34; width=&#34;228&#34; height=&#34;228&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When you use Periscope, two things will become obvious to you after a little while:&lt;/p&gt;
 
@@ -57,10 +57,10 @@
     
     <item>
       <title>The Ethics of Code Reviews</title>
-      <link>http://www.marcotroisi.com/the-ethics-of-code-reviews/</link>
+      <link>https://www.marcotroisi.com/the-ethics-of-code-reviews/</link>
       <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/the-ethics-of-code-reviews/</guid>
+      <guid>https://www.marcotroisi.com/the-ethics-of-code-reviews/</guid>
       <description>&lt;p&gt;Code Reviewing is one of the greatest tools we have as software developers, to help us improve the quality of our code. It can be incredibly beneficial, but it can also be a source of pain and overall, a waste of time instead of a time-saver.&lt;/p&gt;
 
 &lt;p&gt;Like with many things in life, knowing &lt;em&gt;why&lt;/em&gt; we do something, can be a good way to do that thing at its best and not to abuse it. Let&amp;#8217;s begin then to unpack what a code review &lt;strong&gt;is not&lt;/strong&gt;:&lt;/p&gt;
@@ -82,15 +82,15 @@
 
 &lt;p&gt;At the end of the day, what needs to be remembered is that your collaborators/colleagues/team-mates are professionals like you, regardless of the individual amount of experience. But, ultimately and more importantly, they are human beings! And human beings work better, produce more and tend to be happier in an environment where they are understood, appreciated and respected. And code reviewing can be an incredibly powerful helper in this, if used wisely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on &lt;a href=&#34;http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/the-ethics-of-code-reviews/&amp;amp;source=tweetbutton&amp;amp;text=%3F&amp;amp;url=http://goo.gl/fDGwIC&amp;amp;via=marcotroisi&#34;&gt;Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>5 Tips for becoming a Productive Programmer</title>
-      <link>http://www.marcotroisi.com/productive-programmer-5-tips/</link>
+      <link>https://www.marcotroisi.com/productive-programmer-5-tips/</link>
       <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/productive-programmer-5-tips/</guid>
+      <guid>https://www.marcotroisi.com/productive-programmer-5-tips/</guid>
       <description>&lt;p&gt;Have we not all been there? You&amp;#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&amp;#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.&lt;/p&gt;
 
 &lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc. &lt;/p&gt;

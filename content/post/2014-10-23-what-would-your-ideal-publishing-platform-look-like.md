@@ -28,5 +28,5 @@ Thank you for your time!
 </div>
 
 <div id="polls-2-loading" class="wp-polls-loading">
-  <img src="http://www.marcotroisi.com/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...
+  <img src="https://www.marcotroisi.com/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...
 </div>

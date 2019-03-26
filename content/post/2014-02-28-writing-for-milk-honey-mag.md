@@ -12,7 +12,7 @@ categories:
 ---
 I have recently written a couple of articles for **[Milk & Honey Mag][1]**, which is a lifestyle magazine for women.
   
-[<img class="size-medium wp-image-199 alignright" alt="Milk & Honey Mag" src="http://www.marcotroisi.com/wp-content/uploads/2014/02/mh_screenshot-300x161.png" width="300" height="161" srcset="http://www.marcotroisi.com/wp-content/uploads/2014/02/mh_screenshot-300x161.png 300w, http://www.marcotroisi.com/wp-content/uploads/2014/02/mh_screenshot-1024x551.png 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+[<img class="size-medium wp-image-199 alignright" alt="Milk & Honey Mag" src="https://www.marcotroisi.com/wp-content/uploads/2014/02/mh_screenshot-300x161.png" width="300" height="161" srcset="https://www.marcotroisi.com/wp-content/uploads/2014/02/mh_screenshot-300x161.png 300w, https://www.marcotroisi.com/wp-content/uploads/2014/02/mh_screenshot-1024x551.png 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 
 The articles that I have written for them so far are:
 

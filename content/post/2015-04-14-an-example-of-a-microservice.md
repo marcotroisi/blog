@@ -14,7 +14,7 @@ tags:
   - microservices
   - microtranslator
   - php
-featured_image: "http://www.marcotroisi.com/wp-content/uploads/2015/04/microtranslator.png"
+featured_image: "https://www.marcotroisi.com/wp-content/uploads/2015/04/microtranslator.png"
 
 ---
 After writing on [Microservices][1], I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. <!--more-->
@@ -60,11 +60,11 @@ It&#8217;s amazing how simple things can look like when we see them in real-life
 
 **_Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on [Facebook][7] or [Twitter][8]._**
 
- [1]: http://www.marcotroisi.com/micro-services-a-quick-introduction/
+ [1]: https://www.marcotroisi.com/micro-services-a-quick-introduction/
  [2]: https://github.com/marcotroisi/microtranslator
  [3]: http://www.fatfreeframework.com
  [4]: https://github.com/mossphp/moss-locale
  [5]: http://www.mongodb.com
- [6]: http://www.marcotroisi.com/productive-programmer-5-tips/
- [7]: http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/an-example-of-a-microservice/
- [8]: https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/an-example-of-a-microservice/&source=tweetbutton&text=%3F&url=http://goo.gl/KdOum9&via=marcotroisi
+ [6]: https://www.marcotroisi.com/productive-programmer-5-tips/
+ [7]: http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/an-example-of-a-microservice/
+ [8]: https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/an-example-of-a-microservice/&source=tweetbutton&text=%3F&url=http://goo.gl/KdOum9&via=marcotroisi

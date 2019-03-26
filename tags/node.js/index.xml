@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Troisi | technology, software development and productivity</title>
-    <link>http://www.marcotroisi.com/tags/node.js/index.xml</link>
+    <link>https://www.marcotroisi.com/tags/node.js/index.xml</link>
     <description>Recent content on Marco Troisi | technology, software development and productivity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <atom:link href="http://www.marcotroisi.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.marcotroisi.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>WordPress and Ghost: a CMS vs a blogging platform</title>
-      <link>http://www.marcotroisi.com/wordpress-and-ghost/</link>
+      <link>https://www.marcotroisi.com/wordpress-and-ghost/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.marcotroisi.com/wordpress-and-ghost/</guid>
+      <guid>https://www.marcotroisi.com/wordpress-and-ghost/</guid>
       <description>&lt;p&gt;I am definitely amongst the growing group of developers that are fascinated and thrilled by &lt;a href=&#34;http://www.nodejs.org&#34;&gt;node.js&lt;/a&gt;, its thriving community, its being simple yet powerful, super-fast and scalable.&lt;/p&gt;
 
 &lt;p&gt;Although my main language remains &lt;a href=&#34;http://www.php.net&#34;&gt;PHP&lt;/a&gt; (mostly because my employer wants me to work with it, but also because of its enormous libraries collection and its maturity as a language for the web), I can undoubtedly see a future with most of the cool apps out there being developed with node.js. I am convinced that, should I start a new project of my own today, a project that I believed would conquer the market, I would totally go for a lightweight HTML5 + CSS3 + JS (with the help of &lt;a href=&#34;http://www.angularjs.org&#34;&gt;Angular.js&lt;/a&gt;) interface backed by a powerful node.js (with &lt;a href=&#34;http://www.expressjs.com&#34;&gt;express.js&lt;/a&gt;)-based API.&lt;/p&gt;

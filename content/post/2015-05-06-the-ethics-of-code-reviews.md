@@ -34,5 +34,5 @@ At the end of the day, what needs to be remembered is that your collaborators/co
 
 **_Question: what are your rules and what has been your experience with code reviewing? Share your thoughts on [Facebook][1] or [Twitter][2]._**
 
- [1]: http://www.facebook.com/sharer/sharer.php?u=http://www.marcotroisi.com/the-ethics-of-code-reviews/
- [2]: https://twitter.com/intent/tweet?original_referer=http://www.marcotroisi.com/the-ethics-of-code-reviews/&source=tweetbutton&text=%3F&url=http://goo.gl/fDGwIC&via=marcotroisi
+ [1]: http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/the-ethics-of-code-reviews/
+ [2]: https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/the-ethics-of-code-reviews/&source=tweetbutton&text=%3F&url=http://goo.gl/fDGwIC&via=marcotroisi
