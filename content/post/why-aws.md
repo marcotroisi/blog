@@ -3,7 +3,7 @@ author: Marco Troisi
 categories:
 - Cloud
 date: 2019-07-28T08:07:41Z
-description: "Why I recommend AWS as a default cloud provider."
+description: "Why I recommend AWS as the default cloud provider."
 draft: false
 featured_image: 'https://www.marcotroisi.com/images/why_aws.jpg'
 layout: post
@@ -49,12 +49,12 @@ In our normal, everyday life, we go with what works best for us. We adopt soluti
 
 By going all-in with the cloud I mean taking advantage of everything that the cloud has to offer without trying to reinvent the wheel. Going half-hearted into the cloud simply doesn’t work. Here’s why.
 
-**Lower cost and better performance**
+**Lower cost and better performance**  
 Cloud-native tools and products are cheaper and faster. The scale at which a big cloud provider can run something like a database is nearly impossible to achieve on your own. That’s why a cloud provider will always be able to offer such solutions at a much lower price (and with far greater performance) than if you were to run them on your own infrastructure. 
 
 Even if you run, let’s say, Postgres on the cloud, it won’t usually be as cost effective as something that was built for the cloud from the ground up (e.g. DynamoDB or Aurora Serverless). 
 
-**Pace of innovation**
+**Pace of innovation**  
 AWS releases new services on a weekly basis. At any given time, there may be a recently launched service that will most likely reduce costs, increase performance, and improve maintainability for your application. Adopting these new services can give you an advantage over your competitors and make your life easier. 
 
 It’s important that you make it easy for yourself to *quickly* test and adopt a new service. The key to that agility is to reduce the amount of tools and services that you have to maintain by favouring serverless and managed services over things you have to install and configure yourself.
@@ -88,4 +88,4 @@ So-called **vendor lock-in in the modern era is nothing like it used to be**. If
 
 *Image credit: Photo by [Dallas Reedy](https://unsplash.com/@dallasreedy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/cloud?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
-***What's your experience planning and organising your week? Share your thoughts in the comments below.*** 
+***Are you using AWS for your projects? What's your experience with it? Leave your impressions in the comments below.*** 
