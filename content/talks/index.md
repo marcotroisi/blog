@@ -5,7 +5,7 @@ layout: page
 date: 2016-10-17
 # featured_image: "/marcotroisi_picture.jpg"
 ---
-This is a list of talks I've given so far. For more info, you can also look at [my Lanyrd profile page](http://lanyrd.com/profile/marcotroisi/).
+This is a list of talks I've given so far. 
 
 If you would like me to speak at your event/meetup/conference, feel free to [contact me](https://www.marcotroisi.com/about/).
 
