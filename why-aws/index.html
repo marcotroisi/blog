@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Why AWS | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="Why I recommend AWS as the default cloud provider."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Why AWS" />
+<meta property="og:description" content="Why I recommend AWS as the default cloud provider." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Why I recommend AWS as the default cloud provider." />
+<meta name="twitter:title" content="Why AWS" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/images/why_aws.jpg" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          28 Jul &#39;19 
+          
+    </span>
+    Why AWS
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/why-aws/" title="Why AWS" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/images/why_aws.jpg" alt="Why AWS" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<p>One of the most common questions I receive when <a href="https://marcotroisi.com/talks/">talking</a> about building an entirely serverless platform <a href="https://speakerdeck.com/marcotroisi/ive-seen-serverless?slide=27">on the AWS cloud</a> is “but why AWS?”.</p>
+
+<p>This is a question that usually comes with some assumptions. For example, some people believe that other cloud providers are better, and so they wonder what made us choose AWS over those. By and large, though, the main assumption seems to be that so called ‘vendor lock-in’ is a bad thing.</p>
+
+<p>My answer typically comes in the form a few arguments:</p>
+
+<ol>
+<li>Vendor lock-in is not a bad evil</li>
+<li>The best way to benefit from the cloud is to go all in</li>
+<li>AWS is the best cloud provider out there</li>
+</ol>
+
+<p>I will try to walk through these points in this post.</p>
+
+<h2 id="1-vendor-lock-in-is-not-a-bad-evil">1. Vendor lock-in is not a bad evil</h2>
+
+<p><a href="http://fortune.com/2015/10/08/aws-lock-in-worry/">Avoiding vendor lock-in</a> appears to be the common wisdom in the IT world, and a lot of people follow it without hesitation. But, increasingly, its validity within the context of modern software development <a href="https://techbeacon.com/enterprise-it/dont-avoid-cloud-vendor-lock-embrace-it">is being questioned</a>.</p>
+
+<p>When people think of lock-in, they usually have the old days in mind. That’s when big companies used to sign multi-million dollar contracts with some big corporation (Microsoft or Oracle for example), and would find themselves completely stuck with that provider for a number of years.</p>
+
+<p>That, of course, was a problem. As the pace of technology increased, you’d find yourself unable to use the latest and greatest because of commitments that your company had with these providers. Moreover, the prospect of changing provider would often appear to be so painful and expensive to discourage everyone from even trying.</p>
+
+<p>But that was a different time.</p>
+
+<p>The question we should ask ourselves is whether that is still the truth in 2019.</p>
+
+<p>These days, vendor lock-in is something that a lot of people are happy to go along with. For example, many people own both a MacBook and an iPhone. That, if you ask me, is pretty locked in! If you’re one of those people, then the more Apple products you use, the more locked in you are.</p>
+
+<p>But the main difference here is that we have a choice. People choose to lock themselves into the Apple ecosystem because they they truly, genuinely like Apple. They love using those products on a daily basis. They feel so much more productive using such products that the thought of moving to a different manufacturer scares them way more than being locked in.</p>
+
+<p>In our normal, everyday life, we go with what works best for us. We adopt solutions from manufacturers/providers that offer us the best experience. We value those products so much that we don’t mind the fact that a potential migration to a product made by a different provider could be somewhat arduous.</p>
+
+<h2 id="2-the-best-way-to-benefit-from-the-cloud-is-to-go-all-in">2. The best way to benefit from the cloud is to go all-in</h2>
+
+<p>By going all-in with the cloud I mean taking advantage of everything that the cloud has to offer without trying to reinvent the wheel. Going half-hearted into the cloud simply doesn’t work. Here’s why.</p>
+
+<p><strong>Lower cost and better performance</strong><br />
+Cloud-native tools and products are cheaper and faster. The scale at which a big cloud provider can run something like a database is nearly impossible to achieve on your own. That’s why a cloud provider will always be able to offer such solutions at a much lower price (and with far greater performance) than if you were to run them on your own infrastructure.</p>
+
+<p>Even if you run, let’s say, Postgres on the cloud, it won’t usually be as cost effective as something that was built for the cloud from the ground up (e.g. DynamoDB or Aurora Serverless).</p>
+
+<p><strong>Pace of innovation</strong><br />
+AWS releases new services on a weekly basis. At any given time, there may be a recently launched service that will most likely reduce costs, increase performance, and improve maintainability for your application. Adopting these new services can give you an advantage over your competitors and make your life easier.</p>
+
+<p>It’s important that you make it easy for yourself to <em>quickly</em> test and adopt a new service. The key to that agility is to reduce the amount of tools and services that you have to maintain by favouring serverless and managed services over things you have to install and configure yourself.</p>
+
+<p>That’s how you get the most from the cloud, by paying them to do things you no longer want to worry about.</p>
+
+<h2 id="3-aws-is-the-best-cloud-provider-out-there">3. AWS is the best cloud provider out there</h2>
+
+<p>This is almost uncontroversial. Yes, Google <a href="http://fortune.com/2017/04/26/google-aws-cloud/">has claimed</a> that they will surpass AWS in the next few years, and <a href="https://beth.technology/microsoft-stock-overtake-amazon-cloud/">Microsoft has been growing</a> at an amazing pace. Nevertheless, if you use these services, you will soon notice how they don’t even compare to AWS.</p>
+
+<p><img src="https://www.marcotroisi.com/images/aws-gartner-chart.png" alt="Gartner’s “Magic Quadrant for Cloud IaaS” 2018" /></p>
+
+<p>Google has done some great work, particularly in the area of <a href="https://dialogflow.com/">AI and machine learning</a>. A lot of people use Google just for that bit, and then rely on the other cloud providers for everything else. The most typical comment I hear from people who have tried Google Cloud after using AWS or Azure, is ‘they have some good stuff, but overall it looks like they’re not even trying!’. It’s truly amazing when you think of just how massive Google is. When you compare their cloud offering with Amazon’s, it’s tiny.</p>
+
+<p>Microsoft is a different ball game. Here is a company that has been innovating (and growing) a lot. With the purchase of LinkedIn, GitHub, and with strong cloud products such as Office 365, they have a very strong offering. Microsoft Azure can be a valid option for some companies. However, AWS still offers the largest <a href="https://www.computerworlduk.com/cloud-computing/aws-ceo-talks-up-depth-of-services-over-competitors-3688501/">depth of services</a> with 140 across many different categories. So if you go down the Azure route, the possibility of having to rely on AWS for some things is a real one.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>So-called <strong>vendor lock-in in the modern era is nothing like it used to be</strong>. If you feel that AWS is the right cloud provider for you (and we’ve established that there are very good reasons for thinking that), then you should embrace it fully. By doing so, you will leverage the amazing cost savings and increased performance that the cloud has to offer.</p>
+
+<p><strong>Resources</strong></p>
+
+<ul>
+<li><a href="https://amzn.to/2FOHRjs">“Ahead in the Cloud: Best Practices for Navigating the Future of Enterprise IT”</a> (book)</li>
+<li><a href="https://amzn.to/2YrHe6W">”Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations”</a> (book)</li>
+<li><a href="https://techbeacon.com/enterprise-it/dont-avoid-cloud-vendor-lock-embrace-it">“Don&rsquo;t avoid cloud vendor lock-in. Embrace it”</a></li>
+</ul>
+
+<p><em>Image credit: Photo by <a href="https://unsplash.com/@dallasreedy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dallas Reedy</a> on <a href="https://unsplash.com/search/photos/cloud?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></em></p>
+
+<p><strong><em>Are you using AWS for your projects? What&rsquo;s your experience with it? Leave your impressions in the comments below.</em></strong></p>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'marcotroisi';
+    var disqus_identifier = 'https:\/\/www.marcotroisi.com\/why-aws\/';
+    var disqus_title = 'Why AWS';
+    var disqus_url = 'https:\/\/www.marcotroisi.com\/why-aws\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+  <section class='email-subscribe-text'>
+    To get the latest high-quality articles on
+    technology, software development and productivity
+    <a href="https://feedburner.google.com/fb/a/mailverify?uri=MarcoTroisi&amp;loc=en_US">subscribe by email</a>.
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="http://twitter.com/studionugae">nugae</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+

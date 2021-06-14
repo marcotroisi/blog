@@ -91,7 +91,8 @@
 &lt;span datetime=&#34;2015-04-18T14:30:34+00:00&#34; title=&#34;[Type: 1024|Line: 1951|File: wp-content/plugins/backwpup/inc/class-job.php|Mem: 26.50 MB|Mem Max: 35.25 MB|Mem Limit: 256M|PID: 6774 | UniqID: 55324e5fbffee3.88754291|Query&#39;s: 266]&#34;&gt;[18-Apr-2015 14:30:34]&lt;/span&gt; 3914 Files with 86.61 MB in Archive.&lt;br /&gt;
 &lt;span datetime=&#34;2015-04-18T14:30:34+00:00&#34; title=&#34;[Type: 256|Line: 1285|File: wp-content/plugins/backwpup/inc/class-job.php|Mem: 26.50 MB|Mem Max: 35.25 MB|Mem Limit: 256M|PID: 6774 | UniqID: 55324e5fbffee3.88754291|Query&#39;s: 266]&#34;&gt;[18-Apr-2015 14:30:34]&lt;/span&gt; &lt;span style=&#34;background-color:red;color:#fff&#34;&gt;ERROR: Job has ended with errors in 11 seconds. You must resolve the errors for correct execution.&lt;/span&gt;&lt;br /&gt;
 &lt;/body&gt;
-&lt;/html&gt;</description>
+&lt;/html&gt;
+</description>
     </item>
     
     <item>
@@ -181,7 +182,8 @@
 &lt;span datetime=&#34;2015-04-18T14:33:15+00:00&#34; title=&#34;[Type: 1024|Line: 263|File: wp-content/plugins/backwpup/inc/class-destination-dropbox.php|Mem: 24.50 MB|Mem Max: 33.00 MB|Mem Limit: 256M|PID: 6900 | UniqID: 55324ee94caae8.04673602|Query&#39;s: 52]&#34;&gt;[18-Apr-2015 14:33:15]&lt;/span&gt; Backup transferred to https://api-content.dropbox.com/1/files/sandbox/Marco-Troisi-com/backwpup_06939e_2015-04-18_14-32-35.tar.gz&lt;br /&gt;
 &lt;span datetime=&#34;2015-04-18T14:33:16+00:00&#34; title=&#34;[Type: 1024|Line: 1289|File: wp-content/plugins/backwpup/inc/class-job.php|Mem: 24.50 MB|Mem Max: 33.00 MB|Mem Limit: 256M|PID: 6900 | UniqID: 55324ee94caae8.04673602|Query&#39;s: 53]&#34;&gt;[18-Apr-2015 14:33:16]&lt;/span&gt; Job done in 41 seconds.&lt;br /&gt;
 &lt;/body&gt;
-&lt;/html&gt;</description>
+&lt;/html&gt;
+</description>
     </item>
     
     <item>
@@ -271,7 +273,8 @@
 &lt;span datetime=&#34;2015-06-23T08:57:34+00:00&#34; title=&#34;[Type: 1024|Line: 263|File: wp-content/plugins/backwpup/inc/class-destination-dropbox.php|Mem: 24.50 MB|Mem Max: 33.00 MB|Mem Limit: 256M|PID: 2568 | UniqID: 55890333ce04b8.54840448|Query&#39;s: 52]&#34;&gt;[23-Jun-2015 08:57:34]&lt;/span&gt; Backup transferred to https://api-content.dropbox.com/1/files/sandbox/Marco-Troisi-com/backwpup_06939e_2015-06-23_08-56-40.tar.gz&lt;br /&gt;
 &lt;span datetime=&#34;2015-06-23T08:57:34+00:00&#34; title=&#34;[Type: 1024|Line: 1289|File: wp-content/plugins/backwpup/inc/class-job.php|Mem: 24.50 MB|Mem Max: 33.00 MB|Mem Limit: 256M|PID: 2568 | UniqID: 55890333ce04b8.54840448|Query&#39;s: 53]&#34;&gt;[23-Jun-2015 08:57:34]&lt;/span&gt; Job done in 54 seconds.&lt;br /&gt;
 &lt;/body&gt;
-&lt;/html&gt;</description>
+&lt;/html&gt;
+</description>
     </item>
     
     <item>
@@ -361,7 +364,8 @@
 &lt;span datetime=&#34;2015-07-05T22:50:52+00:00&#34; title=&#34;[Type: 1024|Line: 263|File: wp-content/plugins/backwpup/inc/class-destination-dropbox.php|Mem: 24.75 MB|Mem Max: 33.00 MB|Mem Limit: 256M|PID: 4808 | UniqID: 5599987d9ce3b7.02900935|Query&#39;s: 39]&#34;&gt;[05-Jul-2015 22:50:52]&lt;/span&gt; Backup transferred to https://api-content.dropbox.com/1/files/sandbox/Marco-Troisi-com/backwpup_06939e_2015-07-05_22-49-55.tar.gz&lt;br /&gt;
 &lt;span datetime=&#34;2015-07-05T22:50:53+00:00&#34; title=&#34;[Type: 1024|Line: 1289|File: wp-content/plugins/backwpup/inc/class-job.php|Mem: 24.75 MB|Mem Max: 33.00 MB|Mem Limit: 256M|PID: 4808 | UniqID: 5599987d9ce3b7.02900935|Query&#39;s: 40]&#34;&gt;[05-Jul-2015 22:50:53]&lt;/span&gt; Job done in 58 seconds.&lt;br /&gt;
 &lt;/body&gt;
-&lt;/html&gt;</description>
+&lt;/html&gt;
+</description>
     </item>
     
     <item>
@@ -452,7 +456,8 @@
 &lt;span datetime=&#34;2015-10-29T10:09:21+00:00&#34; title=&#34;[Type: 1024|Line: 263|File: wp-content/plugins/backwpup/inc/class-destination-dropbox.php|Mem: 24.75 MB|Mem Max: 33.25 MB|Mem Limit: 256M|PID: 26564 | UniqID: 5631e21ecb8478.92936959|Query&#39;s: 40]&#34;&gt;[29-Oct-2015 10:09:21]&lt;/span&gt; Backup transferred to https://api-content.dropbox.com/1/files/sandbox/Marco-Troisi-com/backwpup_06939e_2015-10-29_10-08-28.tar.gz&lt;br /&gt;
 &lt;span datetime=&#34;2015-10-29T10:09:22+00:00&#34; title=&#34;[Type: 1024|Line: 1289|File: wp-content/plugins/backwpup/inc/class-job.php|Mem: 24.75 MB|Mem Max: 33.25 MB|Mem Limit: 256M|PID: 26564 | UniqID: 5631e21ecb8478.92936959|Query&#39;s: 41]&#34;&gt;[29-Oct-2015 10:09:22]&lt;/span&gt; Job done in 54 seconds.&lt;br /&gt;
 &lt;/body&gt;
-&lt;/html&gt;</description>
+&lt;/html&gt;
+</description>
     </item>
     
     <item>

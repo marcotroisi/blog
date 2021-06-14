@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Serverless: What it is and when to use it | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="What Serverless really means, and when should you use it."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Serverless: What it is and when to use it" />
+<meta property="og:description" content="What Serverless really means, and when should you use it." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="What Serverless really means, and when should you use it." />
+<meta name="twitter:title" content="Serverless: What it is and when to use it" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/images/serverless.png" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          6 Feb &#39;17 
+          
+    </span>
+    Serverless: What it is and when to use it
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/serverless-what-it-is/" title="Serverless: What it is and when to use it" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/images/serverless.png" alt="Serverless: What it is and when to use it" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<!-- MarkdownTOC depth="1" -->
+
+<ul>
+<li><a href="#how-its-presented">How it&rsquo;s presented</a></li>
+<li><a href="#what-it-essentially-is">What it essentially is</a></li>
+<li><a href="#do-we-need-it">Do we need it?</a></li>
+<li><a href="#when-to-use-it">When to use it</a></li>
+<li><a href="#when-not-to-use-it">When NOT to use it</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+<!-- /MarkdownTOC -->
+
+<p>&ldquo;Serverless&rdquo; is a term you may have heard of recently. It&rsquo;s also known as <em>Function as a Service</em> (FaaS), and it basically involves storing your functions somewhere in the cloud, and then invoking and running them via a trigger. But how does a Serverless system actually work? And is it something we should be looking at?</p>
+
+<p><a name="how-its-presented"></a></p>
+
+<h2 id="how-it-s-presented">How it&rsquo;s presented</h2>
+
+<p>The concept of Serverless has been made popular by <a href="https://aws.amazon.com">AWS</a> with its relatively new product <a href="https://aws.amazon.com/lambda/">Lambda</a>. It&rsquo;s pitched as a way to <em>&ldquo;Run code without thinking about servers.&rdquo;</em> Another important element of it, which AWS works hard to make us notice, is the notion of paying only for <em>&ldquo;the compute time you consume&rdquo;</em>.</p>
+
+<p>Interestingly, Google Cloud has a similar (if not identical) product called Cloud Functions, which is presented from a different angle: <em>&ldquo;A serverless platform for building event-based microservices&rdquo;</em>. A more architectural perspective, if you will.</p>
+
+<p><a name="what-it-essentially-is"></a></p>
+
+<h2 id="what-it-essentially-is">What it essentially is</h2>
+
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If your PaaS can efficiently start instances in 20ms that run for half a second, then call it serverless. <a href="https://t.co/S3YzvqFYLR">https://t.co/S3YzvqFYLR</a></p>&mdash; adrian cockcroft (@adrianco) <a href="https://twitter.com/adrianco/status/736553530689998848">May 28, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>When it comes down to it, you could look at Serverless as Heroku on steroids.</p>
+
+<p>Clearly, the servers are still there. It&rsquo;s just that those companies (AWS, GCE, etc) have gotten to the point where they can get their servers up and down in a matter of milliseconds. So, as they&rsquo;d ask you, if you have a functionality which is only running several times a day on an on-demand basis, do you really need a server dedicated to it and running all day long?</p>
+
+<p>Looking at it from a microservices perspective, that&rsquo;s what we would&rsquo;ve done. We would have split that critical functionality into a separate microservice, running on its own server. Then, we would have made sure we could expand that server&rsquo;s capabilities in as painless a way as possible.</p>
+
+<p>Serverless promises to take care of some of that for us. Firstly, it&rsquo;s supposed to save us some money by only making us pay for the computing resources we need. Then, it takes care of scaling the servers up and down based on the need of the moment.</p>
+
+<p>On a good old PaaS platform such as Heroku, we would have had the same peace of mind of not having to think too much about servers setup and provisioning. But costs could have gotten prohibitively expensive once we reached a certain amount of computing operations. And, of course, we would have had to take care of scaling up or down ourselves.</p>
+
+<p><a name="do-we-need-it"></a></p>
+
+<h2 id="do-we-need-it">Do we need it?</h2>
+
+<p>Looking at Serverless as a &ldquo;PaaS on steroids&rdquo;, whilst clearly an over-simplification, can be helpful. Not only it helps us understand Serverless better, it also gives us some direction as to when and whether we need to consider Serverless for our software.</p>
+
+<p>In most cases, if you had good reasons for not using a PaaS platform, then those same reasons probably still apply for Serverless.</p>
+
+<p>If you&rsquo;re a happy PaaS user, then Serverless may be an option to consider, but it won&rsquo;t always work. Similarly, if you&rsquo;re doing microservices, Serverless is again something you can keep an open mind about.</p>
+
+<p>So, while Serverless and traditional PaaS are not exactly the same thing, they can be seen as solving similar problems though they have different use cases.</p>
+
+<p><a name="when-to-use-it"></a></p>
+
+<h2 id="when-to-use-it">When to use it</h2>
+
+<p>The most typical and realistic scenario for Serverless is the following:</p>
+
+<p>You have a system built with a microservices architecture. You identify a specific operation within your system which takes considerable computing effort, with periodical and unpredictable spikes in traffic. Moreover, this operation is only activated when triggered by something else. In other words, it&rsquo;s not always on. That&rsquo;s a perfect place to try to port that particular operation into a Serverless function.</p>
+
+<p>I mentioned having a microservices architecture. That doesn&rsquo;t necessarily have to be the case, but it seems quite obvious to me that if you&rsquo;re doing microservices then your system is probably more prone to further decoupling and separation of a component from the rest of the system.</p>
+
+<p>If your system is a monolith, then you probably have your good reasons why you want to keep everything within the same codebase. Nevertheless, Serverless might still make sense to you. You could, again, identify the single most critical operation within your monolith and turn it into a Serverless function; from there, even a gradual migration to a microservices architecture might just feel more natural.</p>
+
+<p><a name="when-not-to-use-it"></a></p>
+
+<h2 id="when-not-to-use-it">When NOT to use it</h2>
+
+<p>If you&rsquo;re not already on the cloud, then Serverless is really not a good idea. Services like Lambda work well when tightly integrated with the AWS platform. For example, you trigger an event when storing a file on S3, then you run your Serverless function which does something to that file, then you store the changed file on S3 and perhaps add/update a record on DynamoDB/RDS to indicate that the operation was successful.</p>
+
+<p>If you want to use Lambda but you&rsquo;re not already on AWS, then Serverless is just not for you. The same applies with GCE&rsquo;s Cloud Functions and Azure&rsquo;s <a href="https://azure.microsoft.com/en-us/services/functions/">Functions</a>.</p>
+
+<p>In other words, <strong>Serverless is one of the best ways to lock your system to a specific vendor</strong>. If that doesn&rsquo;t sound like a great idea to you, then stay away from Serverless.</p>
+
+<p><a name="conclusion"></a></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>To conclude, Serverless/FaaS is an advancement in the way we operate our servers, and we should all be excited about it. It can be a sensible choice if you have no issue locking yourself to a particular vendor, and if your operation is at the same time:</p>
+
+<ul>
+<li>small</li>
+<li>critical</li>
+<li>intense computing-wise</li>
+<li>not always on</li>
+</ul>
+
+<p>In any situation where all of the above conditions don&rsquo;t check out, a more &ldquo;traditional&rdquo; approach is recommended.</p>
+
+<p><strong><em>Have you used a Serverless platform? Do you agree with my definition and guidelines? Feel free to leave a comment below.</em></strong></p>
+
+<hr />
+
+<p><a name="more-resources"></a></p>
+
+<h3 id="more-resources">More resources:</h3>
+
+<ul>
+<li><a href="https://martinfowler.com/articles/serverless.html#what-isnt-serverless">Serverless</a> (Martin Fowler&rsquo;s blog)</li>
+<li><a href="http://amzn.to/2kv7nBg">Building Serverless Architectures</a> (Book)</li>
+<li><a href="http://amzn.to/2kte9rH">AWS Lambda: A Guide to Serverless Microservices</a> (Book)</li>
+<li><a href="http://amzn.to/2kv4KQf">AWS Lambda in Action: Event-driven serverless applications</a> (Book)</li>
+<li><a href="https://serverless.com/">Serverless framework</a></li>
+</ul>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'marcotroisi';
+    var disqus_identifier = 'https:\/\/www.marcotroisi.com\/serverless-what-it-is\/';
+    var disqus_title = 'Serverless: What it is and when to use it';
+    var disqus_url = 'https:\/\/www.marcotroisi.com\/serverless-what-it-is\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+  <section class='email-subscribe-text'>
+    To get the latest high-quality articles on
+    technology, software development and productivity
+    <a href="https://feedburner.google.com/fb/a/mailverify?uri=MarcoTroisi&amp;loc=en_US">subscribe by email</a>.
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="http://twitter.com/studionugae">nugae</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+
