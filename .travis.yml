@@ -3,6 +3,7 @@ language: go
 services:
   - docker
 before_install:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker pull marcotroisi/hugo:0.17
 install: cd ~ docker run -v `pwd`:/website  marcotroisi/hugo:0.17 version
 script: 
