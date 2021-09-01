@@ -9,9 +9,9 @@ featured_image: "/marcotroisi_picture.jpg"
 ---
 I am a software engineer mainly involved with web development, with team leading experience. I love learning and experiencing new things, and I see software development – and technology as a whole – as a way for people to get things done more easily and faster.
 
-I am currently the Lead Engineer of the *Bot Building team* at [ServisBot](https://servisbot.com), where we're building an amazing conversational AI platform that's **100% serverless**.
+I am currently a Senior Product Engineer at [Wayflyer](https://www.wayflyer.com). 
 
-Before that, I have worked in Johannesburg (South Africa), Milan (Italy) and Berlin (Germany) for several different companies/organisations. 
+Prior to that, I was the Lead Engineer of the *Bot Building team* at [ServisBot](https://servisbot.com), where we built a conversational AI platform that was **100% serverless**. I have worked in Johannesburg (South Africa), Milan (Italy) and Berlin (Germany) for several different companies/organisations. 
 
 I am a certified *__AWS__ Solutions Architect Professional*, *Solutions Architect Associate*, and *Developer Associate*. 
 
