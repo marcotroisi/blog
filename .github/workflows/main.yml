@@ -21,7 +21,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 #       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-#       - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 #       - uses: docker-practice/actions-setup-docker@master
       
       - name: Login to Docker Hub
@@ -40,7 +40,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          cd $HOME/gopath/src/github.com/marcotroisi/blog
+          cd $GITHUB_WORKSPACE
           git config --global user.email "hello@marcotroisi.com"
           git config --global user.name "Travis CI"
           git remote remove origin
