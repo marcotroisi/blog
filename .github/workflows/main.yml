@@ -34,8 +34,7 @@ jobs:
         run: |
           docker pull marcotroisi/hugo:0.17
           cd ~
-          docker run -v `pwd`:/website
-          marcotroisi/hugo:0.17 version
+          docker run -v `pwd`:/website marcotroisi/hugo:0.17 version
           
       - name: Deploy blog updates
         env:
