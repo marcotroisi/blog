@@ -40,7 +40,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          cd $GITHUB_WORKSPACE/gopath/src/github.com/marcotroisi/blog
+          cd $HOME/gopath/src/github.com/marcotroisi/blog
           git config --global user.email "hello@marcotroisi.com"
           git config --global user.name "Travis CI"
           git remote remove origin
