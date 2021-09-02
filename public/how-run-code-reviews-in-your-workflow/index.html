@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>How to run code reviews in your dev team&#39;s workflow | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="What&#39;s the best time to do code reviews? When considering your development or DevOps workflow."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="How to run code reviews in your dev team&#39;s workflow" />
+<meta property="og:description" content="What&#39;s the best time to do code reviews? When considering your development or DevOps workflow." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="What&#39;s the best time to do code reviews? When considering your development or DevOps workflow." />
+<meta name="twitter:title" content="How to run code reviews in your dev team&#39;s workflow" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/images/code-review-workflow.jpg" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          20 Apr &#39;17 
+          
+    </span>
+    How to run code reviews in your dev team&#39;s workflow
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/how-run-code-reviews-in-your-workflow/" title="How to run code reviews in your dev team&#39;s workflow" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/images/code-review-workflow.jpg" alt="How to run code reviews in your dev team&#39;s workflow" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<p>While they&rsquo;re usually accepted as a good practice, code reviews remain a topic of debate among software engineers. Many programmers still struggle to identify the extent of code reviews&rsquo; value and their place within a team&rsquo;s workflow.</p>
+
+<p>The questions of <a href="http://marcotroisi.com/the-ethics-of-code-reviews/">why you should do them</a> and when have more in common with each other than you might think. To maximize the effect of a code review, doing it at the right time within your development workflow is crucial.</p>
+
+<p>At the same time, trying to artificially fit code reviews within your existing workflow is not always a good idea. If you want to make sure you get the best out of every code review, adding one as just another step to your workflow may not be enough. Some changes to your workflow could be necessary. I&rsquo;m going to help you answer the simple question:</p>
+
+<h2 id="before-the-code-gets-merged">Before the code gets merged</h2>
+
+<p>The most obvious advice when it comes to code reviews is to do them <a href="http://softwareengineering.stackexchange.com/a/121665">before the new code gets merged</a> into your production or main development branch.</p>
+
+<p>The main reason for this common piece of advice is that you want to be able to find any potential issue before the code makes it to the place where everyone else will be using it.</p>
+
+<p>This does, of course, seem to work better with a distributed version-control system, such as Git or Mercurial, that lets developers work on their own local version of the repository. When the work is completed, they will then request (via a <a href="https://help.github.com/articles/about-pull-requests/">pull request</a>, for example) that someone review the new code. You can set rules so that the code will get merged only once it&rsquo;s approved by the reviewer.</p>
+
+<p>Note that there is nothing wrong with performing a second code review after the code has been merged, but it would be a mistake for the code not to be reviewed before it gets to that point. Also, post-merge is probably a better time to perform an <a href="http://www.yegor256.com/2014/12/18/independent-technical-reviews.html">independent review</a>.</p>
+
+<h2 id="after-the-tests-have-been-run">After the tests have been run</h2>
+
+<p>Code reviews are no replacement for a reasonably high test coverage. While it&rsquo;s obvious that a code review itself should help find bugs in the code, your fellow code reviewers shouldn&rsquo;t be finding regressions—those should be caught by automated tests.</p>
+
+<p>Before a code review, the new code should have sufficient test coverage, and all tests should be passing. If anything breaks, it has to be fixed before someone is asked to review the code.</p>
+
+<p>The reason for this is that you want to give each step of your development workflow its own responsibility. While code reviews can, at times, be instrumental in finding bugs, they are not the primary instrument for that purpose. This work needs to be done by a robust collection of <a href="https://en.wikipedia.org/wiki/Unit_testing">unit</a>, <a href="https://en.wikipedia.org/wiki/Functional_testing">functional</a> and <a href="https://en.wikipedia.org/wiki/Integration_testing">integration tests</a>.</p>
+
+<p>There&rsquo;s always the possibility of a bug not being caught by any test, and that&rsquo;s where code reviews typically become critical. Another possibility is that the tests are badly written and so, while they pass, they don&rsquo;t really make sure that the code&rsquo;s business logic is doing what it&rsquo;s meant to do. Again, this is where a good code reviewer will step in.</p>
+
+<p>As far as the process goes, the priority is to make sure that all tests are automated and run explicitly when new code gets pushed. The code reviewer should be able to fully trust that the committer of this new piece of code has run the tests and that the code compiles.</p>
+
+<p>The results of the automated tests should also be clearly visible to everyone. Your automated tests should be integrated as a required step before merging, with the results of those tests publicly available. This is very easily done on <a href="https://help.github.com/articles/enabling-required-status-checks/">GitHub</a> and similar platforms.</p>
+
+<h2 id="the-case-for-small-branches">The case for small branches</h2>
+
+<p>I already mentioned how a bad development workflow might negatively impact the effectiveness of code reviews. A bad practice that many teams seem to fall victim to is creating big tickets/tasks (and therefore branches) that someone will be working on for several days, weeks, or even months.</p>
+
+<p>You want to do the opposite. Keep your tasks (and branches) as small as possible. This will make writing each task&rsquo;s code much easier for developers, and it will also be a more manageable review for the code reviewer.</p>
+
+<p>Reviewing a day&rsquo;s worth of code is a task that can be done in a few minutes, and the review will likely be much more accurate than if the reviewer had to check several weeks&rsquo; worth of work. The chances of missing something crucial when reviewing big chunks of work, rather than small ones, go up exponentially.</p>
+
+<h2 id="short-reviews-often">Short reviews, often</h2>
+
+<p>Reviewing other people&rsquo;s code shouldn&rsquo;t take hours out of an engineer&rsquo;s day. By keeping tasks small, you allow the senior engineers or software architect to do code reviews often and for short sessions.</p>
+
+<p><a href="https://twitter.com/_gw?lang=en">Gareth Wilson</a>, in his article on <a href="https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/">effective code reviews</a>, outlines how running code reviews often and for short sessions has a couple of benefits.</p>
+
+<p>First, it doesn&rsquo;t interrupt your flow. Engineers know how important this is; there is nothing worse than getting interrupted or having to do context switching while you&rsquo;re &ldquo;in the zone.&rdquo; As <a href="http://calnewport.com/blog/">Cal Newport</a>, a computer science professor explains in his book <a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted-ebook/dp/B013UWFM52/ref=sr_1_1?ie=UTF8&amp;qid=1488218902&amp;sr=8-1&amp;keywords=deep+work">Deep Work</a>, in order to produce a high-quality piece of work, we need prolonged, interruption-free times of deep thinking and undivided focus. Short code reviews take just a few minutes, allowing engineers to have a short block of time to focus on them and larger blocks of time to focus on writing code.</p>
+
+<p>Second, it&rsquo;s less frustrating for the person who wrote the code, since he won&rsquo;t need to wait several days for someone to finish reviewing his work. Instead, he can get quick feedback and apply the requested changes while everything is still fresh in his mind.</p>
+
+<h2 id="are-pair-reviews-a-good-idea">Are &ldquo;pair reviews&rdquo; a good idea?</h2>
+
+<p>Very often in development teams, the code&rsquo;s committer will sit together with the reviewer and look at the new piece of code. The reviewer will scroll through the new code, while the committer will try to explain what&rsquo;s going on.</p>
+
+<p>This may sound like a good idea, and it definitely has its place in various instances, but it&rsquo;s not the most effective way to run a code review, because it misses an important reason for doing the review in the first place: Namely, the review should verify that the code is easy to understand and self-explanatory.</p>
+
+<p>The only way to make sure this is the case is for the reviewer to look at the code alone and try to get an understanding of it without asking the code writer any questions. If the reviewer is unable to understand the code, that is typically a sign of badly written code or a lack of good unit tests.</p>
+
+<h2 id="should-the-architect-or-senior-engineers-do-the-review">Should the architect or senior engineers do the review?</h2>
+
+<p>Ideally, both another engineer and the software architect should perform code reviews.</p>
+
+<p>A code review performed by a peer engineer has a different purpose than one performed by the architect. While both of them will be looking for a lot of the same things, such as bugs, lack of tests, readability, and so on, the architect will also use the code review to make sure the team is following architectural guidelines.</p>
+
+<p>As <a href="http://www.yegor256.com/">Yegor Bugayenko</a> <a href="http://www.yegor256.com/2015/05/13/two-instruments-of-software-architect.html#reviews">explains</a>, code reviews enable the software architect to enforce the design and architectural principles of the project.</p>
+
+<p>Another engineer can always identify a deviation from the guidelines and best practices followed by the team, but it&rsquo;s the software architect, says Bugayenko, who needs to use code reviews to prevent his vision from being destroyed.</p>
+
+<p>In other words, code reviews are a crucial tool for a software architect to make sure that the team is following the architectural direction that&rsquo;s been established.</p>
+
+<h2 id="tools-matter">Tools matter</h2>
+
+<p>A better tool will allow you to perform better code reviews. Period. It&rsquo;s as simple as that. Downloading the new code, screening it file by file, and then writing your comments somewhere else is not only an inefficient use of time, but also a great way to ensure that your code review will not be very effective.</p>
+
+<p>Modern code review tools such as <a href="http://marcotroisi.com/right-tools-for-programming/#code-review">GitHub</a>, <a href="https://www.jetbrains.com/upsource/">UpSource</a>, and <a href="https://www.atlassian.com/software/crucible">Crucible</a> allow you to perform code reviews quickly, hold conversations about a piece of code, and, most importantly, easily verify that the suggested changes have been made.</p>
+
+<p>Companies should invest in code review tools because they are a relatively cheap and simple way to make sure that the new code doesn&rsquo;t cause any damage once it gets introduced. Making sure that your team has the best code review tools is a great way to protect the quality of your software and safeguard your customers from potential new bugs.</p>
+
+<h2 id="a-simple-but-powerful-tool">A simple but powerful tool</h2>
+
+<p>Code reviews are one of the simplest tools we have to ensure the highest quality of our software. But their effectiveness will greatly increase or diminish based on how well code reviews fit within the development workflow and on whether we&rsquo;re willing to invest in them.</p>
+
+<p>Changing or adapting some aspects of your workflow based on the advice I&rsquo;ve given will help your team perform more effective code reviews.</p>
+
+<p><strong><em>How does your team run code reviews? Share your best (or worst!) practices in the comments below.</em></strong></p>
+
+<hr />
+
+<p><strong><em>This article was first published on <a href="https://techbeacon.com/how-run-code-reviews-your-dev-teams-workflow">TechBeacon</a>.</em></strong></p>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'marcotroisi';
+    var disqus_identifier = 'https:\/\/www.marcotroisi.com\/how-run-code-reviews-in-your-workflow\/';
+    var disqus_title = 'How to run code reviews in your dev team\x27s workflow';
+    var disqus_url = 'https:\/\/www.marcotroisi.com\/how-run-code-reviews-in-your-workflow\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+  <section class='email-subscribe-text'>
+    To get the latest high-quality articles on
+    technology, software development and productivity
+    <a href="https://feedburner.google.com/fb/a/mailverify?uri=MarcoTroisi&amp;loc=en_US">subscribe by email</a>.
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="http://twitter.com/studionugae">nugae</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+
