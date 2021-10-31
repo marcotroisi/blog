@@ -186,7 +186,7 @@ input:focus {
 }
 
 .site__header > a + a {
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
 .site__header .hello {
