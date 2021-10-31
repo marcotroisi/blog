@@ -13,9 +13,7 @@
 
 {{ if (isset .Params "featured_image") }}
   <section class="blog__image">
-    <a href="{{ .Permalink }}" title="{{ .Title }}" >
-      <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
-    </a>
+    <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
   </section>
 {{ end }}
 
