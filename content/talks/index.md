@@ -14,7 +14,7 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 ## 2018
 
 <img src="https://www.marcotroisi.com/images/conferences/dublin_microservices.png" alt="Dublin Microservices Meetup" class="talks__conflogo">  
-**I've been to the land of serverless and I've come back to tell you all about it** [[slides](https://speakerdeck.com/marcotroisi/ive-seen-serverless)]  
+**I've been to the land of serverless and I've come back to tell you all about it** [[slides](https://speakerdeck.com/marcotroisi/ive-seen-serverless)] [[video](https://www.youtube.com/watch?v=pYcuSmq-2kc)]  
 [Dublin Microservices Meetup](https://www.meetup.com/Dublin-Microservices-User-Group/events/255391340/)  
 Dublin (Ireland)  
 29th November 2018
