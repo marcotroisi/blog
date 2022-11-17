@@ -11,6 +11,20 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 
 <!-- ## Upcoming -->
 
+## 2022
+
+**The 1 Priority Change You Need to Make to Test Your Serverless App** 
+[Serverless Summit](http://serverless-summit.io)  
+Remote  
+16 November 2022
+&nbsp;  
+
+**Serverless for Startups** [[slides](https://speakerdeck.com/marcotroisi/serverless-for-startups-serverless-architecture-conference-2022)] 
+[Serverless Architecture Conference](https://serverless-architecture.io/berlin/)  
+Berlin (Germany)  
+18 October 2022
+&nbsp;  
+
 ## 2018
 
 <img src="https://www.marcotroisi.com/images/conferences/dublin_microservices.png" alt="Dublin Microservices Meetup" class="talks__conflogo">  
