@@ -27,14 +27,11 @@
 &lt;p&gt;My consulting services include:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;PHP Development (PHP5, Yii framework, Phalcon, WordPress, etc.)&lt;/li&gt;
-&lt;li&gt;GO development (Revel, Gin, Gorilla, etc.)&lt;/li&gt;
-&lt;li&gt;node.js Development (express.js, sails.js, etc.)&lt;/li&gt;
-&lt;li&gt;HTML5, CSS3, Javascript (jQuery, AngularJS, Backbone.js, etc.) Development&lt;/li&gt;
-&lt;li&gt;Database Development, Design and Migration (MongoDB, MySQL, PostgreSQL, Sqlite, etc.)&lt;/li&gt;
+&lt;li&gt;Serverless on AWS (architecture design &amp;amp; development)&lt;/li&gt;
+&lt;li&gt;Typescript and Node.js Development&lt;/li&gt;
+&lt;li&gt;Golang Development&lt;/li&gt;
+&lt;li&gt;Database Design (data modeling) and Migration (DynamoDB, MongoDB, MySQL, PostgreSQL, Sqlite, etc.)&lt;/li&gt;
 &lt;li&gt;Content Consulting&lt;/li&gt;
-&lt;li&gt;Design Services&lt;/li&gt;
-&lt;li&gt;Search Engine Marketing, Pay per click consulting&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;And more. Anything from small fixes to enterprise level development, I can quickly assemble a team to get your project off the ground.&lt;/p&gt;
