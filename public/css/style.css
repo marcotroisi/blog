@@ -186,7 +186,7 @@ input:focus {
 }
 
 .site__header > a + a {
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
 .site__header .hello {
@@ -252,7 +252,7 @@ input:focus {
 }
 
 .home__intro > div {
-	flex: 0 40%;
+	flex: 0 45%;
 }
 
 .home__intro ul {
