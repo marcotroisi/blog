@@ -1,0 +1,557 @@
+/*
+	Theme Name: Mnml (Marco Troisi)
+	Theme URI: http://marcotroisi.com
+	Description: Minimal theme based on HTML5BLANK
+	Version: 2.0.0
+	Author: Studio Nugae (@studionugae)
+*/
+
+/*-----------------------------------
+    Base
+------------------------------------*/
+
+/* html element 62.5% font-size for REM use */
+html {
+	box-sizing: border-box;
+	font-weight: 300;
+	font-family: Merriweather, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+	line-height: 2;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	padding: 5rem;
+}
+
+/* Best practice for box sizing */
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+}
+
+/* Clearfix helper */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+
+.clear {
+    *zoom:1;
+}
+
+img {
+	max-width:100%;
+	height: auto;
+}
+
+.wrap {
+	max-width: 1000px;
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Flexbox properties */
+.home__featured,
+.site__footer,
+.blog__header,
+.blog__image,
+.about__header {
+	display: flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.blog__image {
+	align-items: center;
+}
+
+/* Global properties */
+.blog__header,
+.blog__image,
+.about__header {
+	padding: 0 0 8rem 0;
+}
+
+/*-----------------------------------
+    Fonts
+------------------------------------*/
+
+body {
+	font-size: 1.6rem;
+	color: #333;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+h1 {
+	font-family: walsheim, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 3.2rem;
+}
+
+h3 {
+	font-size: 2.6rem;
+}
+
+h4 {
+	font-size: 2.2rem;
+}
+
+h5 {
+	font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+	margin: 1em 0 0 0;
+	padding: 0;
+	font-family: walsheim, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: 1.3;
+}
+
+h1 a {
+	color: #333;
+	border: none;
+}
+
+h1 a:hover {
+	color: #555;
+}
+
+h1 span {
+	position: relative;
+	top: -20px;
+	font-family: apercu, monospace;
+	font-size: 1.4rem;
+	color: #676767;
+}
+
+a {
+	color: #676767;
+	text-decoration:none;
+	border-bottom: 2px solid #bbb;
+}
+
+a:hover {
+	color: #a7a7a7;
+}
+
+a:focus {
+	outline:0;
+}
+
+a:hover,
+a:active {
+	outline:0;
+}
+
+input:focus {
+	outline:0;
+	border:1px solid #04A4CC;
+}
+
+.align__left {
+	text-align: left;
+}
+
+.align__right {
+	text-align: right;
+}
+
+/*-----------------------------------
+    Site (Header and footer)
+------------------------------------*/
+
+.site__header {
+	padding: 0 0 17rem 0;
+}
+
+.site__header a {
+	border: none;
+}
+
+.site__header > a + a {
+	margin-left: 5px;
+}
+
+.site__header .hello {
+	color: #bbb;
+}
+
+.site__header,
+.site__footer {
+	font-family: apercu, monospace;
+	font-size: 1.4rem;
+}
+
+.site__footer {
+	padding: 15rem 0 0 0;
+}
+
+.site__footer a {
+	color: #bbb;
+	border: none;
+}
+
+.site__footer ul,
+.site__footer li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site__footer li::before {
+	content: '\005F';
+	color: #bbb;
+}
+
+/*-----------------------------------
+    Home
+------------------------------------*/
+
+.home__featured {
+	padding: 0 0 15rem 0;
+}
+
+.show__image {
+	position: relative;
+}
+
+.show__image .blog__image {
+	width: 350px;
+	position: absolute;
+	z-index: -100;
+	display: none !important;
+}
+
+.show__image:hover .blog__image  {
+	display: block !important;
+}
+
+.home__intro {
+	display: flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: flex-start;
+  -webkit-align-items: flex-start;
+}
+
+.home__intro > div {
+	flex: 0 40%;
+}
+
+.home__intro ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.home__intro ul span,
+.home__intro .align__right {
+	color: #676767;
+	line-height: 2.5;
+	font-size: 1.4rem;
+	font-family: apercu, monospace;
+}
+
+.home__intro .about {
+	border: none;
+}
+
+.intro__m {
+	display: none;
+}
+
+.show__thumb {
+	position: relative;
+}
+
+.show__thumb .blog__thumb {
+	width: 200px;
+	position: absolute;
+	z-index: -100;
+	top: -30px;
+	right: -10px;
+	display: none !important;
+}
+
+.show__thumb:hover .blog__thumb  {
+	display: block !important;
+}
+
+.archive {
+	margin-top: 2rem;
+	font-family: apercu, monospace;
+}
+
+.archive a {
+	border: none;
+}
+
+.archive__m, .about__m {
+	display: none;
+}
+
+/*-----------------------------------
+    Blog
+------------------------------------*/
+
+.blog__wrap {
+	width: 74%;
+	margin-left: 26%;
+}
+
+.footnotes {
+	font-size: 1.3rem;
+	margin-top: 5rem;
+	font-family: apercu, monospace;
+	border-top: 1px solid #bbb;
+	padding-top: 2rem;
+}
+
+/*-----------------------------------
+    Archive
+------------------------------------*/
+
+.archive__post {
+	padding: 2rem 0 0 0;
+}
+
+.archive__post h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.archive__intro,
+.archive__pagination {
+	color: #676767;
+	font-size: 1.4rem;
+	font-family: apercu, monospace;
+}
+
+.archive__intro {
+		padding-bottom: 2.5rem;
+}
+
+.archive__pagination {
+		padding-top: 4.5rem;
+}
+
+/*-----------------------------------
+    About
+------------------------------------*/
+
+.about__body {
+	margin: 4rem 0 0 0;
+	text-align: center;
+}
+
+td {
+	width: 50%;
+	padding: 1rem;
+	vertical-align: top;
+	text-align: left;
+}
+
+td.tag {
+	font-family: walsheim, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 2rem;
+	margin: 0;
+	line-height: 1.4;
+	text-align: right;
+}
+
+/*-----------------------------------
+    Talks
+------------------------------------*/
+
+.talks__conflogo {
+	margin-top: 1em;
+	height: 50px;
+	width: auto;
+}
+
+/*-----------------------------------
+    Responsive
+------------------------------------*/
+
+@media only screen and (max-width: 680px) {
+	html {
+		font-size: 60%;
+		padding: 50px;
+	}
+	h1, h2, h3 {
+		margin: 0;
+		line-height: 1.2;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h1 span {
+		top: -5px;
+	}
+	p {
+    margin: 0 0 2rem 0;
+	}
+	.single-post h1, .single-post h2, .single-post h3, .page h2, .page h3 {
+		margin: 1em 0 1rem 0;
+	}
+	.blog__wrap {
+		width: 95%;
+		margin-left: 0;
+	}
+	.blog__header, .about__header {
+		padding-bottom: 3rem;
+	}
+	.wrap {
+		width: 100%;
+	}
+	.home__intro {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+	.home__intro .align__right {
+		font-size: 1.5rem;
+	}
+	.home__featured {
+		display: none;
+	}
+	.site__header  {
+		padding: 0 0 8rem 0;
+	}
+	.site__footer {
+		padding: 8rem 0 0 0;
+	}
+	.align__right, .about__body {
+		text-align: left;
+	}
+	.align__left {
+		margin-top: 5rem;
+	}
+	.intro__m {
+		margin-bottom: 2rem;
+	}
+	.archive__m, .about__m, .intro__m {
+		display: block;
+		border: none;
+	}
+	h1.intro__m, .archive__m h1 {
+		margin: 0 0 1.5rem 0;
+	}
+	.archive__d, .about {
+		display:none;
+	}
+	.archive__m > a {
+		border: none;
+		font-family: apercu, monospace;
+	}
+	.archive {
+		font-size: 1.5rem;
+		margin-top: 1rem;
+	}
+}
+@media only screen and (min-width: 680px) and (max-width:1024px) {
+		html {
+			font-size: 60%;
+			padding: 60px;
+		}
+		.wrap {
+			width: 90%;
+		}
+		.site__header {
+			padding: 0 0 8rem 0;
+		}
+		.home__featured {
+			margin: 0 0 10rem 0;
+			padding: 0;
+		}
+}
+
+/*-----------------------------------
+    Misc
+------------------------------------*/
+
+::selection {
+	background:#68C3A3;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#68C3A3;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#68C3A3;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*-----------------------------------
+    Print
+------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}

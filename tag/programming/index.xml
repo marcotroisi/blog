@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>https://www.marcotroisi.com/tags/programming/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
+    <atom:link href="https://www.marcotroisi.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Is object oriented programming dead? Not by a long shot</title>
+      <link>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
+      <pubDate>Tue, 22 Nov 2016 08:16:23 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
+      <description>
+
+&lt;p&gt;Is object-oriented programming (OOP) any good, really? If not, is it just plain bad, or are we simply not doing it right? Are OOP &lt;a href=&#34;http://techbeacon.com/13-programming-languages-defining-future-coding&#34;&gt;languages even in your future&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ve learned about OOP, and you&amp;rsquo;ve probably done it, or at least you think you have. You listened to other people tell you that it&amp;rsquo;s the right way—or the wrong way—to do things. You&amp;rsquo;ve spent long, excruciating hours listening to your computer science teacher talking about how &amp;ldquo;Toyota&amp;rdquo; inherits from &amp;ldquo;car,&amp;rdquo; and so on.&lt;/p&gt;
+
+&lt;p&gt;In real life, though, you may not have found it useful. Perhaps you&amp;rsquo;ve worked with OOP languages, and at times it seemed more like a restriction than something that actually helps. Perhaps it has bothered you so much that you&amp;rsquo;ve welcomed the arrival of different and more modern paradigms.&lt;/p&gt;
+
+&lt;p&gt;You probably identify with at least some of the above sentences. So you may be asking yourself:&lt;/p&gt;
+
+&lt;h2 id=&#34;why-oop&#34;&gt;Why OOP?&lt;/h2&gt;
+
+&lt;p&gt;I enjoy writing code in an object-oriented fashion. Thinking in terms of objects gives me a model that, when followed consistently,  produces code that is well organized, and easy to understand, test, and refactor.&lt;/p&gt;
+
+&lt;p&gt;Some people argue that OOP doesn&amp;rsquo;t really work, or that you don&amp;rsquo;t need it to build modern software. But while I don&amp;rsquo;t think OOP is the ultimate paradigm, it is helpful. A bunch of procedural code, however nicely organized, is simply not the answer.&lt;/p&gt;
+
+&lt;p&gt;But what about functional programming, you might say? That&amp;rsquo;s all fine and good. Many people say OOP and functional programming don&amp;rsquo;t &lt;em&gt;necessarily&lt;/em&gt; conflict with each other. In fact, they complement each other.&lt;/p&gt;
+
+&lt;h2 id=&#34;understanding-oop-polymorphism-and-immutability&#34;&gt;Understanding OOP, polymorphism and immutability&lt;/h2&gt;
+
+&lt;p&gt;Robert Martin has argued that the &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html&#34;&gt;biggest benefit you can take from OOP&lt;/a&gt; is polymorphism, the notion that you can define a single interface with multiple underlying implementations. As software engineers, we wouldn&amp;rsquo;t want to lose that. One of polymorphism&amp;rsquo;s many benefits is that lets you attain &lt;em&gt;inversion of dependency&lt;/em&gt;. In OOP, this means that &amp;ldquo;both high- and low-level objects must depend on the same abstraction,&amp;rdquo; according to Wikipedia. In practice, this translates into software components that are no longer highly coupled. Each component, both high-level and low-level ones, can be easily replaced.&lt;/p&gt;
+
+&lt;p&gt;Martin further states that the biggest benefit you can take from functional programming is immutability, the idea that we design functions or objects so that they always return the same result, given the same values as parameters. Much has been said about this topic, and it&amp;rsquo;s apparent that its many advantages, such as code maintainability and lack of side effects, far outweigh possible downsides, such as a lack of flexibility of sort.&lt;/p&gt;
+
+&lt;p&gt;It shouldn&amp;rsquo;t come as a surprise, then, that immutability has been a recurring theme among people who have done OOP for a while. In his book, Effective Java, Joshua Bloc says that &amp;ldquo;Classes should be immutable unless there&amp;rsquo;s a very good reason to make them mutable&amp;hellip; If a class cannot be made immutable, limit its mutability as much as possible.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yegor256.com/&#34;&gt;Yegor Bugayenko&lt;/a&gt;, CTO of teamed.io, is one of the strongest advocates of a return to pure OOP. He writes extensively about the &lt;a href=&#34;http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html&#34;&gt;advantages of immutability&lt;/a&gt;, saying that &amp;ldquo;&amp;hellip;all classes should be immutable in a perfect object-oriented world.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;There is a lot more to it, and Yegor himself recently wrote a clarifying article, &amp;ldquo;&lt;a href=&#34;http://www.yegor256.com/2016/09/07/gradients-of-immutability.html&#34;&gt;Gradients of immutability&lt;/a&gt;,&amp;rdquo; where he explains how an immutable object doesn&amp;rsquo;t always need to have a rigid structure.&lt;/p&gt;
+
+&lt;p&gt;This is a big topic, worthy of further study. But by now it should be clear that one good reason to do OOP is so you can retain polymorphism. Not only is that possible, but many people recommended it. While we do OOP, we should also hold on to as much immutability as possible, thereby bringing the single biggest advantage of functional programming into OOP.&lt;/p&gt;
+
+&lt;p&gt;If we could get back to the primary advantages of OOP,  and get rid of all of the unnecessary ideas that have cluttered it to the point where most programmers have felt like OOP had become counterproductive, we could add more value to the way we write software.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll get back to what this type of stripped-down, or pure OOP, looks like in a minute. But the fact is that real OOP may look quite a bit different from the way you have understood it up to now.&lt;/p&gt;
+
+&lt;p&gt;At this point, it&amp;rsquo;s worth asking the question: why objects? Why do we need to design programs as a number of objects, as opposed to functions, or procedures?&lt;/p&gt;
+
+&lt;h2 id=&#34;use-objects-as-a-way-to-understand-the-world&#34;&gt;Use objects as a way to understand the world&lt;/h2&gt;
+
+&lt;p&gt;David West, the author of &amp;ldquo;&lt;a href=&#34;http://amzn.to/2e4s5FM&#34;&gt;Object Thinking&lt;/a&gt;,&amp;rdquo; said in a recent &lt;a href=&#34;https://www.youtube.com/watch?v=bW5K5cJ-AVs&#34;&gt;interview&lt;/a&gt; that &amp;ldquo;You look at the world around you and you don&amp;rsquo;t see functions, but you see objects.&amp;rdquo; He&amp;rsquo;s on solid ground here: Philosophers have used terms like &lt;em&gt;abstract&lt;/em&gt; and &lt;em&gt;concrete objects&lt;/em&gt; to describe the world around them for a long time.&lt;/p&gt;
+
+&lt;p&gt;Objects begin to make sense once we stop thinking in terms of bits and bytes, or lines of code. Thinking in terms of objects also lets us stop seeing ourselves as simply people who write code. Our job is really about solving problems, and finding meaningful ways to represent the domain in which we operate. It&amp;rsquo;s a completely different approach from the one that most people take when writing software. It&amp;rsquo;s the notion that &lt;a href=&#34;https://mitpress.mit.edu/sicp/full-text/sicp/book/node3.html&#34;&gt;&amp;ldquo;programs must be written for people to read, and only incidentally for machines to execute,&amp;rdquo;&lt;/a&gt; as Harold Abelson, Gerald Jay Sussman and Julie Sussman state in their book, &lt;em&gt;&lt;a href=&#34;https://mitpress.mit.edu/sicp/full-text/sicp/book/book.html&#34;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thinking in an object-orientated way is a great way to understand the problem you are trying to solve. It allows you to build software that is more maintainable, and easily understandable, for other people.&lt;/p&gt;
+
+&lt;p&gt;By contrast, when you write code in a procedural way, you&amp;rsquo;re really putting yourself in the computer&amp;rsquo;s shoes, so to speak, and writing lines of code in the way it will eventually receive your commands anyway. That&amp;rsquo;s convenient, if you&amp;rsquo;re writing a quick 10-lines-long script, but less so if you&amp;rsquo;re building a complex system on which many programmers must work. Eventually, common sense says you should somehow organize this code into smaller chunks, each containing a different set of procedures (or functions) and representing a distinct domain of sort. In the end, hardly any of this will feel natural, or even logical.&lt;/p&gt;
+
+&lt;p&gt;In this case, had the programmer originally designed the software in an object-oriented fashion, instead of having a lump of disorganized code, the software would be well structured and easy to understand. This isn’t necessarily a bad thing for the computer, as often code that&amp;rsquo;s well written and easy to understand is fast to execute, with less chance of memory leaks.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-source-of-all-that-oop-criticism&#34;&gt;The source of all that OOP criticism&lt;/h2&gt;
+
+&lt;p&gt;The problem with a lot of the &lt;a href=&#34;https://mcollina.github.io/we-are-not-object-oriented-anymore/&#34;&gt;OOP criticism&lt;/a&gt; out there is that it tends to refer to things that in popular programmer culture have become associated with OOP, but shouldn&amp;rsquo;t be.&lt;/p&gt;
+
+&lt;p&gt;One example is &lt;a href=&#34;http://marcotroisi.com/healthy-oop-object-oriented-programming/#orm-no-thanks&#34;&gt;object-relational mapping&lt;/a&gt; (ORMs). Truthfully, you could drop the &amp;ldquo;O&amp;rdquo; in this acronym, as there is no way to directly represent a relational database table in a real-world object. Then there&amp;rsquo;s &lt;a href=&#34;http://marcotroisi.com/healthy-oop-object-oriented-programming/#accessors-and-mutators-vs-useful-methods&#34;&gt;accessors and mutators&lt;/a&gt; (or &lt;a href=&#34;http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html&#34;&gt;getters and setters&lt;/a&gt;) as they will inevitably change the face of your object into a big &amp;ldquo;data bag,&amp;rdquo; throwing encapsulation and data abstraction out the window. The &lt;a href=&#34;http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#2-he-works-by-contracts&#34;&gt;absence of interfaces&lt;/a&gt; is one of the main causes for tight coupling (or lack of flexibility) in our code. Finally, &lt;a href=&#34;http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#5-his-class-doesn-39-t-have-anything-static&#34;&gt;static methods&lt;/a&gt; turn what may have started as an object into a big collection of functions, or procedures, which was never OOP&amp;rsquo;s purpose.&lt;/p&gt;
+
+&lt;p&gt;Quite a few practices have somehow become part of our daily work but were never supposed to be found in OOP. In fact, using them takes us very far from truly object-oriented code. As a result, we lose out on many of the advantages we could have experienced.&lt;/p&gt;
+
+&lt;p&gt;If you were to take a codebase and eliminate at least two of the above mentioned practices, the face of your code would experience a noticeable change for the better.&lt;/p&gt;
+
+&lt;p&gt;OOP done well comes with a lot of benefits. But it&amp;rsquo;s absolutely necessary to remind ourselves what it is that OOP really is, and free ourselves from the many bad practices that have nothing to do with true object thinking.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;http://techbeacon.com/object-oriented-programming-dead-not-long-shot&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5 Tips for becoming a Productive Programmer</title>
+      <link>https://www.marcotroisi.com/productive-programmer-5-tips/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/productive-programmer-5-tips/</guid>
+      <description>&lt;p&gt;Have we not all been there? You&amp;#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&amp;#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.&lt;/p&gt;
+
+&lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc. &lt;/p&gt;
+
+&lt;p&gt;This is both a blessing and a curse. On one hand, it is amazingly challenging and stimulating to be able to use our brains to solve problems, and develop solutions. On the other hand, our brains can be so easily affected by our psycho-physical status, that we easily find ourselves having seemingly unproductive days. Even though just a few days before, we were feeling like we could have designed Google from scratch in a couple of hours!&lt;/p&gt;
+
+&lt;p&gt;This is a theme that&amp;#8217;s important to me, as I myself am the type of person that can be easily distracted and pretty much spend an entire day on a single task without ever really focussing on what I am doing. Then, the next day, I will brilliantly solve &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; different issues and at end of my day I won&amp;#8217;t even feel tired!&lt;/p&gt;
+
+&lt;p&gt;How do we overcome this? How do we make sure our productivity level keeps being consistent?&lt;/p&gt;
+
+&lt;p&gt;I think it&amp;#8217;s wise to recognise that, as humans, we are susceptible to such ups and downs. If all we were doing in life were working, it might have been easier. But that is not the case. We have lives, issues, passions, hobbies, families outside of the workplace. Which is all fine, by the way, it is what makes us so unique and valuable.&lt;/p&gt;
+
+&lt;p&gt;And so, instead of being too hard on ourselves when our brains just can&amp;#8217;t seem to connect to our work, it can be useful to relax and develop a discipline that will help us deliver quality work even on our worst days.&lt;/p&gt;
+
+&lt;p&gt;Here are some simple steps I follow in order to make sure my brain understands that I am intentional about being a productive programmer today:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Wake up early&lt;/strong&gt; Ok, this is harsh, I know. I &lt;em&gt;love&lt;/em&gt; sleeping. My whole life, since I was a kid, I&amp;#8217;ve always gotten out of bed at the very last minute. This is so counter-productive! The average successful person &lt;a href=&#34;http://uk.businessinsider.com/things-successful-people-do-before-breakfast-2014-11?op=1?r=US&#34;&gt;wakes up very early&lt;/a&gt;, like 4-5 am. I&amp;#8217;ve started waking up about two hours before I need to be at work. That means that, by the time I get to work, &lt;strong&gt;my brain is already active&lt;/strong&gt; and ready to go. Besides, this has finally solved my life-long problem of never having time for anything else aside from work! I now have enough time to consistently read, write on my blog, work on side-projects, study German (!), etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Morning is for the hard stuff&lt;/strong&gt;: as far as I can, I &lt;em&gt;avoid&lt;/em&gt; anything distracting in the morning. I do not read my emails (yes, I am one of those who is obsessed by always having a clean inbox!), and I have stopped reading the news and stuff like that first thing. I have developed a routine of: turning on my laptop, going to Spotify to choose some music (see point 3), opening my Code Editor and my browser and starting to work. Everything else is a distraction, and the morning is too precious to waste it with anything else. I know I don&amp;#8217;t have the same level of concentration in the afternoon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Not all music is the same&lt;/strong&gt;. I love music. As a musician myself, it&amp;#8217;s too easy for me to get involved into what I am listening! It is ok for 10-15 minutes to listen to your favourite songs. But, ideally, and especially in the morning, I go on the &lt;em&gt;Moods&lt;/em&gt; section of Spotify and I select one of the playlists under &lt;em&gt;Focus&lt;/em&gt;. This is a way of reminding my brain that now it&amp;#8217;s time to work. This type of music really helps me to concentrate.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Focus on one small task at a time&lt;/strong&gt;. The key here is to put myself under a little bit of healthy pressure. The thing is, when you are working on one big task, and your expected time of delivery is days ahead, it&amp;#8217;s too easy to lose track, and not to make good use of the time you have. It is way better to focus on one little task at a time, with a delivery time expected in hours, not days.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Separate things&lt;/strong&gt;. &amp;#8220;There is a time for everything,&amp;#8221; said King Solomon. In other words, multitasking doesn&amp;#8217;t really work, if you are trying to be productive. &lt;a href=&#34;http://www.health.com/health/gallery/0,,20707868,00.html&#34;&gt;Science proved it&lt;/a&gt; as well. There is nothing like dedicating your focus and attention on one thing at a time. Quality makes the difference, in this type of thing. Do what you have to do with absolute focus, finish earlier than expected, and then move on. This practically means things like: not having too many tabs open on my browser, not being involved in 10 different chats with my friends, not checking my phone every 5 minutes, etc&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While doing all of the above things is undoubtedly a challenge, and it is not rare for me to break one or more of these rules, I use them as a blueprint and point of reference, and I get back to them every time I feel I&amp;#8217;m getting less productive than I should.&lt;/p&gt;
+
+&lt;p&gt;And you? What are your tips and tricks for working with greater focus and delivering higher quality work?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

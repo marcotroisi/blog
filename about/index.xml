@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-rsses on Marco Troisi | technology, software development and productivity</title>
+    <link>https://www.marcotroisi.com/about/index.xml</link>
+    <description>Recent content in About-rsses on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
+    <lastBuildDate>Sat, 08 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcotroisi.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>https://www.marcotroisi.com/about/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/about/</guid>
+      <description>
+
+&lt;p&gt;I am a software engineer mainly involved with web development, with team leading experience. I love learning and experiencing new things. I see software development – and technology as a whole – as a way for people to get things done more easily and faster.&lt;/p&gt;
+
+&lt;p&gt;I am currently the CTO at &lt;a href=&#34;https://www.trilo.io&#34;&gt;Trilo&lt;/a&gt;, after having served at the company as a Senior Software Engineer and Cloud Architect.&lt;/p&gt;
+
+&lt;p&gt;Prior to that, I was the Lead Engineer of the &lt;em&gt;Bot Building team&lt;/em&gt; at &lt;a href=&#34;https://servisbot.com&#34;&gt;ServisBot&lt;/a&gt;, where we built a conversational AI platform that was &lt;strong&gt;100% serverless&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also have worked in Johannesburg (South Africa), Milan (Italy) and Berlin (Germany) for several different companies/organisations.&lt;/p&gt;
+
+&lt;p&gt;I am a certified &lt;em&gt;&lt;strong&gt;AWS&lt;/strong&gt; Solutions Architect Professional&lt;/em&gt;, &lt;em&gt;Solutions Architect Associate&lt;/em&gt;, and &lt;em&gt;Developer Associate&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to meet up and have a chat, discuss a project or ask me for help, please do not hesitate to &lt;a href=&#34;https://www.marcotroisi.com/contact/&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find my full resume &lt;a href=&#34;https://www.dropbox.com/s/bu19cfek7nqxc83/CV_MarcoTroisi.pdf?dl=0&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;contact-info-marcotroisi-com&#34;&gt;Contact (info@marcotroisi.com)&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

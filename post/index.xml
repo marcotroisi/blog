@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Marco Troisi | technology, software development and productivity</title>
+    <link>https://www.marcotroisi.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
+    <lastBuildDate>Mon, 14 Jun 2021 08:07:41 +0000</lastBuildDate>
+    <atom:link href="https://www.marcotroisi.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Simplify your microservices security with these cloud services</title>
+      <link>https://www.marcotroisi.com/simplify-your-microservices-security-these-cloud-services/</link>
+      <pubDate>Mon, 14 Jun 2021 08:07:41 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/simplify-your-microservices-security-these-cloud-services/</guid>
+      <description>&lt;p&gt;I recently wrote an article for TechBeacon where, among other things, I made the case that microservices security can be enhanced and made easier by adopting a &amp;ldquo;serverless-first&amp;rdquo; approach.&lt;/p&gt;
+
+&lt;p&gt;If security is important to you but you have neither time nor desire to turn it into your (or somebody else&amp;rsquo;s in the team) primary concern, then you should consider adopting at least some of the services and approaches that I suggest in the article.&lt;/p&gt;
+
+&lt;p&gt;You can read the full article here:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://techbeacon.com/security/simplify-your-microservices-security-these-cloud-services&#34;&gt;https://techbeacon.com/security/simplify-your-microservices-security-these-cloud-services&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The key to chatbot success: High-quality conversations</title>
+      <link>https://www.marcotroisi.com/key-chatbot-success-high-quality-conversations/</link>
+      <pubDate>Thu, 09 Apr 2020 08:07:41 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/key-chatbot-success-high-quality-conversations/</guid>
+      <description>
+
+&lt;p&gt;When you&amp;rsquo;re building a chatbot or virtual assistant, the quality of the conversation should be the most important consideration. A chatbot should adopt features and characteristics that deliver a high-caliber conversational experience.&lt;/p&gt;
+
+&lt;p&gt;You can find resources that describe &lt;a href=&#34;https://techbeacon.com/enterprise-it/how-use-chatops-boost-business-engagement-across-teams&#34;&gt;the many advantages of using chatbots for business&lt;/a&gt;, but the &lt;em&gt;conversational&lt;/em&gt; aspect never seems to receive the attention it should. Run a quick web search for &amp;ldquo;advantages&amp;rdquo; or &amp;ldquo;benefits&amp;rdquo; of using a chatbot, and here is what you&amp;rsquo;ll find:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s available &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.&lt;/li&gt;
+&lt;li&gt;It scales.&lt;/li&gt;
+&lt;li&gt;It helps you save money.&lt;/li&gt;
+&lt;li&gt;It automates your work.&lt;/li&gt;
+&lt;li&gt;It cuts down on human error.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While all of those attributes are very useful and are definitely &lt;a href=&#34;https://techbeacon.com/enterprise-it/how-put-chatops-work-your-organization&#34;&gt;part of what a bot can help a business with&lt;/a&gt;, they are not unique to bots.&lt;/p&gt;
+
+&lt;p&gt;Understanding that human-to-human interaction is the most effective way to communicate and get things done is key to building successful chatbots and virtual assistants.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-does-it-mean-to-be-conversational&#34;&gt;What does it mean to be &amp;lsquo;conversational&amp;rsquo;?&lt;/h2&gt;
+
+&lt;p&gt;What exactly does it mean for a bot to be conversational?&lt;/p&gt;
+
+&lt;p&gt;In their paper &lt;a href=&#34;https://arxiv.org/pdf/1709.04734.pdf&#34;&gt;&amp;ldquo;Perspectives for Evaluating Conversational AI,&lt;/a&gt;&amp;rdquo; researchers Mahipal Jadeja and Neelanshi Varia identify the characteristics that people generally expect of a human assistant; these features are what people expect to see in a high-quality virtual assistant or chatbot.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Knowledge about the user—This includes things such as the time of the day the user typically prefers to set meetings and whether she is more of a tea or a coffee person.&lt;/li&gt;
+&lt;li&gt;Problem solving and influencing skills—A good personal assistant knows his boss (the user), understands her mood, and can come up with appropriate words to avoid conflict and offer some relief during a stressful day/season.&lt;/li&gt;
+&lt;li&gt;Security and trust—Confidentiality and a sense of mutual trust are maintained at all costs.&lt;/li&gt;
+&lt;li&gt;Efficient organization—The personal assistant should have relevant files, documents, and so on, all well organized and readily available.&lt;/li&gt;
+&lt;li&gt;An understanding of the job—The personal assistant should understand the rules and methodologies the company has adopted.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a great place to start. Knowing that the above features are what&amp;rsquo;s expected of a good personal assistant, you can build your virtual assistant while trying to perform as highly as possible in these areas. (Another good resource is the book &lt;a href=&#34;https://amzn.to/2RTSwQe&#34;&gt;&lt;em&gt;Designing Bots: Creating Conversational Experiences&lt;/em&gt;&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;You can also look at a list of skills that a virtual assistant using natural language should have. &lt;a href=&#34;http://www.youtube.com/watch?v=dIMweqd3vlc&#34;&gt;You can watch this video&lt;/a&gt; to see how &lt;a href=&#34;https://twitter.com/othergill&#34;&gt;Gillian McCann&lt;/a&gt;, head of cloud engineering and AI at natural-language platform provider WorkGrid, defined a &amp;ldquo;good&amp;rdquo; natural-language assistant at the 2019 Amazon re:Invent conference. (McCann starts speaking at around 34 minutes into the video.)&lt;/p&gt;
+
+&lt;p&gt;According to McCann, a conversational assistant should be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Perform tasks, including specific actions such as scheduling a meeting or creating a ticket. These are likely to be API calls to third-party systems.&lt;/li&gt;
+&lt;li&gt;Provide intelligence. This means personalization, such as offering personalized answers based on where a user is located. It also means memory—​that is, the ability to provide and retain context about the user.&lt;/li&gt;
+&lt;li&gt;Provide entertainment. The conversation should feel unique, engaging, and interesting.&lt;/li&gt;
+&lt;li&gt;Have knowledge. This is the most important element. Ultimately, your chatbot or virtual assistant should be able to answer specific questions with clear, conversational answers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the last item, McCann later offers a good mantra to help make your chatbots knowledgeable in a conversational fashion. She calls it &amp;ldquo;answers, not links.&amp;rdquo; For a regular web search it is acceptable to respond with web links, but that&amp;rsquo;s not the case when it comes to a conversation.&lt;/p&gt;
+
+&lt;p&gt;When you ask someone a question, you expect a reply that involves at least a few words! Of course, you could also provide a web link as a plus, but your user will expect more than that.&lt;/p&gt;
+
+&lt;h2 id=&#34;measuring-your-bot-s-conversational-skills&#34;&gt;Measuring your bot’s conversational skills&lt;/h2&gt;
+
+&lt;p&gt;So far, you have learned about some of the characteristics of a human personal assistant, as well as the expected capabilities of a good-quality natural-language assistant.&lt;/p&gt;
+
+&lt;p&gt;But how do you know if your bot is both conversational and effective? Researchers Jadeja and Varia suggest a few universal metrics that everyone can adopt.&lt;/p&gt;
+
+&lt;h3 id=&#34;compare-your-bot-s-interactions-with-those-of-a-live-human&#34;&gt;Compare your bot&amp;rsquo;s interactions with those of a live human&lt;/h3&gt;
+
+&lt;p&gt;This metric, called &amp;ldquo;user perspective,&amp;rdquo; asks you to try to execute the same task that you built your chatbot to do, but with the help of a human assistant instead of the chatbot. When running this metric, observe the quality of the interaction between user and assistant.&lt;/p&gt;
+
+&lt;p&gt;This is the most critical evaluation metric you can run, but it&amp;rsquo;s also the most expensive, because it involves relatively specialized humans in the process. The metric is crucial because it gives you a better understanding of the user&amp;rsquo;s expectations, lets you establish trust between the user and the virtual assistant, and helps you to understand the tactics and methodologies adopted by the user to get the job done.&lt;/p&gt;
+
+&lt;h3 id=&#34;measure-the-information-retrieval&#34;&gt;Measure the information retrieval&lt;/h3&gt;
+
+&lt;p&gt;Here, you want to evaluate whether a bot is able to find and display the information the user had requested. This is called an information retrieval (IR) perspective.&lt;/p&gt;
+
+&lt;p&gt;While this metric is very important, it doesn&amp;rsquo;t give you the full picture. For example, a bot may show a list of products the user is looking to buy, but still miss the mark because of some nuance in the way the user asked for it—something that a human assistant would have picked up on—that indicated an interest in a specific variation of those products.&lt;/p&gt;
+
+&lt;p&gt;This metric also isn&amp;rsquo;t particularly helpful when it comes to the way the virtual assistant interacts with the user. In other words, this metric may prove that you have a sophisticated search engine behind the scenes that can find anything the user asks for, but it says very little about the way the information is presented back to the user.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, as shown in the features and skills listed above, knowledge (the ability to answer the user&amp;rsquo;s requests with useful results) is essential to a good virtual assistant.&lt;/p&gt;
+
+&lt;h3 id=&#34;measure-linguistic-properties&#34;&gt;Measure linguistic properties&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Paul_Grice&#34;&gt;H.P. Grice&lt;/a&gt;, in his book &lt;a href=&#34;https://www.hup.harvard.edu/catalog.php?isbn=9780674852716&#34;&gt;&lt;em&gt;Studies in the Way of Words&lt;/em&gt;&lt;/a&gt;, outlines the four principles required to achieve maximum cooperation between people having a conversation. These are explained in more detail in the chapter titled &amp;ldquo;Logic and Conversation,&amp;rdquo; &lt;a href=&#34;https://msu.edu/~orourk51/800-Phil/Handouts/Readings/Phil%20Lang/Grice-Logic&amp;amp;Conversation-WJL-1989.pdf&#34;&gt;printed in full here&lt;/a&gt; (PDF).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quality: What is being said should be true and evidence-based.&lt;/li&gt;
+&lt;li&gt;Quantity: The amount of information shared should not be too much or too little.&lt;/li&gt;
+&lt;li&gt;Relation: The response must be related to the conversation.&lt;/li&gt;
+&lt;li&gt;Manner: There should be no ambiguity, and the interaction should be direct and straightforward.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This metric requires judgment by a linguistics expert. As Jadeja and Varia put it, &amp;ldquo;Who will decide whether the conversational AI&amp;rsquo;s response is related to the topic or not?&amp;rdquo; There&amp;rsquo;s no standard way to determine that. Still, looking at Grice&amp;rsquo;s four principals can be very effective for improving the level of trust between the user and the virtual assistant.*&lt;/p&gt;
+
+&lt;h3 id=&#34;run-a-standard-ai-measurement&#34;&gt;Run a standard AI measurement&lt;/h3&gt;
+
+&lt;p&gt;The most well-known AI measurement is the &lt;a href=&#34;https://plato.stanford.edu/entries/turing-test/&#34;&gt;Turing test&lt;/a&gt;. The drawback to this approach is that it doesn&amp;rsquo;t give you any recommendations for how to improve your bot&amp;rsquo;s conversational skills.&lt;/p&gt;
+
+&lt;p&gt;It may give you a one-off assessment as to how well or badly your conversational AI system is doing, but it won’t give you any direction on how to make it better. This is a great starting point though, so don&amp;rsquo;t discount it.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-get-started&#34;&gt;How to get started&lt;/h2&gt;
+
+&lt;p&gt;The above, in a nutshell, are the characteristics, features, and skills your bot should display. Some of these are things that you would expect of a human assistant, while others are more specific to virtual assistants (e.g., being able to call an API to provide answers).&lt;/p&gt;
+
+&lt;p&gt;By combining these features &lt;a href=&#34;https://techbeacon.com/enterprise-it/27-chatops-resources-inspire-tech-team-building&#34;&gt;you&amp;rsquo;ll make a great chatbot&lt;/a&gt; that gives converses with your users a the highest level of quality.&lt;/p&gt;
+
+&lt;p&gt;Also, try running the universal metrics described above to determine how well you&amp;rsquo;re doing. These measurements will help you discover whether your chatbot is truly conversational. This is what will set your virtual assistant apart, since it allows you to deliver an experience that goes far beyond what the simple web pages or online forms that your competitors may be using can provide.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Have you built a chatbot or a conversational interface? What&amp;rsquo;s your experience with it? Leave your impressions in the comments below.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://techbeacon.com/app-dev-testing/key-chatbot-success-high-quality-conversations&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why AWS</title>
+      <link>https://www.marcotroisi.com/why-aws/</link>
+      <pubDate>Sun, 28 Jul 2019 08:07:41 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/why-aws/</guid>
+      <description>
+
+&lt;p&gt;One of the most common questions I receive when &lt;a href=&#34;https://marcotroisi.com/talks/&#34;&gt;talking&lt;/a&gt; about building an entirely serverless platform &lt;a href=&#34;https://speakerdeck.com/marcotroisi/ive-seen-serverless?slide=27&#34;&gt;on the AWS cloud&lt;/a&gt; is “but why AWS?”.&lt;/p&gt;
+
+&lt;p&gt;This is a question that usually comes with some assumptions. For example, some people believe that other cloud providers are better, and so they wonder what made us choose AWS over those. By and large, though, the main assumption seems to be that so called ‘vendor lock-in’ is a bad thing.&lt;/p&gt;
+
+&lt;p&gt;My answer typically comes in the form a few arguments:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Vendor lock-in is not a bad evil&lt;/li&gt;
+&lt;li&gt;The best way to benefit from the cloud is to go all in&lt;/li&gt;
+&lt;li&gt;AWS is the best cloud provider out there&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I will try to walk through these points in this post.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-vendor-lock-in-is-not-a-bad-evil&#34;&gt;1. Vendor lock-in is not a bad evil&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://fortune.com/2015/10/08/aws-lock-in-worry/&#34;&gt;Avoiding vendor lock-in&lt;/a&gt; appears to be the common wisdom in the IT world, and a lot of people follow it without hesitation. But, increasingly, its validity within the context of modern software development &lt;a href=&#34;https://techbeacon.com/enterprise-it/dont-avoid-cloud-vendor-lock-embrace-it&#34;&gt;is being questioned&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When people think of lock-in, they usually have the old days in mind. That’s when big companies used to sign multi-million dollar contracts with some big corporation (Microsoft or Oracle for example), and would find themselves completely stuck with that provider for a number of years.&lt;/p&gt;
+
+&lt;p&gt;That, of course, was a problem. As the pace of technology increased, you’d find yourself unable to use the latest and greatest because of commitments that your company had with these providers. Moreover, the prospect of changing provider would often appear to be so painful and expensive to discourage everyone from even trying.&lt;/p&gt;
+
+&lt;p&gt;But that was a different time.&lt;/p&gt;
+
+&lt;p&gt;The question we should ask ourselves is whether that is still the truth in 2019.&lt;/p&gt;
+
+&lt;p&gt;These days, vendor lock-in is something that a lot of people are happy to go along with. For example, many people own both a MacBook and an iPhone. That, if you ask me, is pretty locked in! If you’re one of those people, then the more Apple products you use, the more locked in you are.&lt;/p&gt;
+
+&lt;p&gt;But the main difference here is that we have a choice. People choose to lock themselves into the Apple ecosystem because they they truly, genuinely like Apple. They love using those products on a daily basis. They feel so much more productive using such products that the thought of moving to a different manufacturer scares them way more than being locked in.&lt;/p&gt;
+
+&lt;p&gt;In our normal, everyday life, we go with what works best for us. We adopt solutions from manufacturers/providers that offer us the best experience. We value those products so much that we don’t mind the fact that a potential migration to a product made by a different provider could be somewhat arduous.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-the-best-way-to-benefit-from-the-cloud-is-to-go-all-in&#34;&gt;2. The best way to benefit from the cloud is to go all-in&lt;/h2&gt;
+
+&lt;p&gt;By going all-in with the cloud I mean taking advantage of everything that the cloud has to offer without trying to reinvent the wheel. Going half-hearted into the cloud simply doesn’t work. Here’s why.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lower cost and better performance&lt;/strong&gt;&lt;br /&gt;
+Cloud-native tools and products are cheaper and faster. The scale at which a big cloud provider can run something like a database is nearly impossible to achieve on your own. That’s why a cloud provider will always be able to offer such solutions at a much lower price (and with far greater performance) than if you were to run them on your own infrastructure.&lt;/p&gt;
+
+&lt;p&gt;Even if you run, let’s say, Postgres on the cloud, it won’t usually be as cost effective as something that was built for the cloud from the ground up (e.g. DynamoDB or Aurora Serverless).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pace of innovation&lt;/strong&gt;&lt;br /&gt;
+AWS releases new services on a weekly basis. At any given time, there may be a recently launched service that will most likely reduce costs, increase performance, and improve maintainability for your application. Adopting these new services can give you an advantage over your competitors and make your life easier.&lt;/p&gt;
+
+&lt;p&gt;It’s important that you make it easy for yourself to &lt;em&gt;quickly&lt;/em&gt; test and adopt a new service. The key to that agility is to reduce the amount of tools and services that you have to maintain by favouring serverless and managed services over things you have to install and configure yourself.&lt;/p&gt;
+
+&lt;p&gt;That’s how you get the most from the cloud, by paying them to do things you no longer want to worry about.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-aws-is-the-best-cloud-provider-out-there&#34;&gt;3. AWS is the best cloud provider out there&lt;/h2&gt;
+
+&lt;p&gt;This is almost uncontroversial. Yes, Google &lt;a href=&#34;http://fortune.com/2017/04/26/google-aws-cloud/&#34;&gt;has claimed&lt;/a&gt; that they will surpass AWS in the next few years, and &lt;a href=&#34;https://beth.technology/microsoft-stock-overtake-amazon-cloud/&#34;&gt;Microsoft has been growing&lt;/a&gt; at an amazing pace. Nevertheless, if you use these services, you will soon notice how they don’t even compare to AWS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcotroisi.com/images/aws-gartner-chart.png&#34; alt=&#34;Gartner’s “Magic Quadrant for Cloud IaaS” 2018&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Google has done some great work, particularly in the area of &lt;a href=&#34;https://dialogflow.com/&#34;&gt;AI and machine learning&lt;/a&gt;. A lot of people use Google just for that bit, and then rely on the other cloud providers for everything else. The most typical comment I hear from people who have tried Google Cloud after using AWS or Azure, is ‘they have some good stuff, but overall it looks like they’re not even trying!’. It’s truly amazing when you think of just how massive Google is. When you compare their cloud offering with Amazon’s, it’s tiny.&lt;/p&gt;
+
+&lt;p&gt;Microsoft is a different ball game. Here is a company that has been innovating (and growing) a lot. With the purchase of LinkedIn, GitHub, and with strong cloud products such as Office 365, they have a very strong offering. Microsoft Azure can be a valid option for some companies. However, AWS still offers the largest &lt;a href=&#34;https://www.computerworlduk.com/cloud-computing/aws-ceo-talks-up-depth-of-services-over-competitors-3688501/&#34;&gt;depth of services&lt;/a&gt; with 140 across many different categories. So if you go down the Azure route, the possibility of having to rely on AWS for some things is a real one.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;So-called &lt;strong&gt;vendor lock-in in the modern era is nothing like it used to be&lt;/strong&gt;. If you feel that AWS is the right cloud provider for you (and we’ve established that there are very good reasons for thinking that), then you should embrace it fully. By doing so, you will leverage the amazing cost savings and increased performance that the cloud has to offer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.to/2FOHRjs&#34;&gt;“Ahead in the Cloud: Best Practices for Navigating the Future of Enterprise IT”&lt;/a&gt; (book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.to/2YrHe6W&#34;&gt;”Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations”&lt;/a&gt; (book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://techbeacon.com/enterprise-it/dont-avoid-cloud-vendor-lock-embrace-it&#34;&gt;“Don&amp;rsquo;t avoid cloud vendor lock-in. Embrace it”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Image credit: Photo by &lt;a href=&#34;https://unsplash.com/@dallasreedy?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&#34;&gt;Dallas Reedy&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/search/photos/cloud?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&#34;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Are you using AWS for your projects? What&amp;rsquo;s your experience with it? Leave your impressions in the comments below.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How I plan my week</title>
+      <link>https://www.marcotroisi.com/how-i-plan-my-week/</link>
+      <pubDate>Tue, 26 Mar 2019 08:07:41 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/how-i-plan-my-week/</guid>
+      <description>
+
+&lt;p&gt;Planning my week in advance is a great way to get clear on my priorities and make sure the most important things are done before anything else.&lt;/p&gt;
+
+&lt;p&gt;There are many ways to &lt;a href=&#34;https://lifehacker.com/the-weekly-review-how-one-hour-can-save-you-a-week-s-w-5908816&#34;&gt;plan your week&lt;/a&gt;, but here I’m going to list out what works for me.&lt;/p&gt;
+
+&lt;h2 id=&#34;long-term-vs-short-term-planning&#34;&gt;Long term vs short term planning&lt;/h2&gt;
+
+&lt;p&gt;In the past, I would focus on either longer term planning (using Michael Hyatt’s &lt;a href=&#34;https://michaelhyatt.com/creating-a-life-plan/&#34;&gt;Life Plan&lt;/a&gt;), or simply &lt;a href=&#34;http://calnewport.com/blog/2013/12/21/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/&#34;&gt;daily planning&lt;/a&gt;. Now, those are both extremely valuable ways of planning your time, and they are by no means unhelpful.&lt;/p&gt;
+
+&lt;p&gt;But the issue with &lt;strong&gt;focussing on the long term&lt;/strong&gt; is of course that you can’t be very specific. You can only have these grandiose plans for the future, but it’s not really going to help you with what you need to get done in the immediate term. Don’t get me wrong, it’s helpful to know where you’re going in life. But it’s also really hard because nobody knows the future.&lt;/p&gt;
+
+&lt;p&gt;For example, in 2015 I came up with my “Life Plan” for the next 3 years. It was full of really nice goals in all areas of my life. In some areas (e.g. spiritual and relationships) I was able to keep it fairly high level so that by 2018 those goals were still somewhat relevant. In other areas, particularly on work, it just didn’t apply anymore. The things I thought would help me advance with my career in 2015 simply were no longer relevant in 2018.&lt;/p&gt;
+
+&lt;p&gt;This is, again, not to discard or underestimate the value of long term planning. It is simply to say that it is very hard to get it right. Moreover, I’ve been increasingly intrigued recently with the “&lt;a href=&#34;https://m.signalvnoise.com/ive-never-had-a-goal/&#34;&gt;no-goals&lt;/a&gt;” philosophy. Jason Fried and David Heinemeier Hansson talk about this extensively in their recent, fascinating &lt;a href=&#34;https://amzn.to/2CyhGgg&#34;&gt;book&lt;/a&gt; on how they’ve built a so-called “calm company”.&lt;/p&gt;
+
+&lt;p&gt;I’m still not entirely sure about the value of having absolutely zero long term goals, but the idea that I should simply keep doing &lt;a href=&#34;https://amzn.to/2CFgBTX&#34;&gt;what I’m good at&lt;/a&gt; (and keep getting better at it), while leaving the rest to take care of itself is something that resonates with me.&lt;/p&gt;
+
+&lt;p&gt;The other thing that I’ve tried is super detailed &lt;strong&gt;daily planning&lt;/strong&gt;. That is, planning each and every minute of my day in advance and then making sure I stick to the plan. I did it for a while, and it helped me. I got inspired by &lt;a href=&#34;http://calnewport.com/blog/2013/12/21/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/&#34;&gt;Cal Newport’s method&lt;/a&gt;. I would recommend that anyone do it for at least a season, as it will really help getting clarity on how to best organise your day.&lt;/p&gt;
+
+&lt;p&gt;For example, some of us get a lot more done in the morning, so jelously blocking a few hours from, say, 9:30 to 11:30, to close yourself in a meeting room and get some deep work done could be the best productivity hack you’ve ever implemented.&lt;/p&gt;
+
+&lt;h2 id=&#34;my-current-weekly-planning-methodology&#34;&gt;My current weekly planning methodology&lt;/h2&gt;
+
+&lt;p&gt;While I’m currently not adopting any specific framework for long term planning, and I’m no longer planning every single minute of my day, I have come to appreciate the value of planning my week in advance.&lt;/p&gt;
+
+&lt;p&gt;My method is simple.&lt;/p&gt;
+
+&lt;p&gt;On Sunday evening (or Monday morning) I spend some time reviewing the past week, getting current on the things that I have to get done on the upcoming week. That also includes reviewing meeting notes and/or emails from the past few days, just to make sure I don’t miss out on any pending task.&lt;/p&gt;
+
+&lt;p&gt;Then I make a list.&lt;/p&gt;
+
+&lt;p&gt;I love the idea of the &lt;a href=&#34;https://fullfocusplanner.com/challenge/?direct&#34;&gt;Big Three&lt;/a&gt;. That’s basically saying that you need to choose the 3 big items that you want to accomplish in the following week, and just get intense on those ones. That has many benefits, such as that you don’t get overwhelmed by too many tasks, but also that you can focus on quality rather than quantity. You do less but you do it really well.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, that doesn’t really work for me as I usually have more than three things to do within a week. I try to keep my list of things to do between 5 and 7 items.&lt;/p&gt;
+
+&lt;p&gt;It’s important to notice that at this stage, I’m not going too specific. The items that I’m listing are really projects, or portions of projects, rather than specific tasks.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-i-choose-what-to-do-every-day&#34;&gt;How I choose what to do every day&lt;/h2&gt;
+
+&lt;p&gt;Once I’m clear on what’s most important for the week, I spend a few minutes every morning reviewing progress on those items and writing done what I can do today to move the ball forward.&lt;/p&gt;
+
+&lt;p&gt;This is where I get specific. Whatever it is that I’m writing down, it needs to be achievable within the day. It can’t be too high level.&lt;/p&gt;
+
+&lt;p&gt;I find that it’s usually a good idea to undershoot here. It’s a lot better to have a lot of small things done at the end of a day than a couple of not-quite-finished tasks that I will need to drag into the following day.&lt;/p&gt;
+
+&lt;h2 id=&#34;digital-vs-analogue&#34;&gt;Digital vs analogue&lt;/h2&gt;
+
+&lt;p&gt;Working in technology, it is only natural that when I was looking at ways to plan and track my work, I first went and looked for the best app to help me do that.&lt;/p&gt;
+
+&lt;p&gt;But about a couple of years ago, I came across &lt;a href=&#34;https://amzn.to/2Oyxsg9&#34;&gt;this book&lt;/a&gt;, and it has affected my thinking so much that I’m now a lot more inclined to use &lt;a href=&#34;https://bulletjournal.com/&#34;&gt;analogue solutions&lt;/a&gt; for crucial planning such as this. Being able to detach from my laptop or phone, alone with my notebook, and focus on what I need to get done is invaluable.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are no hard and fast rules here. While the benefits of &lt;a href=&#34;https://michaelhyatt.com/why-paper-planner/&#34;&gt;using analogue tools for planning your life&lt;/a&gt; are not a mystery, there are plenty of &lt;a href=&#34;https://todo.microsoft.com&#34;&gt;great productivity apps&lt;/a&gt;. Before I went analogue, I was keeping a simple document for the current week on &lt;a href=&#34;http://paper.dropbox.com/&#34;&gt;Dropbox Paper&lt;/a&gt;. It worked reasonably well.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-you-plan-your-week&#34;&gt;How do you plan your week?&lt;/h2&gt;
+
+&lt;p&gt;I hope this will give you some inspiration or ideas for how to plan your week and days more effectively. I’d love to hear what you’re using, and what is currently working for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image credit: &lt;a href=&#34;https://unsplash.com/photos/RLw-UC03Gwc&#34;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What&amp;rsquo;s your experience planning and organising your week? Share your thoughts in the comments below.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why unnecessary variables are bad for your code</title>
+      <link>https://www.marcotroisi.com/why-unnecessary-variables-are-bad-your-code/</link>
+      <pubDate>Tue, 18 Jul 2017 08:07:41 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/why-unnecessary-variables-are-bad-your-code/</guid>
+      <description>
+
+&lt;p&gt;Variables are one of the most basic elements of programming. They&amp;rsquo;re usually one of the first things you learn about in programming courses, so your habits for using them form early.&lt;/p&gt;
+
+&lt;p&gt;It’s no surprise that every so often we see them being misused and even abused. They can be powerful if used properly, but they can also point to a lack of proper design when not used in the correct way.&lt;/p&gt;
+
+&lt;p&gt;It’s a particularly bad practice when variables are used to explain what is going on in the code. It’s no different than the &lt;a href=&#34;https://techbeacon.com/useless-comments-can-ruin-code-review-heres-how-erase-them&#34;&gt;issue of comments&lt;/a&gt;. The code should be self-explanatory, and neither comments nor variables should be used as shortcuts to achieve that.&lt;/p&gt;
+
+&lt;p&gt;When reviewing someone else’s code, we should be looking at the variables that are being created and assigned all over and ask ourselves whether there could be a more efficient, cleaner way to perform the same operation.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-myth-of-increased-readability&#34;&gt;The myth of increased readability&lt;/h2&gt;
+
+&lt;p&gt;Popular programmer wisdom seems to favour creating variables for the sake of readability. But this has two main issues:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Variables actually make readability worse.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&#34;http://www.yegor256.com/2015/09/01/redundant-variables-are-evil.html&#34;&gt;explained&lt;/a&gt; by Yegor Bugayenko, more variables in the code mean more lines of code and more values/names that need to be kept in mind while scrolling through the code. He argues that it is much easier to read a line of code that contains all you need to know, rather than having to constantly double-check what the content of a variable is before you can understand the purpose of the line of code you have in front of you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. A variable for readability is almost invariably a shortcut.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If the main purpose of a variable is to increase readability, then we know that a shortcut has been taken. Readability comes for the most part from good design. Using a variable with the intention of making the code more readable comes very often as an afterthought. And an afterthought is hardly ever synonymous with carefully thought-out design.&lt;/p&gt;
+
+&lt;h2 id=&#34;variable-misuse-scenarios&#34;&gt;Variable misuse scenarios&lt;/h2&gt;
+
+&lt;p&gt;It’s important to know what variable misuse scenarios look like so that we are able to identify them while reviewing someone else’s code. It also makes sense to know some practical ways to &amp;ldquo;fix&amp;rdquo; the issue and why it’s necessary.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-small-variable&#34;&gt;A small variable&lt;/h3&gt;
+
+&lt;p&gt;When a small variable is used for the sole purpose of increasing readability, it looks something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var Author = Book.AuthorName();
+// ...more code here...
+console.log(&amp;quot;The author of the book is: &amp;quot; + Author);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This helps no one. We’re simply adding yet one more line to the codebase. While at a superficial level it might look as if this is helping readability, it’s offering no real, substantial help over the use of a method from the object Book, namely Book.AuthorName(). In fact, it’s making things worse. Whoever reads this code is always going to need to look for where the variable Author is being defined to identify its content.&lt;/p&gt;
+
+&lt;p&gt;The above example can be improved by changing it to look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// ...more code here...
+console.log(&amp;quot;The author of the book is: &amp;quot; + Book.AuthorName());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course, this is a rather basic and oversimplified example. But by understanding the principle, you should be able to recognize similar, more complex cases of abuse of a small variable.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-long-variable&#34;&gt;A long variable&lt;/h3&gt;
+
+&lt;p&gt;There is a place where it might seem harder to argue that a variable for the sake of readability is unjustified. That’s the case of a variable containing a much longer value.&lt;/p&gt;
+
+&lt;p&gt;Imagine a value that looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+html = HTML(open(url))
+author_name = html.css(&#39;a&#39;)[5].text.chomp
+puts &amp;quot;The author of the book is #{author_name}.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, it would look horrible to concatenate all of &lt;code&gt;html.css(&#39;a&#39;)[5].text.chomp&lt;/code&gt; directly with the printed message, right? Right. But the solution is not to put that value into a variable. Rather, it should all be contained within a small function or object.&lt;/p&gt;
+
+&lt;p&gt;This is what it could look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def author_name_from_html(html)
+  return html.css(&#39;a&#39;)[5].text.chomp
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then what gets printed is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;puts &amp;quot;The author of the book is #{author_name_from_html(html)}.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here are the reasons why this is a much better solution:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;It’s cleaner&lt;/strong&gt;. There are no variables all over the place, just a small, handy function.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It’s reusable&lt;/strong&gt;. You can use that function everywhere in the system. That&amp;rsquo;s not the case with variables, unless you adopt global variables, which is usually not a good practice.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It’s easier to understand&lt;/strong&gt;. You don’t need to look at the implementation details of the function to know what’s happening. By quickly glancing at its input (html) and its output (a string), you know exactly what to expect whenever you’re met with that function.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It’s testable&lt;/strong&gt;. This should actually be the first point! You can write a test over that function and make sure that it does exactly what it’s supposed to. No such luck with a variable.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;nothing-replaces-good-design&#34;&gt;Nothing replaces good design&lt;/h2&gt;
+
+&lt;p&gt;At this point, it should be obvious that variables are not as innocuous as some might think. Being a rather easy tool to use, they can very often tempt the developer to use them as a shortcut to make the code look better. But as we’ve seen, they are not the best way to improve hard-to-read code. In fact, they often make matters worse.&lt;/p&gt;
+
+&lt;p&gt;Nothing can replace a good design. When doing a code review, take the time to carefully consider whether the variables used actually have a place there. Training yourself to recognize misused variables and to rework that code will make you a much more valuable code reviewer.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image credit: &lt;a href=&#34;https://flic.kr/p/LEQYA&#34;&gt;Flickr&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What&amp;rsquo;s your experience with useless or bad comments? Share your thoughts in the comments below.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://techbeacon.com/why-unnecessary-variables-are-bad-your-code&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Basic abstraction techniques: What code reviewers need to know</title>
+      <link>https://www.marcotroisi.com/basic-abstraction-techniques-what-code-reviewers-need-know/</link>
+      <pubDate>Thu, 01 Jun 2017 11:46:11 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/basic-abstraction-techniques-what-code-reviewers-need-know/</guid>
+      <description>
+
+&lt;p&gt;While having a large amount of code doesn&amp;rsquo;t necessarily mean the code is complex, there certainly is such a thing as &lt;em&gt;too much code in the wrong place&lt;/em&gt;. Programming code can also be unnecessarily complex and hard to follow. As a matter of fact, these two problems often occur together, and it&amp;rsquo;s something you need to be on the lookout for as a &lt;a href=&#34;https://techbeacon.com/how-run-code-reviews-your-dev-teams-workflow&#34;&gt;code reviewer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s usually lacking in those parts of code where you find yourself on the verge of throwing in the towel because you just can&amp;rsquo;t understand what is going on is what we call &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Abstraction_(software_engineering)&#34;&gt;abstraction&lt;/a&gt;&lt;/em&gt;. When sections of code get too cumbersome and hard to follow, that&amp;rsquo;s when you need to employ an abstraction technique. Let&amp;rsquo;s look at how to spot overly complex code and then simplify it.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-power-of-abstraction&#34;&gt;The power of abstraction&lt;/h2&gt;
+
+&lt;p&gt;Two of the main paradigms of computer programming are &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Imperative_programming&#34;&gt;imperative&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Declarative_programming&#34;&gt;declarative&lt;/a&gt;&lt;/em&gt;. To put it simply, imperative programming means telling the compiler how to do things, line by line. Declarative programming, on the other hand, abstracts away the &lt;em&gt;details&lt;/em&gt; of how things are done, in favor of a high-level description of what needs to be done.&lt;/p&gt;
+
+&lt;p&gt;The reason declarative programming is deemed by many to be a &lt;a href=&#34;https://tylermcginnis.com/imperative-vs-declarative-programming/&#34;&gt;superior&lt;/a&gt; way to write code is that it&amp;rsquo;s often a lot easier to read someone else&amp;rsquo;s declarative code than something written imperatively. When you read and work on declarative code, you don&amp;rsquo;t need to bother with implementation details. You can, instead, focus on the general business logic and only look at the specific implementation of something if you need to.&lt;/p&gt;
+
+&lt;h2 id=&#34;too-much-code&#34;&gt;Too much code?&lt;/h2&gt;
+
+&lt;p&gt;For code to be easier to read and understand, its business logic should be as obvious as possible. And for that to happen, there needs to be as few &amp;ldquo;implementation details&amp;rdquo; floating around as possible.&lt;/p&gt;
+
+&lt;p&gt;As an example, look at the following procedural/imperative piece of code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;let userId = &amp;quot;2&amp;quot;
+let address = &amp;quot;20 Gortnatra St., Kerrykeel, County Donegal, Ireland&amp;quot;
+let supergeocoder = new SuperGeocoder()
+let geocoder = supergeocoder({provider: &amp;quot;google-maps&amp;quot;})
+let geocoderResult = geocoder.geocode(address)
+let gpsCoords = geocoderResult.latitude + &#39;,&#39; + geocoderResult.longitude
+let mysql = new MySql();
+let connection = mysql.createConnection({
+  host : &#39;localhost&#39;,
+  user : &#39;me&#39;,
+  password : &#39;secret&#39;,
+  database : &#39;my_db&#39;
+});
+connection.connect();
+connection.query(&#39;UPDATE users SET address = ?, gps = ? WHERE id = ?&#39;, [address, gpsCoords, userId], function (error, results, fields) {
+  if (error) throw error;
+  // ...
+});
+connection.end();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It wouldn&amp;rsquo;t be surprising if it took even an experienced developer several moments to understand what that piece of code is trying to achieve. This is how we could attempt to make it declarative:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;let userId = &amp;quot;2&amp;quot;
+let address = &amp;quot;20 Gortnatra St., County Donegal, Ireland&amp;quot;
+let User = new User(userId)
+let Geolocation = new Geolocation()
+User.saveAddressCoordinates( Geolocation.coordinatesFromAddress(address) )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The main thing that we&amp;rsquo;ve done here is remove all the implementation details, such as the database and the geolocation library. We&amp;rsquo;ve also gotten rid of some database-specific language, such as the SQL query and the database connection data.&lt;/p&gt;
+
+&lt;p&gt;Now anyone can read that segment of code and have a pretty clear idea of what its business logic is. The code is clearly trying to save the user&amp;rsquo;s GPS coordinates by calculating them from a real address.&lt;/p&gt;
+
+&lt;p&gt;When reviewing someone else&amp;rsquo;s code, look for places where implementation details are hindering a clear understanding of the business logic. Suggest practical ways to abstract away the &lt;em&gt;what&lt;/em&gt;, leaving only the &lt;em&gt;how&lt;/em&gt; exposed. The easiest way to do that is typically by replacing that piece of implementation code with a small function or object, as shown in the above example.&lt;/p&gt;
+
+&lt;h2 id=&#34;decompose-conditional&#34;&gt;Decompose conditional&lt;/h2&gt;
+
+&lt;p&gt;Another place where you can find too much code in the wrong place is within &lt;em&gt;if&lt;/em&gt; conditions. When reading an &lt;em&gt;if&lt;/em&gt; condition it should, again, be immediately obvious to any reader what that condition is trying to accomplish.&lt;/p&gt;
+
+&lt;p&gt;Look at the following segment of code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;if (
+    (
+        Person.age &amp;gt; 65
+        &amp;amp;&amp;amp; Person.gender == Person.GENDER_FEMALE
+        || Person.age &amp;gt; 67
+        &amp;amp;&amp;amp; Person.gender == Person.GENDER_MALE
+    ) &amp;amp;&amp;amp;
+    Job.employeeDetails(Person).employedSince &amp;gt;= 1980
+) {
+    // some code here
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This huge condition should be replaced by a simple function such as this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;if (isEligibleForRetirement(Person, Job)) {
+    // some code here
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;isEligibleForRetirement&lt;/em&gt; simply contains all of the conditions we’ve just looked at, but it&amp;rsquo;s much easier to read, understand, and test. This technique is called &lt;em&gt;&lt;a href=&#34;https://refactoring.com/catalog/decomposeConditional.html&#34;&gt;decompose conditional&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once again, what you&amp;rsquo;re looking for here is a way to understand the business logic &lt;em&gt;clearly&lt;/em&gt; and as early as possible while in the process of reading the code.&lt;/p&gt;
+
+&lt;p&gt;In the first condition, even after reading it all, you probably still wouldn&amp;rsquo;t know what that &lt;em&gt;if&lt;/em&gt; is trying to do, which is to scan through people who are eligible for retirement. A &lt;a href=&#34;https://techbeacon.com/useless-comments-can-ruin-code-review-heres-how-erase-them&#34;&gt;comment&lt;/a&gt; might have been necessary for you to fully understand it.&lt;/p&gt;
+
+&lt;p&gt;In the second condition, it&amp;rsquo;s immediately clear what the business logic is. Unless you care about the specific requirements for a person to be eligible for retirement, you can happily keep reading the rest of the code.&lt;/p&gt;
+
+&lt;h2 id=&#34;consolidate-conditional-expression&#34;&gt;Consolidate conditional expression&lt;/h2&gt;
+
+&lt;p&gt;Something else to be on the lookout for is when a number of conditions return the same result.&lt;/p&gt;
+
+&lt;p&gt;Here’s what it would look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;if (Job.position == “truck_driver”) {
+    if (Applicant.age &amp;gt; 65) {
+        return false
+    }
+    if (!Applicant.hasDrivingLicence()) {
+        return false
+    }
+    if (Applicant.hasCriminalRecord()) {
+        return false
+    }
+
+    Job.sendApplication(Applicant)
+    return true
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are a number of reasons why something like this might happen. One of them might be that different developers have been adding those conditions one after the other and have never stopped to think about &lt;a href=&#34;https://techbeacon.com/17-opinions-resources-rewrites-vs-refactoring&#34;&gt;refactoring&lt;/a&gt; the code, sacrificing long-term maintainability in favor of getting the code quickly into production (thereby creating &lt;a href=&#34;https://techbeacon.com/get-grip-technical-debt&#34;&gt;technical debt&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;In the example above, being above a certain age, having a driver&amp;rsquo;s license, and lacking a criminal record are clearly all necessary requirements for the job. The three if conditions can be replaced by a single condition:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;if (!Applicant.isEligible()) {
+    return false
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you&amp;rsquo;d expect, &lt;em&gt;isEligible()&lt;/em&gt; will simply contain all of those conditions. The result is something that is much cleaner and easier to read.&lt;/p&gt;
+
+&lt;p&gt;This refactoring operation is called &lt;em&gt;&lt;a href=&#34;https://sourcemaking.com/refactoring/consolidate-conditional-expression&#34;&gt;consolidate conditional expression&lt;/a&gt;&lt;/em&gt;, and it’s a very valuable tool that can be used to make code more concise and easy to read.&lt;/p&gt;
+
+&lt;h2 id=&#34;too-much-code-in-the-wrong-place&#34;&gt;Too much code in the wrong place&lt;/h2&gt;
+
+&lt;p&gt;As you can see, in all of the cases we’ve looked at, the complexity wasn’t due to the code not being correct or necessary. Rather, the main problem was that it was in the wrong place.&lt;/p&gt;
+
+&lt;p&gt;Code like that should be abstracted away. It occupies valuable space and slows down the reading of anyone who wants to use and understand that code.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-value-of-code-reusability&#34;&gt;The value of code reusability&lt;/h2&gt;
+
+&lt;p&gt;Code reusability is at the heart of good software. And for the code to be reused, it&amp;rsquo;s essential that it be readable and easy to understand.&lt;/p&gt;
+
+&lt;p&gt;It’s very important for a code reviewer to keep an eye out for pieces of code that require a great amount of time to be fully understood. Very often, the practical techniques shown in this article will help you abstract away that complexity.&lt;/p&gt;
+
+&lt;p&gt;When there is too much code in the wrong place, it becomes much harder to read and understand it. You should always be hesitant to approve code that requires significant effort to be understood. When the business logic is not broadly clear after a first reading of the code, a red flag should be raised, and techniques such as the ones listed in this article should be used to simplify the code and abstract away the complexity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image credit: &lt;a href=&#34;https://flic.kr/p/eM7hLB&#34;&gt;Flickr&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Share your abstraction techniques in the comments section below!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://techbeacon.com/basic-abstraction-techniques-what-code-reviewers-need-know&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Useless comments can ruin your code reviews. Here&#39;s how to erase them</title>
+      <link>https://www.marcotroisi.com/useless-comments-can-ruin-code-review/</link>
+      <pubDate>Mon, 15 May 2017 07:09:32 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/useless-comments-can-ruin-code-review/</guid>
+      <description>
+
+&lt;p&gt;When it comes to reviewing someone else&#39;s code, how should you approach comments?&lt;/p&gt;
+&lt;p&gt;Comments are typically seen as a good thing. They can improve readability, offer context as to what the code is trying to do, and help you remember parts of the code that should later be changed or refactored.&lt;/p&gt;
+&lt;p&gt;But is that all true? Are comments really that good, or can they be the telling sign of a bigger problem?&lt;/p&gt;
+&lt;p&gt;The hard truth is that, in many cases, comments can point you to inherent problems with the code that you&#39;re reviewing. There are also cases when comments are helpful, and you should know how to identify when and where this is the case.&lt;/p&gt;
+&lt;p&gt;But first, here are some examples of bad comments.&lt;/p&gt;
+&lt;h2&gt;//FIXME&lt;/h2&gt;
+&lt;p&gt;Just look at this piece of code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;$done = false;
+$attempt = false;
+
+while (!$done) {
+    $attempt++;
+    $done = true;
+
+    performSomeAction();
+
+    if (somethingWentWrong()) {
+        $done = false;
+    }
+
+    // FIXME Should we delay a second or two before retrying?
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Who wrote that &lt;code&gt;FIXME&lt;/code&gt; comment there? Was it the developer who initially built this feature&amp;nbsp;or someone who worked on this piece of code later on?&lt;/p&gt;
+
+&lt;p&gt;If you&#39;re reviewing this code, you probably have the answer and are probably at the best point in time to stop this from going to the master branch.&lt;/p&gt;
+&lt;p&gt;There is no reason for that comment to be there. If&amp;nbsp;the question, &#34;Should we delay a second or two before retrying?&#34;&amp;nbsp;is an open one, then the developer should ask the&amp;nbsp;&lt;a href=&#34;http://www.yegor256.com/2016/05/24/who-is-project-manager.html&#34; target=&#34;_blank&#34;&gt;project manager&lt;/a&gt;&amp;nbsp;so that an actual answer can be found. If there is no project manager to be found, then, of course, we have a bigger organizational problem. Regardless, the comment here is indicative of something that might be wrong with the project, and that should not be tolerated. This is a classic example of the comment being a symptom of a bigger, in this case organizational, problem.&lt;/p&gt;
+&lt;h2&gt;//TODO&lt;/h2&gt;
+&lt;p&gt;TODO&amp;nbsp;comments are often introduced by the same developer who built the new feature or piece of code that&#39;s being reviewed. That&#39;s because as she was working on the code, she realized that some improvements could be made, only to decide not to apply those improvements this time around. This could be due to any number of reasons, from time limitations all the way to laziness.&lt;/p&gt;
+&lt;p&gt;A&amp;nbsp;TODO&amp;nbsp;comment could indicate that some small refactoring may be helpful:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;// TODO: do decompose conditional (https://refactoring.com/catalog/decomposeConditional.html) here 
+// by replacing this condition with a function
+if user.isActive == true &amp;amp;&amp;amp; user.Country == &amp;quot;Ireland&amp;quot; {
+    doWhatever()
+} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course, it only takes a few minutes to replace that line of code with something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;if isActiveUserFromIreland(user) { ... }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There is no reason to clutter your code with a&amp;nbsp;TODO comment&amp;nbsp;when all it does is reminding us of a small, quick refactoring that could help us improve the code. If it&amp;rsquo;s a small enough change, it should just be done. There is no need to defer that change.&lt;/p&gt;
+
+&lt;p&gt;A&amp;nbsp;TODO&amp;nbsp;comment could also point to the need to add something very important, as in this case:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;func addUser(name string) {
+    // TODO: save user to database
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here, this functionality simply doesn&#39;t work. That method is meant to save something to the database, and it&#39;s obviously not doing it.&lt;/p&gt;
+&lt;p&gt;While in the first example the change needed was a small one and it should have simply been done, now we&#39;re faced with a potentially more complex functionality. Who knows why that&#39;s not been done yet? Maybe we haven&#39;t chosen a database library yet, or we lack some vital information to proceed. Regardless, that&amp;nbsp;TODO&amp;nbsp;comment is there to clutter our code. It&#39;s not the best way to achieve what we want, namely, to remind us that the functionality that saves the user to the database needs to be implemented.&lt;/p&gt;
+&lt;p&gt;Whether the change indicated by the&amp;nbsp;TODO&amp;nbsp;comment is a small or a big one, it inevitably points us to the lack of a properly used ticketing system such as&amp;nbsp;&lt;a href=&#34;https://www.atlassian.com/software/jira&#34; target=&#34;_blank&#34;&gt;Jira&lt;/a&gt;,&amp;nbsp;&lt;a href=&#34;https://guides.github.com/features/issues/&#34; target=&#34;_blank&#34;&gt;GitHub Issues&lt;/a&gt;, or&amp;nbsp;&lt;a href=&#34;https://www.jetbrains.com/youtrack/&#34; target=&#34;_blank&#34;&gt;YouTrack&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Unnecessary comments&lt;/h2&gt;
+&lt;p&gt;Have you ever heard someone saying that you can never have too many comments in your code? Unfortunately, that&#39;s not true. Comments that are not strictly necessary can be instrumental in hiding badly designed code.&lt;/p&gt;
+&lt;p&gt;Look at this example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;type User struct { ... }
+func (u *User) changeName(name string) {
+  // verify whether the user has a name already
+  hasName := false
+  if (u.Name != nil) {
+    hasName = true
+  }
+  
+  // if user has a name already
+  if (hasName) {
+    u.PreviousNames     = append(u.PreviousNames, u.Name)
+    u.NameChangesCount  = u.NameChangesCount + 1
+  }
+  
+  // save the new name 
+  u.Name = name
+  u.FullName = u.Name + &amp;quot; &amp;quot; + u.LastName
+
+  // save initials
+  u.Initials = u.Name[0] + u.LastName[0]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On top of some obvious problems there, what those comments tell us is that we&#39;re dealing with bad design. There are a number of concerns with this function, such as:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Breach of&amp;nbsp;&lt;a href=&#34;https://en.wikipedia.org/wiki/Single_responsibility_principle&#34; target=&#34;_blank&#34;&gt;single responsibility principle&lt;/a&gt;: The function is doing too much.&lt;/li&gt;&lt;li&gt;Too much procedural code: Those pieces of code could easily be moved into small, expressive functions.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;There is more that we could say about this piece of code, but let&#39;s focus on the comments and why they&#39;re indicative of the above-mentioned issues.&lt;/p&gt;
+
+&lt;p&gt;First, if the function had complied with the single responsibility principle, we wouldn&amp;rsquo;t have needed those comments at all. The function is called &lt;code&gt;updateName&lt;/code&gt;, and as long as what&amp;rsquo;s happening inside the function is the update of a name, then there is no need to add any comment. It&amp;rsquo;s self-explanatory!&lt;/p&gt;
+
+&lt;p&gt;Second, it&amp;rsquo;s clear in the example that the comments are enabling us to keep adding lines of code doing all sorts of things. A thoughtful programmer would feel &lt;em&gt;unjustified&lt;/em&gt; in adding more and more lines of code to a single function. But, because there are nice little comments telling us what&amp;rsquo;s happening line by line, then it feels like it&amp;rsquo;s not a big a deal after all.&lt;/p&gt;
+
+&lt;p&gt;In the above example, virtually any piece of code that&#39;s preceded by a comment should be in its own function. There is no way around that. Comments are only a shortcut in this case, and they should be treated as such.&lt;/p&gt;
+&lt;h2&gt;Commented pieces of code&lt;/h2&gt;
+&lt;p&gt;This is an easy one to identify. A piece of code that used to be running and that gets commented out should have no place in your code. As a code reviewer, it&#39;s your responsibility to point this out.&lt;/p&gt;
+&lt;p&gt;The reasons for leaving a piece of code commented instead of removing it completely are typically related to either not being sure if that code will ever be needed again, or wanting to leave it there as a point of reference for everyone else.&lt;/p&gt;
+&lt;p&gt;These are not good enough reasons to clutter your code with unused code.&lt;/p&gt;
+&lt;p&gt;But then, how do you preserve a piece of code that could be needed for the future? The short answer to that is: You don&#39;t. The longer answer comes in two points:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;You should be working with a modern version-control system such as&amp;nbsp;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;. That will always allow you to go back to any prior version of a file&amp;nbsp;and look at the code as it was.&lt;/li&gt;&lt;li&gt;There is no reason for you to believe that the exact piece of code that you&#39;re commenting will still be working once it&#39;s needed again. You should rather have a place where you can document the way that piece of code used to work on a high-level basis. It should then be implemented afresh if you ever need to in light of the way the rest of the code works&amp;nbsp;&lt;em&gt;now&lt;/em&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;What&#39;s so bad about comments?&lt;/h2&gt;
+&lt;p&gt;We&#39;ve looked at a number of specific examples that should help you identify bad comments when you see them as you perform a code review.&lt;/p&gt;
+&lt;p&gt;But comments should almost always make you stop and carefully consider whether they&#39;re needed or not. Here&#39;s why:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Clutter.&lt;/strong&gt; Bad comments add clutter and make the code less readable. It&#39;s important to only keep the comments that are strictly necessary.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Bad design.&lt;/strong&gt; As we&#39;ve seen in the examples above, comments often tell us that the design could have been way better.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Laziness.&lt;/strong&gt; Comments can be used as a cheap shortcut to avoid writing proper code according to best practices, as in the &#34;unnecessary comments&#34; example.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No compiler checking.&lt;/strong&gt; Comments go unchecked by the compiler, which means that there is no way to ever tell us if they&#39;re correct or not. Code itself is the most reliable and self-documenting resource.&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Good comments&lt;/h2&gt;
+&lt;p&gt;With few exceptions, the only comments that can be considered good are the ones that give us a high-level description of a construct (such as a class, a type, an interface, or a function).&lt;/p&gt;
+&lt;p&gt;As in this example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;// Car is an interface that can be used to implement Car objects
+// It&#39;s a generic car and it&#39;s not specified whether the gearbox
+// is automatic or manual
+type Car interface {
+  SwitchEngine()
+  Gear() Gear
+  Colour() string
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is a perfectly acceptable comment that gives us context as to what the &lt;code&gt;Car&lt;/code&gt; interface is about. We probably would have understood it without the comment as well, which is the whole point. But the comment is helpful and doesn&amp;rsquo;t take anything away from the correctness of the code.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-review-de-coded&#34;&gt;Code review de-coded&lt;/h2&gt;
+
+&lt;p&gt;As we&#39;ve seen, there are some cases (however limited) where comments can be useful for the person reading them. The key is to only add information that the reader could have deduced anyway. Comments should help provide context to a construct, but they should not be used to describe what the code is doing.&lt;/p&gt;
+&lt;p&gt;It&#39;s important to also make sure that comments aren&#39;t masking bigger issues, such as fundamental organizational inefficiencies or laziness on the part of the developer who wrote the code. Even though comments are often viewed as positive, it&#39;s always a good idea to carefully review code with too many comments mixed in.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://techbeacon.com/useless-comments-can-ruin-code-review-heres-how-erase-them&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to run code reviews in your dev team&#39;s workflow</title>
+      <link>https://www.marcotroisi.com/how-run-code-reviews-in-your-workflow/</link>
+      <pubDate>Thu, 20 Apr 2017 08:01:27 +0100</pubDate>
+      
+      <guid>https://www.marcotroisi.com/how-run-code-reviews-in-your-workflow/</guid>
+      <description>
+
+&lt;p&gt;While they&amp;rsquo;re usually accepted as a good practice, code reviews remain a topic of debate among software engineers. Many programmers still struggle to identify the extent of code reviews&amp;rsquo; value and their place within a team&amp;rsquo;s workflow.&lt;/p&gt;
+
+&lt;p&gt;The questions of &lt;a href=&#34;http://marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;why you should do them&lt;/a&gt; and when have more in common with each other than you might think. To maximize the effect of a code review, doing it at the right time within your development workflow is crucial.&lt;/p&gt;
+
+&lt;p&gt;At the same time, trying to artificially fit code reviews within your existing workflow is not always a good idea. If you want to make sure you get the best out of every code review, adding one as just another step to your workflow may not be enough. Some changes to your workflow could be necessary. I&amp;rsquo;m going to help you answer the simple question:&lt;/p&gt;
+
+&lt;h2 id=&#34;before-the-code-gets-merged&#34;&gt;Before the code gets merged&lt;/h2&gt;
+
+&lt;p&gt;The most obvious advice when it comes to code reviews is to do them &lt;a href=&#34;http://softwareengineering.stackexchange.com/a/121665&#34;&gt;before the new code gets merged&lt;/a&gt; into your production or main development branch.&lt;/p&gt;
+
+&lt;p&gt;The main reason for this common piece of advice is that you want to be able to find any potential issue before the code makes it to the place where everyone else will be using it.&lt;/p&gt;
+
+&lt;p&gt;This does, of course, seem to work better with a distributed version-control system, such as Git or Mercurial, that lets developers work on their own local version of the repository. When the work is completed, they will then request (via a &lt;a href=&#34;https://help.github.com/articles/about-pull-requests/&#34;&gt;pull request&lt;/a&gt;, for example) that someone review the new code. You can set rules so that the code will get merged only once it&amp;rsquo;s approved by the reviewer.&lt;/p&gt;
+
+&lt;p&gt;Note that there is nothing wrong with performing a second code review after the code has been merged, but it would be a mistake for the code not to be reviewed before it gets to that point. Also, post-merge is probably a better time to perform an &lt;a href=&#34;http://www.yegor256.com/2014/12/18/independent-technical-reviews.html&#34;&gt;independent review&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;after-the-tests-have-been-run&#34;&gt;After the tests have been run&lt;/h2&gt;
+
+&lt;p&gt;Code reviews are no replacement for a reasonably high test coverage. While it&amp;rsquo;s obvious that a code review itself should help find bugs in the code, your fellow code reviewers shouldn&amp;rsquo;t be finding regressions—those should be caught by automated tests.&lt;/p&gt;
+
+&lt;p&gt;Before a code review, the new code should have sufficient test coverage, and all tests should be passing. If anything breaks, it has to be fixed before someone is asked to review the code.&lt;/p&gt;
+
+&lt;p&gt;The reason for this is that you want to give each step of your development workflow its own responsibility. While code reviews can, at times, be instrumental in finding bugs, they are not the primary instrument for that purpose. This work needs to be done by a robust collection of &lt;a href=&#34;https://en.wikipedia.org/wiki/Unit_testing&#34;&gt;unit&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Functional_testing&#34;&gt;functional&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Integration_testing&#34;&gt;integration tests&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s always the possibility of a bug not being caught by any test, and that&amp;rsquo;s where code reviews typically become critical. Another possibility is that the tests are badly written and so, while they pass, they don&amp;rsquo;t really make sure that the code&amp;rsquo;s business logic is doing what it&amp;rsquo;s meant to do. Again, this is where a good code reviewer will step in.&lt;/p&gt;
+
+&lt;p&gt;As far as the process goes, the priority is to make sure that all tests are automated and run explicitly when new code gets pushed. The code reviewer should be able to fully trust that the committer of this new piece of code has run the tests and that the code compiles.&lt;/p&gt;
+
+&lt;p&gt;The results of the automated tests should also be clearly visible to everyone. Your automated tests should be integrated as a required step before merging, with the results of those tests publicly available. This is very easily done on &lt;a href=&#34;https://help.github.com/articles/enabling-required-status-checks/&#34;&gt;GitHub&lt;/a&gt; and similar platforms.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-case-for-small-branches&#34;&gt;The case for small branches&lt;/h2&gt;
+
+&lt;p&gt;I already mentioned how a bad development workflow might negatively impact the effectiveness of code reviews. A bad practice that many teams seem to fall victim to is creating big tickets/tasks (and therefore branches) that someone will be working on for several days, weeks, or even months.&lt;/p&gt;
+
+&lt;p&gt;You want to do the opposite. Keep your tasks (and branches) as small as possible. This will make writing each task&amp;rsquo;s code much easier for developers, and it will also be a more manageable review for the code reviewer.&lt;/p&gt;
+
+&lt;p&gt;Reviewing a day&amp;rsquo;s worth of code is a task that can be done in a few minutes, and the review will likely be much more accurate than if the reviewer had to check several weeks&amp;rsquo; worth of work. The chances of missing something crucial when reviewing big chunks of work, rather than small ones, go up exponentially.&lt;/p&gt;
+
+&lt;h2 id=&#34;short-reviews-often&#34;&gt;Short reviews, often&lt;/h2&gt;
+
+&lt;p&gt;Reviewing other people&amp;rsquo;s code shouldn&amp;rsquo;t take hours out of an engineer&amp;rsquo;s day. By keeping tasks small, you allow the senior engineers or software architect to do code reviews often and for short sessions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/_gw?lang=en&#34;&gt;Gareth Wilson&lt;/a&gt;, in his article on &lt;a href=&#34;https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/&#34;&gt;effective code reviews&lt;/a&gt;, outlines how running code reviews often and for short sessions has a couple of benefits.&lt;/p&gt;
+
+&lt;p&gt;First, it doesn&amp;rsquo;t interrupt your flow. Engineers know how important this is; there is nothing worse than getting interrupted or having to do context switching while you&amp;rsquo;re &amp;ldquo;in the zone.&amp;rdquo; As &lt;a href=&#34;http://calnewport.com/blog/&#34;&gt;Cal Newport&lt;/a&gt;, a computer science professor explains in his book &lt;a href=&#34;https://www.amazon.com/Deep-Work-Focused-Success-Distracted-ebook/dp/B013UWFM52/ref=sr_1_1?ie=UTF8&amp;amp;qid=1488218902&amp;amp;sr=8-1&amp;amp;keywords=deep+work&#34;&gt;Deep Work&lt;/a&gt;, in order to produce a high-quality piece of work, we need prolonged, interruption-free times of deep thinking and undivided focus. Short code reviews take just a few minutes, allowing engineers to have a short block of time to focus on them and larger blocks of time to focus on writing code.&lt;/p&gt;
+
+&lt;p&gt;Second, it&amp;rsquo;s less frustrating for the person who wrote the code, since he won&amp;rsquo;t need to wait several days for someone to finish reviewing his work. Instead, he can get quick feedback and apply the requested changes while everything is still fresh in his mind.&lt;/p&gt;
+
+&lt;h2 id=&#34;are-pair-reviews-a-good-idea&#34;&gt;Are &amp;ldquo;pair reviews&amp;rdquo; a good idea?&lt;/h2&gt;
+
+&lt;p&gt;Very often in development teams, the code&amp;rsquo;s committer will sit together with the reviewer and look at the new piece of code. The reviewer will scroll through the new code, while the committer will try to explain what&amp;rsquo;s going on.&lt;/p&gt;
+
+&lt;p&gt;This may sound like a good idea, and it definitely has its place in various instances, but it&amp;rsquo;s not the most effective way to run a code review, because it misses an important reason for doing the review in the first place: Namely, the review should verify that the code is easy to understand and self-explanatory.&lt;/p&gt;
+
+&lt;p&gt;The only way to make sure this is the case is for the reviewer to look at the code alone and try to get an understanding of it without asking the code writer any questions. If the reviewer is unable to understand the code, that is typically a sign of badly written code or a lack of good unit tests.&lt;/p&gt;
+
+&lt;h2 id=&#34;should-the-architect-or-senior-engineers-do-the-review&#34;&gt;Should the architect or senior engineers do the review?&lt;/h2&gt;
+
+&lt;p&gt;Ideally, both another engineer and the software architect should perform code reviews.&lt;/p&gt;
+
+&lt;p&gt;A code review performed by a peer engineer has a different purpose than one performed by the architect. While both of them will be looking for a lot of the same things, such as bugs, lack of tests, readability, and so on, the architect will also use the code review to make sure the team is following architectural guidelines.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&#34;http://www.yegor256.com/&#34;&gt;Yegor Bugayenko&lt;/a&gt; &lt;a href=&#34;http://www.yegor256.com/2015/05/13/two-instruments-of-software-architect.html#reviews&#34;&gt;explains&lt;/a&gt;, code reviews enable the software architect to enforce the design and architectural principles of the project.&lt;/p&gt;
+
+&lt;p&gt;Another engineer can always identify a deviation from the guidelines and best practices followed by the team, but it&amp;rsquo;s the software architect, says Bugayenko, who needs to use code reviews to prevent his vision from being destroyed.&lt;/p&gt;
+
+&lt;p&gt;In other words, code reviews are a crucial tool for a software architect to make sure that the team is following the architectural direction that&amp;rsquo;s been established.&lt;/p&gt;
+
+&lt;h2 id=&#34;tools-matter&#34;&gt;Tools matter&lt;/h2&gt;
+
+&lt;p&gt;A better tool will allow you to perform better code reviews. Period. It&amp;rsquo;s as simple as that. Downloading the new code, screening it file by file, and then writing your comments somewhere else is not only an inefficient use of time, but also a great way to ensure that your code review will not be very effective.&lt;/p&gt;
+
+&lt;p&gt;Modern code review tools such as &lt;a href=&#34;http://marcotroisi.com/right-tools-for-programming/#code-review&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://www.jetbrains.com/upsource/&#34;&gt;UpSource&lt;/a&gt;, and &lt;a href=&#34;https://www.atlassian.com/software/crucible&#34;&gt;Crucible&lt;/a&gt; allow you to perform code reviews quickly, hold conversations about a piece of code, and, most importantly, easily verify that the suggested changes have been made.&lt;/p&gt;
+
+&lt;p&gt;Companies should invest in code review tools because they are a relatively cheap and simple way to make sure that the new code doesn&amp;rsquo;t cause any damage once it gets introduced. Making sure that your team has the best code review tools is a great way to protect the quality of your software and safeguard your customers from potential new bugs.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-simple-but-powerful-tool&#34;&gt;A simple but powerful tool&lt;/h2&gt;
+
+&lt;p&gt;Code reviews are one of the simplest tools we have to ensure the highest quality of our software. But their effectiveness will greatly increase or diminish based on how well code reviews fit within the development workflow and on whether we&amp;rsquo;re willing to invest in them.&lt;/p&gt;
+
+&lt;p&gt;Changing or adapting some aspects of your workflow based on the advice I&amp;rsquo;ve given will help your team perform more effective code reviews.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;How does your team run code reviews? Share your best (or worst!) practices in the comments below.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://techbeacon.com/how-run-code-reviews-your-dev-teams-workflow&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>8 best practices for microservices security</title>
+      <link>https://www.marcotroisi.com/8-best-practices-microservices-security/</link>
+      <pubDate>Fri, 17 Feb 2017 08:20:55 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/8-best-practices-microservices-security/</guid>
+      <description>
+
+&lt;!-- MarkdownTOC depth=&#34;1&#34; --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#1-use-oauth-for-user-identity-and-access-control&#34;&gt;1. Use OAuth for user identity and access control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2-use-defence-in-depth-to-prioritize-key-services&#34;&gt;2. Use &amp;lsquo;defence in depth&amp;rsquo; to prioritize key services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3-don’t-write-your-own-crypto-code&#34;&gt;3. Don’t write your own crypto code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#4-use-automatic-security-updates&#34;&gt;4. Use automatic security updates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#5-use-a-distributed-firewall-with-centralized-control&#34;&gt;5. Use a distributed firewall with centralized control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#6-get-your-containers-out-of-the-public-network&#34;&gt;6. Get your containers out of the public network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#7-use-security-scanners-for-your-containers&#34;&gt;7. Use security scanners for your containers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#8-monitor-everything-with-a-tool&#34;&gt;8. Monitor everything with a tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dont-reinvent-the-wheel&#34;&gt;Don&amp;rsquo;t reinvent the wheel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;There is virtually no situation in software architecture that entirely frees you from security considerations. With microservices, some issues become more distinct and a lot harder. However, there are also &lt;a href=&#34;https://techbeacon.com/4-ways-exploit-microservices-architecture-better-app-sec&#34;&gt;a few features&lt;/a&gt; of &lt;a href=&#34;https://techbeacon.com/4-ways-exploit-microservices-architecture-better-app-sec&#34;&gt;microservices&lt;/a&gt; &lt;a href=&#34;https://techbeacon.com/4-ways-exploit-microservices-architecture-better-app-sec&#34;&gt;that can bolster security&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With microservices, the network is still a bottleneck. Things like access control, which the industry already understands thoroughly within the realm of monolithic applications, assumes a new, almost unexpected, level of complexity. This paves the way for debates and scrutiny over whether a microservices architecture actually solves more problems than it creates. &lt;a href=&#34;http://marcotroisi.com/when-to-use-microservices-video&#34;&gt;Your decision to use microservices&lt;/a&gt; should always be conditional.&lt;/p&gt;
+
+&lt;p&gt;When you&amp;rsquo;ve done your due diligence and decided that microservices are right for you, it&amp;rsquo;s time to make sure that all of your applications&amp;rsquo; security demands are met. Here are eight best practices for securing your microservices.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;1-use-oauth-for-user-identity-and-access-control&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-use-oauth-for-user-identity-and-access-control&#34;&gt;1. Use OAuth for user identity and access control&lt;/h2&gt;
+
+&lt;p&gt;The overwhelming majority of applications are going to need to perform some level of &lt;a href=&#34;https://blog.joefallon.net/2011/03/access-control-vs-authorization/&#34;&gt;access control&lt;/a&gt; and &lt;a href=&#34;http://priocept.com/2011/08/30/authentication-vs-authorisation-vs-access-control/&#34;&gt;authorization handling&lt;/a&gt;. What you want to avoid here is reinventing the wheel. &lt;a href=&#34;https://oauth.net/&#34;&gt;OAuth&lt;/a&gt;/&lt;a href=&#34;https://oauth.net/2/&#34;&gt;OAuth2&lt;/a&gt; is practically the industry standard as far as user authorization goes. While building your own custom authorization protocol is clearly an option, &lt;a href=&#34;https://stormpath.com/blog/secure-your-rest-api-right-way&#34;&gt;many out there&lt;/a&gt; don&amp;rsquo;t recommend it unless you have strong and very specific reasons for doing so.&lt;/p&gt;
+
+&lt;p&gt;While OAuth2 &lt;a href=&#34;https://techbeacon.com/state-social-authentication-oauth-job&#34;&gt;isn&amp;rsquo;t perfect&lt;/a&gt;, it&amp;rsquo;s a widely adopted standard. The advantage of using it is that you can rely on libraries and platforms that will greatly accelerate your development phase. By the same token, &lt;a href=&#34;https://blog.pivotal.io/pivotal-cloud-foundry/products/securing-restful-web-services-with-oauth2&#34;&gt;several solutions&lt;/a&gt; for improving the security level of your OAuth-based authorization service have already been built by some of the biggest companies and smartest engineers around.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;2-use-defence-in-depth-to-prioritize-key-services&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2-use-defence-in-depth-to-prioritize-key-services&#34;&gt;2. Use &amp;lsquo;defence in depth&amp;rsquo; to prioritize key services&lt;/h2&gt;
+
+&lt;p&gt;Assuming that a firewall on your network perimeter is enough to protect your software is a big mistake. &amp;ldquo;&lt;a href=&#34;http://www.theregister.co.uk/2016/04/15/defence_in_depth/&#34;&gt;Defense in depth&lt;/a&gt;&amp;rdquo; is &lt;a href=&#34;http://en.wikipedia.org/wiki/Defense_in_depth_(computing)&#34;&gt;defined&lt;/a&gt; as &amp;ldquo;an information assurance concept in which multiple layers of security controls (defense) are placed throughout an information technology system.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;In plain English, what you need to do is identify what your most sensitive services are, and apply a number of different layers of security to them, so that a potential attacker who is able to exploit one of your security layers will still have to figure out a way to beat all your other defenses on your critical services. This is by all accounts easier said than done, but &lt;a href=&#34;http://www.amazon.com/Network-Perimeter-Security-Building-Depth/dp/0849316286&#34;&gt;several resources&lt;/a&gt; are &lt;a href=&#34;https://www.infoq.com/news/2016/08/secure-docker-microservices&#34;&gt;available&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Security is typically a job better left to experts and not to amateurs. A proper defense in depth strategy is more likely to succeed if it&amp;rsquo;s established by people who actually know what they&amp;rsquo;re doing.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s great about microservices is that they make it easier to adopt this strategy in a very granular and strategic way—by focusing your security efforts and resources on specific microservices. The architecture also makes it easier for you to diversify the layers of security you wish to adopt on each microservice. By so doing, an attacker who is able to exploit one of your services may not necessarily be able to figure out how to exploit the second one.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;3-don’t-write-your-own-crypto-code&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-don-t-write-your-own-crypto-code&#34;&gt;3. Don’t write your own crypto code&lt;/h2&gt;
+
+&lt;p&gt;Over the years, many people have invested incredible amounts of money, time, and resources into building libraries that handle encryption and decryption. If you hired 10 smart and competent security people, put them all in a room and asked them to come up with the best possible library for encryption and decryption, I doubt they would come up with something as good as the best open source crypto libraries that are already out there.&lt;/p&gt;
+
+&lt;p&gt;Most of the time, when it comes to security you shouldn&amp;rsquo;t try to roll your own new solutions and algorithms unless you&amp;rsquo;ve got strong and specific reasons to, and you&amp;rsquo;ve got people skilled enough to create something nearly as good as the open source tools already available (tools that have been heavily battle tested by the community).&lt;/p&gt;
+
+&lt;p&gt;In most cases, you should use &lt;a href=&#34;http://nacl.cr.yp.to/index.html&#34;&gt;NaCl&lt;/a&gt;/&lt;a href=&#34;https://download.libsodium.org/doc/&#34;&gt;libsodium&lt;/a&gt; for encryption. It&amp;rsquo;s been around for several and it&amp;rsquo;s fast, easy to use, and secure. While the original implementation of NaCl is &lt;a href=&#34;https://en.wikipedia.org/wiki/NaCl_(software)#Implementations&#34;&gt;written in C&lt;/a&gt;, it also supports &lt;a href=&#34;https://nacl.cr.yp.to/features.html&#34;&gt;C++ and Python&lt;/a&gt;. And thanks to the libsodium fork, several adapters for other languages like &lt;a href=&#34;https://github.com/jedisct1/libsodium-php&#34;&gt;PHP&lt;/a&gt;, &lt;a href=&#34;https://www.npmjs.com/package/libsodium&#34;&gt;Javascript&lt;/a&gt;, and &lt;a href=&#34;https://github.com/GoKillers/libsodium-go&#34;&gt;Go&lt;/a&gt; are available.&lt;/p&gt;
+
+&lt;p&gt;This section wouldn&amp;rsquo;t be complete without mentioning the wildly popular &lt;a href=&#34;https://www.bouncycastle.org/&#34;&gt;Bouncy Castle&lt;/a&gt; library. If you&amp;rsquo;re working with Java or C#, your best bet is to go with this one. If you want to learn more about encryption, read this &lt;a href=&#34;https://techbeacon.com/software-engineers-guide-encryption-how-not-fail&#34;&gt;developer&amp;rsquo;s guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;4-use-automatic-security-updates&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;4-use-automatic-security-updates&#34;&gt;4. Use automatic security updates&lt;/h2&gt;
+
+&lt;p&gt;If you want your microservices architecture to be secure and scalable at the same time, it&amp;rsquo;s a good idea—in the early development phase—to figure out a way to automate or at least keep all of your software updates under control.&lt;/p&gt;
+
+&lt;p&gt;High testing coverage here is more essential than ever. Every time a part of your system is updated, you want to make sure you catch any issue early enough and in as much detail as possible.&lt;/p&gt;
+
+&lt;p&gt;Make sure that your platform is mostly &amp;ldquo;atomic&amp;rdquo;. What that means is that &lt;a href=&#34;https://techbeacon.com/3-reasons-why-you-should-always-run-microservices-apps-containers&#34;&gt;everything should be wrapped within containers&lt;/a&gt; so that testing your application with an updated library or language version is just a matter of wrapping a different container around it. Should the operation fail, reversing everything is fairly easy and, most importantly, can be automated.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://coreos.com/&#34;&gt;CoreOS&lt;/a&gt;, RedHat&amp;rsquo;s &lt;a href=&#34;http://www.projectatomic.io/&#34;&gt;Atomic Linux&lt;/a&gt;, and Ubuntu&amp;rsquo;s &lt;a href=&#34;https://developer.ubuntu.com/en/snappy/&#34;&gt;Snappy Core&lt;/a&gt; are also projects you want to keep an eye on, as they try to bring about the same concept on an OS level.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;5-use-a-distributed-firewall-with-centralized-control&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;5-use-a-distributed-firewall-with-centralized-control&#34;&gt;5. Use a distributed firewall with centralized control&lt;/h2&gt;
+
+&lt;p&gt;For the most part, this is still uncharted territory, but I believe that a firewall that allows users more granular control over each and every microservice (as attempted by &lt;a href=&#34;https://www.projectcalico.org/&#34;&gt;Project Calico&lt;/a&gt;) has got to be the way we build firewalls for microservices. If not now, at least at some point in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;6-get-your-containers-out-of-the-public-network&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;6-get-your-containers-out-of-the-public-network&#34;&gt;6. Get your containers out of the public network&lt;/h2&gt;
+
+&lt;p&gt;Amazon, with their &lt;a href=&#34;https://aws.amazon.com/api-gateway/&#34;&gt;AWS API gateway&lt;/a&gt;, probably made this whole notion more mainstream and easy to adopt than anyone else before.&lt;/p&gt;
+
+&lt;p&gt;An API gateway establishes a single entry point for all requests coming from all clients. It subsequently knows how to provide an interface for all of your microservices.&lt;/p&gt;
+
+&lt;p&gt;By using this technique you can secure all of your microservices behind a firewall, allowing the API gateway to handle external requests and then talk to the microservices behind the firewall.&lt;/p&gt;
+
+&lt;p&gt;Moreover, as the &lt;a href=&#34;http://techblog.netflix.com/2012/07/embracing-differences-inside-netflix.html&#34;&gt;Netflix experience&lt;/a&gt; teaches us, using an API gateway is a great way to optimize requests based on the client, especially in the case of mobile devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;7-use-security-scanners-for-your-containers&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;7-use-security-scanners-for-your-containers&#34;&gt;7. Use security scanners for your containers&lt;/h2&gt;
+
+&lt;p&gt;Within your automated testing suite, it would make sense to include periodic vulnerability and security scanning for your containers. The chief open source actor in this space appears to be &lt;a href=&#34;https://coreos.com/clair/docs/latest/&#34;&gt;Clair&lt;/a&gt;, from CoreOS. Docker Security Scanning and Twistlock are a couple of commercial options.&lt;/p&gt;
+
+&lt;p&gt;Something else to keep in mind here is that the container image itself may not necessarily be trusted unless its signature has been verified. &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;rkt&lt;/a&gt; does that by default, while Docker introduced &lt;a href=&#34;https://blog.docker.com/2015/08/content-trust-docker-1-8/&#34;&gt;a similar feature&lt;/a&gt; a while ago after &lt;a href=&#34;https://groups.google.com/forum/#!msg/docker-user/nFAz-B-n4Bw/0wr3wvLsnUwJ&#34;&gt;several security vulnerabilities&lt;/a&gt; were found.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;8-monitor-everything-with-a-tool&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;8-monitor-everything-with-a-tool&#34;&gt;8. Monitor everything with a tool&lt;/h2&gt;
+
+&lt;p&gt;You can&amp;rsquo;t afford to run a distributed system without a solid, advanced, and reliable monitoring platform. Several solutions are available out there, but the one that was built specifically with microservices in mind and has been around the block is &lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Built originally by engineers at &lt;a href=&#34;https://soundcloud.com/&#34;&gt;SoundCloud&lt;/a&gt;, Prometheus is an open source monitoring platform and a part of the &lt;a href=&#34;https://cncf.io/&#34;&gt;Cloud Native Computing Foundation&lt;/a&gt;. It&amp;rsquo;s being supported and adopted by some of the biggest players in the industry, like SoundCloud themselves, CoreOS, and Digital Ocean.&lt;/p&gt;
+
+&lt;p&gt;Other monitoring solutions include &lt;a href=&#34;https://influxdata.com/&#34;&gt;InfluxDB&lt;/a&gt;, &lt;a href=&#34;https://github.com/etsy/statsd&#34;&gt;statsd&lt;/a&gt; and several well-known commercial platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;dont-reinvent-the-wheel&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;don-t-reinvent-the-wheel&#34;&gt;Don&amp;rsquo;t reinvent the wheel&lt;/h2&gt;
+
+&lt;p&gt;While the above is not intended to be an exhaustive list, it touches on the issues you are most likely to face when building applications based on a microservices architecture.&lt;/p&gt;
+
+&lt;p&gt;When it comes to security, reinventing the wheel is rarely a good idea. Always be researching the best practices adopted by the industry and suggested by experts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What are the best practices or resources on which you rely for securing microservices? Share in the comments below.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Here are some additional resources I&amp;rsquo;ve bookmarked:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cockpit-project.org/&#34;&gt;Project Cockpit&lt;/a&gt; - administer your Linux servers via a web browser&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=44wOK9ObAzk&#34;&gt;Securing Micro-services with a Distributed Firewall&lt;/a&gt; (video)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.infoq.com/news/2016/08/secure-docker-microservices&#34;&gt;Docker and High Security Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://redhatdefenseindepth.com/&#34;&gt;Defense in depth conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2ig8m7i&#34;&gt;Network Perimeter Security: Building Defense In-Depth&lt;/a&gt; (book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2iBcUD9&#34;&gt;Docker Containers: Build and Deploy with Kubernetes, Flannel, Cockpit, and Atomic (Negus Live Linux)&lt;/a&gt; (book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://thenewstack.io/container-defense-depth/&#34;&gt;Container Defense in Depth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://microservices.io/patterns/apigateway.html&#34;&gt;API gateway pattern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://techbeacon.com/8-best-practices-microservices-security&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serverless: What it is and when to use it</title>
+      <link>https://www.marcotroisi.com/serverless-what-it-is/</link>
+      <pubDate>Mon, 06 Feb 2017 16:53:45 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/serverless-what-it-is/</guid>
+      <description>
+
+&lt;!-- MarkdownTOC depth=&#34;1&#34; --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#how-its-presented&#34;&gt;How it&amp;rsquo;s presented&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-it-essentially-is&#34;&gt;What it essentially is&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#do-we-need-it&#34;&gt;Do we need it?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#when-to-use-it&#34;&gt;When to use it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#when-not-to-use-it&#34;&gt;When NOT to use it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&amp;ldquo;Serverless&amp;rdquo; is a term you may have heard of recently. It&amp;rsquo;s also known as &lt;em&gt;Function as a Service&lt;/em&gt; (FaaS), and it basically involves storing your functions somewhere in the cloud, and then invoking and running them via a trigger. But how does a Serverless system actually work? And is it something we should be looking at?&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;how-its-presented&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-it-s-presented&#34;&gt;How it&amp;rsquo;s presented&lt;/h2&gt;
+
+&lt;p&gt;The concept of Serverless has been made popular by &lt;a href=&#34;https://aws.amazon.com&#34;&gt;AWS&lt;/a&gt; with its relatively new product &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;Lambda&lt;/a&gt;. It&amp;rsquo;s pitched as a way to &lt;em&gt;&amp;ldquo;Run code without thinking about servers.&amp;rdquo;&lt;/em&gt; Another important element of it, which AWS works hard to make us notice, is the notion of paying only for &lt;em&gt;&amp;ldquo;the compute time you consume&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, Google Cloud has a similar (if not identical) product called Cloud Functions, which is presented from a different angle: &lt;em&gt;&amp;ldquo;A serverless platform for building event-based microservices&amp;rdquo;&lt;/em&gt;. A more architectural perspective, if you will.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;what-it-essentially-is&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-it-essentially-is&#34;&gt;What it essentially is&lt;/h2&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;If your PaaS can efficiently start instances in 20ms that run for half a second, then call it serverless. &lt;a href=&#34;https://t.co/S3YzvqFYLR&#34;&gt;https://t.co/S3YzvqFYLR&lt;/a&gt;&lt;/p&gt;&amp;mdash; adrian cockcroft (@adrianco) &lt;a href=&#34;https://twitter.com/adrianco/status/736553530689998848&#34;&gt;May 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;When it comes down to it, you could look at Serverless as Heroku on steroids.&lt;/p&gt;
+
+&lt;p&gt;Clearly, the servers are still there. It&amp;rsquo;s just that those companies (AWS, GCE, etc) have gotten to the point where they can get their servers up and down in a matter of milliseconds. So, as they&amp;rsquo;d ask you, if you have a functionality which is only running several times a day on an on-demand basis, do you really need a server dedicated to it and running all day long?&lt;/p&gt;
+
+&lt;p&gt;Looking at it from a microservices perspective, that&amp;rsquo;s what we would&amp;rsquo;ve done. We would have split that critical functionality into a separate microservice, running on its own server. Then, we would have made sure we could expand that server&amp;rsquo;s capabilities in as painless a way as possible.&lt;/p&gt;
+
+&lt;p&gt;Serverless promises to take care of some of that for us. Firstly, it&amp;rsquo;s supposed to save us some money by only making us pay for the computing resources we need. Then, it takes care of scaling the servers up and down based on the need of the moment.&lt;/p&gt;
+
+&lt;p&gt;On a good old PaaS platform such as Heroku, we would have had the same peace of mind of not having to think too much about servers setup and provisioning. But costs could have gotten prohibitively expensive once we reached a certain amount of computing operations. And, of course, we would have had to take care of scaling up or down ourselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;do-we-need-it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;do-we-need-it&#34;&gt;Do we need it?&lt;/h2&gt;
+
+&lt;p&gt;Looking at Serverless as a &amp;ldquo;PaaS on steroids&amp;rdquo;, whilst clearly an over-simplification, can be helpful. Not only it helps us understand Serverless better, it also gives us some direction as to when and whether we need to consider Serverless for our software.&lt;/p&gt;
+
+&lt;p&gt;In most cases, if you had good reasons for not using a PaaS platform, then those same reasons probably still apply for Serverless.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re a happy PaaS user, then Serverless may be an option to consider, but it won&amp;rsquo;t always work. Similarly, if you&amp;rsquo;re doing microservices, Serverless is again something you can keep an open mind about.&lt;/p&gt;
+
+&lt;p&gt;So, while Serverless and traditional PaaS are not exactly the same thing, they can be seen as solving similar problems though they have different use cases.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;when-to-use-it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;when-to-use-it&#34;&gt;When to use it&lt;/h2&gt;
+
+&lt;p&gt;The most typical and realistic scenario for Serverless is the following:&lt;/p&gt;
+
+&lt;p&gt;You have a system built with a microservices architecture. You identify a specific operation within your system which takes considerable computing effort, with periodical and unpredictable spikes in traffic. Moreover, this operation is only activated when triggered by something else. In other words, it&amp;rsquo;s not always on. That&amp;rsquo;s a perfect place to try to port that particular operation into a Serverless function.&lt;/p&gt;
+
+&lt;p&gt;I mentioned having a microservices architecture. That doesn&amp;rsquo;t necessarily have to be the case, but it seems quite obvious to me that if you&amp;rsquo;re doing microservices then your system is probably more prone to further decoupling and separation of a component from the rest of the system.&lt;/p&gt;
+
+&lt;p&gt;If your system is a monolith, then you probably have your good reasons why you want to keep everything within the same codebase. Nevertheless, Serverless might still make sense to you. You could, again, identify the single most critical operation within your monolith and turn it into a Serverless function; from there, even a gradual migration to a microservices architecture might just feel more natural.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;when-not-to-use-it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;when-not-to-use-it&#34;&gt;When NOT to use it&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;rsquo;re not already on the cloud, then Serverless is really not a good idea. Services like Lambda work well when tightly integrated with the AWS platform. For example, you trigger an event when storing a file on S3, then you run your Serverless function which does something to that file, then you store the changed file on S3 and perhaps add/update a record on DynamoDB/RDS to indicate that the operation was successful.&lt;/p&gt;
+
+&lt;p&gt;If you want to use Lambda but you&amp;rsquo;re not already on AWS, then Serverless is just not for you. The same applies with GCE&amp;rsquo;s Cloud Functions and Azure&amp;rsquo;s &lt;a href=&#34;https://azure.microsoft.com/en-us/services/functions/&#34;&gt;Functions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In other words, &lt;strong&gt;Serverless is one of the best ways to lock your system to a specific vendor&lt;/strong&gt;. If that doesn&amp;rsquo;t sound like a great idea to you, then stay away from Serverless.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;To conclude, Serverless/FaaS is an advancement in the way we operate our servers, and we should all be excited about it. It can be a sensible choice if you have no issue locking yourself to a particular vendor, and if your operation is at the same time:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;small&lt;/li&gt;
+&lt;li&gt;critical&lt;/li&gt;
+&lt;li&gt;intense computing-wise&lt;/li&gt;
+&lt;li&gt;not always on&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In any situation where all of the above conditions don&amp;rsquo;t check out, a more &amp;ldquo;traditional&amp;rdquo; approach is recommended.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Have you used a Serverless platform? Do you agree with my definition and guidelines? Feel free to leave a comment below.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name=&#34;more-resources&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;more-resources&#34;&gt;More resources:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://martinfowler.com/articles/serverless.html#what-isnt-serverless&#34;&gt;Serverless&lt;/a&gt; (Martin Fowler&amp;rsquo;s blog)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2kv7nBg&#34;&gt;Building Serverless Architectures&lt;/a&gt; (Book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2kte9rH&#34;&gt;AWS Lambda: A Guide to Serverless Microservices&lt;/a&gt; (Book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2kv4KQf&#34;&gt;AWS Lambda in Action: Event-driven serverless applications&lt;/a&gt; (Book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://serverless.com/&#34;&gt;Serverless framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My tech predictions for 2017</title>
+      <link>https://www.marcotroisi.com/tech-predictions-for-2017/</link>
+      <pubDate>Tue, 03 Jan 2017 01:32:26 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/tech-predictions-for-2017/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;re now a few days into the new year, and it&amp;rsquo;s probably a good time to look into what might or might not happen during the next 12 months.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a fun exercise, and of course I might be wrong about some or all of the following predictions. They&amp;rsquo;re based on my personal observations of what I see happening in the industry at the moment.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-apple&#34;&gt;#1: Apple&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Apple&lt;/strong&gt; is going to keep trying hard but it is unlikely to release anything truly useful and game-changing over the next year.&lt;/p&gt;
+
+&lt;p&gt;As with the &lt;a href=&#34;http://www.apple.com/ie/macbook-pro/&#34;&gt;new MacBook Pro&lt;/a&gt; (the one with the touch bar), they&amp;rsquo;re going to keep releasing products that are only marginally better from a purely technological point of view, with nice and shiny features (like the abovementioned touch bar) that are &lt;a href=&#34;https://michaelhyatt.com/companies-forget-product.html&#34;&gt;driven by marketing&lt;/a&gt; and not an overall technological/product vision.&lt;/p&gt;
+
+&lt;p&gt;Moreover, a &lt;a href=&#34;http://bgr.com/2016/10/28/macbook-pro-2016-specs-creative-professionals-developers/&#34;&gt;sense of discontent&lt;/a&gt; seems to be around, with people &lt;a href=&#34;https://twitter.com/spolsky/status/815250470843269120&#34;&gt;complaining&lt;/a&gt; and even &lt;a href=&#34;https://www.facebook.com/michaelhyatt/photos/a.10150425974849385.362668.133149524384/10154334024454385/?type=3&amp;amp;theater&#34;&gt;returning&lt;/a&gt; their brand new MacBook Pros.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Also keep an eye on:&lt;/strong&gt; While 2017 might be too early, as an old Linux enthusiast I really hope someone will eventually come up with a Linux-based solution that can stand against MacBooks both in terms of hardware and software.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-docker&#34;&gt;#2: Docker&lt;/h2&gt;
+
+&lt;p&gt;More tools are going to come up with the goal of making &lt;strong&gt;&lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;&lt;/strong&gt; easier to use. In particular, &lt;em&gt;&lt;a href=&#34;https://docs.docker.com/compose/&#34;&gt;Docker Compose&lt;/a&gt;&lt;/em&gt; is going to become production-ready, and keeping Docker commands into Compose&amp;rsquo;s easy-to-read yaml files is going to become most developers&amp;rsquo; preferred way of running Docker apps, as opposed to having to remember huge, unreadable command line commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Also keep an eye on:&lt;/strong&gt; CoreOS&amp;rsquo;s &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;rkt&lt;/a&gt; as a viable (and more secure) alternative to Docker.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-kubernetes-and-openshift&#34;&gt;#3: Kubernetes and Openshift&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt;&lt;/strong&gt; is going to become the de-facto industry standard for container orchestration. At the same time, solutions like RedHat&amp;rsquo;s &lt;strong&gt;&lt;a href=&#34;https://www.openshift.com/&#34;&gt;OpenShift&lt;/a&gt;&lt;/strong&gt; are going to make it easier than ever to benefit from the enourmous power of Kubernetes. Currently, Kubernetes is already seen as the most complete solution, but relatively hard to setup and work with. With OpenShift reaching its more mature stage, small and big companies are going to look at it as a way to ease themselves into the world of Kubernetes and container orchestration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Also keep an eye on:&lt;/strong&gt; &lt;a href=&#34;https://www.weave.works/solution/cloud/&#34;&gt;Weave.Cloud&lt;/a&gt; as another possible Kubernetes-based alternative to OpenShift. Weave offers an impressive set of tools that can be very helpful when building software with a microservices architecture.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-microservices&#34;&gt;#4: Microservices&lt;/h2&gt;
+
+&lt;p&gt;As we move away from the hype of &lt;strong&gt;microservices&lt;/strong&gt; being the solution to all of humanity&amp;rsquo;s problems, there are going to be more people talking about when it&amp;rsquo;s &lt;em&gt;not&lt;/em&gt; a good idea to build software with a microservices architecture. At the same time, tools that help us manage a distributed architecture are going to reach a higher level of maturity, making it easier than ever before to work with microservices.&lt;/p&gt;
+
+&lt;h2 id=&#34;5-ai&#34;&gt;#5: AI&lt;/h2&gt;
+
+&lt;p&gt;There&amp;rsquo;s going to be more clarity and (hopefully) less plugging around the topic of &lt;strong&gt;Artificial Intelligence&lt;/strong&gt;. As we realise that completely replacing humans may never be possible any time soon (if ever), more resources are going to be invested into smaller, practical projects and technologies that use the power of machines to actually make us more productive and improve our lives in meaningful ways.&lt;/p&gt;
+
+&lt;p&gt;This is the sensible way to look at this topic. The purpose of software is to help us live better lives and achieve more and more efficiently. To think of software and, by extension, artificial intelligence only as ways of replacing humans isn&amp;rsquo;t helpful and isn&amp;rsquo;t going to get us anywhere.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I hope you enjoyed reading my personal predictions for 2017! I&amp;rsquo;d love to hear what your thoughts are and what you think we&amp;rsquo;ll see more (or less) of over the next year.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Is object oriented programming dead? Not by a long shot</title>
+      <link>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
+      <pubDate>Tue, 22 Nov 2016 08:16:23 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
+      <description>
+
+&lt;p&gt;Is object-oriented programming (OOP) any good, really? If not, is it just plain bad, or are we simply not doing it right? Are OOP &lt;a href=&#34;http://techbeacon.com/13-programming-languages-defining-future-coding&#34;&gt;languages even in your future&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ve learned about OOP, and you&amp;rsquo;ve probably done it, or at least you think you have. You listened to other people tell you that it&amp;rsquo;s the right way—or the wrong way—to do things. You&amp;rsquo;ve spent long, excruciating hours listening to your computer science teacher talking about how &amp;ldquo;Toyota&amp;rdquo; inherits from &amp;ldquo;car,&amp;rdquo; and so on.&lt;/p&gt;
+
+&lt;p&gt;In real life, though, you may not have found it useful. Perhaps you&amp;rsquo;ve worked with OOP languages, and at times it seemed more like a restriction than something that actually helps. Perhaps it has bothered you so much that you&amp;rsquo;ve welcomed the arrival of different and more modern paradigms.&lt;/p&gt;
+
+&lt;p&gt;You probably identify with at least some of the above sentences. So you may be asking yourself:&lt;/p&gt;
+
+&lt;h2 id=&#34;why-oop&#34;&gt;Why OOP?&lt;/h2&gt;
+
+&lt;p&gt;I enjoy writing code in an object-oriented fashion. Thinking in terms of objects gives me a model that, when followed consistently,  produces code that is well organized, and easy to understand, test, and refactor.&lt;/p&gt;
+
+&lt;p&gt;Some people argue that OOP doesn&amp;rsquo;t really work, or that you don&amp;rsquo;t need it to build modern software. But while I don&amp;rsquo;t think OOP is the ultimate paradigm, it is helpful. A bunch of procedural code, however nicely organized, is simply not the answer.&lt;/p&gt;
+
+&lt;p&gt;But what about functional programming, you might say? That&amp;rsquo;s all fine and good. Many people say OOP and functional programming don&amp;rsquo;t &lt;em&gt;necessarily&lt;/em&gt; conflict with each other. In fact, they complement each other.&lt;/p&gt;
+
+&lt;h2 id=&#34;understanding-oop-polymorphism-and-immutability&#34;&gt;Understanding OOP, polymorphism and immutability&lt;/h2&gt;
+
+&lt;p&gt;Robert Martin has argued that the &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html&#34;&gt;biggest benefit you can take from OOP&lt;/a&gt; is polymorphism, the notion that you can define a single interface with multiple underlying implementations. As software engineers, we wouldn&amp;rsquo;t want to lose that. One of polymorphism&amp;rsquo;s many benefits is that lets you attain &lt;em&gt;inversion of dependency&lt;/em&gt;. In OOP, this means that &amp;ldquo;both high- and low-level objects must depend on the same abstraction,&amp;rdquo; according to Wikipedia. In practice, this translates into software components that are no longer highly coupled. Each component, both high-level and low-level ones, can be easily replaced.&lt;/p&gt;
+
+&lt;p&gt;Martin further states that the biggest benefit you can take from functional programming is immutability, the idea that we design functions or objects so that they always return the same result, given the same values as parameters. Much has been said about this topic, and it&amp;rsquo;s apparent that its many advantages, such as code maintainability and lack of side effects, far outweigh possible downsides, such as a lack of flexibility of sort.&lt;/p&gt;
+
+&lt;p&gt;It shouldn&amp;rsquo;t come as a surprise, then, that immutability has been a recurring theme among people who have done OOP for a while. In his book, Effective Java, Joshua Bloc says that &amp;ldquo;Classes should be immutable unless there&amp;rsquo;s a very good reason to make them mutable&amp;hellip; If a class cannot be made immutable, limit its mutability as much as possible.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yegor256.com/&#34;&gt;Yegor Bugayenko&lt;/a&gt;, CTO of teamed.io, is one of the strongest advocates of a return to pure OOP. He writes extensively about the &lt;a href=&#34;http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html&#34;&gt;advantages of immutability&lt;/a&gt;, saying that &amp;ldquo;&amp;hellip;all classes should be immutable in a perfect object-oriented world.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;There is a lot more to it, and Yegor himself recently wrote a clarifying article, &amp;ldquo;&lt;a href=&#34;http://www.yegor256.com/2016/09/07/gradients-of-immutability.html&#34;&gt;Gradients of immutability&lt;/a&gt;,&amp;rdquo; where he explains how an immutable object doesn&amp;rsquo;t always need to have a rigid structure.&lt;/p&gt;
+
+&lt;p&gt;This is a big topic, worthy of further study. But by now it should be clear that one good reason to do OOP is so you can retain polymorphism. Not only is that possible, but many people recommended it. While we do OOP, we should also hold on to as much immutability as possible, thereby bringing the single biggest advantage of functional programming into OOP.&lt;/p&gt;
+
+&lt;p&gt;If we could get back to the primary advantages of OOP,  and get rid of all of the unnecessary ideas that have cluttered it to the point where most programmers have felt like OOP had become counterproductive, we could add more value to the way we write software.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll get back to what this type of stripped-down, or pure OOP, looks like in a minute. But the fact is that real OOP may look quite a bit different from the way you have understood it up to now.&lt;/p&gt;
+
+&lt;p&gt;At this point, it&amp;rsquo;s worth asking the question: why objects? Why do we need to design programs as a number of objects, as opposed to functions, or procedures?&lt;/p&gt;
+
+&lt;h2 id=&#34;use-objects-as-a-way-to-understand-the-world&#34;&gt;Use objects as a way to understand the world&lt;/h2&gt;
+
+&lt;p&gt;David West, the author of &amp;ldquo;&lt;a href=&#34;http://amzn.to/2e4s5FM&#34;&gt;Object Thinking&lt;/a&gt;,&amp;rdquo; said in a recent &lt;a href=&#34;https://www.youtube.com/watch?v=bW5K5cJ-AVs&#34;&gt;interview&lt;/a&gt; that &amp;ldquo;You look at the world around you and you don&amp;rsquo;t see functions, but you see objects.&amp;rdquo; He&amp;rsquo;s on solid ground here: Philosophers have used terms like &lt;em&gt;abstract&lt;/em&gt; and &lt;em&gt;concrete objects&lt;/em&gt; to describe the world around them for a long time.&lt;/p&gt;
+
+&lt;p&gt;Objects begin to make sense once we stop thinking in terms of bits and bytes, or lines of code. Thinking in terms of objects also lets us stop seeing ourselves as simply people who write code. Our job is really about solving problems, and finding meaningful ways to represent the domain in which we operate. It&amp;rsquo;s a completely different approach from the one that most people take when writing software. It&amp;rsquo;s the notion that &lt;a href=&#34;https://mitpress.mit.edu/sicp/full-text/sicp/book/node3.html&#34;&gt;&amp;ldquo;programs must be written for people to read, and only incidentally for machines to execute,&amp;rdquo;&lt;/a&gt; as Harold Abelson, Gerald Jay Sussman and Julie Sussman state in their book, &lt;em&gt;&lt;a href=&#34;https://mitpress.mit.edu/sicp/full-text/sicp/book/book.html&#34;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thinking in an object-orientated way is a great way to understand the problem you are trying to solve. It allows you to build software that is more maintainable, and easily understandable, for other people.&lt;/p&gt;
+
+&lt;p&gt;By contrast, when you write code in a procedural way, you&amp;rsquo;re really putting yourself in the computer&amp;rsquo;s shoes, so to speak, and writing lines of code in the way it will eventually receive your commands anyway. That&amp;rsquo;s convenient, if you&amp;rsquo;re writing a quick 10-lines-long script, but less so if you&amp;rsquo;re building a complex system on which many programmers must work. Eventually, common sense says you should somehow organize this code into smaller chunks, each containing a different set of procedures (or functions) and representing a distinct domain of sort. In the end, hardly any of this will feel natural, or even logical.&lt;/p&gt;
+
+&lt;p&gt;In this case, had the programmer originally designed the software in an object-oriented fashion, instead of having a lump of disorganized code, the software would be well structured and easy to understand. This isn’t necessarily a bad thing for the computer, as often code that&amp;rsquo;s well written and easy to understand is fast to execute, with less chance of memory leaks.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-source-of-all-that-oop-criticism&#34;&gt;The source of all that OOP criticism&lt;/h2&gt;
+
+&lt;p&gt;The problem with a lot of the &lt;a href=&#34;https://mcollina.github.io/we-are-not-object-oriented-anymore/&#34;&gt;OOP criticism&lt;/a&gt; out there is that it tends to refer to things that in popular programmer culture have become associated with OOP, but shouldn&amp;rsquo;t be.&lt;/p&gt;
+
+&lt;p&gt;One example is &lt;a href=&#34;http://marcotroisi.com/healthy-oop-object-oriented-programming/#orm-no-thanks&#34;&gt;object-relational mapping&lt;/a&gt; (ORMs). Truthfully, you could drop the &amp;ldquo;O&amp;rdquo; in this acronym, as there is no way to directly represent a relational database table in a real-world object. Then there&amp;rsquo;s &lt;a href=&#34;http://marcotroisi.com/healthy-oop-object-oriented-programming/#accessors-and-mutators-vs-useful-methods&#34;&gt;accessors and mutators&lt;/a&gt; (or &lt;a href=&#34;http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html&#34;&gt;getters and setters&lt;/a&gt;) as they will inevitably change the face of your object into a big &amp;ldquo;data bag,&amp;rdquo; throwing encapsulation and data abstraction out the window. The &lt;a href=&#34;http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#2-he-works-by-contracts&#34;&gt;absence of interfaces&lt;/a&gt; is one of the main causes for tight coupling (or lack of flexibility) in our code. Finally, &lt;a href=&#34;http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#5-his-class-doesn-39-t-have-anything-static&#34;&gt;static methods&lt;/a&gt; turn what may have started as an object into a big collection of functions, or procedures, which was never OOP&amp;rsquo;s purpose.&lt;/p&gt;
+
+&lt;p&gt;Quite a few practices have somehow become part of our daily work but were never supposed to be found in OOP. In fact, using them takes us very far from truly object-oriented code. As a result, we lose out on many of the advantages we could have experienced.&lt;/p&gt;
+
+&lt;p&gt;If you were to take a codebase and eliminate at least two of the above mentioned practices, the face of your code would experience a noticeable change for the better.&lt;/p&gt;
+
+&lt;p&gt;OOP done well comes with a lot of benefits. But it&amp;rsquo;s absolutely necessary to remind ourselves what it is that OOP really is, and free ourselves from the many bad practices that have nothing to do with true object thinking.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;http://techbeacon.com/object-oriented-programming-dead-not-long-shot&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>When to use microservices (video)</title>
+      <link>https://www.marcotroisi.com/when-to-use-microservices-video/</link>
+      <pubDate>Fri, 09 Sep 2016 08:05:54 +0100</pubDate>
+      
+      <guid>https://www.marcotroisi.com/when-to-use-microservices-video/</guid>
+      <description>&lt;p&gt;A few weeks ago, after giving a talk at PHP Dublin, I was interviewed by the fine folks from the &lt;a href=&#34;https://uxdxconf.com/&#34;&gt;UXDX&lt;/a&gt; conference.&lt;/p&gt;
+
+&lt;p&gt;The topic of the interview was &lt;strong&gt;&amp;ldquo;When to use microservices&amp;rdquo;&lt;/strong&gt;. It was partly inspired by the talk I gave that very night. In the interview, I do my best to define what microservices are and when should companies adopt them. I then proceed to give insights as to how to succeed from both a code quality and a project management point of view.&lt;/p&gt;
+
+&lt;p&gt;UXDX is a conference that will run in Dublin, Ireland, on November the 2nd, 2016. The event&amp;rsquo;s goal is to &lt;em&gt;focus on improving the team behind the product&lt;/em&gt;. There will be a set of great speakers from some of the best companies in Ireland and not only. If you can go, you shouldn&amp;rsquo;t miss it. You can get your tickets &lt;a href=&#34;https://uxdxconf.com/#/tickets&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is the video of the inteview. It&amp;rsquo;s less than 7 minutes long, but I think it contains some interesting points which you might want to look into.&lt;/p&gt;
+
+&lt;div class=&#34;videoWrapper&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/MxdynUAGQGc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Direct link: &lt;a href=&#34;https://youtu.be/MxdynUAGQGc&#34;&gt;https://youtu.be/MxdynUAGQGc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have questions or comments regarding what I just said in this video? Feel free to &lt;a href=&#34;https://www.twitter.com/marcotroisi&#34;&gt;message me&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The right tools for the job</title>
+      <link>https://www.marcotroisi.com/right-tools-for-programming/</link>
+      <pubDate>Thu, 07 Jul 2016 20:32:31 +0100</pubDate>
+      
+      <guid>https://www.marcotroisi.com/right-tools-for-programming/</guid>
+      <description>
+
+&lt;!-- MarkdownTOC --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#why-you-need-the-best-tools&#34;&gt;Why you need the best tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#writing-code&#34;&gt;Writing code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#version-control&#34;&gt;Version Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#code-sharing-and-collaboration&#34;&gt;Code sharing and collaboration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#code-review&#34;&gt;Code review&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bug-tracking&#34;&gt;Bug tracking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#static-analysers&#34;&gt;Static analysers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&lt;a name=&#34;why-you-need-the-best-tools&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;why-you-need-the-best-tools&#34;&gt;Why you need the best tools&lt;/h2&gt;
+
+&lt;p&gt;Hardly any job can be done without the right tools. You always need &lt;em&gt;something&lt;/em&gt; to do what you do. This applies to virtually everyone, from a dentist to a photographer, a journalist to a mathematician. And of course the software engineer is not excused.&lt;/p&gt;
+
+&lt;p&gt;Give an old, cheap, faulty camera to a great photographer, and he&amp;rsquo;ll come back to you tired and frustrated, with only a few nice photos and more bad ones than what would be considered acceptable from a professional. Give a fantastic camera to a decent photographer who knows how to use it, and he&amp;rsquo;ll come back with loads of good photos, a few amazing ones, and perhaps a couple of not so great ones.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s why I&amp;rsquo;m always amazed at how many software engineers and employers tend to overlook the importance of using the right tools. It&amp;rsquo;s simply astonishing. One reason for that, as I understand it, would be fragmentation, or &lt;em&gt;diversity of opinions&lt;/em&gt;. A developer might like a certain tool more than another one.&lt;/p&gt;
+
+&lt;p&gt;But here&amp;rsquo;s where I think the controversy starts: it doesn&amp;rsquo;t really matter what you think is better. &lt;strong&gt;What&amp;rsquo;s better is what the industry decides it is&lt;/strong&gt;. Look at it this way: if you&amp;rsquo;re a photographer and you think the best way to take photos of your clients is on a 15-years-old Polaroid, does that make it the best tool for the job? I mean, your customers are paying you real money for professional, high-quality photos that they can not only print, but also store on their hard drives. And you give them a bunch of low quality photos printed from an old instant camera. Does this sound right to you? It doesn&amp;rsquo;t to me.&lt;/p&gt;
+
+&lt;p&gt;In the same way, it wouldn&amp;rsquo;t matter how cool and geeky it makes you feel to work on a &lt;em&gt;Raspberry PI Model A&lt;/em&gt;. The truth is that you&amp;rsquo;re going to spend twice as much time doing what you have to do, because of the inherent slowness of such a small machine; plus you won&amp;rsquo;t have state-of-the-art tools to help you write code, test, debug and so on, because most development software isn&amp;rsquo;t yet supported on an ARM architecture.&lt;/p&gt;
+
+&lt;p&gt;As a software engineer, I need to be an absolute professional in what I do. And I need to be in line with what the industry thinks are the best tools.&lt;/p&gt;
+
+&lt;p&gt;These things may and will change in the future, but as things stand now, the industry seems to be saying the following things:&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;writing-code&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;writing-code&#34;&gt;Writing code&lt;/h2&gt;
+
+&lt;p&gt;The &lt;em&gt;best way to write code&lt;/em&gt; is through a powerfully integrated IDE like the ones from JetBrains, or a faster text editor like Sublime Text or Atom, provided you have the right plugins for your language of choice installed. No, you can&amp;rsquo;t use Notepad, that&amp;rsquo;s just not good enough!&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;version-control&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;version-control&#34;&gt;Version Control&lt;/h2&gt;
+
+&lt;p&gt;The industry is also saying that the &lt;em&gt;best version control system&lt;/em&gt; is &lt;strong&gt;Git&lt;/strong&gt;. It&amp;rsquo;s the system that the biggest number of companies and developers all around the world have found to be the most powerful one. While in terms of usage percentage it may still be fighting against SVN, a quick look at the projects that still use the latter will quickly reveal how the vast majority of them are only using it because of legacy. In other words, those are very old projects, and they were using SVN since before Git was even a thing. But then, why would they keep using such an ancient and inefficient system when there are plenty of ways to migrate to Git? This is something I don&amp;rsquo;t fully understand.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;code-sharing-and-collaboration&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;code-sharing-and-collaboration&#34;&gt;Code sharing and collaboration&lt;/h2&gt;
+
+&lt;p&gt;Another thing the industry has been saying for a while now, is that the &lt;em&gt;best way to share code&lt;/em&gt; is to use &lt;strong&gt;GitHub&lt;/strong&gt; on top of the already-mentioned Git. Now, I understand that some companies may find that BitBucket or GitLab fit their needs better. But given the choice, and all things being equal, GitHub is &lt;em&gt;the&lt;/em&gt; one. It&amp;rsquo;s the most widely supported and most well known collaboration platform out there.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;code-review&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;code-review&#34;&gt;Code review&lt;/h2&gt;
+
+&lt;p&gt;Tools for &lt;a href=&#34;http://marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Code reviewing&lt;/a&gt; are also important, and they are strictly related to collaboration tools in that the &lt;em&gt;best way to review&lt;/em&gt; your peers&amp;rsquo; code appears to be yet again &lt;strong&gt;GitHub&lt;/strong&gt;. Their code reviewing tool is just too good, and it&amp;rsquo;s simply too easy to use when you&amp;rsquo;re already on GitHub, so there&amp;rsquo;s just no need to be looking for anything else.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;bug-tracking&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;bug-tracking&#34;&gt;Bug tracking&lt;/h2&gt;
+
+&lt;p&gt;For a project to work well, you&amp;rsquo;re going to need some kind of bug tracking system. I&amp;rsquo;ve personally had to work with several of them, from &lt;a href=&#34;http://www.redmine.org/&#34;&gt;Redmine&lt;/a&gt; to &lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt;, from &lt;a href=&#34;https://www.atlassian.com/software/jira&#34;&gt;Jira&lt;/a&gt; to &lt;a href=&#34;https://www.jetbrains.com/youtrack/&#34;&gt;YouTrack&lt;/a&gt;, and of course GitHub Issues. Here I&amp;rsquo;d have to say that I&amp;rsquo;ve had decent experiences with pretty much all of them: once you get used to one of them, they can all do their job, no question about it. But there seems to be a general consensus on &lt;strong&gt;Jira&lt;/strong&gt; being the best tool out there, and I think that&amp;rsquo;s right. While every other platform I&amp;rsquo;ve used was good enough, every time that I come back to Jira after a while, I am just amazed at how powerful and functional it is. And, every time I use a different tool after having worked with Jira for a while, it always takes me a while to adapt and a good dose of resignation at knowing that I&amp;rsquo;ll be missing some Jira&amp;rsquo;s unique features.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;continuous-integration&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;continuous-integration&#34;&gt;Continuous integration&lt;/h2&gt;
+
+&lt;p&gt;Continuous integration is another critical topic. Here, what the industry appears to be saying is that &lt;a href=&#34;https://www.thoughtworks.com/continuous-integration&#34;&gt;you need to do it&lt;/a&gt;. There is no point in looking at tools here if one doesn&amp;rsquo;t even believe in the usefulness of doing Continuous integration. It will make it incredibly easier for you to keep track of what is going on, and to find bugs before they get deployed on production. As far as tools go, no longer that a few years ago the only viable option was to set up Jenkins on some server of yours, and spend days trying to make it work, not to mention the fact that someone will have to keep an eye on it because something might always break. This problem has now been largely solved by the emergence of many excellent, cloud-based CI platform. Prices are pretty fair, usually free for open source and in some cases free for small private projects as well. The most complete, well documented and most supported of them is undoubtedly Berlin-based &lt;a href=&#34;https://travis-ci.com/&#34;&gt;Travis&lt;/a&gt;. Recently, &lt;a href=&#34;https://circleci.com/&#34;&gt;CircleCI&lt;/a&gt; has also attracted a lot of attention, mostly because it&amp;rsquo;s very fast, and because it&amp;rsquo;s free for small projects (i.e. if you only run one build at a time). I haven&amp;rsquo;t found their documentation to be outstanding, and there&amp;rsquo;s not (yet) much help to be found online, but with a bit of effort I&amp;rsquo;ve always been able to make it work nicely.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;static-analysers&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;static-analysers&#34;&gt;Static analysers&lt;/h2&gt;
+
+&lt;p&gt;Something else that you should make sure to have in your stack at some point: static analysers. These tools, while obviously far from replacing the need for writing clean code on the side of the programmer, are very helpful in pointing out a lot of code smells, therefore helping immensely especially during (or before) the process of code reviewing. Here things may change based on the language you&amp;rsquo;re using. &lt;a href=&#34;https://codeclimate.com/&#34;&gt;CodeClimate&lt;/a&gt; supports a lot of languages, and it&amp;rsquo;s probably the one you want to go for in many cases. Being open source, you can either download it and use it from your command line, or pay for the cloud version, which offers a nice UI and it&amp;rsquo;s perhaps a better deal overall. I&amp;rsquo;m also a big fan of &lt;a href=&#34;https://scrutinizer-ci.com/&#34;&gt;Scrutinizer&lt;/a&gt;, but it supports only a limited number of languages. The best way to make static analysers part of your development process, is to add it to your GitHub build. This allows you to check in real time, as you create a Pull Request, the quality of code you&amp;rsquo;re trying to push to the master branch. Moreover, you can make this even stricter by using GitHub&amp;rsquo;s &lt;a href=&#34;https://help.github.com/articles/about-protected-branches/&#34;&gt;Protected Branches&lt;/a&gt; feature, and disallowing you and your collaborators from merging into the master branch unless a certain level of quality has been reached.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;While it&amp;rsquo;s totally understandable that from time to time it might not be possible for someone to follow the above guidelines in their entirety, it&amp;rsquo;s probably worth it to &lt;strong&gt;ask yourself&lt;/strong&gt; if there are good reasons for not following them. If there aren&amp;rsquo;t, then it&amp;rsquo;s definitely time to consider implementing some change.&lt;/p&gt;
+
+&lt;p&gt;As a software engineer, there&amp;rsquo;s no reason to be left behind by the industry and, most importantly, not to use the right tools to deliver the best possible work. As a company, there&amp;rsquo;s no reason why you wouldn&amp;rsquo;t make it possible for your people to work with the best available tools, making both them and your customers happier.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Healthy OOP</title>
+      <link>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</link>
+      <pubDate>Mon, 23 May 2016 08:34:57 +0100</pubDate>
+      
+      <guid>https://www.marcotroisi.com/healthy-oop-object-oriented-programming/</guid>
+      <description>
+
+&lt;p&gt;I enjoy writing code in an Object Oriented fashion. Thinking in terms of objects gives me
+a model that, when followed consistently, ends up producing code that is well organised,
+and that I know to be relatively easy to understand, test, and refactor.&lt;/p&gt;
+
+&lt;p&gt;Now &lt;a href=&#34;https://mcollina.github.io/we-are-not-object-oriented-anymore/&#34;&gt;some people&lt;/a&gt; would want to argue that OOP doesn&amp;rsquo;t really work and/or that we don&amp;rsquo;t need it anymore to build modern software. While I by no means think or want to say that OOP is the ultimate paradigm, I would definitely want to maintain that &lt;em&gt;it is&lt;/em&gt; helpful and that a bunch of procedural code, however &lt;em&gt;nicely&lt;/em&gt; organised (even if that means &lt;a href=&#34;http://marcotroisi.com/microservices-wont-improve-your-code-quality/&#34;&gt;microservices&lt;/a&gt;), &lt;em&gt;is not&lt;/em&gt; the answer.&lt;/p&gt;
+
+&lt;p&gt;The problem with a lot of the criticism that OOP gets, is that it tends to refer to things that in popular programmer culture have become somehow associated with OOP (like the use of ORM), while that isn&amp;rsquo;t really the case.&lt;/p&gt;
+
+&lt;p&gt;Object Oriented Programming &lt;em&gt;done well&lt;/em&gt;, or what I call &lt;strong&gt;Healthy OOP&lt;/strong&gt;, comes with a lot of benefits. Here&amp;rsquo;s a number of things everyone needs to know in order to write good quality code in an OOP way.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;orm-no-thanks&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;orm-no-thanks&#34;&gt;ORM? No, thanks&lt;/h2&gt;
+
+&lt;p&gt;The main problem with using an ORM in an Object Oriented software is, to put it simply, that ORM-related code is overwhelmingly not Object Oriented. I am not saying it is bad per se, and I am not buying into &lt;a href=&#34;http://martinfowler.com/bliki/OrmHate.html&#34;&gt;Orm Hate&lt;/a&gt; just for the sake of it. But, at least if you&amp;rsquo;re trying to write good quality Object Oriented code, using an ORM is probably not the smartest choice out there.&lt;/p&gt;
+
+&lt;p&gt;The biggest issue here is that when you use an ORM you are encouraged to create what you are told to be objects, and use them as &lt;em&gt;mappers&lt;/em&gt; to a database table (or collection). While this may sound very convenient
+on paper, in practice it will inevitably lead you to create big classes, at least as big as your database tables.&lt;/p&gt;
+
+&lt;p&gt;Not only that, but it will also encourage you to skip the &amp;ldquo;thinking&amp;rdquo; process, or the architectural side of things.
+In other words, when all you have to do is to &lt;em&gt;replicate&lt;/em&gt; the exact same structure of your tables into classes (and please don&amp;rsquo;t make the mistake of thinking of them as objects, because they are not), and when most of this is
+probably done for you by some sort of automated &lt;em&gt;table-to-class&lt;/em&gt; generator, then there is almost no point in which it makes sense to sit down and thinking through what&amp;rsquo;s the appropriate architecture and the best organisation for the software. You&amp;rsquo;re going to create a bunch of classes that represent your tables, and you&amp;rsquo;ll just work with them as they are.&lt;/p&gt;
+
+&lt;p&gt;But database tables are meant to be relatively big collections of data, in a structured and easy-to-query fashion. There is very little correlation between that and your Objects, which are supposed to be kept small, cohesive, easy to extend, refactor and manipulate. Not to mention the need to keep your &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;&lt;em&gt;architecture clean&lt;/em&gt;&lt;/a&gt;, which won&amp;rsquo;t happen if you start tightening up your code with whichever database you&amp;rsquo;ve decided to use. It will eventually cause &lt;a href=&#34;http://marcotroisi.com/technical-debt-is-not-a-unicorn/&#34;&gt;technical debt&lt;/a&gt;, and that simply tells you something went wrong at an architectural decision level.&lt;/p&gt;
+
+&lt;p&gt;So there is a case to be made against the use of ORMs in general, but even more so if you&amp;rsquo;re doing OOP.&lt;/p&gt;
+
+&lt;p&gt;A note of clarification is due here: if you&amp;rsquo;re building software with a clean architecture, and you really, really want to use
+an ORM, there may be a place for it, and that&amp;rsquo;s at the level of the &lt;em&gt;Interface Adapters&lt;/em&gt;, where you would build proper interfaces between your Objects (at the &lt;em&gt;Entities&lt;/em&gt; and &lt;em&gt;Use cases&lt;/em&gt; levels) and your ORM &amp;ldquo;mappers&amp;rdquo;. If you have no idea what I&amp;rsquo;m talking about here, please do yourself a favour and read Uncle Bob Martin&amp;rsquo;s article on &lt;a href=&#34;https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;the clean architecture&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Personally, my favourite approach would be to build &lt;a href=&#34;http://www.yegor256.com/2014/12/01/orm-offensive-anti-pattern.html&#34;&gt;SQL-speaking Objects&lt;/a&gt;, as suggested by Yegor Bugayenko in both his blog and &lt;a href=&#34;http://amzn.to/1R0NSpg&#34;&gt;his latest book&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At any rate, if you decide to go with an ORM, that&amp;rsquo;s entirely your prerogative, and it&amp;rsquo;s not wrong in itself. But make sure you&amp;rsquo;re building things in a &lt;em&gt;clean&lt;/em&gt; fashion, and don&amp;rsquo;t use the ORM-generated mappers as your main objects for your business logic.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;accessors-and-mutators-vs-useful-methods&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;accessors-and-mutators-vs-useful-methods&#34;&gt;Accessors and mutators vs useful methods&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Accessors&lt;/em&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Mutator_method&#34;&gt;&lt;em&gt;mutators&lt;/em&gt;&lt;/a&gt;,
+also known as getters and setters, are incredibly popular today. Most IDEs will even automatically generate them for you, which make them even more tempting, as you can have them there and ready to use in just a few seconds.&lt;/p&gt;
+
+&lt;p&gt;Why then take the time to think about more appropriate, expressive and useful methods? There are a few advantages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;It makes your Object closer to a real-world entity.&lt;/strong&gt; &lt;code&gt;Email.enableAutoresponder()&lt;/code&gt; is simply a lot nicer and more expressive than &lt;code&gt;Email.setAutoresponder(true)&lt;/code&gt;, and it&amp;rsquo;s closer to how you would conceive that operation in the real world&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You don&amp;rsquo;t need to expose all of your internal variables.&lt;/strong&gt; What&amp;rsquo;s the point of having your variables as &lt;code&gt;private&lt;/code&gt; if you&amp;rsquo;re going to have setters and getters for all of them? You might as well have them all &lt;code&gt;public&lt;/code&gt;!
+The reality is that you often don&amp;rsquo;t need to expose your variables to the outside world.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In OOP, it&amp;rsquo;s better to expose just a limited number of highly focussed and expressive methods, and handle everything else internally.&lt;/p&gt;
+
+&lt;p&gt;As a representation of a real world entity, your object should be able to do more than just exposing a bunch of variables through getters and setters.&lt;/p&gt;
+
+&lt;p&gt;Ultimately and probably the biggest benefit is that by following a more expressive approach you are always going to force yourself to think about the internal architecture of your object (as opposed to not delegating its functionalities to automatically generated getters and setters) by exposing only relevant information via nice and expressively named methods.&lt;/p&gt;
+
+&lt;p&gt;A great approach to doing this is to first &lt;strong&gt;create an interface&lt;/strong&gt; where you would define all the methods that will be exposed by your object. Then, create your object, making it implement the interface you just defined, and then start filling those methods with actual functionalities, all the while writing your tests for the methods you are working on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;real-world-entities-are-better-than-services&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;real-world-entities-are-better-than-services&#34;&gt;Real world entities are better than Services&lt;/h2&gt;
+
+&lt;p&gt;This is a point that I keep coming back to: take the time to &lt;strong&gt;think about your objects&lt;/strong&gt; and the overall architecture.&lt;/p&gt;
+
+&lt;p&gt;You should see your objects as &lt;strong&gt;real world entities&lt;/strong&gt;, rather than data structures, &amp;ldquo;helpers&amp;rdquo;, or &amp;ldquo;services&amp;rdquo;.
+So, again, instead of replicating your database tables, think about real world examples that would make sense in your case, and expose real behaviour, rather than a bunch of accessors.&lt;/p&gt;
+
+&lt;p&gt;Instead of building a &lt;code&gt;class PasswordEncrypter&lt;/code&gt; (or &lt;code&gt;class PasswordEncryptionService&lt;/code&gt;) that takes in passwords and encrypts them using the algorithm of choice, think in terms of small, more maintainable, composable and extendable objects.&lt;/p&gt;
+
+&lt;p&gt;Why not defining a simple interface like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;type EncryptedPasswordInterface interface {
+  func encryptedValue() string;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then have simple, small classes implementing that interface to encrypt a given password using a certain algorithm.
+Something like &lt;code&gt;Sha1EncryptedPassword&lt;/code&gt;. And then something like &lt;code&gt;Sha1EncryptedPasswordWithSalt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Following this approach, you&amp;rsquo;ll never end up with overbloated, ever-growing &amp;ldquo;Services&amp;rdquo;, which are really Do-it-all classes, a blatant violation of the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The main point here is that you want to build in a way that always allows you to keep things small, composable, and breakable into smaller pieces. Your want your objects to be &lt;em&gt;very specific&lt;/em&gt; and single-focussed.&lt;/p&gt;
+
+&lt;p&gt;The problem with a &lt;code&gt;PasswordEncrypter&lt;/code&gt; would have been that even if at the beginning it supported only one encryption algorithm, the number of such algorithms could have grown with time, and there would have been no obvious way to break things into smaller pieces.&lt;/p&gt;
+
+&lt;p&gt;Notice that I am not saying that it couldn&amp;rsquo;t have been done, what I am saying is that there wouldn&amp;rsquo;t have been an obvious way to do it, which is after all my main point of contention with OOP: it&amp;rsquo;s a &lt;em&gt;system&lt;/em&gt; that gives you a more obvious way to consistently keep your code organised, easy to break into smaller pieces, easy to understand.&lt;/p&gt;
+
+&lt;p&gt;In the example above, the real world entity is the &lt;em&gt;encrypted password&lt;/em&gt;, as defined by the initial interface. It is very easy to
+imagine that this password could have been encrypted with as many encryption algorithms as you can think of, and all you need to do
+is to have an object representing each one of those algorithms. Want to encrypt a password with an algorithm on top of another one? Create an object for it (probably the best approach), or do something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;md5Password := NewMd5EncryptedPassword(unencryptedPassword);
+encryptedPassword := NewSha1EncryptedPassword(md5Password.encryptedValue);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the above example, &lt;code&gt;encryptedPassword&lt;/code&gt; will have double encryption, MD5 and SHA1. A different approach would be
+to build a &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Decorator_pattern&#34;&gt;decorator&lt;/a&gt;&lt;/em&gt;, which is an invaluable tool in OOP. It would look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// Constructor for Sha1PasswordFromMd5
+func NewSha1PasswordFromEncrypted(md5EncryptedPassword *EncryptedPasswordInterface) (p *Sha1PasswordFromEncrypted) {
+  return &amp;amp;Sha1PasswordFromEncrypted{md5EncryptedPassword};
+}
+// Sha1PasswordFromEncrypted is a decorator that takes as an argument
+// EncryptedPasswordInterface and returns this value with Sha1 encryption
+type Sha1PasswordFromEncrypted struct {
+  var Md5EncryptedPassword *EncryptedPasswordInterface;
+}
+func (p *Sha1PasswordFromEncrypted) encryptedValue() string {
+  // here encrypt Md5EncryptedPassword with sha1 and return value
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see, &lt;code&gt;Sha1PasswordFromEncrypted&lt;/code&gt; is a decorator that takes as a parameter an object that implements its very same interface,
+&lt;code&gt;EncryptedPasswordInterface&lt;/code&gt;. It then applies Sha1 encryption on top of the already existing one, and returns the encrypted value as demanded by its interface.&lt;/p&gt;
+
+&lt;p&gt;These are all examples of course, and you would have to use the best approach that works for what you&amp;rsquo;re trying to build.
+But the main idea is to build objects as representations of real world (not necessarily physical) entities.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;use-interfaces&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;use-interfaces&#34;&gt;Use interfaces&lt;/h2&gt;
+
+&lt;p&gt;Interfaces can be a controversial topic. Oddly enough, I&amp;rsquo;ve found myself having to justify the use of interfaces or making the case for them to other developers more often than it would have been reasonable.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, some languages (see Javascript) don&amp;rsquo;t even come with first class support for interfaces (although the
+excellent Typescript &lt;a href=&#34;http://www.typescriptlang.org/docs/handbook/interfaces.html&#34;&gt;does&lt;/a&gt;), whereas in some other languages,
+like PHP, interfaces were a later addition and some developers don&amp;rsquo;t seem to have ever taken the time to study the matter
+and understand what the use cases for them are. Golang has had support for interfaces since the beginning, and their use seems to be part of the language&amp;rsquo;s &lt;em&gt;ethos&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many reasons to use interfaces. Personally, I tend to create an interface for virtually every object that I create.
+This has several benefits:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It allows me to define &lt;em&gt;what the object does&lt;/em&gt; without having yet to worry about actual implementation of functionalities and related tests&lt;/li&gt;
+&lt;li&gt;It makes writing tests &lt;strong&gt;very easy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;By defining the &lt;em&gt;signature&lt;/em&gt; of an object, I&amp;rsquo;m forcing it to adhere to a &lt;strong&gt;contract&lt;/strong&gt; of sort, as my object&amp;rsquo;s public methods will all be described by a previously designed interface.&lt;/li&gt;
+&lt;li&gt;It makes it easier to avoid more obvious violations of the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Interface_segregation_principle&#34;&gt;Interface Segregation Principle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;It gives me the flexibility to quickly &lt;em&gt;swap one object for another&lt;/em&gt;, as long as the interface adopted is the same&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No matter what language you&amp;rsquo;re working with, make it a point to have an abstract signature of your object before you go ahead with the actual implementation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;There are other good practices that can be kept in mind while doing OOP, such as aiming for object&amp;rsquo;s immutability.
+But I believe that by at least keeping in mind the practices listed above, you can write high quality Object Oriented Code that makes sense and that you can be proud of.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;further-reading&#34;&gt;Further reading:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html&#34;&gt;Why getter and setter methods are evil&lt;/a&gt; - Allen Holub&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.yusufaytas.com/achieving-abstraction-in-javascript/&#34;&gt;Achieving Abstraction In JavaScript&lt;/a&gt; - Yosuf Aytas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html&#34;&gt;Objects should be immutable&lt;/a&gt; - Yegor Bugayenko&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://spf13.com/post/is-go-object-oriented/&#34;&gt;Is Go OOP?&lt;/a&gt; - Steve Francia&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/1R0NSpg&#34;&gt;Elegant Objects&lt;/a&gt; [Amazon] - Yegor Bugayenko&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>https://www.marcotroisi.com/tags/code-quality/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
+    <atom:link href="https://www.marcotroisi.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Is object oriented programming dead? Not by a long shot</title>
+      <link>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</link>
+      <pubDate>Tue, 22 Nov 2016 08:16:23 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/object-oriented-programming-is-not-dead/</guid>
+      <description>
+
+&lt;p&gt;Is object-oriented programming (OOP) any good, really? If not, is it just plain bad, or are we simply not doing it right? Are OOP &lt;a href=&#34;http://techbeacon.com/13-programming-languages-defining-future-coding&#34;&gt;languages even in your future&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ve learned about OOP, and you&amp;rsquo;ve probably done it, or at least you think you have. You listened to other people tell you that it&amp;rsquo;s the right way—or the wrong way—to do things. You&amp;rsquo;ve spent long, excruciating hours listening to your computer science teacher talking about how &amp;ldquo;Toyota&amp;rdquo; inherits from &amp;ldquo;car,&amp;rdquo; and so on.&lt;/p&gt;
+
+&lt;p&gt;In real life, though, you may not have found it useful. Perhaps you&amp;rsquo;ve worked with OOP languages, and at times it seemed more like a restriction than something that actually helps. Perhaps it has bothered you so much that you&amp;rsquo;ve welcomed the arrival of different and more modern paradigms.&lt;/p&gt;
+
+&lt;p&gt;You probably identify with at least some of the above sentences. So you may be asking yourself:&lt;/p&gt;
+
+&lt;h2 id=&#34;why-oop&#34;&gt;Why OOP?&lt;/h2&gt;
+
+&lt;p&gt;I enjoy writing code in an object-oriented fashion. Thinking in terms of objects gives me a model that, when followed consistently,  produces code that is well organized, and easy to understand, test, and refactor.&lt;/p&gt;
+
+&lt;p&gt;Some people argue that OOP doesn&amp;rsquo;t really work, or that you don&amp;rsquo;t need it to build modern software. But while I don&amp;rsquo;t think OOP is the ultimate paradigm, it is helpful. A bunch of procedural code, however nicely organized, is simply not the answer.&lt;/p&gt;
+
+&lt;p&gt;But what about functional programming, you might say? That&amp;rsquo;s all fine and good. Many people say OOP and functional programming don&amp;rsquo;t &lt;em&gt;necessarily&lt;/em&gt; conflict with each other. In fact, they complement each other.&lt;/p&gt;
+
+&lt;h2 id=&#34;understanding-oop-polymorphism-and-immutability&#34;&gt;Understanding OOP, polymorphism and immutability&lt;/h2&gt;
+
+&lt;p&gt;Robert Martin has argued that the &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html&#34;&gt;biggest benefit you can take from OOP&lt;/a&gt; is polymorphism, the notion that you can define a single interface with multiple underlying implementations. As software engineers, we wouldn&amp;rsquo;t want to lose that. One of polymorphism&amp;rsquo;s many benefits is that lets you attain &lt;em&gt;inversion of dependency&lt;/em&gt;. In OOP, this means that &amp;ldquo;both high- and low-level objects must depend on the same abstraction,&amp;rdquo; according to Wikipedia. In practice, this translates into software components that are no longer highly coupled. Each component, both high-level and low-level ones, can be easily replaced.&lt;/p&gt;
+
+&lt;p&gt;Martin further states that the biggest benefit you can take from functional programming is immutability, the idea that we design functions or objects so that they always return the same result, given the same values as parameters. Much has been said about this topic, and it&amp;rsquo;s apparent that its many advantages, such as code maintainability and lack of side effects, far outweigh possible downsides, such as a lack of flexibility of sort.&lt;/p&gt;
+
+&lt;p&gt;It shouldn&amp;rsquo;t come as a surprise, then, that immutability has been a recurring theme among people who have done OOP for a while. In his book, Effective Java, Joshua Bloc says that &amp;ldquo;Classes should be immutable unless there&amp;rsquo;s a very good reason to make them mutable&amp;hellip; If a class cannot be made immutable, limit its mutability as much as possible.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yegor256.com/&#34;&gt;Yegor Bugayenko&lt;/a&gt;, CTO of teamed.io, is one of the strongest advocates of a return to pure OOP. He writes extensively about the &lt;a href=&#34;http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html&#34;&gt;advantages of immutability&lt;/a&gt;, saying that &amp;ldquo;&amp;hellip;all classes should be immutable in a perfect object-oriented world.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;There is a lot more to it, and Yegor himself recently wrote a clarifying article, &amp;ldquo;&lt;a href=&#34;http://www.yegor256.com/2016/09/07/gradients-of-immutability.html&#34;&gt;Gradients of immutability&lt;/a&gt;,&amp;rdquo; where he explains how an immutable object doesn&amp;rsquo;t always need to have a rigid structure.&lt;/p&gt;
+
+&lt;p&gt;This is a big topic, worthy of further study. But by now it should be clear that one good reason to do OOP is so you can retain polymorphism. Not only is that possible, but many people recommended it. While we do OOP, we should also hold on to as much immutability as possible, thereby bringing the single biggest advantage of functional programming into OOP.&lt;/p&gt;
+
+&lt;p&gt;If we could get back to the primary advantages of OOP,  and get rid of all of the unnecessary ideas that have cluttered it to the point where most programmers have felt like OOP had become counterproductive, we could add more value to the way we write software.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll get back to what this type of stripped-down, or pure OOP, looks like in a minute. But the fact is that real OOP may look quite a bit different from the way you have understood it up to now.&lt;/p&gt;
+
+&lt;p&gt;At this point, it&amp;rsquo;s worth asking the question: why objects? Why do we need to design programs as a number of objects, as opposed to functions, or procedures?&lt;/p&gt;
+
+&lt;h2 id=&#34;use-objects-as-a-way-to-understand-the-world&#34;&gt;Use objects as a way to understand the world&lt;/h2&gt;
+
+&lt;p&gt;David West, the author of &amp;ldquo;&lt;a href=&#34;http://amzn.to/2e4s5FM&#34;&gt;Object Thinking&lt;/a&gt;,&amp;rdquo; said in a recent &lt;a href=&#34;https://www.youtube.com/watch?v=bW5K5cJ-AVs&#34;&gt;interview&lt;/a&gt; that &amp;ldquo;You look at the world around you and you don&amp;rsquo;t see functions, but you see objects.&amp;rdquo; He&amp;rsquo;s on solid ground here: Philosophers have used terms like &lt;em&gt;abstract&lt;/em&gt; and &lt;em&gt;concrete objects&lt;/em&gt; to describe the world around them for a long time.&lt;/p&gt;
+
+&lt;p&gt;Objects begin to make sense once we stop thinking in terms of bits and bytes, or lines of code. Thinking in terms of objects also lets us stop seeing ourselves as simply people who write code. Our job is really about solving problems, and finding meaningful ways to represent the domain in which we operate. It&amp;rsquo;s a completely different approach from the one that most people take when writing software. It&amp;rsquo;s the notion that &lt;a href=&#34;https://mitpress.mit.edu/sicp/full-text/sicp/book/node3.html&#34;&gt;&amp;ldquo;programs must be written for people to read, and only incidentally for machines to execute,&amp;rdquo;&lt;/a&gt; as Harold Abelson, Gerald Jay Sussman and Julie Sussman state in their book, &lt;em&gt;&lt;a href=&#34;https://mitpress.mit.edu/sicp/full-text/sicp/book/book.html&#34;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thinking in an object-orientated way is a great way to understand the problem you are trying to solve. It allows you to build software that is more maintainable, and easily understandable, for other people.&lt;/p&gt;
+
+&lt;p&gt;By contrast, when you write code in a procedural way, you&amp;rsquo;re really putting yourself in the computer&amp;rsquo;s shoes, so to speak, and writing lines of code in the way it will eventually receive your commands anyway. That&amp;rsquo;s convenient, if you&amp;rsquo;re writing a quick 10-lines-long script, but less so if you&amp;rsquo;re building a complex system on which many programmers must work. Eventually, common sense says you should somehow organize this code into smaller chunks, each containing a different set of procedures (or functions) and representing a distinct domain of sort. In the end, hardly any of this will feel natural, or even logical.&lt;/p&gt;
+
+&lt;p&gt;In this case, had the programmer originally designed the software in an object-oriented fashion, instead of having a lump of disorganized code, the software would be well structured and easy to understand. This isn’t necessarily a bad thing for the computer, as often code that&amp;rsquo;s well written and easy to understand is fast to execute, with less chance of memory leaks.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-source-of-all-that-oop-criticism&#34;&gt;The source of all that OOP criticism&lt;/h2&gt;
+
+&lt;p&gt;The problem with a lot of the &lt;a href=&#34;https://mcollina.github.io/we-are-not-object-oriented-anymore/&#34;&gt;OOP criticism&lt;/a&gt; out there is that it tends to refer to things that in popular programmer culture have become associated with OOP, but shouldn&amp;rsquo;t be.&lt;/p&gt;
+
+&lt;p&gt;One example is &lt;a href=&#34;http://marcotroisi.com/healthy-oop-object-oriented-programming/#orm-no-thanks&#34;&gt;object-relational mapping&lt;/a&gt; (ORMs). Truthfully, you could drop the &amp;ldquo;O&amp;rdquo; in this acronym, as there is no way to directly represent a relational database table in a real-world object. Then there&amp;rsquo;s &lt;a href=&#34;http://marcotroisi.com/healthy-oop-object-oriented-programming/#accessors-and-mutators-vs-useful-methods&#34;&gt;accessors and mutators&lt;/a&gt; (or &lt;a href=&#34;http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html&#34;&gt;getters and setters&lt;/a&gt;) as they will inevitably change the face of your object into a big &amp;ldquo;data bag,&amp;rdquo; throwing encapsulation and data abstraction out the window. The &lt;a href=&#34;http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#2-he-works-by-contracts&#34;&gt;absence of interfaces&lt;/a&gt; is one of the main causes for tight coupling (or lack of flexibility) in our code. Finally, &lt;a href=&#34;http://www.yegor256.com/2014/11/20/seven-virtues-of-good-object.html#5-his-class-doesn-39-t-have-anything-static&#34;&gt;static methods&lt;/a&gt; turn what may have started as an object into a big collection of functions, or procedures, which was never OOP&amp;rsquo;s purpose.&lt;/p&gt;
+
+&lt;p&gt;Quite a few practices have somehow become part of our daily work but were never supposed to be found in OOP. In fact, using them takes us very far from truly object-oriented code. As a result, we lose out on many of the advantages we could have experienced.&lt;/p&gt;
+
+&lt;p&gt;If you were to take a codebase and eliminate at least two of the above mentioned practices, the face of your code would experience a noticeable change for the better.&lt;/p&gt;
+
+&lt;p&gt;OOP done well comes with a lot of benefits. But it&amp;rsquo;s absolutely necessary to remind ourselves what it is that OOP really is, and free ourselves from the many bad practices that have nothing to do with true object thinking.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;http://techbeacon.com/object-oriented-programming-dead-not-long-shot&#34;&gt;TechBeacon&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>When to use microservices (video)</title>
+      <link>https://www.marcotroisi.com/when-to-use-microservices-video/</link>
+      <pubDate>Fri, 09 Sep 2016 08:05:54 +0100</pubDate>
+      
+      <guid>https://www.marcotroisi.com/when-to-use-microservices-video/</guid>
+      <description>&lt;p&gt;A few weeks ago, after giving a talk at PHP Dublin, I was interviewed by the fine folks from the &lt;a href=&#34;https://uxdxconf.com/&#34;&gt;UXDX&lt;/a&gt; conference.&lt;/p&gt;
+
+&lt;p&gt;The topic of the interview was &lt;strong&gt;&amp;ldquo;When to use microservices&amp;rdquo;&lt;/strong&gt;. It was partly inspired by the talk I gave that very night. In the interview, I do my best to define what microservices are and when should companies adopt them. I then proceed to give insights as to how to succeed from both a code quality and a project management point of view.&lt;/p&gt;
+
+&lt;p&gt;UXDX is a conference that will run in Dublin, Ireland, on November the 2nd, 2016. The event&amp;rsquo;s goal is to &lt;em&gt;focus on improving the team behind the product&lt;/em&gt;. There will be a set of great speakers from some of the best companies in Ireland and not only. If you can go, you shouldn&amp;rsquo;t miss it. You can get your tickets &lt;a href=&#34;https://uxdxconf.com/#/tickets&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is the video of the inteview. It&amp;rsquo;s less than 7 minutes long, but I think it contains some interesting points which you might want to look into.&lt;/p&gt;
+
+&lt;div class=&#34;videoWrapper&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/MxdynUAGQGc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Direct link: &lt;a href=&#34;https://youtu.be/MxdynUAGQGc&#34;&gt;https://youtu.be/MxdynUAGQGc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have questions or comments regarding what I just said in this video? Feel free to &lt;a href=&#34;https://www.twitter.com/marcotroisi&#34;&gt;message me&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microservices won’t improve your code quality</title>
+      <link>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/</guid>
+      <description>
+
+&lt;p&gt;If you&amp;rsquo;ve read some of my &lt;a href=&#34;https://www.marcotroisi.com/tag/microservices/&#34;&gt;previous posts&lt;/a&gt;, you&amp;rsquo;ll know that I&amp;rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be &lt;em&gt;one of&lt;/em&gt; the answers to &lt;em&gt;some of&lt;/em&gt; the problems we face.&lt;/p&gt;
+
+&lt;p&gt;I say that and I mean it. Who doesn&amp;rsquo;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&amp;rsquo;t think it&amp;rsquo;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?&lt;/p&gt;
+
+&lt;p&gt;Yes, microservices are a great thing.&lt;/p&gt;
+
+&lt;p&gt;But we are professionals, and as such we can&amp;rsquo;t afford going after what&amp;rsquo;s &amp;#8220;cool&amp;#8221; in the industry without keeping track of the big picture.&lt;/p&gt;
+
+&lt;h2 id=&#34;write-great-code-first&#34;&gt;Write great code first&lt;/h2&gt;
+
+&lt;p&gt;Just as knowing how to count doesn&amp;rsquo;t make you a Mathematician, knowing how to write some code doesn&amp;rsquo;t make you a Programmer. I hope I don&amp;rsquo;t sound elitist or arrogant when I say that, but I am convinced that if we don&amp;rsquo;t take ourselves seriously, no one else will.&lt;/p&gt;
+
+&lt;p&gt;Being a programmer means knowing the discipline of programming. It means being aware that every line of code you write today, will have a consequence in the lives of both the end user of your application, and other programmers that will successively work on that same piece of code.&lt;/p&gt;
+
+&lt;p&gt;This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-you-need-to-know-before-you-start-with-microservices&#34;&gt;What you need to know before you start with microservices&lt;/h2&gt;
+
+&lt;p&gt;Before you even begin to think about doing microservices, you need to get some facts straight:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The monolith is not bad per se&lt;/li&gt;
+&lt;li&gt;Microservices don&amp;rsquo;t magically suspend the rules&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let&amp;rsquo;s have a closer look at them:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-monolith-is-not-bad-per-se&#34;&gt;The monolith is not bad per se&lt;/h3&gt;
+
+&lt;p&gt;We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&amp;rsquo;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.&lt;/p&gt;
+
+&lt;h3 id=&#34;microservices-don-t-magically-suspend-the-rules&#34;&gt;Microservices don&amp;rsquo;t magically suspend the rules.&lt;/h3&gt;
+
+&lt;p&gt;Say you know how to do your job well, and you&amp;rsquo;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&amp;rsquo;t need to put the same amount of care into it. Is that true? No, it isn&amp;rsquo;t.&lt;/p&gt;
+
+&lt;p&gt;That would be like &lt;em&gt;Pirelli&lt;/em&gt; thinking they don&amp;rsquo;t have to work as hard on their tyres as would a theoretical guy who is in charge of building the entire car by himself. After all a tyre is just a small part of a car, isn&amp;rsquo;t it? I mean, if anything breaks or if you need a different type of tyre, you quickly replace it.&lt;/p&gt;
+
+&lt;p&gt;In the same way, one should feel justified to build the &lt;em&gt;Withdrawing&lt;/em&gt; component of a microservices-based Banking software in the most careless way! After all, if it stops working, if it becomes too slow, or if we simply don&amp;rsquo;t like it anymore, we can quickly rewrite it and replace it.&lt;/p&gt;
+
+&lt;p&gt;I hope you can see that this is just nuts. No one thinks like that, in any industry, and neither should we. Pirelli would have their best engineers designing the safest, most performant tyres possible. They wouldn&amp;rsquo;t want a mistake on their part to compromise a car&amp;rsquo;s reliability. In the same way, each component of our microservices-based application needs to be something we can be proud of, that can potentially run for as long as possible unless a rewrite becomes necessary for reasons beyond our control.&lt;/p&gt;
+
+&lt;p&gt;These days I&amp;rsquo;m hearing some people saying things like &amp;#8220;we keep our microservices so small, that we don&amp;rsquo;t even need to write tests!&amp;#8221; I&amp;rsquo;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &amp;#8220;this is such a small part of the whole car, we don&amp;rsquo;t even need to test it!&amp;#8221; This makes no sense, and it&amp;rsquo;s simply unjustifiable.&lt;/p&gt;
+
+&lt;h2 id=&#34;re-defining-microservices&#34;&gt;(Re)defining microservices&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Microservices are really more about the deployment strategy than anything else&lt;/em&gt;. As &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html&#34;&gt;suggested&lt;/a&gt; by &lt;em&gt;Uncle&lt;/em&gt; Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&amp;rsquo;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.&lt;/p&gt;
+
+&lt;p&gt;When you look at microservices this way, they become a lot less scary, and in a sense a lot of the hype around them goes away. Obviously, a microservice architecture remains a fantastic approach that I would highly suggest for a lot of use cases. But it&amp;rsquo;s not, in any way, a different approach to programming. It&amp;rsquo;s the same, clean, high quality code that you have (hopefully) been writing until now, now deployed and perhaps organised differently.&lt;/p&gt;
+
+&lt;p&gt;Now, I am not saying that having a microservice architecture will not affect any of your design decisions. It will. But I am suggesting we don&amp;rsquo;t give it more credit than we should. I am saying that we should design the architecture of our application regardless of whether it will eventually be deployed into small microservices or not. And, by all means, let&amp;rsquo;s not allow the &lt;em&gt;small-ness&lt;/em&gt; of each microservice to suspend the rules of programming. No architectural choice is worth you giving up on being a professional.&lt;/p&gt;
+
+&lt;p&gt;Microservices won&amp;rsquo;t improve your code quality. They won&amp;rsquo;t make it worse either. Really, it&amp;rsquo;s up to you, as it always was, and always will be.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

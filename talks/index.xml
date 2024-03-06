@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks-rsses on Marco Troisi | technology, software development and productivity</title>
+    <link>https://www.marcotroisi.com/talks/index.xml</link>
+    <description>Recent content in Talks-rsses on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
+    <lastBuildDate>Mon, 17 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcotroisi.com/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talks</title>
+      <link>https://www.marcotroisi.com/talks/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/talks/</guid>
+      <description>
+
+&lt;p&gt;This is a list of talks I&amp;rsquo;ve given so far.&lt;/p&gt;
+
+&lt;p&gt;If you would like me to speak at your event/meetup/conference, feel free to &lt;a href=&#34;https://www.marcotroisi.com/about/&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- ## Upcoming --&gt;
+
+&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;The 1 Priority Change You Need to Make to Test Your Serverless App&lt;/strong&gt;
+&lt;a href=&#34;http://serverless-summit.io&#34;&gt;Serverless Summit&lt;/a&gt;&lt;br /&gt;
+Remote&lt;br /&gt;
+16 November 2022
+&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Serverless for Startups&lt;/strong&gt; [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/serverless-for-startups-serverless-architecture-conference-2022&#34;&gt;slides&lt;/a&gt;]
+&lt;a href=&#34;https://serverless-architecture.io/berlin/&#34;&gt;Serverless Architecture Conference&lt;/a&gt;&lt;br /&gt;
+Berlin (Germany)&lt;br /&gt;
+18 October 2022
+&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;2018&#34;&gt;2018&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcotroisi.com/images/conferences/dublin_microservices.png&#34; alt=&#34;Dublin Microservices Meetup&#34; class=&#34;talks__conflogo&#34;&gt;&lt;br /&gt;
+&lt;strong&gt;I&amp;rsquo;ve been to the land of serverless and I&amp;rsquo;ve come back to tell you all about it&lt;/strong&gt; [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/ive-seen-serverless&#34;&gt;slides&lt;/a&gt;] [&lt;a href=&#34;https://www.youtube.com/watch?v=pYcuSmq-2kc&#34;&gt;video&lt;/a&gt;]&lt;br /&gt;
+&lt;a href=&#34;https://www.meetup.com/Dublin-Microservices-User-Group/events/255391340/&#34;&gt;Dublin Microservices Meetup&lt;/a&gt;&lt;br /&gt;
+Dublin (Ireland)&lt;br /&gt;
+29th November 2018
+&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;2017&#34;&gt;2017&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcotroisi.com/images/conferences/waterford_tech_meetup_twitter_profile.jpg&#34; alt=&#34;Waterford Tech Meetup&#34; class=&#34;talks__conflogo&#34;&gt;&lt;br /&gt;
+&lt;strong&gt;Serverless: what it is, when to use it&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&#34;http://waterfordtechmeetup.com/&#34;&gt;Waterford Tech Meetup&lt;/a&gt;&lt;br /&gt;
+Waterford (Ireland)&lt;br /&gt;
+29th November 2017
+&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcotroisi.com/images/conferences/agileEE2017_logo.png&#34; alt=&#34;Agile EE 2017&#34; class=&#34;talks__conflogo&#34;&gt;&lt;br /&gt;
+&lt;strong&gt;Microservices won&amp;rsquo;t improve your code quality&lt;/strong&gt; [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/microservices-wont-improve-your-code-quality&#34;&gt;slides&lt;/a&gt;]&lt;br /&gt;
+&lt;a href=&#34;http://kiev2017.agileee.org/&#34;&gt;Agile Eastern Europe Conference&lt;/a&gt;&lt;br /&gt;
+Kiev (Ukraine)&lt;br /&gt;
+7th-8th April 2017&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcotroisi.com/images/conferences/phplondon_logo.jpeg&#34; alt=&#34;PHP London&#34; class=&#34;talks__conflogo&#34;&gt;&lt;br /&gt;
+&lt;strong&gt;OOP is not dead&lt;/strong&gt; [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/is-oop-dead?slide=2&#34;&gt;slides&lt;/a&gt;]&lt;br /&gt;
+&lt;a href=&#34;https://www.meetup.com/phplondon/events/237870919/?rv=ea1&amp;amp;_af=event&amp;amp;_af_eid=237870919&amp;amp;https=on&#34;&gt;PHP London&lt;/a&gt;&lt;br /&gt;
+London (UK)&lt;br /&gt;
+2nd March 2017&lt;/p&gt;
+
+&lt;h2 id=&#34;2016&#34;&gt;2016&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Mistakes made and Lessons learned with PHP (Panel)&lt;/strong&gt; - &lt;em&gt;PHP Dublin&lt;/em&gt;, Dublin (Ireland); 4th October 2016&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Healthy OOP in Javascript&lt;/strong&gt; - &lt;em&gt;BelfastJS&lt;/em&gt;, Belfast (UK); 31st August 2016 [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/healthy-oop-in-javascript&#34;&gt;slides&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Microservices won&amp;rsquo;t improve your code quality&lt;/strong&gt; - &lt;em&gt;PHP Dublin&lt;/em&gt;, Dublin (Ireland); 11th August 2016 [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/microservices-wont-improve-your-code-quality&#34;&gt;slides&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When to use microservices&lt;/strong&gt; - Video interview, Dublin (Ireland); 11th August 2016 [&lt;a href=&#34;https://www.youtube.com/watch?v=MxdynUAGQGc&#34;&gt;video&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical Debt is not a unicorn&lt;/strong&gt; - &lt;em&gt;Corkdev.io&lt;/em&gt;, Cork (Ireland); 19th July 2016 [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/technical-debt-is-not-a-unicorn&#34;&gt;slides&lt;/a&gt;] [&lt;a href=&#34;https://www.youtube.com/watch?v=YiOuOybCTzI&#34;&gt;video&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
