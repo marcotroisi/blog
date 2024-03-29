@@ -7,18 +7,22 @@ dsq_thread_id:
   - 2118053237
 featured_image: "/marcotroisi_picture.jpg"
 ---
-I am a software engineer mainly involved with web development, with team leading experience. I love learning and experiencing new things. I see software development – and technology as a whole – as a way for people to get things done more easily and faster.
+Hello! 👋
 
-I am currently the CTO at [Trilo](https://www.trilo.io), after having served at the company as a Senior Software Engineer and Cloud Architect. 
+I’ve been working in tech for almost 15 years, taking on various roles such as Software Engineer, Tech Lead, Cloud Architect, CTO, and Cloud Consultant. 
 
-Prior to that, I was the Lead Engineer of the *Bot Building team* at [ServisBot](https://servisbot.com), where we built a conversational AI platform that was **100% serverless**. 
+I’ve designed cloud solutions, led teams, and developed a lot of software.
 
-I also have worked in Johannesburg (South Africa), Milan (Italy) and Berlin (Germany) for several different companies/organisations. 
+I’ve gained valuable experience at companies like Rocket Internet, ServisBOT, and Trilo. I enjoy the structure of big companies but am truly passionate about the energy and creativity found in startups.
 
-I am a certified *__AWS__ Solutions Architect Professional*, *Solutions Architect Associate*, and *Developer Associate*. 
+I specialise in serverless architectures within the AWS cloud, a field where I've dedicated over 7 years of my career. This specialisation is not just my work; it's my craft.
+
+Away from the keyboard, I march to the beat of a different drum—quite literally. As a former drummer in a prog-rock band, I understand rhythm, whether in music or code. I start my day by making a cup of specialty coffee using my V60, which is a thoughtful process for me.
+
+I'm an insatiable reader with a penchant for the profound and the thrilling, delving into the realms of philosophy, history, religion, and the occasional spy novel.
+
+I believe that life is a continuous learning process, and I bring this ethos into every project I undertake. Let's connect and create something remarkable together.
 
 If you want to meet up and have a chat, discuss a project or ask me for help, please do not hesitate to [contact me](https://www.marcotroisi.com/contact/).
-
-You can find my full resume [here](https://www.dropbox.com/s/bu19cfek7nqxc83/CV_MarcoTroisi.pdf?dl=0).
 
 ### Contact (info@marcotroisi.com)
