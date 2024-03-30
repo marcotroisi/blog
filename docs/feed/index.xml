@@ -7,8 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Marco Troisi</copyright>
-    <lastBuildDate>Mon, 14 Jun 2021 08:07:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Mar 2024 13:00:41 +0000</lastBuildDate>
     <atom:link href="https://www.marcotroisi.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What Makes Developers Productive? Four Observations</title>
+      <link>https://www.marcotroisi.com/what-makes-developers-productive/</link>
+      <pubDate>Sat, 30 Mar 2024 13:00:41 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/what-makes-developers-productive/</guid>
+      <description>&lt;p&gt;I have been a technologist for well over a decade, working in roles such as software engineer, software architect, team lead, and most recently, CTO of a small startup.&lt;/p&gt;
+
+&lt;p&gt;While I’ve certainly had to deal with the more &lt;em&gt;managerial&lt;/em&gt; sides of some of these roles, it’s fair to say that I’ve been decidedly on the Maker side of the &lt;a href=&#34;https://paulgraham.com/makersschedule.html&#34;&gt;Maker vs Manager&lt;/a&gt; equation.&lt;/p&gt;
+
+&lt;p&gt;Even as a CTO, my time and tolerance for politics and meetings has been fairly low.&lt;/p&gt;
+
+&lt;p&gt;It’s been a lifelong passion of mine to figure out just what exactly does it mean to be productive. Over the years, I’ve incessantly asked myself the question: what can I do to make the most of my time and add lasting value?&lt;/p&gt;
+
+&lt;p&gt;As a young and fairly junior software engineer, that question seemed like a fun one to answer. Beginning to understand the answer to it, though, has helped me immensely to make the leap forward with my career and grow my skillset&lt;sup&gt;&lt;a href=&#34;#footnote1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;What follows are my observations on productivity. After countless conversations with individuals in the industry and creatives/makers in general, I believe that these observations apply to many, if not most, of us.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Deep Focus is Key&lt;/strong&gt;: To produce my best work, I need long stretches of uninterrupted time.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Cost of Context Switching&lt;/strong&gt;: Interruptions aren&amp;rsquo;t just time-wasters. The mental effort to refocus after an interruption (the &amp;ldquo;switching cost&amp;rdquo;) can derail an entire day.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Urgency is Rare&lt;/strong&gt;: The vast majority of interruptions are not urgent and could be handled asynchronously.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Misaligned Systems&lt;/strong&gt;: Many workplaces unintentionally undermine productivity with chaotic open offices and tools that encourage constant communication (like Slack).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Why is observation #4 the case? It’s hard to know for sure.&lt;/p&gt;
+
+&lt;p&gt;One theory is that most of these tools and systems are chosen by the people in charge. These people, almost inevitably, fall into the Manager camp. They thrive on meetings, and can’t fathom why anyone would need quiet to get work done. They equate real time communication and meetings with “collaboration”. That makes anyone asking not to be interrupted the bad guy! Why would you not want to be collaborative and a team player?&lt;/p&gt;
+
+&lt;p&gt;Another theory is that we don’t have (or don’t know how to use) the right tools. These tools should, minimally, facilitate the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Visibility should be clear. At a glance, it should be obvious what everyone is working on. This provides managers or team leads with the necessary assurance that work is progressing well, eliminating the need for frequent status meetings or a barrage of &amp;ldquo;How&amp;rsquo;s the project coming along?&amp;rdquo; Slack messages.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Communication should be effective, allowing for the exchange of information and requests for help. Messages should be read and responded to without the need to interrupt the other person unless there is a truly urgent matter, which is often rare.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Attempts to tame our existing tools have been made. Many organizations have rules or best practices for using Slack. For instance, some companies clarify that immediate responses should not be expected when sending messages. While this usually helps, there&amp;rsquo;s a recurring observation that delays in responses on Slack can induce anxiety. It&amp;rsquo;s almost as if the tool itself is unfit for purpose, but that&amp;rsquo;s another complex issue we&amp;rsquo;ll not delve into right now!&lt;/p&gt;
+
+&lt;p&gt;So, here they are, my four observations about productivity. As mentioned earlier, they may not be easily achievable. However, understanding what works and what doesn&amp;rsquo;t, along with the conditions under which our brains function best, can make a significant difference.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Is the current state of work truly optimised for deep focus and uninterrupted creation?&lt;/strong&gt; Let&amp;rsquo;s keep this conversation going. Let me know your thoughts on how we can better bridge the gap between how developers work best and how workplaces are often structured.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;a name=&#34;myfootnote1&#34;&gt;[1]&lt;/a&gt; I never did imagine how much more relevant the productivity question would become as our family grew. When you have small children, your available time becomes ever more limited and catching up after work hours is often not a viable option!&lt;/small&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://www.theserverlessmindset.com/p/what-makes-developers-productive&#34;&gt;The Serverless Mindset&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Simplify your microservices security with these cloud services</title>
@@ -1176,6 +1230,14 @@ type Car interface {
 
 &lt;!-- ## Upcoming --&gt;
 
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;4 Strategies to Build Incredibly Performant Serverless Apps&lt;/strong&gt; [&lt;a href=&#34;https://speakerdeck.com/marcotroisi/4-strategies-to-build-incredibly-performant-serverless-apps&#34;&gt;slides&lt;/a&gt;]
+&lt;a href=&#34;https://serverless-architecture.io/berlin/&#34;&gt;Serverless Architecture Conference&lt;/a&gt;&lt;br /&gt;
+Berlin (Germany)&lt;br /&gt;
+22 October 2023
+&amp;nbsp;&lt;/p&gt;
+
 &lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;The 1 Priority Change You Need to Make to Test Your Serverless App&lt;/strong&gt;
@@ -1256,102 +1318,6 @@ London (UK)&lt;br /&gt;
 &lt;p&gt;Direct link: &lt;a href=&#34;https://youtu.be/MxdynUAGQGc&#34;&gt;https://youtu.be/MxdynUAGQGc&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Have questions or comments regarding what I just said in this video? Feel free to &lt;a href=&#34;https://www.twitter.com/marcotroisi&#34;&gt;message me&lt;/a&gt;!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The right tools for the job</title>
-      <link>https://www.marcotroisi.com/right-tools-for-programming/</link>
-      <pubDate>Thu, 07 Jul 2016 20:32:31 +0100</pubDate>
-      
-      <guid>https://www.marcotroisi.com/right-tools-for-programming/</guid>
-      <description>
-
-&lt;!-- MarkdownTOC --&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#why-you-need-the-best-tools&#34;&gt;Why you need the best tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#writing-code&#34;&gt;Writing code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#version-control&#34;&gt;Version Control&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#code-sharing-and-collaboration&#34;&gt;Code sharing and collaboration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#code-review&#34;&gt;Code review&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#bug-tracking&#34;&gt;Bug tracking&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#static-analysers&#34;&gt;Static analysers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- /MarkdownTOC --&gt;
-
-&lt;p&gt;&lt;a name=&#34;why-you-need-the-best-tools&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;why-you-need-the-best-tools&#34;&gt;Why you need the best tools&lt;/h2&gt;
-
-&lt;p&gt;Hardly any job can be done without the right tools. You always need &lt;em&gt;something&lt;/em&gt; to do what you do. This applies to virtually everyone, from a dentist to a photographer, a journalist to a mathematician. And of course the software engineer is not excused.&lt;/p&gt;
-
-&lt;p&gt;Give an old, cheap, faulty camera to a great photographer, and he&amp;rsquo;ll come back to you tired and frustrated, with only a few nice photos and more bad ones than what would be considered acceptable from a professional. Give a fantastic camera to a decent photographer who knows how to use it, and he&amp;rsquo;ll come back with loads of good photos, a few amazing ones, and perhaps a couple of not so great ones.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s why I&amp;rsquo;m always amazed at how many software engineers and employers tend to overlook the importance of using the right tools. It&amp;rsquo;s simply astonishing. One reason for that, as I understand it, would be fragmentation, or &lt;em&gt;diversity of opinions&lt;/em&gt;. A developer might like a certain tool more than another one.&lt;/p&gt;
-
-&lt;p&gt;But here&amp;rsquo;s where I think the controversy starts: it doesn&amp;rsquo;t really matter what you think is better. &lt;strong&gt;What&amp;rsquo;s better is what the industry decides it is&lt;/strong&gt;. Look at it this way: if you&amp;rsquo;re a photographer and you think the best way to take photos of your clients is on a 15-years-old Polaroid, does that make it the best tool for the job? I mean, your customers are paying you real money for professional, high-quality photos that they can not only print, but also store on their hard drives. And you give them a bunch of low quality photos printed from an old instant camera. Does this sound right to you? It doesn&amp;rsquo;t to me.&lt;/p&gt;
-
-&lt;p&gt;In the same way, it wouldn&amp;rsquo;t matter how cool and geeky it makes you feel to work on a &lt;em&gt;Raspberry PI Model A&lt;/em&gt;. The truth is that you&amp;rsquo;re going to spend twice as much time doing what you have to do, because of the inherent slowness of such a small machine; plus you won&amp;rsquo;t have state-of-the-art tools to help you write code, test, debug and so on, because most development software isn&amp;rsquo;t yet supported on an ARM architecture.&lt;/p&gt;
-
-&lt;p&gt;As a software engineer, I need to be an absolute professional in what I do. And I need to be in line with what the industry thinks are the best tools.&lt;/p&gt;
-
-&lt;p&gt;These things may and will change in the future, but as things stand now, the industry seems to be saying the following things:&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;writing-code&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;writing-code&#34;&gt;Writing code&lt;/h2&gt;
-
-&lt;p&gt;The &lt;em&gt;best way to write code&lt;/em&gt; is through a powerfully integrated IDE like the ones from JetBrains, or a faster text editor like Sublime Text or Atom, provided you have the right plugins for your language of choice installed. No, you can&amp;rsquo;t use Notepad, that&amp;rsquo;s just not good enough!&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;version-control&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;version-control&#34;&gt;Version Control&lt;/h2&gt;
-
-&lt;p&gt;The industry is also saying that the &lt;em&gt;best version control system&lt;/em&gt; is &lt;strong&gt;Git&lt;/strong&gt;. It&amp;rsquo;s the system that the biggest number of companies and developers all around the world have found to be the most powerful one. While in terms of usage percentage it may still be fighting against SVN, a quick look at the projects that still use the latter will quickly reveal how the vast majority of them are only using it because of legacy. In other words, those are very old projects, and they were using SVN since before Git was even a thing. But then, why would they keep using such an ancient and inefficient system when there are plenty of ways to migrate to Git? This is something I don&amp;rsquo;t fully understand.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;code-sharing-and-collaboration&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;code-sharing-and-collaboration&#34;&gt;Code sharing and collaboration&lt;/h2&gt;
-
-&lt;p&gt;Another thing the industry has been saying for a while now, is that the &lt;em&gt;best way to share code&lt;/em&gt; is to use &lt;strong&gt;GitHub&lt;/strong&gt; on top of the already-mentioned Git. Now, I understand that some companies may find that BitBucket or GitLab fit their needs better. But given the choice, and all things being equal, GitHub is &lt;em&gt;the&lt;/em&gt; one. It&amp;rsquo;s the most widely supported and most well known collaboration platform out there.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;code-review&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;code-review&#34;&gt;Code review&lt;/h2&gt;
-
-&lt;p&gt;Tools for &lt;a href=&#34;http://marcotroisi.com/the-ethics-of-code-reviews/&#34;&gt;Code reviewing&lt;/a&gt; are also important, and they are strictly related to collaboration tools in that the &lt;em&gt;best way to review&lt;/em&gt; your peers&amp;rsquo; code appears to be yet again &lt;strong&gt;GitHub&lt;/strong&gt;. Their code reviewing tool is just too good, and it&amp;rsquo;s simply too easy to use when you&amp;rsquo;re already on GitHub, so there&amp;rsquo;s just no need to be looking for anything else.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;bug-tracking&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;bug-tracking&#34;&gt;Bug tracking&lt;/h2&gt;
-
-&lt;p&gt;For a project to work well, you&amp;rsquo;re going to need some kind of bug tracking system. I&amp;rsquo;ve personally had to work with several of them, from &lt;a href=&#34;http://www.redmine.org/&#34;&gt;Redmine&lt;/a&gt; to &lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt;, from &lt;a href=&#34;https://www.atlassian.com/software/jira&#34;&gt;Jira&lt;/a&gt; to &lt;a href=&#34;https://www.jetbrains.com/youtrack/&#34;&gt;YouTrack&lt;/a&gt;, and of course GitHub Issues. Here I&amp;rsquo;d have to say that I&amp;rsquo;ve had decent experiences with pretty much all of them: once you get used to one of them, they can all do their job, no question about it. But there seems to be a general consensus on &lt;strong&gt;Jira&lt;/strong&gt; being the best tool out there, and I think that&amp;rsquo;s right. While every other platform I&amp;rsquo;ve used was good enough, every time that I come back to Jira after a while, I am just amazed at how powerful and functional it is. And, every time I use a different tool after having worked with Jira for a while, it always takes me a while to adapt and a good dose of resignation at knowing that I&amp;rsquo;ll be missing some Jira&amp;rsquo;s unique features.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;continuous-integration&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;continuous-integration&#34;&gt;Continuous integration&lt;/h2&gt;
-
-&lt;p&gt;Continuous integration is another critical topic. Here, what the industry appears to be saying is that &lt;a href=&#34;https://www.thoughtworks.com/continuous-integration&#34;&gt;you need to do it&lt;/a&gt;. There is no point in looking at tools here if one doesn&amp;rsquo;t even believe in the usefulness of doing Continuous integration. It will make it incredibly easier for you to keep track of what is going on, and to find bugs before they get deployed on production. As far as tools go, no longer that a few years ago the only viable option was to set up Jenkins on some server of yours, and spend days trying to make it work, not to mention the fact that someone will have to keep an eye on it because something might always break. This problem has now been largely solved by the emergence of many excellent, cloud-based CI platform. Prices are pretty fair, usually free for open source and in some cases free for small private projects as well. The most complete, well documented and most supported of them is undoubtedly Berlin-based &lt;a href=&#34;https://travis-ci.com/&#34;&gt;Travis&lt;/a&gt;. Recently, &lt;a href=&#34;https://circleci.com/&#34;&gt;CircleCI&lt;/a&gt; has also attracted a lot of attention, mostly because it&amp;rsquo;s very fast, and because it&amp;rsquo;s free for small projects (i.e. if you only run one build at a time). I haven&amp;rsquo;t found their documentation to be outstanding, and there&amp;rsquo;s not (yet) much help to be found online, but with a bit of effort I&amp;rsquo;ve always been able to make it work nicely.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;static-analysers&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;static-analysers&#34;&gt;Static analysers&lt;/h2&gt;
-
-&lt;p&gt;Something else that you should make sure to have in your stack at some point: static analysers. These tools, while obviously far from replacing the need for writing clean code on the side of the programmer, are very helpful in pointing out a lot of code smells, therefore helping immensely especially during (or before) the process of code reviewing. Here things may change based on the language you&amp;rsquo;re using. &lt;a href=&#34;https://codeclimate.com/&#34;&gt;CodeClimate&lt;/a&gt; supports a lot of languages, and it&amp;rsquo;s probably the one you want to go for in many cases. Being open source, you can either download it and use it from your command line, or pay for the cloud version, which offers a nice UI and it&amp;rsquo;s perhaps a better deal overall. I&amp;rsquo;m also a big fan of &lt;a href=&#34;https://scrutinizer-ci.com/&#34;&gt;Scrutinizer&lt;/a&gt;, but it supports only a limited number of languages. The best way to make static analysers part of your development process, is to add it to your GitHub build. This allows you to check in real time, as you create a Pull Request, the quality of code you&amp;rsquo;re trying to push to the master branch. Moreover, you can make this even stricter by using GitHub&amp;rsquo;s &lt;a href=&#34;https://help.github.com/articles/about-protected-branches/&#34;&gt;Protected Branches&lt;/a&gt; feature, and disallowing you and your collaborators from merging into the master branch unless a certain level of quality has been reached.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;conclusion&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;While it&amp;rsquo;s totally understandable that from time to time it might not be possible for someone to follow the above guidelines in their entirety, it&amp;rsquo;s probably worth it to &lt;strong&gt;ask yourself&lt;/strong&gt; if there are good reasons for not following them. If there aren&amp;rsquo;t, then it&amp;rsquo;s definitely time to consider implementing some change.&lt;/p&gt;
-
-&lt;p&gt;As a software engineer, there&amp;rsquo;s no reason to be left behind by the industry and, most importantly, not to use the right tools to deliver the best possible work. As a company, there&amp;rsquo;s no reason why you wouldn&amp;rsquo;t make it possible for your people to work with the best available tools, making both them and your customers happier.&lt;/p&gt;
 </description>
     </item>
     
