@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>A Question about Microservices | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="A question on how to approach a microservices architecture, authentication, and over-bloated frameworks."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="A Question about Microservices" />
+<meta property="og:description" content="A question on how to approach a microservices architecture, authentication, and over-bloated frameworks." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="A question on how to approach a microservices architecture, authentication, and over-bloated frameworks." />
+<meta name="twitter:title" content="A Question about Microservices" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          24 Sep &#39;15 
+          
+    </span>
+    A Question about Microservices
+  </h1>
+</header>
+
+
+
+<article class="blog__wrap clear">
+  <p>I received this question about microservices, and I am happy to publish my reply. Perhaps someone else will also find it helpful.</p>
+
+<blockquote>
+<p>Hello Marco,</p>
+
+<p>I&#8217;ve just stumbled upon your articles about microservices. I&#8217;m really trying to get into it, I find it a really interesting approach when it comes to build web apps. I got bored with all those frameworks claiming MVC etc. What I want to focus on is SOC, so microservices really fits in there. However I didn&#8217;t have time yet to practice what I could have read on that, and there are still things that are pretty obscure to me, maybe you could give me your point of view.</p>
+</blockquote>
+
+<p></p>
+
+<blockquote>
+<p>My main concern is about information sharing between services. What happens when a microservice is &#8220;linked&#8221; to another one ? If I take your example of WordPress refactoring, you&#8217;re for example stating that there could be a Post and Media Content microservices. But here, the media content microservices isn&#8217;t really standalone as it wouldn&#8217;t make sense to use it without the Post microservice, because Media Content is directly attached to a Post, see what I mean ? It sounds kind of weird to me, but maybe I&#8217;m wrong.</p>
+
+<p>Also my second point would be about user authentication. How do you persist the state between microservices ? Do you have an example of that ?</p>
+
+<p>Thanks for the articles, Waiting to hear from you.</p>
+
+<p>Regards,</p>
+
+<p>Romain</p>
+</blockquote>
+
+<hr />
+
+<p>Dear Romain,</p>
+
+<p>Thanks for reading my article on microservices, I appreciate it. Like you, I am also sick and tired of big, overbloated frameworks that claim to do everything for you, including making your coffee in the morning. While they may be a good choice in certain situations, I think many times they just add a lot of unnecessary complexity, unnecessary <em>ad hoc</em> concepts to be learned, and most importantly, unnecessary (potentially buggy) code that you haven&#8217;t written yourself. These days I find myself more inclined towards micro-frameworks, or even simple libraries that do just one thing; an example I love would be <a href="http://www.gorillatoolkit.org/">Gorilla</a>, a Golang set of standalone libraries that take care of most of the functionalities for which we would have traditionally used a framework.</p>
+
+<p>As to your question, let me see if I can somehow help you here. When you say &#8220;linked&#8221;, I take it that you mean a microservice that&#8217;s <em>usually</em> (or, meant to be) used in conjunction with one or more other microservices. But that, when you think about it, is nothing strange! In fact, any microservice that would be meant to be only used on its own, would simply be a small monolith. For a microservice to be considered as such, it needs to be part of a <strong>microservices architecture</strong>, that is to say, a bigger application that does a lot of things, and that uses microservices to do each one of those things.</p>
+
+<p>But I get where your doubt is coming from. You are thinking about the Media Content example, and it doesn&#8217;t feel to you like a standalone service as it would never be used separately from the Post microservice. I see two main problems in this reasoning.</p>
+
+<p>Firstly, the idea of standalone-<em>ness</em> in a microservices architecture is meant to be mostly for the sake of the application&#8217;s solidity; in other words, you ought to think of the Post microservice as a standalone service not because you want to use it as such (in fact, you don&#8217;t! You want to use it together with Media, and maybe other services), but because in the event where the Media microservice should be unavailable (e.g. due to a network problem), you don&#8217;t want the entire application to be altogether down. What you want there, is for the Posts to be still available, even though you might have to gracefully handle the absence of pictures and videos.</p>
+
+<p>I hope this gives you the right perspective. The idea is that you build a microservice independently, and you test it on its own, so to make sure that it will keep working even when other services are unavailable. Then, you mix it with the other microservices.</p>
+
+<p>The second problem I see there is that, while I agree that Media will mostly be used in conjunction with the Post microservice, nevertheless you shouldn&#8217;t think of them as <em>only</em> usable together. If you keep things clean and separated, you will be better off in the future, as you never know what functionalities you are going to need as you move on. Think for example of a service that takes pictures from your Media microservice and send them to your Pinterest account using Pinterest&#8217;s APIs. In this case, you don&#8217;t really need the Post microservice, and it would be just one example of a situation where you need Media but you don&#8217;t need Post. So the real point here is the <em>separation of concerns</em>. Let each microservice do only one thing, and do it well. Let the Media microservice handle upload, resize, manipulation and what-have-you. Let the Post microservice handle the actual content and things like Markdown to HTML conversion (which could probably be another microservice anyway), and so on.</p>
+
+<p>Regarding your second question about authentication, I would advice you make use of a layer that will take care of receiving requests from the outside, handle the user authentication, and then route the request to the appropriate microservice (together with <em>at least</em> a secret token, or something more sophisticated if you will), get the result from the microservice and send it back to user. Have a look at <a href="https://getkong.org/">Kong</a> for a reference and a better idea of what I am talking about (warning: it might be overhead for certain projects, but just so you have an idea).</p>
+
+<p>Here are more resources for you, so you can go more in depth with these arguments:</p>
+
+<ul>
+<li><a href="https://blog.8thlight.com/uncle-bob/2015/08/06/let-the-magic-die.html">Make the magic go away (Uncle Bob)</a>, on the notion of not using overbloated frameworks!</li>
+<li><a href="http://www.amazon.com/gp/product/1491950358/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1491950358&amp;linkCode=as2&amp;tag=marctroi-20&amp;linkId=J656A6LG3XRMA3J4">Building Microservices (Sam Newman)</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=1491950358" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>
+<li><a href="http://microservices.io/">Microservices.io</a>, lots of fine articles to give you a better overview of a microservices archicture, the good and the bad</li>
+<li><a href="http://martinfowler.com/articles/microservices.html">Microservices guide (Martin Fowler)</a></li>
+<li><a href="http://techblog.netflix.com/2015/02/a-microscope-on-microservices.html">Netflix and Microservices</a></li>
+</ul>
+
+<p>I wish you a lot of fun with microservices and your next project,</p>
+
+<p>Marco</p>
+
+<p><strong>If you&#8217;d like to send me your questions or suggestions, feel free to <a href="https://www.marcotroisi.com/contact/">contact me</a></strong>!</p>
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+

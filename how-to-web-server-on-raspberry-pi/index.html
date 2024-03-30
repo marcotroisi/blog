@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>How to set up a full web server on a Raspberry PI | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="How to set up a full web server on a Raspberry PI" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:title" content="How to set up a full web server on a Raspberry PI" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          16 Jan &#39;13 
+          
+    </span>
+    How to set up a full web server on a Raspberry PI
+  </h1>
+</header>
+
+
+
+<article class="blog__wrap clear">
+  <p>In this post I am going to show you how to set up a fully operative <strong>web server</strong> on <a href="https://www.marcotroisi.com/2013/01/i-got-a-rasperry-pi/" title="I got a Rasperry PI!">Raspberry PI</a>. More specifically, this a LAMP server, which means Linux+Apache+MySQL+PHP, which the most common combination you find in most of the servers worldwide.</p>
+
+<p></p>
+
+<h2 id="refresh-all-your-packages">Refresh all your packages</h2>
+
+<p>Just before we start, it is indicated to <em>refresh all your repositories</em>, in order to get the most updated version of every software we are going to install. To do that, simply type the following command:</p>
+
+<pre class="lang:sh decode:true " >sudo apt-get update</pre>
+
+<h2 id="apache-web-server">Apache web server</h2>
+
+<pre class="">sudo apt-get install apache2</pre>
+
+<p>Doing this, you have installed now the <a title="Apache" href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDQQFjAA&url=http%3A%2F%2Fhttpd.apache.org%2F&ei=HTH3UJ7EFqrx4QSohoGABg&usg=AFQjCNGyImC8Qi-rx_Bxd9knbUGKMxH5TQ&sig2=HrOuBOkg6T4w_1_LlDW4cw&bvm=bv.41018144,d.bGE" target="_blank">Apache</a> web server on your Raspberry PI.</p>
+
+<h2 id="mysql">MySQL</h2>
+
+<p>To install <a title="MySQL" href="http://www.mysql.com" target="_blank">MySQL</a>, the Oracle-developed world&#8217;s most famous <a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDQQFjAA&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRelational_database_management_system&ei=2TD3UNzMFu314QSPo4GYBg&usg=AFQjCNF1cHWqW6UJUS3UPBCQCzEG_mHyWQ&sig2=gWQZ0HLHKXEvipfHBL1Cjw&bvm=bv.41018144,d.bGE" target="_blank">RDBMS</a>:</p>
+
+<pre>sudo apt-get install mysql-server</pre>
+
+<h2 id="php5">PHP5</h2>
+
+<p>In order to be able to view your <a title="PHP" href="http://www.php.net" target="_blank">PHP</a> made websites, you will have to install PHP5, typing:</p>
+
+<pre>sudo apt-get install php5</pre>
+
+<pre>sudo apt-get install php5-mysql</pre>
+
+<p>The second line will install the libraries that make PHP5 able to connect to the MySQL database.</p>
+
+<h2 id="ready-to-go">Ready to go!</h2>
+
+<p>Your web server is now ready and working, and you can test it by visiting (from a browser) <strong><em><a href="http://localhost/">http://localhost/</a></em></strong>. You can place all your websites&#8217; folders and files at the following path: <strong><em>/var/www/html/</em></strong>.</p>
+
+<h2 id="working-with-mysql">Working with MySQL</h2>
+
+<p>As you will most probably need to work with one or more database, you may want to use a web interface for that. <a title="Adminer" href="http://www.adminer.org" target="_blank">Adminer</a> is a great, lightweight and very fast database management tool. To use it, simply type the following commands:</p>
+
+<pre class="lang:sh decode:true " >cd /var/www
+mkdir adminer
+cd adminer
+sudo wget http://www.adminer.org/latest-mysql-en.php
+mv latest-mysql-en.php index.php</pre>
+
+<p>Now, if you try to visit <strong><em><a href="http://localhost/adminer">http://localhost/adminer</a></em></strong> from a browser, you should see your database management interface. To access it, simply insert the MySQL username and password you chose while installing it.</p>
+
+<p><del>In alternative, if you don&#8217;t like Adminer&#8217;s very simple interface and you want a much more graphical and powerful UI, you should give a try to <a title="Chive" href="http://www.chive-project.com" target="_blank">Chive</a>, a wonderful database management tool developed with the <a title="Yii framework" href="http://www.yiiframework.com" target="_blank">Yii framework</a>! Install it by typing:</del></p>
+
+<pre class=""><del>cd /var/www
+wget -O - http://www.chive-project.com/Download/Redirect|tar -xzp</del></pre>
+
+<p><del>Visiting <strong><em><a href="http://localhost/chive">http://localhost/chive</a></em></strong> you will be able to work with Chive.</del></p>
+
+<p><strong>Update:</strong> <strong>Chive</strong> does not appear to have been updated recently. It is therefore no longer a recommended choice.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>That&#8217;s all you need to be fully operative with a webserver running on your Raspberry PI. With very few or no changes, the above guide will also help you to install a LAMP web server on Ubuntu and Debian operating systems.</p>
+
+<h2 id="see-also">See also</h2>
+
+<ul>
+<li><a href="http://www.amazon.com/gp/product/1118921666/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1118921666&amp;linkCode=as2&amp;tag=marctroi-20&amp;linkId=TQVYISKDEHET47YV">Raspberry Pi User Guide</a> <img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=1118921666" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />by Eben Upton (creator of the Raspberry PI)</li>
+<li>Buy a <a href="http://www.amazon.com/gp/product/B00T2U7R7I/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00T2U7R7I&amp;linkCode=as2&amp;tag=marctroi-20&amp;linkId=36F2PY7IV6I63X5X">Raspberry Pi 2 Model B Project Board &#8211; 1GB RAM &#8211; 900 MHz Quad-Core CPU</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=B00T2U7R7I" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>
+</ul>
+
+<p>&nbsp;</p>
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+

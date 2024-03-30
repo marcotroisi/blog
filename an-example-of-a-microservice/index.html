@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>An example of a Microservice | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="I built a Microservice to use as an example to walk through. See how easy it is to build one for yourself!"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="An example of a Microservice" />
+<meta property="og:description" content="I built a Microservice to use as an example to walk through. See how easy it is to build one for yourself!" />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="I built a Microservice to use as an example to walk through. See how easy it is to build one for yourself!" />
+<meta name="twitter:title" content="An example of a Microservice" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/wp-content/uploads/2015/04/microtranslator.png" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          14 Apr &#39;15 
+          
+    </span>
+    An example of a Microservice
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/an-example-of-a-microservice/" title="An example of a Microservice" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/wp-content/uploads/2015/04/microtranslator.png" alt="An example of a Microservice" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  <p>After writing on <a href="https://www.marcotroisi.com/micro-services-a-quick-introduction/">Microservices</a>, I received a few feedbacks from people who found the topic fascinating but struggled to see how to effectively apply it in reality. So I decided to develop a little microservice, to use as a practical example. </p>
+
+<h2 id="introducing-microtranslator">Introducing MicroTranslator</h2>
+
+<p><strong><a href="https://github.com/marcotroisi/microtranslator">MicroTranslator</a></strong> is a microservice that I have built, which is supposed to handle locale and translations in an application. Its tech stack is the following:</p>
+
+<ul>
+<li>PHP &gt;= 5.4</li>
+<li><a href="http://www.fatfreeframework.com">Fat Free framework</a></li>
+<li><a href="https://github.com/mossphp/moss-locale">Moss Locale</a></li>
+<li><a href="http://www.mongodb.com">MongoDB</a></li>
+</ul>
+
+<p><del datetime="2015-07-20T07:04:33+00:00"><em><strong>Note:</strong> at the time of this writing (14 Apr &#8217;15) I am still working on MicroTranslator. It will be production-ready (documentation included) in a few days. Sorry about that!</em></del></p>
+
+<h2 id="it-comes-with-rest-api">It comes with REST API</h2>
+
+<p>MicroTranslator provides simple-to-use REST API. For this reason, you need to know little to no PHP to use it. Simply fire up an instance of PHP on whatever machine you like, and then use the APIs to get the translations on the other Microservices that compose your application.</p>
+
+<p>Now this is important, in my opinion. It means that you can quickly begin working on your application without having to focus on a tedious task such as handling translations, but also that, at any point in time, you can completely get rid of it and rewrite it with, perhaps, a faster language. Or you can simply upgrade your hardware and keep relying on it.</p>
+
+<h2 id="8220-i-could-have-done-this-myself-8221">&#8220;I could have done this myself&#8221;</h2>
+
+<p>You may think now, &#8220;why should I use your stuff when I can write my own translation manager, using the tools that I like the most?&#8221; The simple answer here is &#8220;You shouldn&#8217;t (use my translation manager)!&#8221;</p>
+
+<p>But I would also like to point out that, unless translations represent the core of your application, there is no reason why you would want to waste your time rewriting a library that does the same thing. But even if you do, what you should be avoiding is to tie it all up with the rest of your application. Using a Microservices architecture will allow you to <em>replace</em> parts of your application quickly and seamlessly. And, it will give you the power of choosing the right tools, framework, database, etc for the task.</p>
+
+<h2 id="point-by-point">Point by point</h2>
+
+<p>Like I said, one of the reasons why I worked on MicroTranslator is because I wanted to create a real-life example out of my previous article on <em>what is a Microservice</em>.</p>
+
+<p>Let&#8217;s have a look at the points I outlined back then:</p>
+
+<ol>
+<li><strong>It is a Stand-alone service/application.</strong>: Yes, MicroTranslator is stand-alone. It doesn&#8217;t need, and actually, it doesn&#8217;t want, to be included into your PHP application. You can connect to it, get and send to it all the data that you need, but you will not find MicroTranslator-specific code in your application. Just generic REST API calls.</li>
+<li><strong>It is quick to (re)write.</strong>: Absolutely! I wrote MicroTranslator in a weekend plus a few other free hours during the week. You can totally rewrite it in a week or less as soon as you feel like it.</li>
+<li><strong>It focuses on one task</strong>: It only cares about your translations. It doesn&#8217;t even want to know how you use them.</li>
+<li><strong>It is Language-agnostic.</strong>: Well, MicroTranslator is clearly written in PHP, but you can use its APIs from any application, regardless of the language/framework/tools you are using.</li>
+<li><strong>It is aware of failures</strong>. This clearly depends on the rest of the application. But, for example, you can cache the translations that you get from MicroTranslator, so that, should it be unreachable at a certain point in time, you can still handle the situation graciously. One thing is sure: if MicroTranslator goes down, it won&#8217;t <em>directly</em> affect your main application.</li>
+</ol>
+
+<h2 id="in-practice-it-8217-s-not-that-difficult">In practice, it&#8217;s not that difficult</h2>
+
+<p>It&#8217;s amazing how simple things can look like when we see them in real-life examples. In fact, despite the buzzword-mania and all the hype around Microservices, something that we often fail to understand is how simple they are. Building a Microservice is as simple as a few days of work. Building an entire application based on a Microservices Architecture is as simple as being able to separate everything into small services/applications that are only concerned about one little thing, and they do that <em>very well</em>. This is, by the way, also one the keys of greater <a href="https://www.marcotroisi.com/productive-programmer-5-tips/">productivity</a>.</p>
+
+<p><strong><em>Question: have you already tried to build a Microservice, or even an entire application based on a Microservices architecture? I would love to have a look and learn from you as well. Share your work on <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.marcotroisi.com/an-example-of-a-microservice/">Facebook</a> or <a href="https://twitter.com/intent/tweet?original_referer=https://www.marcotroisi.com/an-example-of-a-microservice/&amp;source=tweetbutton&amp;text=%3F&amp;url=http://goo.gl/KdOum9&amp;via=marcotroisi">Twitter</a>.</em></strong></p>
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+

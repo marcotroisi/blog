@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Troisi | technology, software development and productivity</title>
+    <link>https://www.marcotroisi.com/tags/discipline/index.xml</link>
+    <description>Recent content on Marco Troisi | technology, software development and productivity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Marco Troisi</copyright>
+    <atom:link href="https://www.marcotroisi.com/tags/discipline/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>5 Tips for becoming a Productive Programmer</title>
+      <link>https://www.marcotroisi.com/productive-programmer-5-tips/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.marcotroisi.com/productive-programmer-5-tips/</guid>
+      <description>&lt;p&gt;Have we not all been there? You&amp;#8217;re struggling to concentrate, the task you are working on is either too boring or too tricky, and you just can&amp;#8217;t seem to go ahead. All you want, after all, is to finish this stuff and move on to the next task.&lt;/p&gt;
+
+&lt;p&gt;Our job is very much brain-dependent. We rarely find ourselves just doing mechanical stuff which doesn&amp;#8217;t really require us to put any thought into it. Usually, what we do requires us to do things like pre-analysis, tracing down the cause of an issue, keeping up with several trains of thought at the same time, etc. &lt;/p&gt;
+
+&lt;p&gt;This is both a blessing and a curse. On one hand, it is amazingly challenging and stimulating to be able to use our brains to solve problems, and develop solutions. On the other hand, our brains can be so easily affected by our psycho-physical status, that we easily find ourselves having seemingly unproductive days. Even though just a few days before, we were feeling like we could have designed Google from scratch in a couple of hours!&lt;/p&gt;
+
+&lt;p&gt;This is a theme that&amp;#8217;s important to me, as I myself am the type of person that can be easily distracted and pretty much spend an entire day on a single task without ever really focussing on what I am doing. Then, the next day, I will brilliantly solve &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; different issues and at end of my day I won&amp;#8217;t even feel tired!&lt;/p&gt;
+
+&lt;p&gt;How do we overcome this? How do we make sure our productivity level keeps being consistent?&lt;/p&gt;
+
+&lt;p&gt;I think it&amp;#8217;s wise to recognise that, as humans, we are susceptible to such ups and downs. If all we were doing in life were working, it might have been easier. But that is not the case. We have lives, issues, passions, hobbies, families outside of the workplace. Which is all fine, by the way, it is what makes us so unique and valuable.&lt;/p&gt;
+
+&lt;p&gt;And so, instead of being too hard on ourselves when our brains just can&amp;#8217;t seem to connect to our work, it can be useful to relax and develop a discipline that will help us deliver quality work even on our worst days.&lt;/p&gt;
+
+&lt;p&gt;Here are some simple steps I follow in order to make sure my brain understands that I am intentional about being a productive programmer today:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Wake up early&lt;/strong&gt; Ok, this is harsh, I know. I &lt;em&gt;love&lt;/em&gt; sleeping. My whole life, since I was a kid, I&amp;#8217;ve always gotten out of bed at the very last minute. This is so counter-productive! The average successful person &lt;a href=&#34;http://uk.businessinsider.com/things-successful-people-do-before-breakfast-2014-11?op=1?r=US&#34;&gt;wakes up very early&lt;/a&gt;, like 4-5 am. I&amp;#8217;ve started waking up about two hours before I need to be at work. That means that, by the time I get to work, &lt;strong&gt;my brain is already active&lt;/strong&gt; and ready to go. Besides, this has finally solved my life-long problem of never having time for anything else aside from work! I now have enough time to consistently read, write on my blog, work on side-projects, study German (!), etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Morning is for the hard stuff&lt;/strong&gt;: as far as I can, I &lt;em&gt;avoid&lt;/em&gt; anything distracting in the morning. I do not read my emails (yes, I am one of those who is obsessed by always having a clean inbox!), and I have stopped reading the news and stuff like that first thing. I have developed a routine of: turning on my laptop, going to Spotify to choose some music (see point 3), opening my Code Editor and my browser and starting to work. Everything else is a distraction, and the morning is too precious to waste it with anything else. I know I don&amp;#8217;t have the same level of concentration in the afternoon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Not all music is the same&lt;/strong&gt;. I love music. As a musician myself, it&amp;#8217;s too easy for me to get involved into what I am listening! It is ok for 10-15 minutes to listen to your favourite songs. But, ideally, and especially in the morning, I go on the &lt;em&gt;Moods&lt;/em&gt; section of Spotify and I select one of the playlists under &lt;em&gt;Focus&lt;/em&gt;. This is a way of reminding my brain that now it&amp;#8217;s time to work. This type of music really helps me to concentrate.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Focus on one small task at a time&lt;/strong&gt;. The key here is to put myself under a little bit of healthy pressure. The thing is, when you are working on one big task, and your expected time of delivery is days ahead, it&amp;#8217;s too easy to lose track, and not to make good use of the time you have. It is way better to focus on one little task at a time, with a delivery time expected in hours, not days.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Separate things&lt;/strong&gt;. &amp;#8220;There is a time for everything,&amp;#8221; said King Solomon. In other words, multitasking doesn&amp;#8217;t really work, if you are trying to be productive. &lt;a href=&#34;http://www.health.com/health/gallery/0,,20707868,00.html&#34;&gt;Science proved it&lt;/a&gt; as well. There is nothing like dedicating your focus and attention on one thing at a time. Quality makes the difference, in this type of thing. Do what you have to do with absolute focus, finish earlier than expected, and then move on. This practically means things like: not having too many tabs open on my browser, not being involved in 10 different chats with my friends, not checking my phone every 5 minutes, etc&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While doing all of the above things is undoubtedly a challenge, and it is not rare for me to break one or more of these rules, I use them as a blueprint and point of reference, and I get back to them every time I feel I&amp;#8217;m getting less productive than I should.&lt;/p&gt;
+
+&lt;p&gt;And you? What are your tips and tricks for working with greater focus and delivering higher quality work?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

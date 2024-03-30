@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>8 best practices for microservices security | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="With security, reinventing the wheel is never a good idea. These 8 best practices for securing microservices are a good start."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="8 best practices for microservices security" />
+<meta property="og:description" content="With security, reinventing the wheel is never a good idea. These 8 best practices for securing microservices are a good start." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="With security, reinventing the wheel is never a good idea. These 8 best practices for securing microservices are a good start." />
+<meta name="twitter:title" content="8 best practices for microservices security" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/images/best-security-practices-microservices.jpg" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          17 Feb &#39;17 
+          
+    </span>
+    8 best practices for microservices security
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/8-best-practices-microservices-security/" title="8 best practices for microservices security" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/images/best-security-practices-microservices.jpg" alt="8 best practices for microservices security" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<!-- MarkdownTOC depth="1" -->
+
+<ul>
+<li><a href="#1-use-oauth-for-user-identity-and-access-control">1. Use OAuth for user identity and access control</a></li>
+<li><a href="#2-use-defence-in-depth-to-prioritize-key-services">2. Use &lsquo;defence in depth&rsquo; to prioritize key services</a></li>
+<li><a href="#3-don’t-write-your-own-crypto-code">3. Don’t write your own crypto code</a></li>
+<li><a href="#4-use-automatic-security-updates">4. Use automatic security updates</a></li>
+<li><a href="#5-use-a-distributed-firewall-with-centralized-control">5. Use a distributed firewall with centralized control</a></li>
+<li><a href="#6-get-your-containers-out-of-the-public-network">6. Get your containers out of the public network</a></li>
+<li><a href="#7-use-security-scanners-for-your-containers">7. Use security scanners for your containers</a></li>
+<li><a href="#8-monitor-everything-with-a-tool">8. Monitor everything with a tool</a></li>
+<li><a href="#dont-reinvent-the-wheel">Don&rsquo;t reinvent the wheel</a></li>
+</ul>
+
+<!-- /MarkdownTOC -->
+
+<p>There is virtually no situation in software architecture that entirely frees you from security considerations. With microservices, some issues become more distinct and a lot harder. However, there are also <a href="https://techbeacon.com/4-ways-exploit-microservices-architecture-better-app-sec">a few features</a> of <a href="https://techbeacon.com/4-ways-exploit-microservices-architecture-better-app-sec">microservices</a> <a href="https://techbeacon.com/4-ways-exploit-microservices-architecture-better-app-sec">that can bolster security</a>.</p>
+
+<p>With microservices, the network is still a bottleneck. Things like access control, which the industry already understands thoroughly within the realm of monolithic applications, assumes a new, almost unexpected, level of complexity. This paves the way for debates and scrutiny over whether a microservices architecture actually solves more problems than it creates. <a href="http://marcotroisi.com/when-to-use-microservices-video">Your decision to use microservices</a> should always be conditional.</p>
+
+<p>When you&rsquo;ve done your due diligence and decided that microservices are right for you, it&rsquo;s time to make sure that all of your applications&rsquo; security demands are met. Here are eight best practices for securing your microservices.</p>
+
+<p><a name="1-use-oauth-for-user-identity-and-access-control"></a></p>
+
+<h2 id="1-use-oauth-for-user-identity-and-access-control">1. Use OAuth for user identity and access control</h2>
+
+<p>The overwhelming majority of applications are going to need to perform some level of <a href="https://blog.joefallon.net/2011/03/access-control-vs-authorization/">access control</a> and <a href="http://priocept.com/2011/08/30/authentication-vs-authorisation-vs-access-control/">authorization handling</a>. What you want to avoid here is reinventing the wheel. <a href="https://oauth.net/">OAuth</a>/<a href="https://oauth.net/2/">OAuth2</a> is practically the industry standard as far as user authorization goes. While building your own custom authorization protocol is clearly an option, <a href="https://stormpath.com/blog/secure-your-rest-api-right-way">many out there</a> don&rsquo;t recommend it unless you have strong and very specific reasons for doing so.</p>
+
+<p>While OAuth2 <a href="https://techbeacon.com/state-social-authentication-oauth-job">isn&rsquo;t perfect</a>, it&rsquo;s a widely adopted standard. The advantage of using it is that you can rely on libraries and platforms that will greatly accelerate your development phase. By the same token, <a href="https://blog.pivotal.io/pivotal-cloud-foundry/products/securing-restful-web-services-with-oauth2">several solutions</a> for improving the security level of your OAuth-based authorization service have already been built by some of the biggest companies and smartest engineers around.</p>
+
+<p><a name="2-use-defence-in-depth-to-prioritize-key-services"></a></p>
+
+<h2 id="2-use-defence-in-depth-to-prioritize-key-services">2. Use &lsquo;defence in depth&rsquo; to prioritize key services</h2>
+
+<p>Assuming that a firewall on your network perimeter is enough to protect your software is a big mistake. &ldquo;<a href="http://www.theregister.co.uk/2016/04/15/defence_in_depth/">Defense in depth</a>&rdquo; is <a href="http://en.wikipedia.org/wiki/Defense_in_depth_(computing)">defined</a> as &ldquo;an information assurance concept in which multiple layers of security controls (defense) are placed throughout an information technology system.&rdquo;</p>
+
+<p>In plain English, what you need to do is identify what your most sensitive services are, and apply a number of different layers of security to them, so that a potential attacker who is able to exploit one of your security layers will still have to figure out a way to beat all your other defenses on your critical services. This is by all accounts easier said than done, but <a href="http://www.amazon.com/Network-Perimeter-Security-Building-Depth/dp/0849316286">several resources</a> are <a href="https://www.infoq.com/news/2016/08/secure-docker-microservices">available</a>.</p>
+
+<p>Security is typically a job better left to experts and not to amateurs. A proper defense in depth strategy is more likely to succeed if it&rsquo;s established by people who actually know what they&rsquo;re doing.</p>
+
+<p>What&rsquo;s great about microservices is that they make it easier to adopt this strategy in a very granular and strategic way—by focusing your security efforts and resources on specific microservices. The architecture also makes it easier for you to diversify the layers of security you wish to adopt on each microservice. By so doing, an attacker who is able to exploit one of your services may not necessarily be able to figure out how to exploit the second one.</p>
+
+<p><a name="3-don’t-write-your-own-crypto-code"></a></p>
+
+<h2 id="3-don-t-write-your-own-crypto-code">3. Don’t write your own crypto code</h2>
+
+<p>Over the years, many people have invested incredible amounts of money, time, and resources into building libraries that handle encryption and decryption. If you hired 10 smart and competent security people, put them all in a room and asked them to come up with the best possible library for encryption and decryption, I doubt they would come up with something as good as the best open source crypto libraries that are already out there.</p>
+
+<p>Most of the time, when it comes to security you shouldn&rsquo;t try to roll your own new solutions and algorithms unless you&rsquo;ve got strong and specific reasons to, and you&rsquo;ve got people skilled enough to create something nearly as good as the open source tools already available (tools that have been heavily battle tested by the community).</p>
+
+<p>In most cases, you should use <a href="http://nacl.cr.yp.to/index.html">NaCl</a>/<a href="https://download.libsodium.org/doc/">libsodium</a> for encryption. It&rsquo;s been around for several and it&rsquo;s fast, easy to use, and secure. While the original implementation of NaCl is <a href="https://en.wikipedia.org/wiki/NaCl_(software)#Implementations">written in C</a>, it also supports <a href="https://nacl.cr.yp.to/features.html">C++ and Python</a>. And thanks to the libsodium fork, several adapters for other languages like <a href="https://github.com/jedisct1/libsodium-php">PHP</a>, <a href="https://www.npmjs.com/package/libsodium">Javascript</a>, and <a href="https://github.com/GoKillers/libsodium-go">Go</a> are available.</p>
+
+<p>This section wouldn&rsquo;t be complete without mentioning the wildly popular <a href="https://www.bouncycastle.org/">Bouncy Castle</a> library. If you&rsquo;re working with Java or C#, your best bet is to go with this one. If you want to learn more about encryption, read this <a href="https://techbeacon.com/software-engineers-guide-encryption-how-not-fail">developer&rsquo;s guide</a>.</p>
+
+<p><a name="4-use-automatic-security-updates"></a></p>
+
+<h2 id="4-use-automatic-security-updates">4. Use automatic security updates</h2>
+
+<p>If you want your microservices architecture to be secure and scalable at the same time, it&rsquo;s a good idea—in the early development phase—to figure out a way to automate or at least keep all of your software updates under control.</p>
+
+<p>High testing coverage here is more essential than ever. Every time a part of your system is updated, you want to make sure you catch any issue early enough and in as much detail as possible.</p>
+
+<p>Make sure that your platform is mostly &ldquo;atomic&rdquo;. What that means is that <a href="https://techbeacon.com/3-reasons-why-you-should-always-run-microservices-apps-containers">everything should be wrapped within containers</a> so that testing your application with an updated library or language version is just a matter of wrapping a different container around it. Should the operation fail, reversing everything is fairly easy and, most importantly, can be automated.</p>
+
+<p><a href="https://coreos.com/">CoreOS</a>, RedHat&rsquo;s <a href="http://www.projectatomic.io/">Atomic Linux</a>, and Ubuntu&rsquo;s <a href="https://developer.ubuntu.com/en/snappy/">Snappy Core</a> are also projects you want to keep an eye on, as they try to bring about the same concept on an OS level.</p>
+
+<p><a name="5-use-a-distributed-firewall-with-centralized-control"></a></p>
+
+<h2 id="5-use-a-distributed-firewall-with-centralized-control">5. Use a distributed firewall with centralized control</h2>
+
+<p>For the most part, this is still uncharted territory, but I believe that a firewall that allows users more granular control over each and every microservice (as attempted by <a href="https://www.projectcalico.org/">Project Calico</a>) has got to be the way we build firewalls for microservices. If not now, at least at some point in the future.</p>
+
+<p><a name="6-get-your-containers-out-of-the-public-network"></a></p>
+
+<h2 id="6-get-your-containers-out-of-the-public-network">6. Get your containers out of the public network</h2>
+
+<p>Amazon, with their <a href="https://aws.amazon.com/api-gateway/">AWS API gateway</a>, probably made this whole notion more mainstream and easy to adopt than anyone else before.</p>
+
+<p>An API gateway establishes a single entry point for all requests coming from all clients. It subsequently knows how to provide an interface for all of your microservices.</p>
+
+<p>By using this technique you can secure all of your microservices behind a firewall, allowing the API gateway to handle external requests and then talk to the microservices behind the firewall.</p>
+
+<p>Moreover, as the <a href="http://techblog.netflix.com/2012/07/embracing-differences-inside-netflix.html">Netflix experience</a> teaches us, using an API gateway is a great way to optimize requests based on the client, especially in the case of mobile devices.</p>
+
+<p><a name="7-use-security-scanners-for-your-containers"></a></p>
+
+<h2 id="7-use-security-scanners-for-your-containers">7. Use security scanners for your containers</h2>
+
+<p>Within your automated testing suite, it would make sense to include periodic vulnerability and security scanning for your containers. The chief open source actor in this space appears to be <a href="https://coreos.com/clair/docs/latest/">Clair</a>, from CoreOS. Docker Security Scanning and Twistlock are a couple of commercial options.</p>
+
+<p>Something else to keep in mind here is that the container image itself may not necessarily be trusted unless its signature has been verified. <a href="https://coreos.com/rkt/">rkt</a> does that by default, while Docker introduced <a href="https://blog.docker.com/2015/08/content-trust-docker-1-8/">a similar feature</a> a while ago after <a href="https://groups.google.com/forum/#!msg/docker-user/nFAz-B-n4Bw/0wr3wvLsnUwJ">several security vulnerabilities</a> were found.</p>
+
+<p><a name="8-monitor-everything-with-a-tool"></a></p>
+
+<h2 id="8-monitor-everything-with-a-tool">8. Monitor everything with a tool</h2>
+
+<p>You can&rsquo;t afford to run a distributed system without a solid, advanced, and reliable monitoring platform. Several solutions are available out there, but the one that was built specifically with microservices in mind and has been around the block is <a href="https://prometheus.io/">Prometheus</a>.</p>
+
+<p>Built originally by engineers at <a href="https://soundcloud.com/">SoundCloud</a>, Prometheus is an open source monitoring platform and a part of the <a href="https://cncf.io/">Cloud Native Computing Foundation</a>. It&rsquo;s being supported and adopted by some of the biggest players in the industry, like SoundCloud themselves, CoreOS, and Digital Ocean.</p>
+
+<p>Other monitoring solutions include <a href="https://influxdata.com/">InfluxDB</a>, <a href="https://github.com/etsy/statsd">statsd</a> and several well-known commercial platforms.</p>
+
+<p><a name="dont-reinvent-the-wheel"></a></p>
+
+<h2 id="don-t-reinvent-the-wheel">Don&rsquo;t reinvent the wheel</h2>
+
+<p>While the above is not intended to be an exhaustive list, it touches on the issues you are most likely to face when building applications based on a microservices architecture.</p>
+
+<p>When it comes to security, reinventing the wheel is rarely a good idea. Always be researching the best practices adopted by the industry and suggested by experts.</p>
+
+<p><strong><em>What are the best practices or resources on which you rely for securing microservices? Share in the comments below.</em></strong></p>
+
+<hr />
+
+<p><em>Here are some additional resources I&rsquo;ve bookmarked:</em></p>
+
+<ul>
+<li><a href="http://cockpit-project.org/">Project Cockpit</a> - administer your Linux servers via a web browser</li>
+<li><a href="https://www.youtube.com/watch?v=44wOK9ObAzk">Securing Micro-services with a Distributed Firewall</a> (video)</li>
+<li><a href="https://www.infoq.com/news/2016/08/secure-docker-microservices">Docker and High Security Microservices</a></li>
+<li><a href="http://redhatdefenseindepth.com/">Defense in depth conference</a></li>
+<li><a href="http://amzn.to/2ig8m7i">Network Perimeter Security: Building Defense In-Depth</a> (book)</li>
+<li><a href="http://amzn.to/2iBcUD9">Docker Containers: Build and Deploy with Kubernetes, Flannel, Cockpit, and Atomic (Negus Live Linux)</a> (book)</li>
+<li><a href="http://thenewstack.io/container-defense-depth/">Container Defense in Depth</a></li>
+<li><a href="http://microservices.io/patterns/apigateway.html">API gateway pattern</a></li>
+</ul>
+
+<p><strong><em>This article was first published on <a href="https://techbeacon.com/8-best-practices-microservices-security">TechBeacon</a>.</em></strong></p>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'marcotroisi';
+    var disqus_identifier = 'https:\/\/www.marcotroisi.com\/8-best-practices-microservices-security\/';
+    var disqus_title = '8 best practices for microservices security';
+    var disqus_url = 'https:\/\/www.marcotroisi.com\/8-best-practices-microservices-security\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+
