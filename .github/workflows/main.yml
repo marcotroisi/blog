@@ -43,6 +43,6 @@ jobs:
           cd $GITHUB_WORKSPACE
           git config --global user.email "hello@marcotroisi.com"
           git config --global user.name "Travis CI"
-          git remote remove origin
-          git remote add origin https://$GH_TOKEN@github.com/marcotroisi/blog.git
+          # git remote remove origin
+          # git remote add origin https://$GH_TOKEN@github.com/marcotroisi/blog.git
           ./deploy.sh
