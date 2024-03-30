@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Basic abstraction techniques: What code reviewers need to know | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="As a code reviewer, keeping code readable and maintainable is job one. Learn how to spot overly complex code—and simplify it."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Basic abstraction techniques: What code reviewers need to know" />
+<meta property="og:description" content="As a code reviewer, keeping code readable and maintainable is job one. Learn how to spot overly complex code—and simplify it." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="As a code reviewer, keeping code readable and maintainable is job one. Learn how to spot overly complex code—and simplify it." />
+<meta name="twitter:title" content="Basic abstraction techniques: What code reviewers need to know" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/images/simplicity-abstraction.jpg" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+        <a href="https://www.theserverlessmindset.com" class="hello">newsletter</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          1 Jun &#39;17 
+          
+    </span>
+    Basic abstraction techniques: What code reviewers need to know
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/basic-abstraction-techniques-what-code-reviewers-need-know/" title="Basic abstraction techniques: What code reviewers need to know" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/images/simplicity-abstraction.jpg" alt="Basic abstraction techniques: What code reviewers need to know" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<p>While having a large amount of code doesn&rsquo;t necessarily mean the code is complex, there certainly is such a thing as <em>too much code in the wrong place</em>. Programming code can also be unnecessarily complex and hard to follow. As a matter of fact, these two problems often occur together, and it&rsquo;s something you need to be on the lookout for as a <a href="https://techbeacon.com/how-run-code-reviews-your-dev-teams-workflow">code reviewer</a>.</p>
+
+<p>What&rsquo;s usually lacking in those parts of code where you find yourself on the verge of throwing in the towel because you just can&rsquo;t understand what is going on is what we call <em><a href="https://en.wikipedia.org/wiki/Abstraction_(software_engineering)">abstraction</a></em>. When sections of code get too cumbersome and hard to follow, that&rsquo;s when you need to employ an abstraction technique. Let&rsquo;s look at how to spot overly complex code and then simplify it.</p>
+
+<h2 id="the-power-of-abstraction">The power of abstraction</h2>
+
+<p>Two of the main paradigms of computer programming are <em><a href="https://en.wikipedia.org/wiki/Imperative_programming">imperative</a></em> and <em><a href="https://en.wikipedia.org/wiki/Declarative_programming">declarative</a></em>. To put it simply, imperative programming means telling the compiler how to do things, line by line. Declarative programming, on the other hand, abstracts away the <em>details</em> of how things are done, in favor of a high-level description of what needs to be done.</p>
+
+<p>The reason declarative programming is deemed by many to be a <a href="https://tylermcginnis.com/imperative-vs-declarative-programming/">superior</a> way to write code is that it&rsquo;s often a lot easier to read someone else&rsquo;s declarative code than something written imperatively. When you read and work on declarative code, you don&rsquo;t need to bother with implementation details. You can, instead, focus on the general business logic and only look at the specific implementation of something if you need to.</p>
+
+<h2 id="too-much-code">Too much code?</h2>
+
+<p>For code to be easier to read and understand, its business logic should be as obvious as possible. And for that to happen, there needs to be as few &ldquo;implementation details&rdquo; floating around as possible.</p>
+
+<p>As an example, look at the following procedural/imperative piece of code:</p>
+
+<pre><code class="language-js">let userId = &quot;2&quot;
+let address = &quot;20 Gortnatra St., Kerrykeel, County Donegal, Ireland&quot;
+let supergeocoder = new SuperGeocoder()
+let geocoder = supergeocoder({provider: &quot;google-maps&quot;})
+let geocoderResult = geocoder.geocode(address)
+let gpsCoords = geocoderResult.latitude + ',' + geocoderResult.longitude
+let mysql = new MySql();
+let connection = mysql.createConnection({
+  host : 'localhost',
+  user : 'me',
+  password : 'secret',
+  database : 'my_db'
+});
+connection.connect();
+connection.query('UPDATE users SET address = ?, gps = ? WHERE id = ?', [address, gpsCoords, userId], function (error, results, fields) {
+  if (error) throw error;
+  // ...
+});
+connection.end();
+</code></pre>
+
+<p>It wouldn&rsquo;t be surprising if it took even an experienced developer several moments to understand what that piece of code is trying to achieve. This is how we could attempt to make it declarative:</p>
+
+<pre><code class="language-js">let userId = &quot;2&quot;
+let address = &quot;20 Gortnatra St., County Donegal, Ireland&quot;
+let User = new User(userId)
+let Geolocation = new Geolocation()
+User.saveAddressCoordinates( Geolocation.coordinatesFromAddress(address) )
+</code></pre>
+
+<p>The main thing that we&rsquo;ve done here is remove all the implementation details, such as the database and the geolocation library. We&rsquo;ve also gotten rid of some database-specific language, such as the SQL query and the database connection data.</p>
+
+<p>Now anyone can read that segment of code and have a pretty clear idea of what its business logic is. The code is clearly trying to save the user&rsquo;s GPS coordinates by calculating them from a real address.</p>
+
+<p>When reviewing someone else&rsquo;s code, look for places where implementation details are hindering a clear understanding of the business logic. Suggest practical ways to abstract away the <em>what</em>, leaving only the <em>how</em> exposed. The easiest way to do that is typically by replacing that piece of implementation code with a small function or object, as shown in the above example.</p>
+
+<h2 id="decompose-conditional">Decompose conditional</h2>
+
+<p>Another place where you can find too much code in the wrong place is within <em>if</em> conditions. When reading an <em>if</em> condition it should, again, be immediately obvious to any reader what that condition is trying to accomplish.</p>
+
+<p>Look at the following segment of code:</p>
+
+<pre><code class="language-js">if (
+    (
+        Person.age &gt; 65
+        &amp;&amp; Person.gender == Person.GENDER_FEMALE
+        || Person.age &gt; 67
+        &amp;&amp; Person.gender == Person.GENDER_MALE
+    ) &amp;&amp;
+    Job.employeeDetails(Person).employedSince &gt;= 1980
+) {
+    // some code here
+}
+</code></pre>
+
+<p>This huge condition should be replaced by a simple function such as this:</p>
+
+<pre><code class="language-js">if (isEligibleForRetirement(Person, Job)) {
+    // some code here
+}
+</code></pre>
+
+<p><em>isEligibleForRetirement</em> simply contains all of the conditions we’ve just looked at, but it&rsquo;s much easier to read, understand, and test. This technique is called <em><a href="https://refactoring.com/catalog/decomposeConditional.html">decompose conditional</a></em>.</p>
+
+<p>Once again, what you&rsquo;re looking for here is a way to understand the business logic <em>clearly</em> and as early as possible while in the process of reading the code.</p>
+
+<p>In the first condition, even after reading it all, you probably still wouldn&rsquo;t know what that <em>if</em> is trying to do, which is to scan through people who are eligible for retirement. A <a href="https://techbeacon.com/useless-comments-can-ruin-code-review-heres-how-erase-them">comment</a> might have been necessary for you to fully understand it.</p>
+
+<p>In the second condition, it&rsquo;s immediately clear what the business logic is. Unless you care about the specific requirements for a person to be eligible for retirement, you can happily keep reading the rest of the code.</p>
+
+<h2 id="consolidate-conditional-expression">Consolidate conditional expression</h2>
+
+<p>Something else to be on the lookout for is when a number of conditions return the same result.</p>
+
+<p>Here’s what it would look like:</p>
+
+<pre><code class="language-js">if (Job.position == “truck_driver”) {
+    if (Applicant.age &gt; 65) {
+        return false
+    }
+    if (!Applicant.hasDrivingLicence()) {
+        return false
+    }
+    if (Applicant.hasCriminalRecord()) {
+        return false
+    }
+
+    Job.sendApplication(Applicant)
+    return true
+}
+</code></pre>
+
+<p>There are a number of reasons why something like this might happen. One of them might be that different developers have been adding those conditions one after the other and have never stopped to think about <a href="https://techbeacon.com/17-opinions-resources-rewrites-vs-refactoring">refactoring</a> the code, sacrificing long-term maintainability in favor of getting the code quickly into production (thereby creating <a href="https://techbeacon.com/get-grip-technical-debt">technical debt</a>).</p>
+
+<p>In the example above, being above a certain age, having a driver&rsquo;s license, and lacking a criminal record are clearly all necessary requirements for the job. The three if conditions can be replaced by a single condition:</p>
+
+<pre><code class="language-js">if (!Applicant.isEligible()) {
+    return false
+}
+</code></pre>
+
+<p>As you&rsquo;d expect, <em>isEligible()</em> will simply contain all of those conditions. The result is something that is much cleaner and easier to read.</p>
+
+<p>This refactoring operation is called <em><a href="https://sourcemaking.com/refactoring/consolidate-conditional-expression">consolidate conditional expression</a></em>, and it’s a very valuable tool that can be used to make code more concise and easy to read.</p>
+
+<h2 id="too-much-code-in-the-wrong-place">Too much code in the wrong place</h2>
+
+<p>As you can see, in all of the cases we’ve looked at, the complexity wasn’t due to the code not being correct or necessary. Rather, the main problem was that it was in the wrong place.</p>
+
+<p>Code like that should be abstracted away. It occupies valuable space and slows down the reading of anyone who wants to use and understand that code.</p>
+
+<h2 id="the-value-of-code-reusability">The value of code reusability</h2>
+
+<p>Code reusability is at the heart of good software. And for the code to be reused, it&rsquo;s essential that it be readable and easy to understand.</p>
+
+<p>It’s very important for a code reviewer to keep an eye out for pieces of code that require a great amount of time to be fully understood. Very often, the practical techniques shown in this article will help you abstract away that complexity.</p>
+
+<p>When there is too much code in the wrong place, it becomes much harder to read and understand it. You should always be hesitant to approve code that requires significant effort to be understood. When the business logic is not broadly clear after a first reading of the code, a red flag should be raised, and techniques such as the ones listed in this article should be used to simplify the code and abstract away the complexity.</p>
+
+<p><em>Image credit: <a href="https://flic.kr/p/eM7hLB">Flickr</a></em></p>
+
+<p><strong><em>Share your abstraction techniques in the comments section below!</em></strong></p>
+
+<hr />
+
+<p><strong><em>This article was first published on <a href="https://techbeacon.com/basic-abstraction-techniques-what-code-reviewers-need-know">TechBeacon</a>.</em></strong></p>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'marcotroisi';
+    var disqus_identifier = 'https:\/\/www.marcotroisi.com\/basic-abstraction-techniques-what-code-reviewers-need-know\/';
+    var disqus_title = 'Basic abstraction techniques: What code reviewers need to know';
+    var disqus_url = 'https:\/\/www.marcotroisi.com\/basic-abstraction-techniques-what-code-reviewers-need-know\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+

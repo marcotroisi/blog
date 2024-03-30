@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Microservices won’t improve your code quality | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="I am very excited about microservices, but they are not going to make my code quality better. That will always be up to the programmer."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Microservices won’t improve your code quality" />
+<meta property="og:description" content="I am very excited about microservices, but they are not going to make my code quality better. That will always be up to the programmer." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="I am very excited about microservices, but they are not going to make my code quality better. That will always be up to the programmer." />
+<meta name="twitter:title" content="Microservices won’t improve your code quality" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/wp-content/uploads/2015/12/microservices-wont-improve-code-quality-small.jpg" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+        <a href="https://www.theserverlessmindset.com" class="hello">newsletter</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          16 Dec &#39;15 
+          
+    </span>
+    Microservices won’t improve your code quality
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/microservices-wont-improve-your-code-quality/" title="Microservices won’t improve your code quality" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/wp-content/uploads/2015/12/microservices-wont-improve-code-quality-small.jpg" alt="Microservices won’t improve your code quality" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<p>If you&rsquo;ve read some of my <a href="https://www.marcotroisi.com/tag/microservices/">previous posts</a>, you&rsquo;ll know that I&rsquo;m fairly excited about microservices. No, I do not believe them to be the answer to all of software development problems, but yes, they can be <em>one of</em> the answers to <em>some of</em> the problems we face.</p>
+
+<p>I say that and I mean it. Who doesn&rsquo;t want to be able to rewrite a critical part of an application in two weeks or less? Who doesn&rsquo;t think it&rsquo;s the best thing for a service to handle graciously a failure on the part of one of its components, rather than becoming entirely unavailable?</p>
+
+<p>Yes, microservices are a great thing.</p>
+
+<p>But we are professionals, and as such we can&rsquo;t afford going after what&rsquo;s &#8220;cool&#8221; in the industry without keeping track of the big picture.</p>
+
+<h2 id="write-great-code-first">Write great code first</h2>
+
+<p>Just as knowing how to count doesn&rsquo;t make you a Mathematician, knowing how to write some code doesn&rsquo;t make you a Programmer. I hope I don&rsquo;t sound elitist or arrogant when I say that, but I am convinced that if we don&rsquo;t take ourselves seriously, no one else will.</p>
+
+<p>Being a programmer means knowing the discipline of programming. It means being aware that every line of code you write today, will have a consequence in the lives of both the end user of your application, and other programmers that will successively work on that same piece of code.</p>
+
+<p>This is obviously not the right place to list all the things that you should be aware of while writing your code, but suffices to say that there are quite a few of them, and being careless about them is a clear indicator of how (un)seriously is one taking her job.</p>
+
+<h2 id="what-you-need-to-know-before-you-start-with-microservices">What you need to know before you start with microservices</h2>
+
+<p>Before you even begin to think about doing microservices, you need to get some facts straight:</p>
+
+<ol>
+<li>The monolith is not bad per se</li>
+<li>Microservices don&rsquo;t magically suspend the rules</li>
+</ol>
+
+<p>Let&rsquo;s have a closer look at them:</p>
+
+<h3 id="the-monolith-is-not-bad-per-se">The monolith is not bad per se</h3>
+
+<p>We are being sold this idea that monolithic software is messy, slow and evil. The code? Spaghetti without a doubt. But this is of course only true if you let it. Ideally, in a monolithic application that&rsquo;s been developed following the basic principles of a clean architecture, and possibly using TDD, I see no reason why those bad things should be true.</p>
+
+<h3 id="microservices-don-t-magically-suspend-the-rules">Microservices don&rsquo;t magically suspend the rules.</h3>
+
+<p>Say you know how to do your job well, and you&rsquo;ve written perfectly clean monolithic application until now. You are told that microservices make the whole thing so much easier, and each component is so small that you don&rsquo;t need to put the same amount of care into it. Is that true? No, it isn&rsquo;t.</p>
+
+<p>That would be like <em>Pirelli</em> thinking they don&rsquo;t have to work as hard on their tyres as would a theoretical guy who is in charge of building the entire car by himself. After all a tyre is just a small part of a car, isn&rsquo;t it? I mean, if anything breaks or if you need a different type of tyre, you quickly replace it.</p>
+
+<p>In the same way, one should feel justified to build the <em>Withdrawing</em> component of a microservices-based Banking software in the most careless way! After all, if it stops working, if it becomes too slow, or if we simply don&rsquo;t like it anymore, we can quickly rewrite it and replace it.</p>
+
+<p>I hope you can see that this is just nuts. No one thinks like that, in any industry, and neither should we. Pirelli would have their best engineers designing the safest, most performant tyres possible. They wouldn&rsquo;t want a mistake on their part to compromise a car&rsquo;s reliability. In the same way, each component of our microservices-based application needs to be something we can be proud of, that can potentially run for as long as possible unless a rewrite becomes necessary for reasons beyond our control.</p>
+
+<p>These days I&rsquo;m hearing some people saying things like &#8220;we keep our microservices so small, that we don&rsquo;t even need to write tests!&#8221; I&rsquo;m confused. How does that even follow? Again, imagine the guy in charge of building brakes for cars, saying &#8220;this is such a small part of the whole car, we don&rsquo;t even need to test it!&#8221; This makes no sense, and it&rsquo;s simply unjustifiable.</p>
+
+<h2 id="re-defining-microservices">(Re)defining microservices</h2>
+
+<p><em>Microservices are really more about the deployment strategy than anything else</em>. As <a href="http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html">suggested</a> by <em>Uncle</em> Bob Martin, if you build your application following what we know to be a clean architecture, the decision of whether to deploy everything into microservices or not is one that can be easily delayed to a later point. You don&rsquo;t need to start building your software with microservices in mind. What you do need to keep in mind, is that your software will need to be clean and tested, at the very least.</p>
+
+<p>When you look at microservices this way, they become a lot less scary, and in a sense a lot of the hype around them goes away. Obviously, a microservice architecture remains a fantastic approach that I would highly suggest for a lot of use cases. But it&rsquo;s not, in any way, a different approach to programming. It&rsquo;s the same, clean, high quality code that you have (hopefully) been writing until now, now deployed and perhaps organised differently.</p>
+
+<p>Now, I am not saying that having a microservice architecture will not affect any of your design decisions. It will. But I am suggesting we don&rsquo;t give it more credit than we should. I am saying that we should design the architecture of our application regardless of whether it will eventually be deployed into small microservices or not. And, by all means, let&rsquo;s not allow the <em>small-ness</em> of each microservice to suspend the rules of programming. No architectural choice is worth you giving up on being a professional.</p>
+
+<p>Microservices won&rsquo;t improve your code quality. They won&rsquo;t make it worse either. Really, it&rsquo;s up to you, as it always was, and always will be.</p>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+

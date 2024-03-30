@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Why unnecessary variables are bad for your code | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content="Variables shouldn&#39;t be used as a shortcut toward readability. Only good code design can give you that."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Why unnecessary variables are bad for your code" />
+<meta property="og:description" content="Variables shouldn&#39;t be used as a shortcut toward readability. Only good code design can give you that." />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Variables shouldn&#39;t be used as a shortcut toward readability. Only good code design can give you that." />
+<meta name="twitter:title" content="Why unnecessary variables are bad for your code" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+<meta name="twitter:image" content="https://www.marcotroisi.com/images/unnecessary_variables.jpg" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+        <a href="https://www.theserverlessmindset.com" class="hello">newsletter</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          18 Jul &#39;17 
+          
+    </span>
+    Why unnecessary variables are bad for your code
+  </h1>
+</header>
+
+
+  <section class="blog__image">
+    <a href="https://www.marcotroisi.com/why-unnecessary-variables-are-bad-your-code/" title="Why unnecessary variables are bad for your code" >
+      <img width="800" height="533" src="https://www.marcotroisi.com/images/unnecessary_variables.jpg" alt="Why unnecessary variables are bad for your code" />
+    </a>
+  </section>
+
+
+<article class="blog__wrap clear">
+  
+
+<p>Variables are one of the most basic elements of programming. They&rsquo;re usually one of the first things you learn about in programming courses, so your habits for using them form early.</p>
+
+<p>It’s no surprise that every so often we see them being misused and even abused. They can be powerful if used properly, but they can also point to a lack of proper design when not used in the correct way.</p>
+
+<p>It’s a particularly bad practice when variables are used to explain what is going on in the code. It’s no different than the <a href="https://techbeacon.com/useless-comments-can-ruin-code-review-heres-how-erase-them">issue of comments</a>. The code should be self-explanatory, and neither comments nor variables should be used as shortcuts to achieve that.</p>
+
+<p>When reviewing someone else’s code, we should be looking at the variables that are being created and assigned all over and ask ourselves whether there could be a more efficient, cleaner way to perform the same operation.</p>
+
+<h2 id="the-myth-of-increased-readability">The myth of increased readability</h2>
+
+<p>Popular programmer wisdom seems to favour creating variables for the sake of readability. But this has two main issues:</p>
+
+<p><strong>1. Variables actually make readability worse.</strong></p>
+
+<p>As <a href="http://www.yegor256.com/2015/09/01/redundant-variables-are-evil.html">explained</a> by Yegor Bugayenko, more variables in the code mean more lines of code and more values/names that need to be kept in mind while scrolling through the code. He argues that it is much easier to read a line of code that contains all you need to know, rather than having to constantly double-check what the content of a variable is before you can understand the purpose of the line of code you have in front of you.</p>
+
+<p><strong>2. A variable for readability is almost invariably a shortcut.</strong></p>
+
+<p>If the main purpose of a variable is to increase readability, then we know that a shortcut has been taken. Readability comes for the most part from good design. Using a variable with the intention of making the code more readable comes very often as an afterthought. And an afterthought is hardly ever synonymous with carefully thought-out design.</p>
+
+<h2 id="variable-misuse-scenarios">Variable misuse scenarios</h2>
+
+<p>It’s important to know what variable misuse scenarios look like so that we are able to identify them while reviewing someone else’s code. It also makes sense to know some practical ways to &ldquo;fix&rdquo; the issue and why it’s necessary.</p>
+
+<h3 id="a-small-variable">A small variable</h3>
+
+<p>When a small variable is used for the sole purpose of increasing readability, it looks something like this:</p>
+
+<pre><code class="language-js">var Author = Book.AuthorName();
+// ...more code here...
+console.log(&quot;The author of the book is: &quot; + Author);
+</code></pre>
+
+<p>This helps no one. We’re simply adding yet one more line to the codebase. While at a superficial level it might look as if this is helping readability, it’s offering no real, substantial help over the use of a method from the object Book, namely Book.AuthorName(). In fact, it’s making things worse. Whoever reads this code is always going to need to look for where the variable Author is being defined to identify its content.</p>
+
+<p>The above example can be improved by changing it to look like this:</p>
+
+<pre><code class="language-js">// ...more code here...
+console.log(&quot;The author of the book is: &quot; + Book.AuthorName());
+</code></pre>
+
+<p>Of course, this is a rather basic and oversimplified example. But by understanding the principle, you should be able to recognize similar, more complex cases of abuse of a small variable.</p>
+
+<h3 id="a-long-variable">A long variable</h3>
+
+<p>There is a place where it might seem harder to argue that a variable for the sake of readability is unjustified. That’s the case of a variable containing a much longer value.</p>
+
+<p>Imagine a value that looks like this:</p>
+
+<pre><code>
+html = HTML(open(url))
+author_name = html.css('a')[5].text.chomp
+puts &quot;The author of the book is #{author_name}.&quot;
+</code></pre>
+
+<p>Now, it would look horrible to concatenate all of <code>html.css('a')[5].text.chomp</code> directly with the printed message, right? Right. But the solution is not to put that value into a variable. Rather, it should all be contained within a small function or object.</p>
+
+<p>This is what it could look like:</p>
+
+<pre><code>def author_name_from_html(html)
+  return html.css('a')[5].text.chomp
+end
+</code></pre>
+
+<p>And then what gets printed is:</p>
+
+<pre><code>puts &quot;The author of the book is #{author_name_from_html(html)}.&quot;
+</code></pre>
+
+<p>Here are the reasons why this is a much better solution:</p>
+
+<ol>
+<li><strong>It’s cleaner</strong>. There are no variables all over the place, just a small, handy function.</li>
+<li><strong>It’s reusable</strong>. You can use that function everywhere in the system. That&rsquo;s not the case with variables, unless you adopt global variables, which is usually not a good practice.</li>
+<li><strong>It’s easier to understand</strong>. You don’t need to look at the implementation details of the function to know what’s happening. By quickly glancing at its input (html) and its output (a string), you know exactly what to expect whenever you’re met with that function.</li>
+<li><strong>It’s testable</strong>. This should actually be the first point! You can write a test over that function and make sure that it does exactly what it’s supposed to. No such luck with a variable.</li>
+</ol>
+
+<h2 id="nothing-replaces-good-design">Nothing replaces good design</h2>
+
+<p>At this point, it should be obvious that variables are not as innocuous as some might think. Being a rather easy tool to use, they can very often tempt the developer to use them as a shortcut to make the code look better. But as we’ve seen, they are not the best way to improve hard-to-read code. In fact, they often make matters worse.</p>
+
+<p>Nothing can replace a good design. When doing a code review, take the time to carefully consider whether the variables used actually have a place there. Training yourself to recognize misused variables and to rework that code will make you a much more valuable code reviewer.</p>
+
+<p><em>Image credit: <a href="https://flic.kr/p/LEQYA">Flickr</a></em></p>
+
+<p><strong><em>What&rsquo;s your experience with useless or bad comments? Share your thoughts in the comments below.</em></strong></p>
+
+<hr />
+
+<p><strong><em>This article was first published on <a href="https://techbeacon.com/why-unnecessary-variables-are-bad-your-code">TechBeacon</a>.</em></strong></p>
+
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'marcotroisi';
+    var disqus_identifier = 'https:\/\/www.marcotroisi.com\/why-unnecessary-variables-are-bad-your-code\/';
+    var disqus_title = 'Why unnecessary variables are bad for your code';
+    var disqus_url = 'https:\/\/www.marcotroisi.com\/why-unnecessary-variables-are-bad-your-code\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+
