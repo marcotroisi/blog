@@ -11,6 +11,14 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 
 <!-- ## Upcoming -->
 
+## 2023
+
+**4 Strategies to Build Incredibly Performant Serverless Apps** [[slides](https://speakerdeck.com/marcotroisi/4-strategies-to-build-incredibly-performant-serverless-apps)] 
+[Serverless Architecture Conference](https://serverless-architecture.io/berlin/)  
+Berlin (Germany)  
+22 October 2023
+&nbsp;  
+
 ## 2022
 
 **The 1 Priority Change You Need to Make to Test Your Serverless App** 
