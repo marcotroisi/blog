@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+<div id="content" class="site-content">
+
+<section id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+
+    {{ range first 10 .Data.Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+
+  </main><!-- #main -->
+</section><!-- #primary -->
+
+{{ partial "footer.html" . }}

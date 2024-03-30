@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+      <html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Make your website available offline with HTML5 | Marco Troisi</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="icon" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.marcotroisi.com/wp-content/uploads/2014/02/1393636568_icon-navicon-round.png">
+
+<meta name="description" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.marcotroisi.com" />
+<link rel="next" href="https://www.marcotroisi.com/page/2/" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Make your website available offline with HTML5" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://www.marcotroisi.com" />
+<meta property="og:site_name" content="Marco Troisi" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:title" content="Make your website available offline with HTML5" />
+<meta name="twitter:site" content="@marcotroisi" />
+
+
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.marcotroisi.com\/","name":"Marco Troisi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.marcotroisi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/www.marcotroisi.com","sameAs":["https:\/\/www.linkedin.com\/profile\/view?id=124863409&locale=en_US","https:\/\/twitter.com\/marcotroisi"],"name":"Marco Troisi"}</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi &raquo; Feed" href="https://www.marcotroisi.com/feed/" />
+
+
+
+<link rel='stylesheet'  href='/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/misc.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,300' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36244852-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/lib/conditionizr-4.3.0.min.js"></script>
+<script src="/js/lib/modernizr-2.7.1.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+
+
+conditionizr.config({
+assets: '/',
+tests: {}
+});
+</script>
+</head>           
+      
+<body>
+
+      <header class="site__header">
+        <a href="/">&lt;marco troisi&gt;</a>
+        <a href="/about" class="hello">about &amp; contact</a>
+        <a href="/talks" class="hello">talks</a>
+        <a href="https://www.theserverlessmindset.com" class="hello">newsletter</a>
+
+      </header>
+
+      <div class="wrap">
+
+
+<header class="blog__header">
+  <h1>
+    <span> 
+        
+          12 Apr &#39;13 
+          
+    </span>
+    Make your website available offline with HTML5
+  </h1>
+</header>
+
+
+
+<article class="blog__wrap clear">
+  <p>One of the really cool things <strong>HTML5</strong> allows to do is to make our web apps available even when our visitors are not connected to any network (assuming, obviously, that they have visited the website before, under network coverage).</p>
+
+<p></p>
+
+<p>While it is to be said that this feature (called <strong><em>AppCache</em></strong>) might not be useful/appropriate for many websites, it still remains a great feature that is going to positively affect the web in the next years, offering a much better user experience and giving a new reason to developers and companies for developing just one great HTML5 web app instead of <em>a lot</em> of native applications.</p>
+
+<p>The use of the application cache feature can give some benefits to your web app, such as:</p>
+
+<p>&#8211; <strong>Offline browsing</strong>: clearly, that is the main advantage</p>
+
+<p>&#8211; <strong>Speed</strong>: Resources are downloaded and therefore faster to load when a user visit your website</p>
+
+<p>&#8211; <strong>Less charge to the server</strong>: as it only have to download resources that have been changed</p>
+
+<h2 id="let-8217-s-make-your-website-available-offline">Let&#8217;s make your website available offline</h2>
+
+<p>The first thing you have to do is to <strong>create a manifest</strong> that will list all the resources you want the local device to download. This manifest must be declared in your <html> element as an attribute.</p>
+
+<pre>&lt;html manifest="nameofthemanifest.appcache"&gt;
+...
+&lt;/html&gt;</pre>
+
+<p>The <em>.appcache</em> extension is actually not mandatory, but it&#8217;s the W3C standard, so you better adopt it in order to avoid incompatibilities with strict standard-observing browsers. The manifest attribute in a web application can specify either the relative path of a cache manifest file or an absolute URL (but they must be from the same origin as the application).</p>
+
+<p>It&#8217;s important to know that this manifest must be <span style="text-decoration: underline;">included in each and every page that you want to be cached</span>, and you don&#8217;t have to list those pages in the manifest, because they will be automatically saved as the user visit them.</p>
+
+<p>The cache manifest file must be served with the MIME type text/cache-manifest. In Apache, you can do that adding the following line to your .htaccess file:</p>
+
+<pre>AddType text/cache-manifest .appcache</pre>
+
+<h2 id="the-appcache-manifest-file">The Appcache manifest file</h2>
+
+<p>The Appcache manifest file is a simple text file that lists the resources (identified by URI) that you want the browser to cache for offline access. The following is an example of a manifest file:</p>
+
+<pre>CACHE MANIFEST
+# mywebapp.appcache v1
+# this is my cache manifest 
+fileindex.html
+cache.html
+style.css
+image1.png
+
+# Use from network if available
+NETWORK:
+network.html
+
+# Fallback content
+FALLBACK:
+/ fallback.html</pre>
+
+<p>It&#8217;s vital for the cache manifest to be identified as such to have <strong>CACHE MANIFEST</strong> as its first line. All the resources listed after that line are going to be cached.</p>
+
+<p>The <strong>NETWORK</strong> section lists all the resources for which a network coverage is required, and you don&#8217;t want the browser to save them and use the cached version.</p>
+
+<p>In the <strong>FALLBACK</strong> section we&#8217;re going to list the pages that should be showed when a certain resource is not available. In our case, we decided to show &#8220;<em>fallback.html</em>&#8221; for every resource not available (&#8220;<em>/</em>&#8220;).</p>
+
+<p>You can also add a further section <strong>CACHE</strong>, which will work just as the lines after CACHE MANIFEST. All the three sections CACHE, NETWORK and FALLBACK are optional and can be declared more than once in the manifest file.</p>
+
+<h2 id="testing">Testing!</h2>
+
+<p>If you think that this is going to work at the first attempt you&#8217;re probably crazy. The smallest error in the appcache manifest file will actually prevent your application to be locally cached on a device. In such situations, tools like <strong>Manifesto</strong> (<a title="Manifesto" href="http://manifesto.ericdelabar.com/" target="_blank"><a href="http://manifesto.ericdelabar.com/">http://manifesto.ericdelabar.com/</a></a>) are simply priceless and save you a lot of time and headaches.</p>
+
+<p><del>Firefox and a few other browsers display a <strong>notification bar</strong> the first time a user loads an application that uses the application cache.</del> [<strong>UPDATE:</strong>  Since v. 26, there is no longer a notification bar on Firefox when websites use <em>appcache</em>]</p>
+
+<h2 id="see-also">See also</h2>
+
+<ul>
+<li>A beginner&#8217;s Guide to Using the Application Cache from HTML5Rocks: <a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/" target="_blank"><a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/">http://www.html5rocks.com/en/tutorials/appcache/beginner/</a></a></li>
+<li>Check browser compatibilities on HTML5Test: <a href="http://html5test.com/compare/feature/offline-applicationCache.html" target="_blank"><a href="http://html5test.com/compare/feature/offline-applicationCache.html">http://html5test.com/compare/feature/offline-applicationCache.html</a></a></li>
+</ul>
+  ---<br>
+  <div class="addthis_sharing_toolbox" style="text-align:left;margin:10px auto"></div>
+
+  
+
+  <section class='email-subscribe-text'>
+
+<iframe src="https://marcotroisi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </section>
+</article>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57447ba9c6ac9bf7"></script>
+
+      <footer class="site__footer">
+        <ul>
+            <li><a href="https://github.com/marcotroisi">github</a>
+            <li><a href="https://twitter.com/marcotroisi">twitter</a>
+            <li><a href="https://www.linkedin.com/in/marcotroisi/?locale=en_US">linkedin</a>
+            <li><a href="https://theserverlessmindset.com">newsletter</a>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+    <script>
+    $(document).ready(function(){
+       $(".show__thumb a").mousemove(function(e){
+           $('.blog__thumb').offset({left: e.pageX, top: e.pageY - $('.blog__thumb img').height()/2 });
+       });
+       $(".show__image h1").mousemove(function(e){
+           $('.blog__image').offset({left: e.pageX, top: e.pageY - $('.blog__image img').height()/2 });
+       });
+   });
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f2ae53b2-5378-4f95-bec3-614681b6c1e3"></script>
+
+  </body>
+</html>
+
