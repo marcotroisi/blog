@@ -7,7 +7,7 @@ categories:
 date: 2021-06-14T08:07:41Z
 description: "Less effort, more efficiency"
 draft: false
-featured_image: 'https://techbeacon.scdn7.secure.raxcdn.com/sites/default/files/styles/article_hero_image/public/field/image/simplify-microservices-security-cloud-services-marco-troisi.jpg?itok=Y52loTHX'
+featured_image: 'https://d3eeke16mv0lt7.cloudfront.net/sites/default/files/styles/article_hero_image__2x/public/field/image/simplify-microservices-security-cloud-services-marco-troisi.jpg?itok=CCbkmP0B'
 layout: post
 tags:
 - app dev
