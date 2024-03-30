@@ -5,7 +5,7 @@ categories:
 - Software Development
 - Programming
 - Opinions
-date: 2024-03-30T08:07:41Z
+date: 2024-03-30T13:00:41Z
 description: "Silencing the Noise and Getting Stuff Done"
 draft: false
 featured_image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw0fHxvcGVuJTIwb2ZmaWNlfGVufDB8fHx8MTcxMDIzODE4OHww&ixlib=rb-4.0.3&q=80&w=1080'

@@ -16,7 +16,7 @@ mkdir public/category
 cp -r public/categories/* public/category/
 
 echo "*** Push Public folder to GitHub Pages (in the /docs folder) ***"
-cp -r public docs
+cp -r public/ docs/
 
 
 echo "*** Git add & commit ***"
