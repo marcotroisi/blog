@@ -5,7 +5,7 @@ categories:
 date: 2020-04-09T08:07:41Z
 description: "Do your chats measure up?"
 draft: false
-featured_image: 'https://techbeacon.scdn7.secure.raxcdn.com/sites/default/files/styles/article_hero_image/public/field/image/chatbot-success.jpg?itok=YwwlNbJn'
+featured_image: 'https://d3eeke16mv0lt7.cloudfront.net/sites/default/files/styles/article_hero_image__2x/public/field/image/chatbot-success.jpg?itok=Sto_7NKF'
 layout: post
 tags:
 - chatbot
