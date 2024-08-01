@@ -11,6 +11,13 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 
 <!-- ## Upcoming -->
 
+## 2024
+
+[ServerlessDays Belfast](https://serverlessdaysbelfast.com)  
+Belfast (United Kingdom)  🇬🇧  
+23 May 2024
+&nbsp;  
+
 ## 2023
 
 **4 Strategies to Build Incredibly Performant Serverless Apps** [[slides](https://speakerdeck.com/marcotroisi/4-strategies-to-build-incredibly-performant-serverless-apps)] 
