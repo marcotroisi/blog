@@ -11,6 +11,13 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 
 <!-- ## Upcoming -->
 
+## Upcoming
+
+[AWS Community Day Belfast](https://www.awscommunitybelfast.co.uk/)  
+Belfast (United Kingdom)  🇬🇧  
+6 September 2024
+&nbsp;  
+
 ## 2024
 
 [ServerlessDays Belfast](https://serverlessdaysbelfast.com)  
