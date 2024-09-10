@@ -13,12 +13,17 @@ If you would like me to speak at your event/meetup/conference, feel free to [con
 
 ## Upcoming
 
+[AWS Cloud Day Dublin](https://aws.amazon.com/events/cloud-days/dublin/)  
+Dublin (Ireland)  🇮🇪  
+10 October 2024
+&nbsp;  
+
+## 2024
+
 [AWS Community Day Belfast](https://www.awscommunitybelfast.co.uk/)  
 Belfast (United Kingdom)  🇬🇧  
 6 September 2024
 &nbsp;  
-
-## 2024
 
 [ServerlessDays Belfast](https://serverlessdaysbelfast.com)  
 Belfast (United Kingdom)  🇬🇧  
