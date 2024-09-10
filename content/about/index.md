@@ -17,7 +17,7 @@ I’ve gained valuable experience at companies like Rocket Internet, ServisBOT, 
 
 I specialise in serverless architectures within the AWS cloud, a field where I've dedicated over 7 years of my career. This specialisation is not just my work; it's my craft.
 
-Away from the keyboard, I march to the beat of a different drum—quite literally. As a former drummer in a prog-rock band, I understand rhythm, whether in music or code. I start my day by making a cup of specialty coffee using my V60, which is a thoughtful process for me.
+Away from the keyboard, I march to the beat of a different drum—quite literally. As a former drummer in a prog-rock band, I understand rhythm, whether in music or code. I start my day by making a cup of specialty coffee using my ~V60~ Clever Dripper.
 
 I'm an insatiable reader with a penchant for the profound and the thrilling, delving into the realms of philosophy, history, religion, and the occasional spy novel.
 
