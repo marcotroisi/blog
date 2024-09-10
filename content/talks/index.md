@@ -32,7 +32,7 @@ Belfast (United Kingdom)  🇬🇧
 
 ## 2023
 
-**4 Strategies to Build Incredibly Performant Serverless Apps** [[slides](https://speakerdeck.com/marcotroisi/4-strategies-to-build-incredibly-performant-serverless-apps)] 
+**4 Strategies to Build Incredibly Performant Serverless Apps** [[slides](https://speakerdeck.com/marcotroisi/4-strategies-to-build-incredibly-performant-serverless-apps)]  
 [Serverless Architecture Conference](https://serverless-architecture.io/berlin/)  
 Berlin (Germany) 🇩🇪  
 22 October 2023
@@ -46,7 +46,7 @@ Remote 🌐
 16 November 2022
 &nbsp;  
 
-**Serverless for Startups** [[slides](https://speakerdeck.com/marcotroisi/serverless-for-startups-serverless-architecture-conference-2022)] 
+**Serverless for Startups** [[slides](https://speakerdeck.com/marcotroisi/serverless-for-startups-serverless-architecture-conference-2022)]  
 [Serverless Architecture Conference](https://serverless-architecture.io/berlin/)  
 Berlin (Germany) 🇩🇪  
 18 October 2022
