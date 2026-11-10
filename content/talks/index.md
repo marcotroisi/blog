@@ -9,7 +9,7 @@ This is a list of talks I've given so far.
 
 If you would like me to speak at your event/meetup/conference, feel free to [contact me](https://www.marcotroisi.com/about/).
 
-## Upcoming
+## 2026
 
 **Panel of Tech Experts – 10th Anniversary Special**  
 [Waterford Tech Meetup](https://www.meetup.com/waterford-tech-meetup/events/316973046/?eventOrigin=group_upcoming_events)  
