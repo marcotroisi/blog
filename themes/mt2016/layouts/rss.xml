@@ -1,14 +1,16 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- $pages := .Pages }}
+{{- if .IsHome }}{{ $pages = where site.RegularPages "Section" "post" }}{{ end }}
+{{- $last := now }}
+{{- with $pages.ByDate.Reverse }}{{ $last = (index . 0).Date }}{{ end }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | Marco Troisi{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>{{ site.Params.description }}</description>
     <language>{{ site.Language.Locale | default "en-GB" }}</language>
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    <lastBuildDate>{{ $last.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
     <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml"/>
-    {{- $pages := .Pages }}
-    {{- if .IsHome }}{{ $pages = where site.RegularPages "Section" "post" }}{{ end }}
     {{- range first 20 $pages.ByDate.Reverse }}
     <item>
       <title>{{ .Title }}</title>
