@@ -1,8 +1,9 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- $posts := where site.RegularPages "Section" "post" }}
 {{- $pages := .Pages }}
-{{- if .IsHome }}{{ $pages = where site.RegularPages "Section" "post" }}{{ end }}
+{{- if .IsHome }}{{ $pages = $posts }}{{ end }}
 {{- $last := now }}
-{{- with $pages.ByDate.Reverse }}{{ $last = (index . 0).Date }}{{ end }}
+{{- with $posts.ByDate.Reverse }}{{ $last = (index . 0).Date }}{{ end }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | Marco Troisi{{ end }}</title>
