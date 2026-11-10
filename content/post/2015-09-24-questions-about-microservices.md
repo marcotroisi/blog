@@ -54,7 +54,7 @@ Regarding your second question about authentication, I would advice you make use
 Here are more resources for you, so you can go more in depth with these arguments:
 
   * [Make the magic go away (Uncle Bob)][3], on the notion of not using overbloated frameworks!
-  * [Building Microservices (Sam Newman)][4]<img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=1491950358" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  * [Building Microservices (Sam Newman)][4]
   * [Microservices.io][5], lots of fine articles to give you a better overview of a microservices archicture, the good and the bad
   * [Microservices guide (Martin Fowler)][6]
   * [Netflix and Microservices][7]

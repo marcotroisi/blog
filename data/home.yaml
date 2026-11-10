@@ -1,0 +1,34 @@
+- eyebrow: working with me
+  title: O2A Labs
+  description: My UK-based consultancy for fractional CTO support, software architecture, and AI and software development.
+  cta_label: Work with me
+  cta_url: /work/
+  external: false
+
+- eyebrow: building
+  title: QuickTable
+  description: I founded QuickTable, an online booking platform for independent restaurants.
+  cta_label: Visit QuickTable
+  cta_url: https://quicktable.co
+  external: true
+
+- eyebrow: writing
+  title: The Serverless Mindset
+  description: Ideas on crafting good software, serverless, building startups and making time for meaningful work.
+  cta_label: Read the newsletter
+  cta_url: /writing/
+  external: false
+
+- eyebrow: speaking
+  title: Talks
+  description: Occasional talks on software architecture, serverless and the decisions behind good software.
+  cta_label: Talks and recordings
+  cta_url: /talks/
+  external: false
+
+- eyebrow: about
+  title: A little more about me
+  description: Software builder, former prog-rock drummer, and reader of philosophy, history and the occasional spy novel.
+  cta_label: About me
+  cta_url: /about/
+  external: false

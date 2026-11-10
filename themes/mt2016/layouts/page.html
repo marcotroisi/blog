@@ -1,0 +1,12 @@
+{{ define "main" }}
+<header class="blog__header page__header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Params.standfirst }}
+  <p class="page__standfirst">{{ . }}</p>
+  {{- end }}
+</header>
+
+<article class="blog__wrap professional-page">
+  {{ .Content }}
+</article>
+{{ end }}

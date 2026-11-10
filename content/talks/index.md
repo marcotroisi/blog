@@ -5,9 +5,9 @@ layout: page
 date: 2016-10-17
 # featured_image: "/marcotroisi_picture.jpg"
 ---
-This is a list of talks I've given so far. 
+Occasional talks on serverless, software architecture and building better software.
 
-If you would like me to speak at your event/meetup/conference, feel free to [contact me](https://www.marcotroisi.com/about/).
+If you would like me to speak at your event, meetup or conference, [get in touch](/contact/).
 
 ## Upcoming
 

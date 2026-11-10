@@ -48,8 +48,8 @@ This is of course just my point of view, and I would love to hear yours! [Let me
 ## More resources
 
   * [What I love about Periscope][5] (Michael Hyatt)
-  * [Periscope Your Biz: Live Video Broadcasting for Profits][6] <img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&l=as2&o=1&a=B014IP8RU2" alt="" width="1" height="1" border="0" />(Book &#8211; Amazon)
-  * [Leveraging Twitter&#8217;s Periscope: Join The Community, Build Your Business, and Have Fun!][7] <img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&l=as2&o=1&a=B012H76NMC" alt="" width="1" height="1" border="0" />(Book &#8211; Amazon)
+  * [Periscope Your Biz: Live Video Broadcasting for Profits][6] (Book &#8211; Amazon)
+  * [Leveraging Twitter&#8217;s Periscope: Join The Community, Build Your Business, and Have Fun!][7] (Book &#8211; Amazon)
 
  [1]: http://www.periscope.tv
  [2]: https://meerkatapp.co/

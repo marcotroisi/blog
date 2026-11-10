@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="profile-hero">
+  <h1>Founder, fractional CTO and software architect.</h1>
+  <p>I&rsquo;m Marco Troisi. I help founders make sound technical decisions and build software that serves the business.</p>
+</section>
+
+<div class="profile-sections">
+  {{- range hugo.Data.home }}
+  <section class="profile-section">
+    <div class="profile-section__label">{{ .eyebrow }}</div>
+    <div class="profile-section__body">
+      <h2>{{ .title }}</h2>
+      <p>{{ .description }}</p>
+      <p class="profile-section__action">
+        {{- if .external }}
+        <a href="{{ .cta_url }}" rel="noopener">{{ .cta_label }} &rarr;</a>
+        {{- else }}
+        <a href="{{ .cta_url | relURL }}">{{ .cta_label }} &rarr;</a>
+        {{- end }}
+      </p>
+    </div>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

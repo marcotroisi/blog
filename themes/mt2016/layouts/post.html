@@ -1,0 +1,28 @@
+{{ define "main" }}
+<header class="blog__header">
+  <h1>
+    <span>{{ .Date.Format "2 Jan '06" }}</span>
+    {{ .Title }}
+  </h1>
+</header>
+
+{{- if (isset .Params "featured_image") }}
+<section class="blog__image">
+  <img width="800" height="533" src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+</section>
+{{- end }}
+
+<article class="blog__wrap professional-page post__body">
+  {{ .Content }}
+
+  <aside class="archive-notice">
+    From the article archive. This piece was published in {{ .Date.Format "2006" }}.
+    <a href="{{ "/archive/" | relURL }}">Browse the archive</a>.
+  </aside>
+
+  <section class="email-subscribe-text">
+    Subscribe to <a href="https://www.theserverlessmindset.com" target="_blank" rel="noopener">my newsletter</a>
+    for ideas on crafting good software, building startups, and making time for meaningful work.
+  </section>
+</article>
+{{ end }}

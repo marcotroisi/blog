@@ -1,0 +1,72 @@
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+  {{- $title = site.Title -}}
+{{- else -}}
+  {{- $title = printf "%s | Marco Troisi" .Title -}}
+{{- end -}}
+{{- $desc := .Description | default site.Params.description -}}
+{{- $img := "" -}}
+{{- with .Params.featured_image }}{{ $img = . }}{{ end -}}
+{{- if and $img (not (hasPrefix $img "http")) }}{{ $img = absURL $img }}{{ end -}}
+{{- if not $img }}{{ $img = absURL site.Params.avatar }}{{ end -}}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="alternate" type="application/rss+xml" title="Marco Troisi — article feed" href="{{ "index.xml" | absURL }}">
+
+<link rel="icon" href="{{ "wp-content/uploads/2014/02/1393636568_icon-navicon-round.png" | absURL }}">
+<link rel="apple-touch-icon-precomposed" href="{{ "wp-content/uploads/2014/02/1393636568_icon-navicon-round.png" | absURL }}">
+
+<meta property="og:locale" content="en_GB">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="Marco Troisi">
+<meta property="og:image" content="{{ $img }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $img }}">
+<meta name="twitter:site" content="@{{ site.Params.social.twitter }}">
+
+<link rel="stylesheet" href="{{ "css/normalize.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/misc.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/professional.css" | relURL }}">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700&display=swap" rel="stylesheet" type="text/css">
+
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "@id" (printf "%s#person" site.BaseURL)
+  "name" "Marco Troisi"
+  "url" site.BaseURL
+  "jobTitle" "Founder, fractional CTO and software architect"
+  "description" site.Params.description
+  "sameAs" (slice
+    "https://www.linkedin.com/in/marcotroisi/"
+    "https://twitter.com/marcotroisi"
+    "https://github.com/marcotroisi"
+    "https://www.theserverlessmindset.com"
+  )
+  "worksFor" (dict "@type" "Organization" "name" "O2A Labs" "url" "https://o2alabs.co.uk/")
+-}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{- if eq .Section "post" }}
+{{- $article := dict
+  "@context" "https://schema.org"
+  "@type" "Article"
+  "headline" .Title
+  "description" $desc
+  "datePublished" (.Date.Format "2006-01-02")
+  "dateModified" (.Lastmod.Format "2006-01-02")
+  "author" (dict "@type" "Person" "name" "Marco Troisi" "url" site.BaseURL)
+  "publisher" (dict "@type" "Person" "name" "Marco Troisi" "url" site.BaseURL)
+  "mainEntityOfPage" .Permalink
+  "image" $img
+-}}
+<script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+{{- end }}

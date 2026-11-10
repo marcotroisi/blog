@@ -1,0 +1,22 @@
+{{ define "main" }}
+<header class="blog__header page__header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<article class="blog__wrap professional-page">
+  {{ .Content }}
+
+  {{- $posts := where site.RegularPages "Section" "post" }}
+  {{- range $posts.GroupByDate "2006" }}
+  <h2 class="archive-year">{{ .Key }}</h2>
+  <ul class="archive-list">
+    {{- range .Pages }}
+    <li>
+      <span class="archive-list__date">{{ .Date.Format "2 Jan" }}</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</article>
+{{ end }}

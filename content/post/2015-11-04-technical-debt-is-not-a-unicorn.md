@@ -62,8 +62,8 @@ Technical debt exists, it&#8217;s real and it can be proven, almost touched. It&
 ### To Read
 
   * [The clean architecture][1] (Uncle Bob Martin)
-  * <a rel="nofollow" href="http://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&#038;camp=1789&#038;creative=390957&#038;creativeASIN=0132350882&#038;linkCode=as2&#038;tag=marctroi-20&#038;linkId=7KDRFWMKHKFMNWAR">Clean Code: A Handbook of Agile Software Craftsmanship</a> <img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=0132350882" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />(Uncle Bob Martin)
-  * <a rel="nofollow" href="http://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&#038;camp=1789&#038;creative=390957&#038;creativeASIN=1617292397&#038;linkCode=as2&#038;tag=marctroi-20&#038;linkId=CVFNNRQ23ADXVH4O">Soft Skills: The software developer&#8217;s life manual</a> <img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=1617292397" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />(John Sonmez)
+  * <a rel="nofollow" href="http://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&#038;camp=1789&#038;creative=390957&#038;creativeASIN=0132350882&#038;linkCode=as2&#038;tag=marctroi-20&#038;linkId=7KDRFWMKHKFMNWAR">Clean Code: A Handbook of Agile Software Craftsmanship</a> (Uncle Bob Martin)
+  * <a rel="nofollow" href="http://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&#038;camp=1789&#038;creative=390957&#038;creativeASIN=1617292397&#038;linkCode=as2&#038;tag=marctroi-20&#038;linkId=CVFNNRQ23ADXVH4O">Soft Skills: The software developer&#8217;s life manual</a> (John Sonmez)
 
 ### To Watch
 

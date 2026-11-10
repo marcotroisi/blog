@@ -33,7 +33,7 @@ UXDX is a conference that will run in Dublin, Ireland, on November the 2nd, 2016
 This is the video of the inteview. It's less than 7 minutes long, but I think it contains some interesting points which you might want to look into.
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/MxdynUAGQGc" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/MxdynUAGQGc" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Direct link: https://youtu.be/MxdynUAGQGc

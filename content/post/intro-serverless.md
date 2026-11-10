@@ -45,8 +45,6 @@ Interestingly, Google Cloud has a similar (if not identical) product called Clou
 ## What it essentially is
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If your PaaS can efficiently start instances in 20ms that run for half a second, then call it serverless. <a href="https://t.co/S3YzvqFYLR">https://t.co/S3YzvqFYLR</a></p>&mdash; adrian cockcroft (@adrianco) <a href="https://twitter.com/adrianco/status/736553530689998848">May 28, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 When it comes down to it, you could look at Serverless as Heroku on steroids.
 
 Clearly, the servers are still there. It's just that those companies (AWS, GCE, etc) have gotten to the point where they can get their servers up and down in a matter of milliseconds. So, as they'd ask you, if you have a functionality which is only running several times a day on an on-demand basis, do you really need a server dedicated to it and running all day long?

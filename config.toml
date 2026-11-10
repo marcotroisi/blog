@@ -1,43 +1,53 @@
-baseurl = "https://www.marcotroisi.com"
-languageCode = "en-gb"
-title = "Marco Troisi | technology, software development and productivity"
+baseURL = "https://www.marcotroisi.com/"
+title = "Marco Troisi — Founder, Fractional CTO & Software Architect"
 theme = "mt2016"
-paginate = 10
-aliases = [
-    "/index.xml",
-    "/feed/"
-]
-MetaDataFormat = "yaml"
-disqusShortname = "marcotroisi"
+locale = "en-GB"
+enableRobotsTXT = true
 
 [taxonomies]
-    tag = "tag"
-    category = "category"
-    series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [params]
-    site_author = "Marco Troisi"
-    site_description = "Marco Troisi's Blog on Technology, Software Development and Productivity."
-    location = "Ireland"
-    # All paths are relative to the baseurl. Put your files
-    # somewhere in the static folder.
-    avatar = "wp-content/uploads/2012/09/myself.jpg"
-    header_background = "img/desk.jpg"
-    header_title = "Marco Troisi"
-    copyright = "Marco Troisi"
+  author = "Marco Troisi"
+  description = "Marco Troisi is a founder, fractional CTO and software architect. Through O2A Labs he helps founders make sound technical decisions and build software that serves the business."
+  avatar = "wp-content/uploads/2012/09/myself.jpg"
+  copyright = "Marco Troisi"
 
-    # Enable gogle analytics by entering your tracking code
-    google_analytics = ""
+  [params.social]
+    twitter = "marcotroisi"
+    github = "marcotroisi"
+    linkedin = "https://www.linkedin.com/in/marcotroisi/"
 
-[social]
-    # Add your social network accounts to the profile section on the left
-    # by entering your username. The links to your account will be
-    # create automatically.
-    twitter   = "marcotroisi"
-    facebook  = ""
-    linkedin  = ""
-    behance   = ""
-    dribbble  = ""
-    instagram = ""
-    github    = "marcotroisi"
-    gplus     = ""
+[[menu.main]]
+  name = "work"
+  url = "/work/"
+  weight = 10
+
+[[menu.main]]
+  name = "writing"
+  url = "/writing/"
+  weight = 20
+
+[[menu.main]]
+  name = "talks"
+  url = "/talks/"
+  weight = 30
+
+[[menu.main]]
+  name = "about"
+  url = "/about/"
+  weight = 40
+
+[[menu.main]]
+  name = "contact"
+  url = "/contact/"
+  weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

@@ -1,26 +1,28 @@
 ---
-title: Contact
-author: Marco Troisi
+title: Get in touch
 layout: page
 date: 2013-01-06
-dsq_thread_id:
-  - 2118053835
-
+description: Contact Marco Troisi about work through O2A Labs, speaking invitations, or anything he is building or writing.
 ---
-**How to Contact Me**
 
-If you need help with your software, I may be able to help. I provide personal consulting services, as well as put people in contact with the best web professionals in various places of the world.
+For work through O2A Labs, speaking invitations, or a conversation about something I’m building or writing, email me.
 
-## **info@marcotroisi.com**
+<a class="cta-link" href="mailto:info@marcotroisi.com">info&#64;marcotroisi.com</a>
 
-My consulting services include:
+## Project enquiries
 
-  * Serverless on AWS (architecture design & development)
-  * Typescript and Node.js Development
-  * Golang Development
-  * Database Design (data modeling) and Migration (DynamoDB, MongoDB, MySQL, PostgreSQL, Sqlite, etc.)
-  * Content Consulting
+Tell me a little about your company, what you’re trying to achieve, and where technical help would make the biggest difference.
 
-And more. Anything from small fixes to enterprise level development, I can quickly assemble a team to get your project off the ground.
+Useful context: the current product and team, the main problem or decision, your timeframe, and a budget range if you already have one.
 
-Also, I am available to consider working for free for non profit projects.
+Prefer a form? Use the [O2A Labs enquiry form](https://tally.so/r/GxYe9p).
+
+## Speaking
+
+Include the event, audience, dates and topic you have in mind.
+
+## Elsewhere
+
+You can also find me on [LinkedIn](https://www.linkedin.com/in/marcotroisi/) and [GitHub](https://github.com/marcotroisi).
+
+I occasionally take on non-profit work where I can genuinely help.

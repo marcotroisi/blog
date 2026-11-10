@@ -1,28 +1,24 @@
 ---
-title: About Me
-author: Marco Troisi
+title: About me
 layout: page
 date: 2012-09-08
-dsq_thread_id:
-  - 2118053237
-featured_image: "/marcotroisi_picture.jpg"
+description: Marco Troisi is a founder, software architect and writer based in the UK.
 ---
-Hello! 👋
 
-I’ve been working in tech for almost 15 years, taking on various roles such as Software Engineer, Tech Lead, Cloud Architect, CTO, and Cloud Consultant. 
+I’m Marco Troisi, a founder and software architect. I run [O2A Labs](https://o2alabs.co.uk/) and build [QuickTable](https://quicktable.co).
 
-I’ve designed cloud solutions, led teams, and developed a lot of software.
+## A background in building software
 
-I’ve gained valuable experience at companies like Rocket Internet, ServisBOT, and Trilo. I enjoy the structure of big companies but am truly passionate about the energy and creativity found in startups.
+I’ve spent most of my career in tech, as a software engineer, tech lead, cloud architect, CTO and consultant. I’ve designed cloud solutions, led teams, and shipped a lot of software.
 
-I specialise in serverless architectures within the AWS cloud, a field where I've dedicated over 7 years of my career. This specialisation is not just my work; it's my craft.
+I’ve worked at companies including Rocket Internet, ServisBOT and Trilo. I enjoy the structure of larger companies, but I’m most at home in the energy and directness of startups.
 
-Away from the keyboard, I march to the beat of a different drum—quite literally. As a former drummer in a prog-rock band, I understand rhythm, whether in music or code. I start my day by making a cup of specialty coffee using my <del>V60</del> Clever Dripper.
+Serverless architectures on AWS are a long-standing specialism. It is not just the work I do; it is a craft I keep returning to.
 
-I'm an insatiable reader with a penchant for the profound and the thrilling, delving into the realms of philosophy, history, religion, and the occasional spy novel.
+## Away from the keyboard
 
-I believe that life is a continuous learning process, and I bring this ethos into every project I undertake. Let's connect and create something remarkable together.
+I used to play drums in a prog-rock band. I start the day with a cup of specialty coffee, made with a <del>V60</del> Clever Dripper. I read a lot: philosophy, history, religion, and the occasional spy novel.
 
-If you want to meet up and have a chat, discuss a project or ask me for help, please do not hesitate to [contact me](https://www.marcotroisi.com/contact/).
+## Get in touch
 
-### Contact (info@marcotroisi.com)
+For project enquiries, speaking invitations, or a conversation about something I’m building or writing, [get in touch](/contact/).

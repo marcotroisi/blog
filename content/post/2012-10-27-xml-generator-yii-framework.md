@@ -16,6 +16,5 @@ Using this extension, everyone will be easily able to generate an XML. I am pret
 
 If you&#8217;ve never used an extension with the Yii framework, you may find useful to read the &#8216;extensions&#8217; section on the Yii framework official website: <a href="http://www.yiiframework.com/doc/guide/1.1/en/extension.overview" target="_blank">http://www.yiiframework.com/doc/guide/1.1/en/extension.overview</a>.
 
-&#8211; Download the [XmlGenerator][1] (extension for Yii framework)
+&#8211; Download the XmlGenerator (the original download is no longer available).
 
- [1]: https://www.marcotroisi.com/wp-content/uploads/2012/10/XmlGenerator1.zip

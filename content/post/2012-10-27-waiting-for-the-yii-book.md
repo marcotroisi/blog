@@ -17,9 +17,9 @@ The Yii framework was created by Qiang Xue, a developer previously involved in t
 
 ## Other books on PHP from Larry Ullman:
 
-  * [PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide (Visual QuickPro Guides)][1]<img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-uk.amazon-adsystem.com/e/ir?t=marctroi07-21&l=as2&o=2&a=0321784073" width="1" height="1" border="0" />
-  * [PHP Advanced and Object-Oriented Programming: Visual QuickPro Guide][2]<img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-uk.amazon-adsystem.com/e/ir?t=marctroi07-21&l=as2&o=2&a=B0099RT7JA" width="1" height="1" border="0" />
-  * [Effortless E-commerce with PHP and MySQL (Voices That Matter)][3]<img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-uk.amazon-adsystem.com/e/ir?t=marctroi07-21&l=as2&o=2&a=0321656229" width="1" height="1" border="0" />
+  * [PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide (Visual QuickPro Guides)][1]
+  * [PHP Advanced and Object-Oriented Programming: Visual QuickPro Guide][2]
+  * [Effortless E-commerce with PHP and MySQL (Voices That Matter)][3]
 
  [1]: http://www.amazon.co.uk/gp/product/0321784073/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0321784073&linkCode=as2&tag=marctroi07-21
  [2]: http://www.amazon.co.uk/gp/product/B0099RT7JA/ref=as_li_tf_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B0099RT7JA&linkCode=as2&tag=marctroi07-21

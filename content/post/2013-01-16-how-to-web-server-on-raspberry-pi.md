@@ -78,8 +78,8 @@ That&#8217;s all you need to be fully operative with a webserver running on your
 
 ## See also
 
-  * [Raspberry Pi User Guide][2] <img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=1118921666" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />by Eben Upton (creator of the Raspberry PI)
-  * Buy a [Raspberry Pi 2 Model B Project Board &#8211; 1GB RAM &#8211; 900 MHz Quad-Core CPU][3]<img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=B00T2U7R7I" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  * [Raspberry Pi User Guide][2] by Eben Upton (creator of the Raspberry PI)
+  * Buy a [Raspberry Pi 2 Model B Project Board &#8211; 1GB RAM &#8211; 900 MHz Quad-Core CPU][3]
 
 &nbsp;
 

@@ -1,35 +1,21 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-echo "*** Hugo... ***"
-docker run -v `pwd`:/website  marcotroisi/hugo:0.17
+cd "$(dirname "$0")"
 
-echo "RSS in /feed"
-mkdir public/feed/
-cp public/index.xml public/feed/
+./build.sh
 
-echo "/tag folder"
-mkdir public/tag
-cp -r public/tags/* public/tag/
+# Publish the generated site to the docs/ folder used by GitHub Pages.
+# --delete removes stale files; CNAME is regenerated from static/CNAME.
+rsync -a --delete public/ docs/
+touch docs/.nojekyll
 
-echo "/category folder"
-mkdir public/category
-cp -r public/categories/* public/category/
+git add docs
 
-echo "*** Push Public folder to GitHub Pages (in the /docs folder) ***"
-cp -r public/* docs/
+if git diff --cached --quiet; then
+  echo "No changes to publish."
+  exit 0
+fi
 
-
-echo "*** Git add & commit ***"
-git add -A
-git commit -m "Updating Site"
-git push origin master
-
-# echo "*** Push Public folder to GitHub Pages ***"
-# git push origin :gh-pages
-# if [[ $GH_TOKEN ]]; then
-# 	git subtree push --prefix=public https://$GH_TOKEN@github.com/marcotroisi/blog.git gh-pages > /dev/null 2>&1
-# else
-# 	git subtree push --prefix=public https://github.com/marcotroisi/blog.git gh-pages
-# fi
-
-echo "*** DONE! ***"
+git commit -m "Publish site"
+git push

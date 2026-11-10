@@ -9,6 +9,8 @@ description: You need the best tools to do your job well. Aligning yourself to t
 draft: false
 featured_image: "https://www.marcotroisi.com/images/right_tools.jpg"
 layout: post
+aliases:
+  - /post/tools/
 tags:
 - tools
 - git

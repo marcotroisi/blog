@@ -1,0 +1,294 @@
+/*-----------------------------------
+    Professional site additions
+
+    New structure only. Existing type, colour and spacing tokens
+    in style.css / misc.css are left untouched.
+------------------------------------*/
+
+/* Accessibility */
+
+.skip-link {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	z-index: 100;
+	font-family: apercu, monospace;
+	font-size: 1.4rem;
+	background: #fff;
+	padding: 1rem 1.5rem;
+	border-bottom: 2px solid #bbb;
+}
+
+.skip-link:focus {
+	left: 2rem;
+	top: 2rem;
+}
+
+a:focus-visible,
+.skip-link:focus {
+	outline: 2px solid #68C3A3;
+	outline-offset: 3px;
+}
+
+/* Header navigation */
+
+.site__header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	column-gap: 1.2rem;
+}
+
+.site__nav {
+	display: inline-flex;
+	flex-wrap: wrap;
+	column-gap: 1.2rem;
+}
+
+.site__nav a {
+	white-space: nowrap;
+}
+
+/*-----------------------------------
+    Homepage
+------------------------------------*/
+
+.profile-hero {
+	max-width: 68rem;
+	padding: 0 0 8rem 0;
+}
+
+.profile-hero h1 {
+	margin: 0;
+	max-width: 18ch;
+}
+
+.profile-hero p {
+	max-width: 54rem;
+	margin: 2.4rem 0 0 0;
+	font-size: 1.9rem;
+	line-height: 1.9;
+	color: #676767;
+}
+
+.profile-section {
+	display: grid;
+	grid-template-columns: 20rem 1fr;
+	gap: 4rem;
+	padding: 7rem 0;
+	border-top: 1px solid #eee;
+}
+
+.profile-section:last-child {
+	border-bottom: 1px solid #eee;
+}
+
+.profile-section__label {
+	padding-top: 1rem;
+	font-family: apercu, monospace;
+	font-size: 1.4rem;
+	color: #bbb;
+}
+
+.profile-section__body h2 {
+	margin: 0 0 1.6rem 0;
+}
+
+.profile-section__body p {
+	max-width: 52ch;
+	margin: 0;
+	color: #676767;
+}
+
+.profile-section__action {
+	margin-top: 2.2rem;
+	font-family: apercu, monospace;
+	font-size: 1.4rem;
+}
+
+.profile-section__action a {
+	border: none;
+}
+
+/*-----------------------------------
+    Interior pages
+------------------------------------*/
+
+.page__header {
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 6rem;
+}
+
+.page__header h1 {
+	margin-top: 0;
+}
+
+.page__standfirst {
+	max-width: 60ch;
+	margin: 1.5rem auto 0 auto;
+	font-size: 1.5rem;
+	color: #676767;
+}
+
+.professional-page {
+	font-size: 1.7rem;
+}
+
+.professional-page h2 {
+	margin-top: 5rem;
+}
+
+.professional-page h3 {
+	margin-top: 4rem;
+}
+
+.professional-page ul,
+.professional-page ol {
+	margin: 0 0 2rem 0;
+	padding-left: 2.2rem;
+}
+
+.professional-page li {
+	margin-bottom: 1rem;
+}
+
+.professional-page blockquote {
+	margin: 3rem 0;
+	font-style: italic;
+}
+
+.professional-page hr {
+	margin: 5rem 0;
+}
+
+.cta-link {
+	display: inline-block;
+	margin: 1rem 0 3rem 0;
+	font-family: walsheim, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 2.4rem;
+	border-bottom: 2px solid #bbb;
+}
+
+/*-----------------------------------
+    Archive
+------------------------------------*/
+
+.archive-year {
+	margin: 5rem 0 1.5rem 0;
+	font-family: apercu, monospace;
+	font-size: 1.4rem;
+	font-weight: normal;
+	color: #bbb;
+}
+
+.archive-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.archive-list li {
+	display: flex;
+	gap: 2rem;
+	padding: 1.2rem 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.archive-list__date {
+	flex: 0 0 12rem;
+	font-family: apercu, monospace;
+	font-size: 1.3rem;
+	color: #bbb;
+}
+
+.archive-list a {
+	border: none;
+}
+
+.archive-notice {
+	margin-top: 6rem;
+	padding-top: 2rem;
+	border-top: 1px solid #eee;
+	font-family: apercu, monospace;
+	font-size: 1.3rem;
+	color: #bbb;
+}
+
+.email-subscribe-text {
+	margin-top: 3rem;
+	padding-top: 2rem;
+	border-top: 1px solid #eee;
+	font-family: apercu, monospace;
+	font-size: 1.3rem;
+	color: #676767;
+}
+
+/*-----------------------------------
+    Responsive
+------------------------------------*/
+
+@media only screen and (max-width: 680px) {
+	.profile-hero {
+		padding-bottom: 5rem;
+	}
+
+	.profile-hero h1 {
+		font-size: 3.2rem;
+		max-width: none;
+	}
+
+	.profile-hero p {
+		margin-top: 2rem;
+		font-size: 1.7rem;
+	}
+
+	.profile-section {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+		padding: 5rem 0;
+	}
+
+	.profile-section__label {
+		padding-top: 0;
+	}
+
+	.page__header {
+		padding-bottom: 3rem;
+	}
+
+	.professional-page {
+		font-size: 1.6rem;
+	}
+
+	.cta-link {
+		font-size: 2rem;
+	}
+
+	.archive-list li {
+		gap: 1.2rem;
+	}
+
+	.archive-list__date {
+		flex-basis: 9rem;
+	}
+}
+
+@media only screen and (min-width: 680px) and (max-width: 1024px) {
+	.profile-section {
+		grid-template-columns: 16rem 1fr;
+		gap: 3rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.archive-list li {
+		display: block;
+		padding: 1.4rem 0;
+	}
+
+	.archive-list__date {
+		display: block;
+		margin-bottom: 0.4rem;
+	}
+}

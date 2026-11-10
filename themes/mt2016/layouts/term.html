@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="blog__header page__header">
+  <h1>{{ .Title }}</h1>
+</header>
+<article class="blog__wrap professional-page">
+  <ul class="archive-list">
+    {{- range .Pages.ByDate.Reverse }}
+    <li>
+      <span class="archive-list__date">{{ .Date.Format "2 Jan 2006" }}</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{- end }}
+  </ul>
+</article>
+{{ end }}

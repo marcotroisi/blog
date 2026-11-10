@@ -55,7 +55,7 @@ Are you using Microservices or planning to use them? I would love to hear your o
 
 ## Other resources
 
-  * [Microservices: Patterns and Applications: Designing fine-grained services by applying patterns][2]<img src="http://ir-na.amazon-adsystem.com/e/ir?t=marctroi-20&#038;l=as2&#038;o=1&#038;a=B00VJ3NP4A" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  * [Microservices: Patterns and Applications: Designing fine-grained services by applying patterns][2]
   * [Martin Fowler on Microservices][3]
 
  [1]: http://amzn.to/1GIiYTb

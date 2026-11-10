@@ -1,0 +1,8 @@
+<header class="site__header">
+  <a href="{{ "/" | relURL }}" class="site__brand">&lt;marco troisi&gt;</a>
+  <nav class="site__nav" aria-label="Primary">
+    {{- range site.Menus.main }}
+    <a href="{{ .URL | relURL }}" class="hello">{{ .Name }}</a>
+    {{- end }}
+  </nav>
+</header>

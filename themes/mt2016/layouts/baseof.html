@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale | default "en-GB" }}" prefix="og: https://ogp.me/ns#">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "site-header.html" . }}
+  <div class="wrap">
+    <main id="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+  {{ partial "site-footer.html" . }}
+</body>
+</html>
