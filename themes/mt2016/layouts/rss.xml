@@ -19,7 +19,7 @@
     <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml"/>
     {{- range first 20 $pages.ByDate.Reverse }}
     <item>
-      <title>{{ .Title }}</title>
+      <title>{{ if eq .Kind "term" }}{{ partial "term-title.html" .Data.Term }}{{ else }}{{ .Title }}{{ end }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       <guid isPermaLink="true">{{ .Permalink }}</guid>
