@@ -1,6 +1,8 @@
 {{- $title := .Title -}}
 {{- if .IsHome -}}
   {{- $title = site.Title -}}
+{{- else if eq .Kind "term" -}}
+  {{- $title = printf "%s | Marco Troisi" (partial "term-title.html" .Data.Term) -}}
 {{- else -}}
   {{- $title = printf "%s | Marco Troisi" .Title -}}
 {{- end -}}

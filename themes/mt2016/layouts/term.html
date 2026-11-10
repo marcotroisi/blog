@@ -1,6 +1,6 @@
 {{ define "main" }}
 <header class="blog__header page__header">
-  <h1>{{ .Title }}</h1>
+  <h1>{{ partial "term-title.html" .Data.Term }}</h1>
 </header>
 <article class="blog__wrap professional-page">
   <ul class="archive-list">

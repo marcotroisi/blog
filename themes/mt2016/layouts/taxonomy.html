@@ -6,7 +6,7 @@
   <ul class="archive-list">
     {{- range .Data.Terms.Alphabetical }}
     <li>
-      <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+      <a href="{{ .Page.RelPermalink }}">{{ partial "term-title.html" .Term }}</a>
       <span class="archive-list__date">({{ .Count }})</span>
     </li>
     {{- end }}

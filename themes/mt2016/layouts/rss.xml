@@ -6,7 +6,12 @@
 {{- with $posts.ByDate.Reverse }}{{ $last = (index . 0).Date }}{{ end }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | Marco Troisi{{ end }}</title>
+    {{- $feedTitle := site.Title }}
+{{- if not .IsHome }}
+  {{- if eq .Kind "term" }}{{ $feedTitle = printf "%s | Marco Troisi" (partial "term-title.html" .Data.Term) }}
+  {{- else }}{{ $feedTitle = printf "%s | Marco Troisi" .Title }}{{ end }}
+{{- end }}
+    <title>{{ $feedTitle }}</title>
     <link>{{ .Permalink }}</link>
     <description>{{ site.Params.description }}</description>
     <language>{{ site.Language.Locale | default "en-GB" }}</language>

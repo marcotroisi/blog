@@ -1,0 +1,21 @@
+{{- $label := . | humanize | title -}}
+{{- $acronyms := dict
+  "api" "API"
+  "aws" "AWS"
+  "cms" "CMS"
+  "css" "CSS"
+  "faas" "FaaS"
+  "html" "HTML"
+  "html5" "HTML5"
+  "ide" "IDE"
+  "ios" "iOS"
+  "jira" "Jira"
+  "json" "JSON"
+  "oop" "OOP"
+  "php" "PHP"
+  "sql" "SQL"
+  "svn" "SVN"
+  "uxdx" "UXDX"
+-}}
+{{- with index $acronyms (lower .) }}{{ $label = . }}{{ end -}}
+{{- $label -}}
