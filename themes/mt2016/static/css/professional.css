@@ -292,3 +292,70 @@ a:focus-visible,
 		margin-bottom: 0.4rem;
 	}
 }
+
+/*-----------------------------------
+    Talks
+------------------------------------*/
+
+.talks-section {
+	margin-top: 6rem;
+}
+
+.talks-section > h2 {
+	margin-top: 0;
+}
+
+.talk {
+	padding: 2.6rem 0;
+	border-top: 1px solid #eee;
+}
+
+.talks-section > h2 + .talk,
+.archive-year + .talk {
+	border-top: none;
+}
+
+.talk__title {
+	margin: 0 0 1rem 0;
+	font-size: 2.2rem;
+	line-height: 1.4;
+}
+
+.talk__title a {
+	border: none;
+}
+
+.talk__meta {
+	margin: 0;
+	font-family: apercu, monospace;
+	font-size: 1.3rem;
+	color: #676767;
+}
+
+.talk__meta a {
+	border: none;
+}
+
+.talk__links {
+	margin: 1rem 0 0 0;
+	font-family: apercu, monospace;
+	font-size: 1.3rem;
+}
+
+.talk__links a {
+	margin-right: 1.2rem;
+}
+
+.talks__conflogo {
+	margin: 0 0 1.2rem 0;
+}
+
+@media only screen and (max-width: 680px) {
+	.talks-section {
+		margin-top: 4rem;
+	}
+
+	.talk__title {
+		font-size: 2rem;
+	}
+}

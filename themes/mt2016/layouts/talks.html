@@ -1,0 +1,41 @@
+{{ define "main" }}
+<header class="blog__header page__header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<article class="blog__wrap professional-page">
+  {{ .Content }}
+
+  {{- $today := now.UTC.Format "2006-01-02" -}}
+  {{- $upcoming := slice -}}
+  {{- $past := slice -}}
+  {{- range hugo.Data.talks -}}
+    {{- $date := (time.AsTime .date).Format "2006-01-02" -}}
+    {{- if ge $date $today -}}
+      {{- $upcoming = $upcoming | append . -}}
+    {{- else -}}
+      {{- $past = $past | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $upcoming }}
+  <section class="talks-section">
+    <h2>Upcoming</h2>
+    {{- range . }}{{ partial "talk.html" . }}{{ end }}
+  </section>
+  {{- end }}
+
+  <section class="talks-section">
+    <h2>Past appearances</h2>
+    {{- $currentYear := "" -}}
+    {{- range $past }}
+      {{- $year := (time.AsTime .date).Format "2006" -}}
+      {{- if ne $year $currentYear }}
+        {{- $currentYear = $year }}
+    <h3 class="archive-year">{{ $year }}</h3>
+      {{- end }}
+      {{ partial "talk.html" . }}
+    {{- end }}
+  </section>
+</article>
+{{ end }}

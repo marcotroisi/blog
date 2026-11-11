@@ -1,0 +1,33 @@
+{{- $talk := . -}}
+{{- $start := time.AsTime $talk.date -}}
+{{- $end := $start -}}
+{{- with $talk.end_date }}{{ $end = time.AsTime . }}{{ end -}}
+{{- $dateLabel := $start.Format "2 January 2006" -}}
+{{- if ne ($start.Format "2006-01-02") ($end.Format "2006-01-02") -}}
+  {{- if eq ($start.Format "January 2006") ($end.Format "January 2006") -}}
+    {{- $dateLabel = printf "%s–%s" ($start.Format "2") ($end.Format "2 January 2006") -}}
+  {{- else -}}
+    {{- $dateLabel = printf "%s – %s" ($start.Format "2 January 2006") ($end.Format "2 January 2006") -}}
+  {{- end -}}
+{{- end -}}
+<article class="talk">
+  {{- with $talk.logo }}
+  <img class="talks__conflogo" src="{{ . | relURL }}" alt="{{ $talk.logo_alt | default $talk.event }}">
+  {{- end }}
+  {{- if $talk.title }}
+  <h4 class="talk__title">{{ $talk.title }}</h4>
+  <p class="talk__meta">
+    {{- with $talk.event_url }}<a href="{{ . }}" rel="noopener">{{ end }}{{ $talk.event }}{{ with $talk.event_url }}</a>{{ end }}
+    · {{ $talk.location }} {{ $talk.flag }} · {{ $dateLabel }}
+  </p>
+  {{- else }}
+  <h4 class="talk__title">{{ with $talk.event_url }}<a href="{{ . }}" rel="noopener">{{ end }}{{ $talk.event }}{{ with $talk.event_url }}</a>{{ end }}</h4>
+  <p class="talk__meta">{{ $talk.location }} {{ $talk.flag }} · {{ $dateLabel }}</p>
+  {{- end }}
+  {{- if or $talk.slides $talk.video }}
+  <p class="talk__links">
+    {{- with $talk.slides }}<a href="{{ . }}" rel="noopener">slides</a>{{ end }}
+    {{- with $talk.video }}<a href="{{ . }}" rel="noopener">video</a>{{ end }}
+  </p>
+  {{- end }}
+</article>
